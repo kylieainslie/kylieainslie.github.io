@@ -1,11 +1,26 @@
 ---
 title: "Kylie Ainslie, PhD"
+about:
+  template: jolla
+  image: Ainslie_headshot.jpg
+  links:
+    - icon: twitter
+      text: twitter
+      href: https://twitter.com/DrKAinslie
+    - icon: github
+      text: Github
+      href: https://github.com/kylieainslie
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
 ```{r}
-1 + 1
+#| column: screen
+# library(leaflet)
+# leaflet() %>%
+#   addTiles() %>%
+#   addMarkers(
+#     lng=151.22251, 
+#     lat=-33.85943, 
+#     label="Mrs Macquarie's Chair"
+#   ) %>% 
+#   addProviderTiles(providers$CartoDB.Positron)
 ```
