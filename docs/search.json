@@ -1,10 +1,17 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Kylie Ainslie, PhD",
+    "section": "",
+    "text": "I’m Kylie Ainslie, and I’m an infectious disease modeller at the Dutch National Institute of Public Health and the Environment (RIVM) and an Honorary Assistant Professor at the University of Hong Kong School of Public Health. My work at RIVM focuses on using mathematical models of infectious disease transmission to determine the impact of vaccination strategies on disease spread, and the development of statistical methods to determine how vaccine-induced protection wanes over time. At the University of Hong Kong my work focuses on determining the real world protection provided by vaccines against respiratory diseases, such as COVID-19 and influenza.\nPrior to joining RIVM, I was a postdoctoral researcher at the MRC Centre for Global Infectious Disease Analysis at Imperial College London, where I was involved in modelling infectious disease dynamics, specifically developing individual-based mathematical models of susceptibility to determine how repeated exposures to pathogens (e.g., influenza) and interventions (e.g., vaccines) influence an individual's susceptibility to subsequent infections. I was also a member of the Imperial COVID-19 Response Team and actively involved in the modelling and characterisation of the ongoing COVID-19 pandemic, including as part of the Real-time Assessment of Community Transmission (REACT) studyanalytical team.\nI obtained a PhD in biostatistics from Emory University. My doctoral research focused on developing stochastic, agent-based models of infectious diseases and statistical methods to evaluate vaccine effectiveness from observational studies."
+  },
+  {
     "objectID": "publications.html",
     "href": "publications.html",
     "title": "Publications",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nNov 3, 2022\n\n\nA scenario modelling analysis to anticipate the impact of COVID-19 vaccination in adolescents and children on disease outcomes in the Netherlands, summer 2021\n\n\nKylie EC Ainslie, Jantien A Backer, Pieter T de Boer, Albert Jan van Hoek, Don Klinkenberg, Hester Korthals Altes, Ka Yin Leung, Hester de Melker, Fuminari Miura, Jacco Wallinga\n\n\n\n\nDec 9, 2022\n\n\nTest publication one\n\n\nKylie Ainslie\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nJan 1, 2022\n\n\nTime scales of human monkeypox transmission in the Netherlands\n\n\nFuminari Miura, Jantien A Backer, Gini van Rijckevorsel, Roisin Bavalia, Stijn Raven, Mariska Petrignani, Kylie EC Ainslie, Jacco Wallinga\n\n\n\n\nJan 1, 2022\n\n\nPrior infections and effectiveness of SARS-CoV-2 vaccine in test-negative study: A systematic review and meta-analysis\n\n\nTim Tsang, Sheena G Sullivan, Xiaotong Huang, Can Wang, Yifan Wang, Joshua Nealon, Bingyi Yang, Kylie EC Ainslie, Ben J Cowling\n\n\n\n\nJan 1, 2022\n\n\nAppropriately smoothing prevalence data to inform estimates of growth rate and reproduction number\n\n\nOliver Eales, Kylie EC Ainslie, Caroline E Walters, Haowei Wang, Christina Atchison, Deborah Ashby, Christl A Donnelly, Graham Cooke, Wendy Barclay, Helen Ward, Ara Darzi, Paul Elliott, Steven Riley\n\n\n\n\nJan 1, 2022\n\n\nA scenario modelling analysis to anticipate the impact of COVID-19 vaccination in adolescents and children on disease outcomes in the Netherlands, summer 2021.\n\n\nKylie Ainslie, Jantien A Backer, Pieter T de Boer, Albert Jan van Hoek, Don Klinkenberg, Hester Korthals Altes, Ka Yin Leung, Hester de Melker, Fuminari Miura, and Jacco Wallinga\n\n\n\n\nJan 1, 2022\n\n\nIs annual vaccination best? A modelling study of influenza vaccination strategies in children\n\n\nKylie E C Ainslie, Steven Riley\n\n\n\n\nJan 1, 2022\n\n\nTrends in SARS-CoV-2 infection prevalence during England’s roadmap out of lockdown, January to July 2021\n\n\nOliver Eales, Haowei Wang, David Haw, Kylie EC Ainslie, Caroline E Walters, Christina Atchison, Graham Cooke, Wendy Barclay, Helen Ward, Ara Darzi, Deborah Ashby, Christl A Donnelly, Paul Elliott, Steven Riley\n\n\n\n\nJan 1, 2022\n\n\nCharacterising the persistence of RT-PCR positivity and incidence in a community survey of SARS-CoV-2\n\n\nOliver Eales, Caroline E. Walters, Haowei Wang, David Haw, Kylie E. C. Ainslie, Christina J. Atchison, Andrew J. Page, Sophie Prosolek, Alexander J. Trotter, hanh Le Viet, Nabil-Fareed Alikhan, Leigh M. Jackson, Catherine Ludden, COVID-19 Genomics UK Consortium, Deborah Ashby, Christl A. Donnelly, Graham Cooke, Wendy Barclay, Helen Ward, Ara Darzi, Paul Elliott, Steven Riley\n\n\n\n\nJan 1, 2022\n\n\nSARS-CoV-2 infection and vaccine effectiveness in England (REACT-1): a series of cross-sectional random community surveys\n\n\nMarc Chadeau-Hyam, Haowei Wang, Oliver Eales, David Haw, Barbara Bodinier, Matthew Whitaker, Caroline E Walters, Kylie EC Ainslie, Christina Atchison, Claudio Fronterre, Peter J Diggle, Andrew J Page, Alexander J Trotter, Deborah Ashby, Wendy Barclay, Graham Taylor, Graham Cooke, Helen Ward, Ara Darzi, Steven Riley, Christl A Donnelly, Paul Elliott\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -14,10 +21,59 @@
     "text": "This sight in currently under construction. Stay tuned…"
   },
   {
-    "objectID": "pubs/test_pub2/index.html",
-    "href": "pubs/test_pub2/index.html",
-    "title": "A scenario modelling analysis to anticipate the impact of COVID-19 vaccination in adolescents and children on disease outcomes in the Netherlands, summer 2021",
+    "objectID": "pubs/miura_2022_medrxiv/index.html",
+    "href": "pubs/miura_2022_medrxiv/index.html",
+    "title": "Time scales of human monkeypox transmission in the Netherlands",
     "section": "",
-    "text": "Citation\nAinslie, KEC, Jantien A Backer, Pieter T de Boer, Albert Jan van Hoek, Don Klinkenberg, Hester Korthals Altes, Ka Yin Leung, Hester de Melker, Fuminari Miura, Jacco Wallinga. 2022. Eurosurveillance 27(44): 03/Nov/2022."
+    "text": "Citation\nFuminari Miura, Jantien A Backer, Gini van Rijckevorsel, Roisin Bavalia, Stijn Raven, Mariska Petrignani, Kylie EC Ainslie, Jacco Wallinga. 2022. Time scales of human monkeypox transmission in the Netherlands. medRxiv. [DOI]"
+  },
+  {
+    "objectID": "pubs/tsang_2022_medrxiv/index.html",
+    "href": "pubs/tsang_2022_medrxiv/index.html",
+    "title": "Prior infections and effectiveness of SARS-CoV-2 vaccine in test-negative study: A systematic review and meta-analysis",
+    "section": "",
+    "text": "Citation\nTim Tsang, Sheena G Sullivan, Xiaotong Huang, Can Wang, Yifan Wang, Joshua Nealon, Bingyi Yang, Kylie EC Ainslie, Ben J Cowling. 2022. Prior infections and effectiveness of SARS-CoV-2 vaccine in test-negative study: A systematic review and meta-analysis. medRxiv. [DOI]"
+  },
+  {
+    "objectID": "pubs/eales_2022_epidemics/index.html",
+    "href": "pubs/eales_2022_epidemics/index.html",
+    "title": "Appropriately smoothing prevalence data to inform estimates of growth rate and reproduction number",
+    "section": "",
+    "text": "Abstract\nThe time-varying reproduction number (Rt) can change rapidly over the course of a pandemic due to changing restrictions, behaviours, and levels of population immunity. Many methods exist that allow the estimation of Rt from case data. However, these are not easily adapted to point prevalence data nor can they infer Rt across periods of missing data. We developed a Bayesian P-spline model suitable for fitting to a wide range of epidemic time-series, including point-prevalence data. We demonstrate the utility of the model by fitting to periodic daily SARS-CoV-2 swab-positivity data in England from the first 7 rounds (May 2020–December 2020) of the REal-time Assessment of Community Transmission-1 (REACT-1) study. Estimates of Rt over the period of two subsequent rounds (6–8 weeks) and single rounds (2–3 weeks) inferred using the Bayesian P-spline model were broadly consistent with estimates from a simple exponential model, with overlapping credible intervals. However, there were sometimes substantial differences in point estimates. The Bayesian P-spline model was further able to infer changes in Rt over shorter periods tracking a temporary increase above one during late-May 2020, a gradual increase in Rt over the summer of 2020 as restrictions were eased, and a reduction in Rt during England’s second national lockdown followed by an increase as the Alpha variant surged. The model is robust against both under-fitting and over-fitting and is able to interpolate between periods of available data; it is a particularly versatile model when growth rate can change over small timescales, as in the current SARS-CoV-2 pandemic. This work highlights the importance of pairing robust methods with representative samples to track pandemics.\n\n\nCitation\nOliver Eales, Kylie E.C. Ainslie, Caroline E. Walters, Haowei Wang, Christina Atchison, Deborah Ashby, Christl A. Donnelly, Graham Cooke, Wendy Barclay, Helen Ward, Ara Darzi, Paul Elliott, Steven Riley. Appropriately smoothing prevalence data to inform estimates of growth rate and reproduction number. 2022. Epidemics 40:100604. [DOI]"
+  },
+  {
+    "objectID": "pubs/ainslie_2022_eurosurveillance/index.html",
+    "href": "pubs/ainslie_2022_eurosurveillance/index.html",
+    "title": "A scenario modelling analysis to anticipate the impact of COVID-19 vaccination in adolescents and children on disease outcomes in the Netherlands, summer 2021.",
+    "section": "",
+    "text": "Abstract\nBackground\nSince the roll-out of COVID-19 vaccines in late 2020 and throughout 2021, European governments have relied on mathematical modelling to inform policy decisions about COVID-19 vaccination.\nAim\nWe present a scenario-based modelling analysis in the Netherlands during summer 2021, to inform whether to extend vaccination to adolescents (12–17-year-olds) and children (5–11-year-olds).\nMethods\nWe developed a deterministic, age-structured susceptible-exposed-infectious-recovered (SEIR) model and compared modelled incidences of infections, hospital and intensive care admissions, and deaths per 100,000 people across vaccination scenarios, before the emergence of the Omicron variant.\nResults\nOur model projections showed that, on average, upon the release of all non-pharmaceutical control measures on 1 November 2021, a large COVID-19 wave may occur in winter 2021/22, followed by a smaller, second wave in spring 2022, regardless of the vaccination scenario. The model projected reductions in infections/severe disease outcomes when vaccination was extended to adolescents and further reductions when vaccination was extended to all people over 5 years-old. When examining projected disease outcomes by age group, individuals benefitting most from extending vaccination were adolescents and children themselves. We also observed reductions in disease outcomes in older age groups, particularly of parent age (30–49 years), when children and adolescents were vaccinated, suggesting some prevention of onward transmission from younger to older age groups.\nConclusions\nWhile our scenarios could not anticipate the emergence/consequences of SARS-CoV-2 Omicron variant, we illustrate how our approach can assist decision making. This could be useful when considering to provide booster doses or intervening against future infection waves.\n\n\nCitation\nAinslie, Kylie E C, Backer, J A, de Boer, P T, van Hoek, A J, Klinkenberg, D, Korthals Altes, H, Leung, K Y, de Melker, H, Miura, F, and Wallinga, J. 2022. A scenario modelling analysis to anticipate the impact of COVID-19 vaccination in adolescents and children on disease outcomes in the Netherlands, summer 2021. Eurosurveillance 27:2101090. [DOI]"
+  },
+  {
+    "objectID": "pubs/ainslie_2022_vaccine/index.html",
+    "href": "pubs/ainslie_2022_vaccine/index.html",
+    "title": "Is annual vaccination best? A modelling study of influenza vaccination strategies in children",
+    "section": "",
+    "text": "Author Summary\nMany countries include annual vaccination of children against influenza in their vaccination programs. In the United Kingdom (UK), annual vaccination of children aged of 2 to 10 against influenza is recommended. However, little research has evaluated whether annual vaccination is the best strategy, while accounting for how past infection and vaccination may affect an individual’s susceptibility to infection in the current influenza season. Prior work has suggested that there may be a negative effect of repeated vaccination. In this work we developed a stochastic, individual-based model to assess the impact of repeated vaccination strategies on childhood infections. Specifically, we first compare annual vaccination to no vaccination and then annual vaccination to biennial (every other year) vaccination. We use the UK as our motivating example. We found that an annual vaccination strategy resulted in the fewest childhood infections, followed by biennial vaccination. The difference in number of childhood infections between the different vaccination strategies decreased when we introduced a penalty for repeated exposures. Our work confirms the value of annual vaccination in children, but also shows that similar benefits of vaccination can be obtained by implementing a biennial vaccination program, particularly when there is a negative effect of repeated vaccinations.\n\n\nCitation\nAinslie, K. E. C. and S. Riley. 2022. Is annual vaccination best? A modelling study of influenza vaccination in children. Vaccine 40(21):2940-2948. [DOI]"
+  },
+  {
+    "objectID": "pubs/eales_2022_medrxiv/index.html",
+    "href": "pubs/eales_2022_medrxiv/index.html",
+    "title": "Trends in SARS-CoV-2 infection prevalence during England’s roadmap out of lockdown, January to July 2021",
+    "section": "",
+    "text": "Citation\nOliver Eales, Haowei Wang, David Haw, Kylie EC Ainslie, Caroline E Walters, Christina Atchison, Graham Cooke, Wendy Barclay, Helen Ward, Ara Darzi, Deborah Ashby, Christl A Donnelly, Paul Elliott, Steven Riley. 2022. Trends in SARS-CoV-2 infection prevalence during England's roadmap out of lockdown, January to July 2021. medRxiv. [DOI]"
+  },
+  {
+    "objectID": "pubs/eales_2022_wellcome_open_research/index.html",
+    "href": "pubs/eales_2022_wellcome_open_research/index.html",
+    "title": "Characterising the persistence of RT-PCR positivity and incidence in a community survey of SARS-CoV-2",
+    "section": "",
+    "text": "Citation\nEales O, Walters CE, Wang H et al. Characterising the persistence of RT-PCR positivity and incidence in a community survey of SARS-CoV-2 [version 1; peer review: 2 approved with reservations]. Wellcome Open Res 2022, 7:102. [DOI]"
+  },
+  {
+    "objectID": "pubs/chadeau-hyam_2022_lancet_resp_med/index.html",
+    "href": "pubs/chadeau-hyam_2022_lancet_resp_med/index.html",
+    "title": "SARS-CoV-2 infection and vaccine effectiveness in England (REACT-1): a series of cross-sectional random community surveys",
+    "section": "",
+    "text": "Citation\nMarc Chadeau-Hyam, Haowei Wang, Oliver Eales, David Haw, Barbara Bodinier, Matthew Whitaker, Caroline E Walters, Kylie EC Ainslie, Christina Atchison, Claudio Fronterre, Peter J Diggle, Andrew J Page, Alexander J Trotter, Deborah Ashby, Wendy Barclay, Graham Taylor, Graham Cooke, Helen Ward, Ara Darzi, Steven Riley, Christl A Donnelly, Paul Elliott. 2022. SARS-CoV-2 infection and vaccine effectiveness in England (REACT-1): a series of cross-sectional random community surveys. The Lancet Respiratory Medicine 10(4):355-366. [DOI]"
   }
 ]

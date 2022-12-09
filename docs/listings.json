@@ -2,8 +2,14 @@
   {
     "listing": "/publications.html",
     "items": [
-      "/pubs/test_pub2/index.html",
-      "/pubs/ainslie_2022_eurosurveillance/index.html"
+      "/pubs/miura_2022_medrxiv/index.html",
+      "/pubs/tsang_2022_medrxiv/index.html",
+      "/pubs/eales_2022_epidemics/index.html",
+      "/pubs/ainslie_2022_eurosurveillance/index.html",
+      "/pubs/ainslie_2022_vaccine/index.html",
+      "/pubs/eales_2022_medrxiv/index.html",
+      "/pubs/eales_2022_wellcome_open_research/index.html",
+      "/pubs/chadeau-hyam_2022_lancet_resp_med/index.html"
     ]
   }
 ]
