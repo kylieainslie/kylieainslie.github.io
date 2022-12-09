@@ -1,10 +1,10 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Kylie Ainslie, PhD",
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
     "section": "",
-    "text": "# library(leaflet)\n# leaflet() %>%\n#   addTiles() %>%\n#   addMarkers(\n#     lng=151.22251, \n#     lat=-33.85943, \n#     label=\"Mrs Macquarie's Chair\"\n#   ) %>% \n#   addProviderTiles(providers$CartoDB.Positron)"
+    "text": "No matching items"
   },
   {
     "objectID": "about.html",
