@@ -5,7 +5,7 @@ about:
   image: Ainslie_headshot.jpg
   links:
     - icon: twitter
-      text: twitter
+      text: Twitter
       href: https://twitter.com/DrKAinslie
     - icon: github
       text: Github
@@ -17,16 +17,3 @@ about:
       text: Email
       href: mailto:kylie.ainslie@rivm.nl
 ---
-
-```{r}
-#| column: screen
-# library(leaflet)
-# leaflet() %>%
-#   addTiles() %>%
-#   addMarkers(
-#     lng=151.22251, 
-#     lat=-33.85943, 
-#     label="Mrs Macquarie's Chair"
-#   ) %>% 
-#   addProviderTiles(providers$CartoDB.Positron)
-```
