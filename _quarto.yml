@@ -12,7 +12,6 @@ website:
     background: primary
     search: true
     left:
-      left:
       - href: index.qmd
         text: "Home"
       - about.qmd
