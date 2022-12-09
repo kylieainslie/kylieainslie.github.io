@@ -1,0 +1,9 @@
+---
+title: Test publication one
+subtitle: Will this work?
+description: trying to list publications as blog entries
+author: Kylie Ainslie
+date: '2022-12-09'
+categories: 
+  - publication
+---
