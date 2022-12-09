@@ -34,7 +34,7 @@ website:
         
     - id: publications
       title: "Publications"
-      contents: :
+      contents:
         # navigation items
 
 
