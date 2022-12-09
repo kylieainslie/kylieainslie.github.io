@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Kylie Ainslie, PhD",
+    "section": "",
+    "text": "To learn more about Quarto websites visit https://quarto.org/docs/websites.\n\nlibrary(leaflet)\nleaflet() %>%\n  addTiles() %>%\n  addMarkers(\n    lng=151.22251, \n    lat=-33.85943, \n    label=\"Mrs Macquarie's Chair\"\n  ) %>% \n  addProviderTiles(providers$CartoDB.Positron)"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "1 + 1\n\n[1] 2"
+  }
+]
