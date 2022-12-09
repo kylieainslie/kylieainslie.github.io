@@ -4,5 +4,7 @@ listing:
   contents: pubs
   type: table
   sort: "date"
+  sort-ui: true
+  filter-ui: true
 editor: visual
 ---
