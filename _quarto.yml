@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "Kylie Ainslie, PhD"
@@ -12,31 +13,9 @@ website:
     search: true
     left:
       left:
-      - text: "Home"
-        file: index.qmd
-      - sidebar:about
-      - sidebar:research
-      - sidebar:publications
-
-  sidebar:
-    - id: about
-      title: "About"
-      style: "docked"
-      background: light
-      collapse-level: 2
-      contents: 
-        # navigation items
-        
-    - id: Research
-      title: "Research"
-      contents:
-        # navigation items
-        
-    - id: publications
-      title: "Publications"
-      contents:
-        # navigation items
-
+      - href: index.qmd
+        text: "Home"
+      - about.qmd
 
 format:
   html:
