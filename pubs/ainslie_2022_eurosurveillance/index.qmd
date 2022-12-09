@@ -1,9 +1,49 @@
 ---
-title: Test publication one
-subtitle: Will this work?
-description: trying to list publications as blog entries
+title: 'A scenario modelling analysis to anticipate the impact of COVID-19 vaccination in adolescents and children on disease outcomes in the Netherlands, summer 2021.'
+description: 'Eurosurveillance 27:2101090'
 author: Kylie Ainslie
-date: '2022-12-09'
+date: '2022-11-03'
+doi: https://doi.org/10.2807/1560-7917.ES.2022.27.44.2101090
 categories: 
   - publication
 ---
+
+# Highlights
+
+**What did you want to address in this study?**
+
+Scenario modelling enables policy makers to consider a range of possible future outcomes of an event in their decisions. We wished to guide a policy decision to extend the COVID-19 vaccination programme to adolescents and children in the Netherlands in summer 2021, should new infection waves occur in late 2021 and early 2022.
+
+**What have we learnt from this study?**
+
+Our scenario modelling, done before the SARS-CoV-2 Omicron variant appeared, projected that extending vaccination to adolescents would reduce the rates of infections and severe disease in the population and extending it to children under 12 years old, would reduce these rates further. However, vaccination alone would not prevent future COVID-19 waves.
+
+**What are the implications of your findings for public health?**
+
+Vaccination for children and adolescents was recommended while other measures such as mask-wearing remained. In hindsight, our approach was important, considering that Omicron emerged in late November 2021 and subsequent infection waves occurred. Scenario modelling can support future policy decisions on COVID-19 vaccine booster doses or inform on what one might expect in the event of the emergence of other variants.
+
+# Abstract
+
+**Background**
+
+Since the roll-out of COVID-19 vaccines in late 2020 and throughout 2021, European governments have relied on mathematical modelling to inform policy decisions about COVID-19 vaccination.
+
+**Aim**
+
+We present a scenario-based modelling analysis in the Netherlands during summer 2021, to inform whether to extend vaccination to adolescents (12--17-year-olds) and children (5--11-year-olds).
+
+**Methods**
+
+We developed a deterministic, age-structured susceptible-exposed-infectious-recovered (SEIR) model and compared modelled incidences of infections, hospital and intensive care admissions, and deaths per 100,000 people across vaccination scenarios, before the emergence of the Omicron variant.
+
+**Results**
+
+Our model projections showed that, on average, upon the release of all non-pharmaceutical control measures on 1 November 2021, a large COVID-19 wave may occur in winter 2021/22, followed by a smaller, second wave in spring 2022, regardless of the vaccination scenario. The model projected reductions in infections/severe disease outcomes when vaccination was extended to adolescents and further reductions when vaccination was extended to all people over 5 years-old. When examining projected disease outcomes by age group, individuals benefitting most from extending vaccination were adolescents and children themselves. We also observed reductions in disease outcomes in older age groups, particularly of parent age (30--49 years), when children and adolescents were vaccinated, suggesting some prevention of onward transmission from younger to older age groups.
+
+**Conclusions**
+
+While our scenarios could not anticipate the emergence/consequences of SARS-CoV-2 Omicron variant, we illustrate how our approach can assist decision making. This could be useful when considering to provide booster doses or intervening against future infection waves.
+
+# Citation
+
+**Ainslie, Kylie E C**, Backer, J A, de Boer, P T, van Hoek, A J, Klinkenberg, D, Korthals Altes, H, Leung, K Y, de Melker, H, Miura, F, and Wallinga, J. 2022. A scenario modelling analysis to anticipate the impact of COVID-19 vaccination in adolescents and children on disease outcomes in the Netherlands, summer 2021. *Eurosurveillance* 27:2101090. [\[DOI\]](https://doi.org/10.2807/1560-7917.ES.2022.27.44.2101090)
