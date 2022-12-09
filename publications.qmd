@@ -1,4 +1,8 @@
 ---
 title: "Publications"
+listing: 
+  contents: pubs
+  type: table
+  sort: "date"
 editor: visual
 ---
