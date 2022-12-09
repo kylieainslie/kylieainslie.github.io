@@ -8,3 +8,5 @@ listing:
   filter-ui: true
 editor: visual
 ---
+
+An up-to-date list of publications can always be found [here](https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=gfJENK8AAAAJ&sortby=pubdate&citft=1&email_for_op=ainslie.kylie%40gmail.com).
