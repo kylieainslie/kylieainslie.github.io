@@ -1,0 +1,27 @@
+---
+title: 'Appropriately smoothing prevalence data to inform estimates of growth rate and reproduction number'
+description: 'Epidemics 40:100604'
+author: Oliver Eales, Kylie EC Ainslie, Caroline E Walters, Haowei Wang, Christina Atchison, Deborah Ashby, Christl A Donnelly, Graham Cooke, Wendy Barclay, Helen Ward, Ara Darzi, Paul Elliott, Steven Riley
+date: '2022-09-01'
+doi: https://doi.org/10.1016/j.epidem.2022.100604
+categories: 
+  - publication
+---
+
+# Highlights
+
+:   -   Real-time Assessment of Community Transmission-1 (REACT-1) study May--December 2020.
+
+:   -   Randomly selected community samples measure SARS-CoV-2 prevalence in England.
+
+:   -   Trends in prevalence over time inferred using a Bayesian Penalised-spline (P-spline).
+
+    -   Trends over time in the reproduction number and instantaneous growth rate quantified.
+
+# **Abstract**
+
+The time-varying reproduction number (Rt) can change rapidly over the course of a pandemic due to changing restrictions, behaviours, and levels of population immunity. Many methods exist that allow the estimation of Rt from case data. However, these are not easily adapted to point prevalence data nor can they infer Rt across periods of missing data. We developed a Bayesian P-spline model suitable for fitting to a wide range of epidemic time-series, including point-prevalence data. We demonstrate the utility of the model by fitting to periodic daily SARS-CoV-2 swab-positivity data in England from the first 7 rounds (May 2020--December 2020) of the REal-time Assessment of Community Transmission-1 (REACT-1) study. Estimates of Rt over the period of two subsequent rounds (6--8 weeks) and single rounds (2--3 weeks) inferred using the Bayesian P-spline model were broadly consistent with estimates from a simple exponential model, with overlapping credible intervals. However, there were sometimes substantial differences in point estimates. The Bayesian P-spline model was further able to infer changes in Rt over shorter periods tracking a temporary increase above one during late-May 2020, a gradual increase in Rt over the summer of 2020 as restrictions were eased, and a reduction in Rt during England\'s second national lockdown followed by an increase as the Alpha variant surged. The model is robust against both under-fitting and over-fitting and is able to interpolate between periods of available data; it is a particularly versatile model when growth rate can change over small timescales, as in the current SARS-CoV-2 pandemic. This work highlights the importance of pairing robust methods with representative samples to track [pandemics](https://www.sciencedirect.com/topics/medicine-and-dentistry/pandemic "Learn more about pandemics from ScienceDirect's AI-generated Topic Pages").
+
+# Citation
+
+Oliver Eales, **Kylie E.C. Ainslie**, Caroline E. Walters, Haowei Wang, Christina Atchison, Deborah Ashby, Christl A. Donnelly, Graham Cooke, Wendy Barclay, Helen Ward, Ara Darzi, Paul Elliott, Steven Riley. Appropriately smoothing prevalence data to inform estimates of growth rate and reproduction number. 2022. *Epidemics* 40:100604.
