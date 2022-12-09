@@ -1,6 +1,9 @@
 [
   {
     "listing": "/publications.html",
-    "items": []
+    "items": [
+      "/pubs/test_pub2/index.html",
+      "/pubs/ainslie_2022_eurosurveillance/index.html"
+    ]
   }
 ]
