@@ -21,7 +21,7 @@ website:
 format:
   html:
     theme:
-      light: lux
+      light: minty
       dark: slate
     css: styles.css
     toc: true
