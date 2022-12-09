@@ -2,7 +2,7 @@
 title: 'Is annual vaccination best? A modelling study of influenza vaccination strategies in children'
 description: 'Vaccine 40(21):2940-2948'
 author: Kylie E C Ainslie, Steven Riley
-date: '2022-05-09'
+date: '2022'
 doi: https://doi.org/10.1016/j.vaccine.2022.03.065
 categories: 
   - publication
@@ -12,7 +12,7 @@ categories:
 
 ### Introduction
 
-Annual vaccination of children against influenza is a key component of vaccination programs in many countries. However, past infection and vaccination may affect an individual\'s susceptibility to infection. Little research has evaluated whether annual vaccination is the best strategy. Using the United Kingdom as our motivating example, we developed a framework to assess the impact of different childhood vaccination strategies, specifically annual and biennial (every other year), on attack rate and expected number of infections.
+Annual vaccination of children against influenza is a key component of vaccination programs in many countries. However, past infection and vaccination may affect an individual's susceptibility to infection. Little research has evaluated whether annual vaccination is the best strategy. Using the United Kingdom as our motivating example, we developed a framework to assess the impact of different childhood vaccination strategies, specifically annual and biennial (every other year), on attack rate and expected number of infections.
 
 ### Methods and findings
 
@@ -26,7 +26,7 @@ Our results indicate that while annual vaccination averts more childhood infecti
 
 # Author Summary
 
-Many countries include annual vaccination of children against influenza in their vaccination programs. In the United Kingdom (UK), annual vaccination of children aged of 2 to 10 against influenza is recommended. However, little research has evaluated whether annual vaccination is the best strategy, while accounting for how past infection and vaccination may affect an individual\'s susceptibility to infection in the current influenza season. Prior work has suggested that there may be a negative effect of repeated vaccination. In this work we developed a stochastic, individual-based model to assess the impact of repeated vaccination strategies on childhood infections. Specifically, we first compare annual vaccination to no vaccination and then annual vaccination to biennial (every other year) vaccination. We use the UK as our motivating example. We found that an annual vaccination strategy resulted in the fewest childhood infections, followed by biennial vaccination. The difference in number of childhood infections between the different vaccination strategies decreased when we introduced a penalty for repeated exposures. Our work confirms the value of annual vaccination in children, but also shows that similar benefits of vaccination can be obtained by implementing a biennial vaccination program, particularly when there is a negative effect of repeated vaccinations.
+Many countries include annual vaccination of children against influenza in their vaccination programs. In the United Kingdom (UK), annual vaccination of children aged of 2 to 10 against influenza is recommended. However, little research has evaluated whether annual vaccination is the best strategy, while accounting for how past infection and vaccination may affect an individual's susceptibility to infection in the current influenza season. Prior work has suggested that there may be a negative effect of repeated vaccination. In this work we developed a stochastic, individual-based model to assess the impact of repeated vaccination strategies on childhood infections. Specifically, we first compare annual vaccination to no vaccination and then annual vaccination to biennial (every other year) vaccination. We use the UK as our motivating example. We found that an annual vaccination strategy resulted in the fewest childhood infections, followed by biennial vaccination. The difference in number of childhood infections between the different vaccination strategies decreased when we introduced a penalty for repeated exposures. Our work confirms the value of annual vaccination in children, but also shows that similar benefits of vaccination can be obtained by implementing a biennial vaccination program, particularly when there is a negative effect of repeated vaccinations.
 
 # Citation
 

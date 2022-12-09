@@ -6,11 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Oliver Eales, Kylie EC Ainslie, Caroline E Walters, Haowei Wang, Christina Atchison, Deborah Ashby, Christl A Donnelly, Graham Cooke, Wendy Barclay, Helen Ward, Ara Darzi, Paul Elliott, Steven Riley">
-<meta name="dcterms.date" content="2022-09-01">
-<meta name="description" content="Epidemics 40:100604">
+<meta name="author" content="Kylie E C Ainslie, Steven Riley">
+<meta name="dcterms.date" content="2022-05-09">
+<meta name="description" content="Vaccine 40(21):2940-2948">
 
-<title>Kylie Ainslie, PhD - Appropriately smoothing prevalence data to inform estimates of growth rate and reproduction number</title>
+<title>Kylie Ainslie, PhD - Is annual vaccination best? A modelling study of influenza vaccination strategies in children</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -66,8 +66,8 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../../styles.css">
-<meta name="twitter:title" content="Kylie Ainslie, PhD - Appropriately smoothing prevalence data to inform estimates of growth rate and reproduction number">
-<meta name="twitter:description" content="Epidemics 40:100604">
+<meta name="twitter:title" content="Kylie Ainslie, PhD - Is annual vaccination best? A modelling study of influenza vaccination strategies in children">
+<meta name="twitter:description" content="Vaccine 40(21):2940-2948">
 <meta name="twitter:creator" content="@DrKAinslie">
 <meta name="twitter:card" content="summary_large_image">
 </head>
@@ -118,8 +118,13 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#highlights" id="toc-highlights" class="nav-link active" data-scroll-target="#highlights">Highlights</a></li>
-  <li><a href="#abstract" id="toc-abstract" class="nav-link" data-scroll-target="#abstract"><strong>Abstract</strong></a></li>
+  <li><a href="#abstract" id="toc-abstract" class="nav-link active" data-scroll-target="#abstract">Abstract</a>
+  <ul class="collapse">
+  <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#methods-and-findings" id="toc-methods-and-findings" class="nav-link" data-scroll-target="#methods-and-findings">Methods and findings</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
+  </ul></li>
+  <li><a href="#author-summary" id="toc-author-summary" class="nav-link" data-scroll-target="#author-summary">Author Summary</a></li>
   <li><a href="#citation" id="toc-citation" class="nav-link" data-scroll-target="#citation">Citation</a></li>
   </ul>
 </nav>
@@ -129,7 +134,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Appropriately smoothing prevalence data to inform estimates of growth rate and reproduction number</h1>
+<h1 class="title">Is annual vaccination best? A modelling study of influenza vaccination strategies in children</h1>
   <div class="quarto-categories">
     <div class="quarto-category">publication</div>
   </div>
@@ -137,7 +142,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div>
   <div class="description">
-    Epidemics 40:100604
+    Vaccine 40(21):2940-2948
   </div>
 </div>
 
@@ -147,14 +152,14 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Oliver Eales, Kylie EC Ainslie, Caroline E Walters, Haowei Wang, Christina Atchison, Deborah Ashby, Christl A Donnelly, Graham Cooke, Wendy Barclay, Helen Ward, Ara Darzi, Paul Elliott, Steven Riley </p>
+             <p>Kylie E C Ainslie, Steven Riley </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">September 1, 2022</p>
+      <p class="date">May 9, 2022</p>
     </div>
   </div>
     
@@ -162,7 +167,7 @@ ul.task-list li input[type="checkbox"] {
     <div class="quarto-title-meta-heading">Doi</div>
     <div class="quarto-title-meta-contents">
       <p class="doi">
-        <a href="https://doi.org/https://doi.org/10.1016/j.epidem.2022.100604">https://doi.org/10.1016/j.epidem.2022.100604</a>
+        <a href="https://doi.org/https://doi.org/10.1016/j.vaccine.2022.03.065">https://doi.org/10.1016/j.vaccine.2022.03.065</a>
       </p>
     </div>
   </div>
@@ -171,19 +176,29 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="highlights" class="level1">
-<h1>Highlights</h1>
-<p>: - Real-time Assessment of Community Transmission-1 (REACT-1) study May–December 2020. - Randomly selected community samples measure SARS-CoV-2 prevalence in England.</p>
-<p>: - Trends in prevalence over time inferred using a Bayesian Penalised-spline (P-spline).</p>
-<pre><code>-   Trends over time in the reproduction number and instantaneous growth rate quantified.</code></pre>
-</section>
 <section id="abstract" class="level1">
-<h1><strong>Abstract</strong></h1>
-<p>The time-varying reproduction number (Rt) can change rapidly over the course of a pandemic due to changing restrictions, behaviours, and levels of population immunity. Many methods exist that allow the estimation of Rt from case data. However, these are not easily adapted to point prevalence data nor can they infer Rt across periods of missing data. We developed a Bayesian P-spline model suitable for fitting to a wide range of epidemic time-series, including point-prevalence data. We demonstrate the utility of the model by fitting to periodic daily SARS-CoV-2 swab-positivity data in England from the first 7 rounds (May 2020–December 2020) of the REal-time Assessment of Community Transmission-1 (REACT-1) study. Estimates of Rt over the period of two subsequent rounds (6–8 weeks) and single rounds (2–3 weeks) inferred using the Bayesian P-spline model were broadly consistent with estimates from a simple exponential model, with overlapping credible intervals. However, there were sometimes substantial differences in point estimates. The Bayesian P-spline model was further able to infer changes in Rt over shorter periods tracking a temporary increase above one during late-May 2020, a gradual increase in Rt over the summer of 2020 as restrictions were eased, and a reduction in Rt during England’s second national lockdown followed by an increase as the Alpha variant surged. The model is robust against both under-fitting and over-fitting and is able to interpolate between periods of available data; it is a particularly versatile model when growth rate can change over small timescales, as in the current SARS-CoV-2 pandemic. This work highlights the importance of pairing robust methods with representative samples to track <a href="https://www.sciencedirect.com/topics/medicine-and-dentistry/pandemic" title="Learn more about pandemics from ScienceDirect's AI-generated Topic Pages">pandemics</a>.</p>
+<h1>Abstract</h1>
+<section id="introduction" class="level3">
+<h3 class="anchored" data-anchor-id="introduction">Introduction</h3>
+<p>Annual vaccination of children against influenza is a key component of vaccination programs in many countries. However, past infection and vaccination may affect an individual's susceptibility to infection. Little research has evaluated whether annual vaccination is the best strategy. Using the United Kingdom as our motivating example, we developed a framework to assess the impact of different childhood vaccination strategies, specifically annual and biennial (every other year), on attack rate and expected number of infections.</p>
+</section>
+<section id="methods-and-findings" class="level3">
+<h3 class="anchored" data-anchor-id="methods-and-findings">Methods and findings</h3>
+<p>We present a multi-annual, individual-based, stochastic, force of infection model that accounts for individual exposure histories and disease/vaccine dynamics influencing susceptibility. We simulate birth cohorts that experience yearly <a href="https://www.sciencedirect.com/topics/medicine-and-dentistry/seasonal-influenza" title="Learn more about influenza epidemics from ScienceDirect's AI-generated Topic Pages">influenza epidemics</a> and follow them until age 18 to determine attack rates and the number of infections during childhood. We perform simulations under baseline conditions, with an assumed <a href="https://www.sciencedirect.com/topics/medicine-and-dentistry/vaccination-coverage" title="Learn more about vaccination coverage from ScienceDirect's AI-generated Topic Pages">vaccination coverage</a> of 44%, to compare annual vaccination to no and biennial vaccination. We relax our baseline assumptions to explore how our model assumptions impact vaccination program performance.</p>
+<p>At baseline, we observed less than half the number of infections between the ages 2 and 10 under annual vaccination in children who had been vaccinated at least half the time compared to no vaccination. When averaged over all ages 0–18, the number of infections under annual vaccination was 2.07 (2.06, 2.08) compared to 2.63 (2.62, 2.64) under no vaccination, and 2.38 (2.37, 2.40) under biennial vaccination. When we introduced a penalty for repeated exposures, we observed a decrease in the difference in infections between the vaccination strategies. Specifically, the difference in childhood infections under biennial compared to annual vaccination decreased from 0.31 to 0.04 as exposure penalty increased.</p>
+</section>
+<section id="conclusion" class="level3">
+<h3 class="anchored" data-anchor-id="conclusion">Conclusion</h3>
+<p>Our results indicate that while annual vaccination averts more childhood infections than biennial vaccination, this difference is small. Our work confirms the value of annual vaccination in children, even with modest vaccination coverage, but also shows that similar benefits of vaccination may be obtained by implementing a biennial vaccination program.</p>
+</section>
+</section>
+<section id="author-summary" class="level1">
+<h1>Author Summary</h1>
+<p>Many countries include annual vaccination of children against influenza in their vaccination programs. In the United Kingdom (UK), annual vaccination of children aged of 2 to 10 against influenza is recommended. However, little research has evaluated whether annual vaccination is the best strategy, while accounting for how past infection and vaccination may affect an individual's susceptibility to infection in the current influenza season. Prior work has suggested that there may be a negative effect of repeated vaccination. In this work we developed a stochastic, individual-based model to assess the impact of repeated vaccination strategies on childhood infections. Specifically, we first compare annual vaccination to no vaccination and then annual vaccination to biennial (every other year) vaccination. We use the UK as our motivating example. We found that an annual vaccination strategy resulted in the fewest childhood infections, followed by biennial vaccination. The difference in number of childhood infections between the different vaccination strategies decreased when we introduced a penalty for repeated exposures. Our work confirms the value of annual vaccination in children, but also shows that similar benefits of vaccination can be obtained by implementing a biennial vaccination program, particularly when there is a negative effect of repeated vaccinations.</p>
 </section>
 <section id="citation" class="level1">
 <h1>Citation</h1>
-<p>Oliver Eales, <strong>Kylie E.C. Ainslie</strong>, Caroline E. Walters, Haowei Wang, Christina Atchison, Deborah Ashby, Christl A. Donnelly, Graham Cooke, Wendy Barclay, Helen Ward, Ara Darzi, Paul Elliott, Steven Riley. Appropriately smoothing prevalence data to inform estimates of growth rate and reproduction number. 2022. <em>Epidemics</em> 40:100604. <a href="https://doi.org/10.1016/j.epidem.2022.100604">[DOI]</a></p>
+<p><strong>Ainslie, K. E. C.</strong> and S. Riley. 2022. Is annual vaccination best? A modelling study of influenza vaccination in children. <em>Vaccine</em> 40(21):2940-2948. <a href="https://doi.org/10.1016/j.vaccine.2022.03.065">[DOI]</a></p>
 
 
 </section>

@@ -2,7 +2,7 @@
 title: 'A scenario modelling analysis to anticipate the impact of COVID-19 vaccination in adolescents and children on disease outcomes in the Netherlands, summer 2021.'
 description: 'Eurosurveillance 27:2101090'
 author: Kylie Ainslie, Jantien A Backer, Pieter T de Boer, Albert Jan van Hoek, Don Klinkenberg, Hester Korthals Altes, Ka Yin Leung, Hester de Melker, Fuminari Miura, and Jacco Wallinga
-date: '2022-11-03'
+date: '2022'
 doi: https://doi.org/10.2807/1560-7917.ES.2022.27.44.2101090
 categories: 
   - publication

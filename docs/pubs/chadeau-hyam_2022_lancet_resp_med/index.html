@@ -6,11 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Oliver Eales, Kylie EC Ainslie, Caroline E Walters, Haowei Wang, Christina Atchison, Deborah Ashby, Christl A Donnelly, Graham Cooke, Wendy Barclay, Helen Ward, Ara Darzi, Paul Elliott, Steven Riley">
-<meta name="dcterms.date" content="2022-09-01">
-<meta name="description" content="Epidemics 40:100604">
+<meta name="author" content="Marc Chadeau-Hyam, Haowei Wang, Oliver Eales, David Haw, Barbara Bodinier, Matthew Whitaker, Caroline E Walters, Kylie EC Ainslie, Christina Atchison, Claudio Fronterre, Peter J Diggle, Andrew J Page, Alexander J Trotter, Deborah Ashby, Wendy Barclay, Graham Taylor, Graham Cooke, Helen Ward, Ara Darzi, Steven Riley, Christl A Donnelly, Paul Elliott">
+<meta name="dcterms.date" content="2022-04-01">
+<meta name="description" content="The Lancet Respiratory Medicine 10(4):355-366">
 
-<title>Kylie Ainslie, PhD - Appropriately smoothing prevalence data to inform estimates of growth rate and reproduction number</title>
+<title>Kylie Ainslie, PhD - SARS-CoV-2 infection and vaccine effectiveness in England (REACT-1): a series of cross-sectional random community surveys</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -66,8 +66,8 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../../styles.css">
-<meta name="twitter:title" content="Kylie Ainslie, PhD - Appropriately smoothing prevalence data to inform estimates of growth rate and reproduction number">
-<meta name="twitter:description" content="Epidemics 40:100604">
+<meta name="twitter:title" content="Kylie Ainslie, PhD - SARS-CoV-2 infection and vaccine effectiveness in England (REACT-1): a series of cross-sectional random community surveys">
+<meta name="twitter:description" content="The Lancet Respiratory Medicine 10(4):355-366">
 <meta name="twitter:creator" content="@DrKAinslie">
 <meta name="twitter:card" content="summary_large_image">
 </head>
@@ -118,8 +118,13 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#highlights" id="toc-highlights" class="nav-link active" data-scroll-target="#highlights">Highlights</a></li>
-  <li><a href="#abstract" id="toc-abstract" class="nav-link" data-scroll-target="#abstract"><strong>Abstract</strong></a></li>
+  <li><a href="#abstract" id="toc-abstract" class="nav-link active" data-scroll-target="#abstract">Abstract</a>
+  <ul class="collapse">
+  <li><a href="#background" id="toc-background" class="nav-link" data-scroll-target="#background">Background</a></li>
+  <li><a href="#methods" id="toc-methods" class="nav-link" data-scroll-target="#methods">Methods</a></li>
+  <li><a href="#findings" id="toc-findings" class="nav-link" data-scroll-target="#findings">Findings</a></li>
+  <li><a href="#interpretation" id="toc-interpretation" class="nav-link" data-scroll-target="#interpretation">Interpretation</a></li>
+  </ul></li>
   <li><a href="#citation" id="toc-citation" class="nav-link" data-scroll-target="#citation">Citation</a></li>
   </ul>
 </nav>
@@ -129,7 +134,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Appropriately smoothing prevalence data to inform estimates of growth rate and reproduction number</h1>
+<h1 class="title">SARS-CoV-2 infection and vaccine effectiveness in England (REACT-1): a series of cross-sectional random community surveys</h1>
   <div class="quarto-categories">
     <div class="quarto-category">publication</div>
   </div>
@@ -137,7 +142,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div>
   <div class="description">
-    Epidemics 40:100604
+    The Lancet Respiratory Medicine 10(4):355-366
   </div>
 </div>
 
@@ -147,14 +152,14 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Oliver Eales, Kylie EC Ainslie, Caroline E Walters, Haowei Wang, Christina Atchison, Deborah Ashby, Christl A Donnelly, Graham Cooke, Wendy Barclay, Helen Ward, Ara Darzi, Paul Elliott, Steven Riley </p>
+             <p>Marc Chadeau-Hyam, Haowei Wang, Oliver Eales, David Haw, Barbara Bodinier, Matthew Whitaker, Caroline E Walters, Kylie EC Ainslie, Christina Atchison, Claudio Fronterre, Peter J Diggle, Andrew J Page, Alexander J Trotter, Deborah Ashby, Wendy Barclay, Graham Taylor, Graham Cooke, Helen Ward, Ara Darzi, Steven Riley, Christl A Donnelly, Paul Elliott </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">September 1, 2022</p>
+      <p class="date">April 1, 2022</p>
     </div>
   </div>
     
@@ -162,7 +167,7 @@ ul.task-list li input[type="checkbox"] {
     <div class="quarto-title-meta-heading">Doi</div>
     <div class="quarto-title-meta-contents">
       <p class="doi">
-        <a href="https://doi.org/https://doi.org/10.1016/j.epidem.2022.100604">https://doi.org/10.1016/j.epidem.2022.100604</a>
+        <a href="https://doi.org/https://doi.org/10.1016/S2213-2600(21)00542-7">https://doi.org/10.1016/S2213-2600(21)00542-7</a>
       </p>
     </div>
   </div>
@@ -171,19 +176,28 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="highlights" class="level1">
-<h1>Highlights</h1>
-<p>: - Real-time Assessment of Community Transmission-1 (REACT-1) study May–December 2020. - Randomly selected community samples measure SARS-CoV-2 prevalence in England.</p>
-<p>: - Trends in prevalence over time inferred using a Bayesian Penalised-spline (P-spline).</p>
-<pre><code>-   Trends over time in the reproduction number and instantaneous growth rate quantified.</code></pre>
-</section>
 <section id="abstract" class="level1">
-<h1><strong>Abstract</strong></h1>
-<p>The time-varying reproduction number (Rt) can change rapidly over the course of a pandemic due to changing restrictions, behaviours, and levels of population immunity. Many methods exist that allow the estimation of Rt from case data. However, these are not easily adapted to point prevalence data nor can they infer Rt across periods of missing data. We developed a Bayesian P-spline model suitable for fitting to a wide range of epidemic time-series, including point-prevalence data. We demonstrate the utility of the model by fitting to periodic daily SARS-CoV-2 swab-positivity data in England from the first 7 rounds (May 2020–December 2020) of the REal-time Assessment of Community Transmission-1 (REACT-1) study. Estimates of Rt over the period of two subsequent rounds (6–8 weeks) and single rounds (2–3 weeks) inferred using the Bayesian P-spline model were broadly consistent with estimates from a simple exponential model, with overlapping credible intervals. However, there were sometimes substantial differences in point estimates. The Bayesian P-spline model was further able to infer changes in Rt over shorter periods tracking a temporary increase above one during late-May 2020, a gradual increase in Rt over the summer of 2020 as restrictions were eased, and a reduction in Rt during England’s second national lockdown followed by an increase as the Alpha variant surged. The model is robust against both under-fitting and over-fitting and is able to interpolate between periods of available data; it is a particularly versatile model when growth rate can change over small timescales, as in the current SARS-CoV-2 pandemic. This work highlights the importance of pairing robust methods with representative samples to track <a href="https://www.sciencedirect.com/topics/medicine-and-dentistry/pandemic" title="Learn more about pandemics from ScienceDirect's AI-generated Topic Pages">pandemics</a>.</p>
+<h1>Abstract</h1>
+<section id="background" class="level3">
+<h3 class="anchored" data-anchor-id="background">Background</h3>
+<p>England has experienced a third wave of the COVID-19 epidemic since the end of May, 2021, coinciding with the rapid spread of the delta (B.1.617.2) variant, despite high levels of vaccination among adults. Vaccination rates (single dose) in England are lower among children aged 16–17 years and 12–15 years, whose vaccination in England commenced in August and September, 2021, respectively. We aimed to analyse the underlying dynamics driving patterns in SARS-CoV-2 prevalence during September, 2021, in England.</p>
+</section>
+<section id="methods" class="level3">
+<h3 class="anchored" data-anchor-id="methods">Methods</h3>
+<p>The REal-time Assessment of Community Transmission-1 (REACT-1) study, which commenced data collection in May, 2020, involves a series of random cross-sectional surveys in the general population of England aged 5 years and older. Using RT-PCR swab positivity data from 100 527 participants with valid throat and nose swabs in round 14 of REACT-1 (Sept 9–27, 2021), we estimated community-based prevalence of SARS-CoV-2 and vaccine effectiveness against infection by combining round 14 data with data from round 13 (June 24 to July 12, 2021; n=172 862).</p>
+</section>
+<section id="findings" class="level3">
+<h3 class="anchored" data-anchor-id="findings">Findings</h3>
+<p>During September, 2021, we estimated a mean RT-PCR positivity rate of 0·83% (95% CrI 0·76–0·89), with a reproduction number (R) overall of 1·03 (95% CrI 0·94–1·14). Among the 475 (62·2%) of 764 sequenced positive swabs, all were of the delta variant; 22 (4·63%; 95% CI 3·07–6·91) included the Tyr145His mutation in the spike protein associated with the AY.4 sublineage, and there was one Glu484Lys mutation. Age, region, key worker status, and household size jointly contributed to the risk of swab positivity. The highest weighted prevalence was observed among children aged 5–12 years, at 2·32% (95% CrI 1·96–2·73) and those aged 13–17 years, at 2·55% (2·11–3·08). The SARS-CoV-2 epidemic grew in those aged 5–11 years, with an R of 1·42 (95% CrI 1·18–1·68), but declined in those aged 18–54 years, with an R of 0·81 (0·68–0·97). At ages 18–64 years, the adjusted vaccine effectiveness against infection was 62·8% (95% CI 49·3–72·7) after two doses compared to unvaccinated people, for all vaccines combined, 44·8% (22·5–60·7) for the ChAdOx1 nCov-19 (Oxford–AstraZeneca) vaccine, and 71·3% (56·6–81·0) for the BNT162b2 (Pfizer–BioNTech) vaccine. In individuals aged 18 years and older, the weighted prevalence of swab positivity was 0·35% (95% CrI 0·31–0·40) if the second dose was administered up to 3 months before their swab but 0·55% (0·50–0·61) for those who received their second dose 3–6 months before their swab, compared to 1·76% (1·60–1·95) among unvaccinated individuals.</p>
+</section>
+<section id="interpretation" class="level3">
+<h3 class="anchored" data-anchor-id="interpretation">Interpretation</h3>
+<p>In September, 2021, at the start of the autumn school term in England, infections were increasing exponentially in children aged 5–17 years, at a time when vaccination rates were low in this age group. In adults, compared to those who received their second dose less than 3 months ago, the higher prevalence of swab positivity at 3–6 months following two doses of the COVID-19 vaccine suggests an increased risk of breakthrough infections during this period. The vaccination programme needs to reach children as well as unvaccinated and partially vaccinated adults to reduce SARS-CoV-2 transmission and associated disruptions to work and education.</p>
+</section>
 </section>
 <section id="citation" class="level1">
 <h1>Citation</h1>
-<p>Oliver Eales, <strong>Kylie E.C. Ainslie</strong>, Caroline E. Walters, Haowei Wang, Christina Atchison, Deborah Ashby, Christl A. Donnelly, Graham Cooke, Wendy Barclay, Helen Ward, Ara Darzi, Paul Elliott, Steven Riley. Appropriately smoothing prevalence data to inform estimates of growth rate and reproduction number. 2022. <em>Epidemics</em> 40:100604. <a href="https://doi.org/10.1016/j.epidem.2022.100604">[DOI]</a></p>
+<p>Marc Chadeau-Hyam, Haowei Wang, Oliver Eales, David Haw, Barbara Bodinier, Matthew Whitaker, Caroline E Walters, Kylie EC Ainslie, Christina Atchison, Claudio Fronterre, Peter J Diggle, Andrew J Page, Alexander J Trotter, Deborah Ashby, Wendy Barclay, Graham Taylor, Graham Cooke, Helen Ward, Ara Darzi, Steven Riley, Christl A Donnelly, Paul Elliott. 2022. SARS-CoV-2 infection and vaccine effectiveness in England (REACT-1): a series of cross-sectional random community surveys. <em>The Lancet Respiratory Medicine</em> 10(4):355-366. <a href="https://doi.org/10.1016/S2213-2600(21)00542-7">[DOI]</a></p>
 
 
 </section>
