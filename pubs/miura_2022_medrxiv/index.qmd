@@ -1,0 +1,17 @@
+---
+title: 'Time scales of human monkeypox transmission in the Netherlands'
+description: 'Preprint on medRxiv'
+author: Fuminari Miura, Jantien A Backer, Gini van Rijckevorsel, Roisin Bavalia, Stijn Raven, Mariska Petrignani, Kylie EC Ainslie, Jacco Wallinga
+date: '2022-12-04'
+doi: https://doi.org/10.1101/2022.12.03.22283056
+categories: 
+  - publication
+---
+
+# Abstract
+
+The global outbreak of monkeypox has spread to more than a hundred countries in non-endemic regions. One of the key determinants of the rapid growth is the serial interval, defined as the time interval between symptom onset in two successive cases. In this study, we estimated the serial interval by analyzing 109 pairs of laboratory-confirmed monkeypox in the Netherlands. After reviewing detailed exposure histories, we identified 34 pairs where the infectee reported a single potential infector. The mean serial interval for those 34 pairs was 10.1 days (95% CI: 6.6--14.7 days), suggesting a reproduction number between 1.3 and 1.6 during June 2022 in the Netherlands. Further investigation into pairs from one regional public health service revealed that pre-symptomatic transmission may have occurred in five out of eighteen pairs. These findings emphasize that precaution will remain key, regardless of the presence of recognizable symptoms, to anticipate possible resurgence of monkeypox.
+
+# Citation
+
+Fuminari Miura, Jantien A Backer, Gini van Rijckevorsel, Roisin Bavalia, Stijn Raven, Mariska Petrignani, **Kylie EC Ainslie,** Jacco Wallinga. 2022. Time scales of human monkeypox transmission in the Netherlands. *medRxiv*. [\[DOI\]](https://doi.org/10.1101/2022.12.03.22283056)
