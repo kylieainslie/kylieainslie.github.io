@@ -6,6 +6,7 @@ listing:
   sort: "date"
   sort-ui: true
   filter-ui: true
+  fields: [date, title, author, description]
 editor: visual
 ---
 
