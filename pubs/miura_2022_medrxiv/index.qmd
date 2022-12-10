@@ -2,7 +2,7 @@
 title: 'Time scales of human monkeypox transmission in the Netherlands'
 description: 'Preprint on medRxiv'
 author: Fuminari Miura, Jantien A Backer, Gini van Rijckevorsel, Roisin Bavalia, Stijn Raven, Mariska Petrignani, Kylie EC Ainslie, Jacco Wallinga
-date: '2022'
+date: '2022-12-04'
 doi: https://doi.org/10.1101/2022.12.03.22283056
 categories: 
   - publication

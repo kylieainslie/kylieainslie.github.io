@@ -2,7 +2,7 @@
 title: 'Is annual vaccination best? A modelling study of influenza vaccination strategies in children'
 description: 'Vaccine 40(21):2940-2948'
 author: Kylie E C Ainslie, Steven Riley
-date: '2022'
+date: '2022-05-09'
 doi: https://doi.org/10.1016/j.vaccine.2022.03.065
 categories: 
   - publication

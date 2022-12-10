@@ -2,7 +2,7 @@
 title: "SARS-CoV-2 infection and vaccine effectiveness in England (REACT-1): a series of cross-sectional random community surveys"
 description: 'The Lancet Respiratory Medicine 10(4):355-366'
 author: Marc Chadeau-Hyam, Haowei Wang, Oliver Eales, David Haw, Barbara Bodinier, Matthew Whitaker, Caroline E Walters, Kylie EC Ainslie, Christina Atchison, Claudio Fronterre, Peter J Diggle, Andrew J Page, Alexander J Trotter, Deborah Ashby, Wendy Barclay, Graham Taylor, Graham Cooke, Helen Ward, Ara Darzi, Steven Riley, Christl A Donnelly, Paul Elliott
-date: '2022'
+date: '2022-04-01'
 doi: https://doi.org/10.1016/S2213-2600(21)00542-7
 categories: 
   - publication

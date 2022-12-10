@@ -2,7 +2,7 @@
 title: 'Appropriately smoothing prevalence data to inform estimates of growth rate and reproduction number'
 description: 'Epidemics 40:100604'
 author: Oliver Eales, Kylie EC Ainslie, Caroline E Walters, Haowei Wang, Christina Atchison, Deborah Ashby, Christl A Donnelly, Graham Cooke, Wendy Barclay, Helen Ward, Ara Darzi, Paul Elliott, Steven Riley
-date: '2022'
+date: '2022-09-01'
 doi: https://doi.org/10.1016/j.epidem.2022.100604
 categories: 
   - publication
@@ -12,7 +12,7 @@ categories:
 
 : - Real-time Assessment of Community Transmission-1 (REACT-1) study May--December 2020. - Randomly selected community samples measure SARS-CoV-2 prevalence in England.
 
-: - Trends in prevalence over time inferred using a Bayesian Penalised-spline (P-spline).
+:   -   Trends in prevalence over time inferred using a Bayesian Penalised-spline (P-spline).
 
     -   Trends over time in the reproduction number and instantaneous growth rate quantified.
 

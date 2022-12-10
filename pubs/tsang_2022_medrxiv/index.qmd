@@ -2,7 +2,7 @@
 title: 'Prior infections and effectiveness of SARS-CoV-2 vaccine in test-negative study: A systematic review and meta-analysis'
 description: 'Preprint on medRxiv'
 author: Tim Tsang, Sheena G Sullivan, Xiaotong Huang, Can Wang, Yifan Wang, Joshua Nealon, Bingyi Yang, Kylie EC Ainslie, Ben J Cowling
-date: '2022'
+date: '2022-11-04'
 doi: https://doi.org/10.1101/2022.11.03.22281925
 categories: 
   - publication
