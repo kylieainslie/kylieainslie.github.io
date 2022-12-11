@@ -1,0 +1,21 @@
+---
+title: 'Resurgence of SARS-CoV-2: detection by community viral surveillance'
+description: 'Science 372(6545): 990-995'
+author: 'Steven Riley, Kylie EC Ainslie, Oliver Eales, Caroline E Walters, Haowei Wang, Christina Atchison, Claudio Fronterre, Peter J Diggle, Deborah Ashby, Christl A Donnelly, Graham Cooke, Wendy Barclay, Helen Ward, Ara Darzi, Paul Elliott'
+date: '2021-05-28'
+doi: https://doi.org/10.1126/science.abf0874
+categories: 
+  - publication
+---
+
+# **Community virus surveillance**
+
+Even highly effective vaccines will not save us from the need to monitor severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) activity, perhaps for years to come. Public health institutions will need early warning of any uptick in cases to prepare and deploy interventions as required. Riley *et al.* developed a community-wide program that was designed to detect resurgence at low prevalence and has been used to track SARS-CoV-2 virus across England. In the four rounds of sampling from May to September 2020, almost 600,000 people representative of all communities were monitored. The results revealed the greatest prevalence among 18- to 24-year-olds, with increasing incidence among older age groups and elevated odds of infection among some communities. This testing approach offers a model for the type of real-time, country-wide population-based surveillance work that needs to be conducted to monitor SARS-CoV-2.
+
+# Abstract
+
+Surveillance of the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) pandemic has mainly relied on case reporting, which is biased by health service performance, test availability, and test-seeking behaviors. We report a community-wide national representative surveillance program in England based on self-administered swab results from \~594,000 individuals tested for SARS-CoV-2, regardless of symptoms, between May and the beginning of September 2020. The epidemic declined between May and July 2020 but then increased gradually from mid-August, accelerating into early September 2020 at the start of the second wave. When compared with cases detected through routine surveillance, we report here a longer period of decline and a younger age distribution. Representative community sampling for SARS-CoV-2 can substantially improve situational awareness and feed into the public health response even at low prevalence.
+
+# Citation
+
+Steven Riley, Kylie EC Ainslie, Oliver Eales, Caroline E Walters, Haowei Wang, Christina Atchison, Claudio Fronterre, Peter J Diggle, Deborah Ashby, Christl A Donnelly, Graham Cooke, Wendy Barclay, Helen Ward, Ara Darzi, Paul Elliott. (2021) Resurgence of SARS-CoV-2: detection by community viral surveillance. *Science* 372(6545): 990-995' [\[DOI\]](https://doi.org/10.1126/science.abf0874)

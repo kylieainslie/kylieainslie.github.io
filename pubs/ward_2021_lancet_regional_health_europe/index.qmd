@@ -1,0 +1,45 @@
+---
+title: 'Prevalence of antibody positivity to SARS-CoV-2 following the first peak of infection in England: Serial cross-sectional studies of 365,000 adults'
+description: 'The Lancet Regional Health-Europe 4: 100098'
+author: 'Helen Ward, Graham S Cooke, Christina Atchison, Matthew Whitaker, Joshua Elliott, Maya Moshe, Jonathan C Brown, Barnaby Flower, Anna Daunt, Kylie Ainslie, Deborah Ashby, Christl A Donnelly, Steven Riley, Ara Darzi, Wendy Barclay, Paul Elliott'
+date: '2021-05-01'
+doi: https://doi.org/10.1016/j.lanepe.2021.100098
+categories: 
+  - publication
+---
+
+# Abstract
+
+### Background
+
+The time-concentrated nature of the first wave of the COVID-19 epidemic in England in March and April 2020 provides a natural experiment to measure changes in antibody positivity at the population level before onset of the second wave and initiation of the vaccination programme.
+
+### Methods
+
+Three cross-sectional national surveys with non-overlapping random samples of the population in England undertaken between late June and September 2020 (REACT-2 study). 365,104 adults completed questionnaires and self-administered lateral flow [immunoassay](https://www.sciencedirect.com/topics/medicine-and-dentistry/immunoassay "Learn more about immunoassay from ScienceDirect's AI-generated Topic Pages") (LFIA) tests for IgG against SARS-CoV-2.
+
+### Findings
+
+Overall, 17,576 people had detectable antibodies, a prevalence of 4.9% (95% confidence intervals 4.9, 5.0) when adjusted for test characteristics and weighted to the adult population of England. The prevalence declined from 6.0% (5.8, 6.1), to 4.8% (4.7, 5.0) and 4.4% (4.3, 4.5), over the three rounds of the study a difference of -26.5% (-29.0, -23.8). The highest prevalence and smallest overall decline in positivity was in the youngest age group (18-24 years) at -14.9% (-21.6, -8.1), and lowest prevalence and largest decline in the oldest group (\>74 years) at -39.0% (-50.8, -27.2). The decline from June to September 2020 was largest in those who did not report a history of COVID-19 at -64.0% (-75.6, -52.3), compared to -22.3% (-27.0, -17.7) in those with SARS-CoV-2 infection confirmed on PCR.
+
+### Interpretation
+
+A large proportion of the population remained susceptible to SARS-CoV-2 infection in England based on naturally acquired immunity from the first wave. Widespread vaccination is needed to confer immunity and control the epidemic at population level.
+
+# Research in context
+
+### Evidence before this study
+
+The proportion of individuals in a population with evidence of protective immunity against SARSCoV2 is an important determinant for ongoing transmission. Cross-sectional estimates of prevalence will be affected by previous infection and vaccination, but also the rate of loss of antibody following infection. In [cohort studies](https://www.sciencedirect.com/topics/medicine-and-dentistry/cohort-analysis "Learn more about cohort studies from ScienceDirect's AI-generated Topic Pages") of symptomatic individuals, there is evidence that antibody responses can remain high for at least six months after infection and national [seroprevalence](https://www.sciencedirect.com/topics/medicine-and-dentistry/seroprevalence "Learn more about seroprevalence from ScienceDirect's AI-generated Topic Pages") studies such as those in Iceland and Spain have given robust cross-sectional estimates of population antibody positivity. However, to date there have been no longitudinal population studies to monitor changes in prevalence of antibody responses over time including in people with mild or no symptoms.
+
+### Added value of this study
+
+The first peak of SARS-CoV-2 infection in England was concentrated between March and April 2020, followed by a five-month period of low transmission. This provided a unique opportunity for detailed exploration of factors associated with antibody positivity and longitudinal study of the population prevalence of anti-SARS-CoV-2 IgG antibody positivity. This study is the first to demonstrate a decline in population prevalence of detectable IgG antibodies following a peak in SARS-CoV-2 infection, with a fall of 25.6% over three months. The largest decline was seen in individuals aged 75 or older and those who did not report a history of symptomatic infection.
+
+### Implications of all the available evidence
+
+Longitudinal studies of immune responses to SARS-CoV-2 in symptomatic individuals are not representative of the infected population as a whole, approximately 1/3 of whom have asymptomatic or mild infection. The largest study of its kind, this study demonstrates a significant decline in population antibody positivity over 3 months, with higher rates of decline in those without symptomatic infection. Such trends need to be accounted for in future cross-sectional surveys of previous infection. In the absence of access to vaccination, waning antibody positivity is likely to be associated to an increased susceptibility to reinfection, as is the case with other endemic seasonal [coronaviruses](https://www.sciencedirect.com/topics/medicine-and-dentistry/coronavirus "Learn more about coronaviruses from ScienceDirect's AI-generated Topic Pages").
+
+# Citation
+
+Helen Ward, Graham S. Cooke, Christina Atchison, Matthew Whitaker, Joshua Elliott, Maya Moshe, Jonathan C Brown, Barnaby Flower, Anna Daunt, Kylie Ainslie, Deborah Ashby, Christl A. Donnelly, Steven Riley, Ara Darzi, Wendy Barclay, Paul Elliott. 2021. Prevalence of antibody positivity to SARS-CoV-2 following the first peak of infection in England: Serial cross-sectional studies of 365,000 adults. *The Lancet Regional Health - Europe* 4:100098. [\[DOI\]](https://doi.org/10.1016/j.lanepe.2021.100098)

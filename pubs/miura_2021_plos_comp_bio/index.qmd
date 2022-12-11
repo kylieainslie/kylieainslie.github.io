@@ -1,0 +1,21 @@
+---
+title: 'Optimal vaccine allocation for COVID-19 in the Netherlands: A data-driven prioritization'
+description: 'PLoS Computational Biology 17(12):e1009697'
+author: 'Fuminari Miura, Ka Yin Leung, Don Klinkenberg, Kylie EC Ainslie, Jacco Wallinga'
+date: '2021-12-13'
+doi: https://doi.org/10.1371/journal.pcbi.1009697
+categories: 
+  - publication
+---
+
+# Abstract
+
+For the control of COVID-19, vaccination programmes provide a long-term solution. The amount of available vaccines is often limited, and thus it is crucial to determine the allocation strategy. While mathematical modelling approaches have been used to find an optimal distribution of vaccines, there is an excessively large number of possible allocation schemes to be simulated. Here, we propose an algorithm to find a near-optimal allocation scheme given an intervention objective such as minimization of new infections, hospitalizations, or deaths, where multiple vaccines are available. The proposed principle for allocating vaccines is to target subgroups with the largest reduction in the outcome of interest. We use an approximation method to reconstruct the age-specific transmission intensity (the next generation matrix), and express the expected impact of vaccinating each subgroup in terms of the observed incidence of infection and force of infection. The proposed approach is firstly evaluated with a simulated epidemic and then applied to the epidemiological data on COVID-19 in the Netherlands. Our results reveal how the optimal allocation depends on the objective of infection control. In the case of COVID-19, if we wish to minimize deaths, the optimal allocation strategy is not efficient for minimizing other outcomes, such as infections. In simulated epidemics, an allocation strategy optimized for an outcome outperforms other strategies such as the allocation from young to old, from old to young, and at random. Our simulations clarify that the current policy in the Netherlands (i.e., allocation from old to young) was concordant with the allocation scheme that minimizes deaths. The proposed method provides an optimal allocation scheme, given routine surveillance data that reflect ongoing transmissions. This approach to allocation is useful for providing plausible simulation scenarios for complex models, which give a more robust basis to determine intervention strategies.
+
+# Author Summary
+
+Vaccination is the key to controlling the ongoing COVID-19 pandemic. In the early stages of an epidemic, there is shortage of vaccines. Here, we propose an algorithm that computes an optimal vaccine distribution among groups for different intervention objective (e.g., minimizing new infections, hospitalizations, or deaths). This method is applicable even when multiple vaccines are available. Our results reveal that an allocation scheme optimized for one specific objective is not necessarily efficient for another, indicating the importance of determining the precise objective in the decision making process at the early phase of distributions. Often, data are scarce in the midst of an epidemics. The proposed method requires routine surveillance data on the number of cases to determine the best possible allocation of vaccines.
+
+# Citation
+
+Miura F, Leung KY, Klinkenberg D, **Ainslie KEC**, Wallinga J (2021) Optimal vaccine allocation for COVID-19 in the Netherlands: A data-driven prioritization. PLOS Computational Biology 17(12): e1009697. [\[DOI\]](https://doi.org/10.1371/journal.pcbi.1009697)
