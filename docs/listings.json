@@ -2,14 +2,27 @@
   {
     "listing": "/publications.html",
     "items": [
-      "/pubs/miura_2022_medrxiv/index.html",
-      "/pubs/tsang_2022_medrxiv/index.html",
+      "/pubs/benjamin_2020_wellcome_open_research/index.html",
+      "/pubs/ainslie_2020_wellcome_open_research/index.html",
+      "/pubs/fu_2021_int_JID/index.html",
+      "/pubs/ward_2021_nature_comm/index.html",
+      "/pubs/nouvellet_2021_nature_comm/index.html",
+      "/pubs/ward_2021_lancet_regional_health_europe/index.html",
+      "/pubs/riley_2021_science/index.html",
+      "/pubs/thompson_2020_journal_travel_medicine/index.html",
+      "/pubs/haber_2021_human_v_and_i/index.html",
+      "/pubs/dighe_2020_bmc_medicine/index.html",
+      "/pubs/unwin_2020_nature_comm/index.html",
+      "/pubs/miura_2021_plos_comp_bio/index.html",
+      "/pubs/elliot_2021_science/index.html",
+      "/pubs/eales_2022_wellcome_open_research/index.html",
+      "/pubs/chadeau-hyam_2022_lancet_resp_med/index.html",
+      "/pubs/ainslie_2022_vaccine/index.html",
       "/pubs/eales_2022_epidemics/index.html",
       "/pubs/ainslie_2022_eurosurveillance/index.html",
-      "/pubs/ainslie_2022_vaccine/index.html",
-      "/pubs/eales_2022_medrxiv/index.html",
-      "/pubs/eales_2022_wellcome_open_research/index.html",
-      "/pubs/chadeau-hyam_2022_lancet_resp_med/index.html"
+      "/pubs/tsang_2022_medrxiv/index.html",
+      "/pubs/eales_2022_plos_comp_bio/index.html",
+      "/pubs/miura_2022_medrxiv/index.html"
     ]
   }
 ]

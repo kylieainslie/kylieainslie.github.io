@@ -1,0 +1,17 @@
+---
+title: 'SARS-CoV-2 antibody prevalence in England following the first peak of the pandemic'
+description: 'Nature Communications 12(1): 1-8'
+author: 'Helen Ward, Christina Atchison, Matthew Whitaker, Kylie EC Ainslie, Joshua Elliott, Lucy Okell, Rozlyn Redd, Deborah Ashby, Christl A Donnelly, Wendy Barclay, Ara Darzi, Graham Cooke, Steven Riley, Paul Elliott'
+date: '2021-02-10'
+doi: https://doi.org/10.1038/s41467-021-21237-w
+categories: 
+  - publication
+---
+
+# Abstract
+
+England has experienced a large outbreak of SARS-CoV-2, disproportionately affecting people from disadvantaged and ethnic minority communities. It is unclear how much of this excess is due to differences in exposure associated with structural inequalities. Here, we report from the REal-time Assessment of Community Transmission-2 (REACT-2) national study of over 100,000 people. After adjusting for test characteristics and re-weighting to the population, overall antibody prevalence is 6.0% (95% CI: 5.8-6.1). An estimated 3.4 million people had developed antibodies to SARS-CoV-2 by mid-July 2020. Prevalence is two- to three-fold higher among health and care workers compared with non-essential workers, and in people of Black or South Asian than white ethnicity, while age- and sex-specific infection fatality ratios are similar across ethnicities. Our results indicate that higher hospitalisation and mortality from COVID-19 in minority ethnic groups may reflect higher rates of infection rather than differential experience of disease or care.
+
+# Citation
+
+Ward, H., Atchison, C., Whitaker, M. *et al.* SARS-CoV-2 antibody prevalence in England following the first peak of the pandemic. *Nat Commun* **12**, 905 (2021). [\[DOI\]](https://doi.org/10.1038/s41467-021-21237-w)

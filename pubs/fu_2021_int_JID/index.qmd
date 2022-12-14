@@ -1,0 +1,39 @@
+---
+title: 'Database of epidemic trends and control measures during the first wave of COVID-19 in mainland China'
+description: 'International Journal of Infectious Diseases 102:463-471'
+author: 'Han Fu, Haowei Wang, Xiaoyue Xi, Adhiratha Boonyasiri, Yuanrong Wang, Wes Hinsley, Keith J Fraser, Ruth McCabe, Daniela Olivera Mesa, Janetta Skarp, Alice Ledda, Tamsin Dewé, Amy Dighe, Peter Winskill, Sabine L van Elsland, Kylie EC Ainslie, Marc Baguelin, Samir Bhatt, Olivia Boyd, Nicholas F Brazeau, Lorenzo Cattarino, Giovanni Charles, Helen Coupland, Zulma M Cucunuba, Gina Cuomo-Dannenburg, Christl A Donnelly, Ilaria Dorigatti, Oliver D Eales, Richard G FitzJohn, Seth Flaxman, Katy AM Gaythorpe, Azra C Ghani, William D Green, Arran Hamlet, Katharina Hauck, David J Haw, Benjamin Jeffrey, Daniel J Laydon, John A Lees, Thomas Mellan, Swapnil Mishra, Gemma Nedjati-Gilani, Pierre Nouvellet, Lucy Okell, Kris V Parag, Manon Ragonnet-Cronin, Steven Riley, Nora Schmit, Hayley A Thompson, H Juliette T Unwin, Robert Verity, Michaela AC Vollmer, Erik Volz, Patrick GT Walker, Caroline E Walters, Oliver J Watson, Charles Whittaker, Lilith K Whittles, Natsuko Imai, Sangeeta Bhatia, Neil M Ferguson'
+date: '2021-01-01'
+doi: https://doi.org/10.1016/j.ijid.2020.10.075
+categories: 
+  - publication
+---
+
+# Highlights
+
+-   COVID-19 measures were applied on similar dates in provinces throughout China.
+
+-   Disease severity was much greater in Hubei compared with other provinces.
+
+-   Provincial data on epidemics and interventions is available for further research.
+
+# Abstract
+
+### Objectives
+
+In this data collation study, we aimed to provide a comprehensive database describing the epidemic trends and responses during the first wave of coronavirus disease 2019 (COVID-19) throughout the main provinces in China.
+
+### Methods
+
+From mid-January to March 2020, we extracted publicly available data regarding the spread and control of COVID-19 from 31 provincial health authorities and major media outlets in mainland China. Based on these data, we conducted descriptive analyses of the epidemic in the six most-affected provinces.
+
+### Results
+
+School closures, travel restrictions, community-level lockdown, and contact tracing were introduced concurrently around late January but subsequent epidemic trends differed among provinces. Compared with Hubei, the other five most-affected provinces reported a lower crude case fatality ratio and proportion of critical and severe hospitalised cases. From March 2020, as the local transmission of COVID-19 declined, switching the focus of measures to the testing and quarantine of inbound travellers may have helped to sustain the control of the epidemic.
+
+### Conclusions
+
+Aggregated indicators of case notifications and severity distributions are essential for monitoring an epidemic. A publicly available database containing these indicators and information regarding control measures is a useful resource for further research and policy planning in response to the COVID-19 epidemic.
+
+# Citation
+
+Han Fu, Haowei Wang, Xiaoyue Xi, Adhiratha Boonyasiri, Yuanrong Wang, Wes Hinsley, Keith J. Fraser, Ruth McCabe, Daniela Olivera Mesa, Janetta Skarp, Alice Ledda, Tamsin Dewé, Amy Dighe, Peter Winskill, Sabine L. van Elsland, Kylie E.C. Ainslie, Marc Baguelin, Samir Bhatt, Olivia Boyd, Nicholas F. Brazeau, Lorenzo Cattarino, Giovanni Charles, Helen Coupland, Zulma M. Cucunuba, Gina Cuomo-Dannenburg, Christl A. Donnelly, Ilaria Dorigatti, Oliver D. Eales, Richard G. FitzJohn, Seth Flaxman, Katy A.M. Gaythorpe, Azra C. Ghani, William D. Green, Arran Hamlet, Katharina Hauck, David J. Haw, Benjamin Jeffrey, Daniel J. Laydon, John A. Lees, Thomas Mellan, Swapnil Mishra, Gemma Nedjati-Gilani, Pierre Nouvellet, Lucy Okell, Kris V. Parag, Manon Ragonnet-Cronin, Steven Riley, Nora Schmit, Hayley A. Thompson, H.Juliette T. Unwin, Robert Verity, Michaela A.C. Vollmer, Erik Volz, Patrick G.T. Walker, Caroline E. Walters, Oliver J. Watson, Charles Whittaker, Lilith K. Whittles, Natsuko Imai, Sangeeta Bhatia, Neil M. Ferguson. 2021. Database of epidemic trends and control measures during the first wave of COVID-19 in mainland China. *International Journal of Infectious Diseases* 102: 463-471. [\[DOI\]](https://doi.org/10.1016/j.ijid.2020.10.075)

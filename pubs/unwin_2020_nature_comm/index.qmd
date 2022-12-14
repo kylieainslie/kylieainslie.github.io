@@ -1,0 +1,17 @@
+---
+title: 'State-level tracking of COVID-19 in the United States'
+description: 'Nature Communications 11(1): 1-9'
+author: 'H Juliette T Unwin, Swapnil Mishra, Valerie C Bradley, Axel Gandy, Thomas A Mellan, Helen Coupland, Jonathan Ish-Horowicz, Michaela AC Vollmer, Charles Whittaker, Sarah L Filippi, Xiaoyue Xi, Mélodie Monod, Oliver Ratmann, Michael Hutchinson, Fabian Valka, Harrison Zhu, Iwona Hawryluk, Philip Milton, Kylie EC Ainslie, Marc Baguelin, Adhiratha Boonyasiri, Nick F Brazeau, Lorenzo Cattarino, Zulma Cucunuba, Gina Cuomo-Dannenburg, Ilaria Dorigatti, Oliver D Eales, Jeffrey W Eaton, Sabine L van Elsland, Richard G FitzJohn, Katy AM Gaythorpe, William Green, Wes Hinsley, Benjamin Jeffrey, Edward Knock, Daniel J Laydon, John Lees, Gemma Nedjati-Gilani, Pierre Nouvellet, Lucy Okell, Kris V Parag, Igor Siveroni, Hayley A Thompson, Patrick Walker, Caroline E Walters, Oliver J Watson, Lilith K Whittles, Azra C Ghani, Neil M Ferguson, Steven Riley, Christl A Donnelly, Samir Bhatt, Seth Flaxman'
+date: '2021-12-03'
+doi: https://doi.org/10.1038/s41467-020-19652-6
+categories: 
+  - publication
+---
+
+# Abstract
+
+As of 1st June 2020, the US Centres for Disease Control and Prevention reported 104,232 confirmed or probable COVID-19-related deaths in the US. This was more than twice the number of deaths reported in the next most severely impacted country. We jointly model the US epidemic at the state-level, using publicly available death data within a Bayesian hierarchical semi-mechanistic framework. For each state, we estimate the number of individuals that have been infected, the number of individuals that are currently infectious and the time-varying reproduction number (the average number of secondary infections caused by an infected person). We use changes in mobility to capture the impact that non-pharmaceutical interventions and other behaviour changes have on the rate of transmission of SARS-CoV-2. We estimate that *R~t~* was only below one in 23 states on 1st June. We also estimate that 3.7% \[3.4%--4.0%\] of the total population of the US had been infected, with wide variation between states, and approximately 0.01% of the population was infectious. We demonstrate good 3 week model forecasts of deaths with low error and good coverage of our credible intervals.
+
+# Citation
+
+Unwin, H.J.T., Mishra, S., Bradley, V.C. *et al.* State-level tracking of COVID-19 in the United States. *Nat Commun* **11**, 6189 (2020). [\[DOI\]](https://doi.org/10.1038/s41467-020-19652-6)
