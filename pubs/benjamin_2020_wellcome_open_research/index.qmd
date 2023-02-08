@@ -1,7 +1,7 @@
 ---
 title: 'Anonymised and aggregated crowd level mobility data from mobile phones suggests that initial compliance with COVID-19 social distancing interventions was high and geographically consistent across the UK'
 description: 'Wellcome Open Research 27:2101090'
-author: Jeffrey Benjamin, Caroline E Walters, Kylie EC Ainslie, Oliver Eales, Constanze Ciavarella, Sangeeta Bhatia, Sarah Hayes, Marc Baguelin, Adhiratha Boonyasiri, Nicholas F Brazeau, Gina Cuomo-Dannenburg, Richard G FitzJohn, Katy Gaythorpe, William Green, Natsuko Imai, Thomas A Mellan, Swapnil Mishra, Pierre Nouvellet, H Juliette T Unwin, Robert Verity, Michaela Vollmer, Charles Whittaker, Neil M Ferguson, Christl A Donnelly, Steven Riley
+author: Jeffrey Benjamin, Caroline E Walters, Kylie EC Ainslie, et al.
 date: '2020-07-17'
 doi: https://doi.org/10.12688/wellcomeopenres.15997.1
 categories: 
@@ -20,7 +20,7 @@ Here, we use two mobile phone-based datasets (anonymised and aggregated crowd le
 
 ## **Results**
 
-We show that there was a substantial overall reduction in mobility, with the most rapid decline on the 24th March 2020, the day after the Prime Minister\'s announcement of an enforced lockdown. The reduction in mobility was highly synchronized across the UK. Although mobility has remained low since 26th March 2020, we detect a gradual increase since that time. We also show that the two different datasets produce similar trends, albeit with some location-specific differences. We see slightly larger reductions in average mobility in high-density areas than in low-density areas, with greater variation in mobility in the high-density areas: some high-density areas eliminated almost all mobility.
+We show that there was a substantial overall reduction in mobility, with the most rapid decline on the 24th March 2020, the day after the Prime Minister's announcement of an enforced lockdown. The reduction in mobility was highly synchronized across the UK. Although mobility has remained low since 26th March 2020, we detect a gradual increase since that time. We also show that the two different datasets produce similar trends, albeit with some location-specific differences. We see slightly larger reductions in average mobility in high-density areas than in low-density areas, with greater variation in mobility in the high-density areas: some high-density areas eliminated almost all mobility.
 
 ## **Conclusions**
 

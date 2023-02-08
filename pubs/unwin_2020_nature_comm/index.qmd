@@ -1,7 +1,7 @@
 ---
 title: 'State-level tracking of COVID-19 in the United States'
 description: 'Nature Communications 11(1): 1-9'
-author: 'H Juliette T Unwin, Swapnil Mishra, Valerie C Bradley, Axel Gandy, Thomas A Mellan, Helen Coupland, Jonathan Ish-Horowicz, Michaela AC Vollmer, Charles Whittaker, Sarah L Filippi, Xiaoyue Xi, Mélodie Monod, Oliver Ratmann, Michael Hutchinson, Fabian Valka, Harrison Zhu, Iwona Hawryluk, Philip Milton, Kylie EC Ainslie, Marc Baguelin, Adhiratha Boonyasiri, Nick F Brazeau, Lorenzo Cattarino, Zulma Cucunuba, Gina Cuomo-Dannenburg, Ilaria Dorigatti, Oliver D Eales, Jeffrey W Eaton, Sabine L van Elsland, Richard G FitzJohn, Katy AM Gaythorpe, William Green, Wes Hinsley, Benjamin Jeffrey, Edward Knock, Daniel J Laydon, John Lees, Gemma Nedjati-Gilani, Pierre Nouvellet, Lucy Okell, Kris V Parag, Igor Siveroni, Hayley A Thompson, Patrick Walker, Caroline E Walters, Oliver J Watson, Lilith K Whittles, Azra C Ghani, Neil M Ferguson, Steven Riley, Christl A Donnelly, Samir Bhatt, Seth Flaxman'
+author: 'H Juliette T Unwin, Swapnil Mishra, Valerie C Bradley, et al.'
 date: '2021-12-03'
 doi: https://doi.org/10.1038/s41467-020-19652-6
 categories: 

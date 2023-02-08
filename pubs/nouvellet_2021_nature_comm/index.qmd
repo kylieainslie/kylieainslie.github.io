@@ -1,7 +1,7 @@
 ---
 title: 'Reduction in mobility and COVID-19 transmission'
 description: 'Nature Communications 12: 1090'
-author: 'Pierre Nouvellet, Sangeeta Bhatia, Anne Cori, Kylie EC Ainslie, Marc Baguelin, Samir Bhatt, Adhiratha Boonyasiri, Nicholas F Brazeau, Lorenzo Cattarino, Laura V Cooper, Helen Coupland, Zulma M Cucunuba, Gina Cuomo-Dannenburg, Amy Dighe, Bimandra A Djaafara, Ilaria Dorigatti, Oliver D Eales, Sabine L van Elsland, Fabricia F Nascimento, Richard G FitzJohn, Katy AM Gaythorpe, Lily Geidelberg, William D Green, Arran Hamlet, Katharina Hauck, Wes Hinsley, Natsuko Imai, Benjamin Jeffrey, Edward Knock, Daniel J Laydon, John A Lees, Tara Mangal, Thomas A Mellan, Gemma Nedjati-Gilani, Kris V Parag, Margarita Pons-Salort, Manon Ragonnet-Cronin, Steven Riley, H Juliette T Unwin, Robert Verity, Michaela AC Vollmer, Erik Volz, Patrick GT Walker, Caroline E Walters, Haowei Wang, Oliver J Watson, Charles Whittaker, Lilith K Whittles, Xiaoyue Xi, Neil M Ferguson, Christl A Donnelly'
+author: 'Pierre Nouvellet, Sangeeta Bhatia, Anne Cori, et al.'
 date: '2021-02-17'
 doi: https://doi.org/10.1038/s41467-021-21358-2
 categories: 

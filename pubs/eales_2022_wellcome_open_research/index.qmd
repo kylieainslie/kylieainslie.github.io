@@ -1,7 +1,7 @@
 ---
 title: 'Characterising the persistence of RT-PCR positivity and incidence in a community survey of SARS-CoV-2'
 description: 'Wellcome Open Research 7:102'
-author: Oliver Eales, Caroline E. Walters, Haowei Wang, David Haw, Kylie E. C. Ainslie, Christina J. Atchison, Andrew J. Page, Sophie Prosolek, Alexander J. Trotter, hanh Le Viet, Nabil-Fareed Alikhan, Leigh M. Jackson, Catherine Ludden, COVID-19 Genomics UK Consortium, Deborah Ashby, Christl A. Donnelly, Graham Cooke, Wendy Barclay, Helen Ward, Ara Darzi, Paul Elliott, Steven Riley
+author: Oliver Eales, Caroline E. Walters, Haowei Wang, et al.
 date: '2022-03-21'
 doi: https://doi.org/10.12688/wellcomeopenres.17723.1
 categories: 

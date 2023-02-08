@@ -1,7 +1,7 @@
 ---
 title: 'SARS-CoV-2 antibody prevalence in England following the first peak of the pandemic'
 description: 'Nature Communications 12(1): 1-8'
-author: 'Helen Ward, Christina Atchison, Matthew Whitaker, Kylie EC Ainslie, Joshua Elliott, Lucy Okell, Rozlyn Redd, Deborah Ashby, Christl A Donnelly, Wendy Barclay, Ara Darzi, Graham Cooke, Steven Riley, Paul Elliott'
+author: 'Helen Ward, Christina Atchison, Matthew Whitaker, et al.'
 date: '2021-02-10'
 doi: https://doi.org/10.1038/s41467-021-21237-w
 categories: 

@@ -1,7 +1,7 @@
 ---
 title: 'Database of epidemic trends and control measures during the first wave of COVID-19 in mainland China'
 description: 'International Journal of Infectious Diseases 102:463-471'
-author: 'Han Fu, Haowei Wang, Xiaoyue Xi, Adhiratha Boonyasiri, Yuanrong Wang, Wes Hinsley, Keith J Fraser, Ruth McCabe, Daniela Olivera Mesa, Janetta Skarp, Alice Ledda, Tamsin Dewé, Amy Dighe, Peter Winskill, Sabine L van Elsland, Kylie EC Ainslie, Marc Baguelin, Samir Bhatt, Olivia Boyd, Nicholas F Brazeau, Lorenzo Cattarino, Giovanni Charles, Helen Coupland, Zulma M Cucunuba, Gina Cuomo-Dannenburg, Christl A Donnelly, Ilaria Dorigatti, Oliver D Eales, Richard G FitzJohn, Seth Flaxman, Katy AM Gaythorpe, Azra C Ghani, William D Green, Arran Hamlet, Katharina Hauck, David J Haw, Benjamin Jeffrey, Daniel J Laydon, John A Lees, Thomas Mellan, Swapnil Mishra, Gemma Nedjati-Gilani, Pierre Nouvellet, Lucy Okell, Kris V Parag, Manon Ragonnet-Cronin, Steven Riley, Nora Schmit, Hayley A Thompson, H Juliette T Unwin, Robert Verity, Michaela AC Vollmer, Erik Volz, Patrick GT Walker, Caroline E Walters, Oliver J Watson, Charles Whittaker, Lilith K Whittles, Natsuko Imai, Sangeeta Bhatia, Neil M Ferguson'
+author: 'Han Fu, Haowei Wang, Xiaoyue Xi, et al.'
 date: '2021-01-01'
 doi: https://doi.org/10.1016/j.ijid.2020.10.075
 categories: 

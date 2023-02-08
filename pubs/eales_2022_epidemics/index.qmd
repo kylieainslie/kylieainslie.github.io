@@ -1,7 +1,7 @@
 ---
 title: 'Appropriately smoothing prevalence data to inform estimates of growth rate and reproduction number'
 description: 'Epidemics 40:100604'
-author: Oliver Eales, Kylie EC Ainslie, Caroline E Walters, Haowei Wang, Christina Atchison, Deborah Ashby, Christl A Donnelly, Graham Cooke, Wendy Barclay, Helen Ward, Ara Darzi, Paul Elliott, Steven Riley
+author: Oliver Eales, Kylie EC Ainslie, Caroline E Walters, et al.
 date: '2022-09-01'
 doi: https://doi.org/10.1016/j.epidem.2022.100604
 categories: 

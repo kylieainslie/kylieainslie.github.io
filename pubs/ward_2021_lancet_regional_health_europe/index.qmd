@@ -1,7 +1,7 @@
 ---
 title: 'Prevalence of antibody positivity to SARS-CoV-2 following the first peak of infection in England: Serial cross-sectional studies of 365,000 adults'
 description: 'The Lancet Regional Health-Europe 4: 100098'
-author: 'Helen Ward, Graham S Cooke, Christina Atchison, Matthew Whitaker, Joshua Elliott, Maya Moshe, Jonathan C Brown, Barnaby Flower, Anna Daunt, Kylie Ainslie, Deborah Ashby, Christl A Donnelly, Steven Riley, Ara Darzi, Wendy Barclay, Paul Elliott'
+author: 'Helen Ward, Graham S Cooke, Christina Atchison, et al.'
 date: '2021-05-01'
 doi: https://doi.org/10.1016/j.lanepe.2021.100098
 categories: 

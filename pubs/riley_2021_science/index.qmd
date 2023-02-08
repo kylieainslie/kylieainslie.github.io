@@ -1,7 +1,7 @@
 ---
 title: 'Resurgence of SARS-CoV-2: detection by community viral surveillance'
 description: 'Science 372(6545): 990-995'
-author: 'Steven Riley, Kylie EC Ainslie, Oliver Eales, Caroline E Walters, Haowei Wang, Christina Atchison, Claudio Fronterre, Peter J Diggle, Deborah Ashby, Christl A Donnelly, Graham Cooke, Wendy Barclay, Helen Ward, Ara Darzi, Paul Elliott'
+author: 'Steven Riley, Kylie EC Ainslie, Oliver Eales, et al.'
 date: '2021-05-28'
 doi: https://doi.org/10.1126/science.abf0874
 categories: 

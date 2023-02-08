@@ -1,7 +1,7 @@
 ---
 title: 'Optimal vaccine allocation for COVID-19 in the Netherlands: A data-driven prioritization'
 description: 'PLoS Computational Biology 17(12):e1009697'
-author: 'Fuminari Miura, Ka Yin Leung, Don Klinkenberg, Kylie EC Ainslie, Jacco Wallinga'
+author: 'Fuminari Miura, Ka Yin Leung, Don Klinkenberg, et al.'
 date: '2021-12-13'
 doi: https://doi.org/10.1371/journal.pcbi.1009697
 categories: 

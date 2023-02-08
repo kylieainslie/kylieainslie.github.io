@@ -1,7 +1,7 @@
 ---
 title: 'Exponential growth, high prevalence of SARS-CoV-2, and vaccine effectiveness associated with the Delta variant'
 description: 'Science, 375, 6587, (1406-1411)'
-author: 'Paul Elliott, David Haw, Haowei Wang, Oliver Eales, Caroline E Walters, Kylie EC Ainslie, Christina Atchison, Claudio Fronterre, Peter J Diggle, Andrew J Page, Alexander J Trotter, Sophie J Prosolek, COVID-19 Genomics UK (COG-UK) Consortium, Deborah Ashby, Christl A Donnelly, Wendy Barclay, Graham Taylor, Graham Cooke, Helen Ward, Ara Darzi, Steven Riley'
+author: 'Paul Elliott, David Haw, Haowei Wang, et al.'
 date: '2021-12-17'
 doi: 10.1126/science.abl9551
 categories: 

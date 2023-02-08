@@ -1,7 +1,7 @@
 ---
 title: 'Evidence of initial success for China exiting COVID-19 social distancing policy after achieving containment'
 description: 'Wellcome Open Research 5: 81'
-author: Kylie EC Ainslie, Caroline E Walters, Han Fu, Sangeeta Bhatia, Haowei Wang, Xiaoyue Xi, Marc Baguelin, Samir Bhatt, Adhiratha Boonyasiri, Olivia Boyd, Lorenzo Cattarino, Constanze Ciavarella, Zulma Cucunuba, Gina Cuomo-Dannenburg, Amy Dighe, Ilaria Dorigatti, Sabine L van Elsland, Rich FitzJohn, Katy Gaythorpe, Azra C Ghani, Will Green, Arran Hamlet, Wes Hinsley, Natsuko Imai, David Jorgensen, Edward Knock, Daniel Laydon, Gemma Nedjati-Gilani, Lucy C Okell, Igor Siveroni, Hayley A Thompson, H Juliette T Unwin, Robert Verity, Michaela Vollmer, Patrick GT Walker, Yuanrong Wang, Oliver J Watson, Charles Whittaker, Peter Winskill, Christl A Donnelly, Neil M Ferguson, Steven Riley
+author: Kylie EC Ainslie, Caroline E Walters, Han Fu, et al.
 date: '2020-10-01'
 doi: https://doi.org/10.12688/wellcomeopenres.15843.2
 categories: 

@@ -1,7 +1,7 @@
 ---
 title: 'Comparing statistical methods for detecting and estimating waning efficacy of rotavirus vaccines in developing countries'
 description: 'Human Vaccines & Immunotherapeutics 17(11):4632-4635'
-author: 'Michael Haber, Jacqueline E Tate, Benjamin A Lopman, Wenrui Qi, Kylie EC Ainslie, Umesh D Parashar'
+author: 'Michael Haber, Jacqueline E Tate, Benjamin A Lopman, et al.'
 date: '2021-11-02'
 doi: https://doi.org/10.1080/21645515.2021.1968738
 categories: 
@@ -12,7 +12,7 @@ categories:
 
 ## **Introduction**
 
-Vaccination has significantly reduced morbidity and mortality resulting from rotavirus infection worldwide. However, rotavirus vaccine efficacy (VE) appears to wane over the first 2 years since vaccination, particularly in developing countries. Statistical methods for detecting VE waning and estimating its rate have been used in a few studies, but comparisons of methods for evaluating VE waning have not yet been performed. In this work we present and compare three methods -- Durham\'s method, Tian\'s method, and time-dependent covariate (TDC) method -- based on generalizations of the Cox proportional hazard model.
+Vaccination has significantly reduced morbidity and mortality resulting from rotavirus infection worldwide. However, rotavirus vaccine efficacy (VE) appears to wane over the first 2 years since vaccination, particularly in developing countries. Statistical methods for detecting VE waning and estimating its rate have been used in a few studies, but comparisons of methods for evaluating VE waning have not yet been performed. In this work we present and compare three methods -- Durham's method, Tian's method, and time-dependent covariate (TDC) method -- based on generalizations of the Cox proportional hazard model.
 
 ## **Methods**
 
@@ -20,13 +20,12 @@ We developed a new stochastic agent-based simulation model to generate data from
 
 ## **Results**
 
-Durham\'s method had the highest power of detecting true VE waning of the three methods. This method also provided quite accurate estimates of VE in each period and of the per-period drop in VE.
+Durham's method had the highest power of detecting true VE waning of the three methods. This method also provided quite accurate estimates of VE in each period and of the per-period drop in VE.
 
 ## **Conclusions**
 
-Durham\'s method is somewhat more powerful than the other two Cox proportional hazards model-based methods for detecting VE waning and provides more information about the temporal behavior of VE.
+Durham's method is somewhat more powerful than the other two Cox proportional hazards model-based methods for detecting VE waning and provides more information about the temporal behavior of VE.
 
 # Citation
 
-Michael Haber, Jacqueline E. Tate, Benjamin A. Lopman, Wenrui Qi, Kylie
-E. C. Ainslie & Umesh D. Parashar (2021) Comparing statistical methods for detecting and estimating waning efficacy of rotavirus vaccines in developing countries, Human Vaccines & Immunotherapeutics, 17:11, 4632-4635 [\[DOI\]](https://doi.org/10.1080/21645515.2021.1968738)
+Michael Haber, Jacqueline E. Tate, Benjamin A. Lopman, Wenrui Qi, Kylie E. C. Ainslie & Umesh D. Parashar (2021) Comparing statistical methods for detecting and estimating waning efficacy of rotavirus vaccines in developing countries, Human Vaccines & Immunotherapeutics, 17:11, 4632-4635 [\[DOI\]](https://doi.org/10.1080/21645515.2021.1968738)
