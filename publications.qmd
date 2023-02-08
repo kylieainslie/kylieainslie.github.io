@@ -2,7 +2,7 @@
 title: "Publications"
 listing: 
   contents: pubs
-  type: table
+  type: default
   sort: "date"
   sort-ui: true
   filter-ui: true
