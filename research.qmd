@@ -5,19 +5,20 @@ editor: visual
 
 ------------------------------------------------------------------------
 
-***Evaluation of WAning Vaccine Effectiveness (WAVE)***
+# Evaluation of WAning Vaccine Effectiveness (WAVE)
 
 Information regarding decreasing VE is essential to optimally design booster vaccination campaigns with respect to the risk of outbreaks and whether repeated vaccination is cost-effective and ethical. The COVID-19 pandemic highlighted the lack of robust methods to: assess waning vaccine effectiveness, disentangle true from perceived waning, and identify determinants of waning. In this project, we aim to develop and rigorously compare methods to assess waning vaccine-induced protection (for vaccines such as those against pertussis, influenza, and COVID-19). Using these methods, we will analyze data from observational studies to estimate the rate of waning vaccine effectiveness and determine how individual characteristics influence rate of waning vaccine-induced protection.
 
-**Related publications**
+### Related publications
 
 Haber, M., et al. Comparing statistical methods for detecting and estimating waning efficacy of rotavirus vaccines in developing countries. Hum Vaccin Immunother. 2021;17: 4632–4635. [link](https://pubmed.ncbi.nlm.nih.gov/34613877/)
 
-***Modelling the impact of vaccination strategies***
+# Modelling the impact of vaccination strategies
 
 In this project, we use mathematical models of infectious disease transmission to determine the impact of vaccination strategies on disease spread. Specifically, we developed a deterministic age-structured compartmental model to compare different COVID-19 vaccination scenarios with respect to disease outcomes (e.g., infections, hospitalisations).
 
-**Related publications**
-Ainslie, K. E. C., et al. A scenario modelling analysis to anticipate the impact of COVID-19 vaccination in adolescents and children on disease outcomes in the Netherlands, summer 2021. Euro Surveill. 2022;27(44):pii=2101090.[link](https://doi.org/10.2807/1560-7917.ES.2022.27.44.2101090)
+### Related publications 
+
+Ainslie, K. E. C., et al. A scenario modelling analysis to anticipate the impact of COVID-19 vaccination in adolescents and children on disease outcomes in the Netherlands, summer 2021. Euro Surveill. 2022;27(44):pii=2101090. [link](https://doi.org/10.2807/1560-7917.ES.2022.27.44.2101090)
 
 Sherratt, K., et al. Characterising information gains and losses when collecting multiple epidemic model outputs. medRxiv 2024. [link](https://doi.org/10.1101/2023.07.05.23292245)
