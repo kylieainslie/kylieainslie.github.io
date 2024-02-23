@@ -15,10 +15,18 @@ Information regarding decreasing VE is essential to optimally design booster vac
 
 ## Modelling the impact of vaccination strategies
 
-In this project, we use mathematical models of infectious disease transmission to determine the impact of vaccination strategies on disease spread. Specifically, we developed a deterministic age-structured compartmental model to compare different COVID-19 vaccination scenarios with respect to disease outcomes (e.g., infections, hospitalisations).
+In this project, we use mathematical models of infectious disease transmission to determine the impact of vaccination strategies on disease spread. Specifically, we developed a deterministic age-structured compartmental model to compare different COVID-19 vaccination scenarios with respect to disease outcomes (e.g., infections, hospitalisations). This work also contributed to the [European Scenario Modelling Hub](https://covid19scenariohub.eu/).
 
 #### Related publications
 
--   Ainslie, K. E. C., et al. A scenario modelling analysis to anticipate the impact of COVID-19 vaccination in adolescents and children on disease outcomes in the Netherlands, summer 2021. Euro Surveill. 2022;27(44):pii=2101090. [link](https://doi.org/10.2807/1560-7917.ES.2022.27.44.2101090)
+-   Ainslie, K. E. C., *et al*. A scenario modelling analysis to anticipate the impact of COVID-19 vaccination in adolescents and children on disease outcomes in the Netherlands, summer 2021. Euro Surveill. 2022;27(44):pii=2101090. [link](https://doi.org/10.2807/1560-7917.ES.2022.27.44.2101090)
 
--   Sherratt, K., et al. Characterising information gains and losses when collecting multiple epidemic model outputs. medRxiv 2024. [link](https://doi.org/10.1101/2023.07.05.23292245)
+-   Sherratt, K., *et al*. Characterising information gains and losses when collecting multiple epidemic model outputs. medRxiv 2024. [link](https://doi.org/10.1101/2023.07.05.23292245)
+
+-   Ainslie, K. E. C. *et al.* The expected outcome of COVID-19 vaccination strategies. RIVM 2021. [link](https://www.rivm.nl/documenten/expected-outcome-of-covid-19-vaccination-strategies)
+
+#### Related links
+
+-   Transmission model code base: <https://github.com/kylieainslie/vacamole>
+
+-   European scenario modelling hub: <https://github.com/european-modelling-hubs/covid19-scenario-hub-europe>
