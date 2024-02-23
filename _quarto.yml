@@ -17,6 +17,7 @@ website:
       - about.qmd
       - research.qmd
       - publications.qmd
+      - cv.qmd
 
 format:
   html:
