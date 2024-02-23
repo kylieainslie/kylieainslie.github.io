@@ -6,4 +6,4 @@ I'm originally from Atlanta, GA (well, technically Decatur). I have always loved
 
 I am also an organizer of the Amsterdam chapter of [R-Ladies](https://www.meetup.com/nl-NL/rladies-amsterdam/).
 
-![](photos/leon.jpeg){width="197"}
+![](photos/leon.jpeg){width="292"}
