@@ -1,3 +1,5 @@
 ---
-title: "cv"
+title: "CV"
 ---
+
+My CV can be downloaded [here](/pdfs/cv_kylie_ainslie.pdf).
