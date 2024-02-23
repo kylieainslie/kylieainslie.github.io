@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.269">
+<meta name="generator" content="quarto-1.3.450">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,7 +17,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -59,7 +59,8 @@ ul.task-list li input[type="checkbox"] {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 <script>
@@ -74,7 +75,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-date','listing-title','listing-author','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-description"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -92,11 +93,12 @@ ul.task-list li input[type="checkbox"] {
   })
   </script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="styles.css">
 <meta name="twitter:title" content="Kylie Ainslie, PhD - Publications">
-<meta name="twitter:description" content="An up-to-date list of publications can always be found here.">
+<meta name="twitter:description" content="">
 <meta name="twitter:creator" content="@DrKAinslie">
 <meta name="twitter:card" content="summary_large_image">
 </head>
@@ -112,32 +114,32 @@ ul.task-list li input[type="checkbox"] {
     <span class="navbar-title">Kylie Ainslie, PhD</span>
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html">
+    <a class="nav-link" href="./index.html" rel="" target="">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html">
+    <a class="nav-link" href="./about.html" rel="" target="">
  <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research.html">
+    <a class="nav-link" href="./research.html" rel="" target="">
  <span class="menu-text">Research Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./publications.html" aria-current="page">
+    <a class="nav-link active" href="./publications.html" rel="" target="" aria-current="page">
  <span class="menu-text">Publications</span></a>
   </li>  
 </ul>
-              <div class="quarto-toggle-container">
-                  <a href="" class="quarto-color-scheme-toggle nav-link" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
-              </div>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools ms-auto">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
@@ -201,7 +203,7 @@ ul.task-list li input[type="checkbox"] {
     </div>
 </div>
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="publication" data-listing-date-sort="1594908000000" data-listing-file-modified-sort="1675889193474" data-listing-reading-time-sort="1.49">
+<div class="quarto-post image-right" data-index="0" data-categories="publication" data-listing-date-sort="1594936800000" data-listing-file-modified-sort="1675889193474" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
 <div class="body">
 <a href="./pubs/benjamin_2020_wellcome_open_research/index.html">
 <h3 class="no-anchor listing-title">
@@ -226,7 +228,7 @@ Jeffrey Benjamin, Caroline E Walters, Kylie EC Ainslie, et al.
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="publication" data-listing-date-sort="1601474400000" data-listing-file-modified-sort="1675889163423" data-listing-reading-time-sort="2.03">
+<div class="quarto-post image-right" data-index="1" data-categories="publication" data-listing-date-sort="1601503200000" data-listing-file-modified-sort="1675889163423" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
 <div class="body">
 <a href="./pubs/ainslie_2020_wellcome_open_research/index.html">
 <h3 class="no-anchor listing-title">
@@ -251,7 +253,7 @@ Kylie EC Ainslie, Caroline E Walters, Han Fu, et al.
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="publication" data-listing-date-sort="1609423200000" data-listing-file-modified-sort="1675889283646" data-listing-reading-time-sort="2.055">
+<div class="quarto-post image-right" data-index="2" data-categories="publication" data-listing-date-sort="1609455600000" data-listing-file-modified-sort="1675889283646" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
 <div class="body">
 <a href="./pubs/fu_2021_int_JID/index.html">
 <h3 class="no-anchor listing-title">
@@ -276,7 +278,7 @@ Han Fu, Haowei Wang, Xiaoyue Xi, et al.
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="publication" data-listing-date-sort="1612879200000" data-listing-file-modified-sort="1675889431518" data-listing-reading-time-sort="0.87">
+<div class="quarto-post image-right" data-index="3" data-categories="publication" data-listing-date-sort="1612911600000" data-listing-file-modified-sort="1675889431518" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <div class="body">
 <a href="./pubs/ward_2021_nature_comm/index.html">
 <h3 class="no-anchor listing-title">
@@ -301,7 +303,7 @@ Helen Ward, Christina Atchison, Matthew Whitaker, et al.
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="publication" data-listing-date-sort="1613484000000" data-listing-file-modified-sort="1675889347741" data-listing-reading-time-sort="1.08">
+<div class="quarto-post image-right" data-index="4" data-categories="publication" data-listing-date-sort="1613516400000" data-listing-file-modified-sort="1675889347741" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
 <div class="body">
 <a href="./pubs/nouvellet_2021_nature_comm/index.html">
 <h3 class="no-anchor listing-title">
@@ -326,7 +328,7 @@ Pierre Nouvellet, Sangeeta Bhatia, Anne Cori, et al.
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="publication" data-listing-date-sort="1619791200000" data-listing-file-modified-sort="1675889415443" data-listing-reading-time-sort="3.395">
+<div class="quarto-post image-right" data-index="5" data-categories="publication" data-listing-date-sort="1619820000000" data-listing-file-modified-sort="1675889415443" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
 <div class="body">
 <a href="./pubs/ward_2021_lancet_regional_health_europe/index.html">
 <h3 class="no-anchor listing-title">
@@ -351,7 +353,7 @@ Helen Ward, Graham S Cooke, Christina Atchison, et al.
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="publication" data-listing-date-sort="1622124000000" data-listing-file-modified-sort="1675889360976" data-listing-reading-time-sort="1.575">
+<div class="quarto-post image-right" data-index="6" data-categories="publication" data-listing-date-sort="1622152800000" data-listing-file-modified-sort="1675889360976" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
 <div class="body">
 <a href="./pubs/riley_2021_science/index.html">
 <h3 class="no-anchor listing-title">
@@ -376,7 +378,7 @@ Steven Riley, Kylie EC Ainslie, Oliver Eales, et al.
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-categories="publication" data-listing-date-sort="1629727200000" data-listing-file-modified-sort="1675889374238" data-listing-reading-time-sort="0.745">
+<div class="quarto-post image-right" data-index="7" data-categories="publication" data-listing-date-sort="1629756000000" data-listing-file-modified-sort="1675889374238" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <div class="body">
 <a href="./pubs/thompson_2020_journal_travel_medicine/index.html">
 <h3 class="no-anchor listing-title">
@@ -401,7 +403,7 @@ Hayley A Thompson, Natsuko Imai, Amy Dighe, et al.
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="8" data-categories="publication" data-listing-date-sort="1635775200000" data-listing-file-modified-sort="1675889299474" data-listing-reading-time-sort="1.375">
+<div class="quarto-post image-right" data-index="8" data-categories="publication" data-listing-date-sort="1635807600000" data-listing-file-modified-sort="1675889299474" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
 <div class="body">
 <a href="./pubs/haber_2021_human_v_and_i/index.html">
 <h3 class="no-anchor listing-title">
@@ -426,7 +428,7 @@ Michael Haber, Jacqueline E Tate, Benjamin A Lopman, et al.
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="9" data-categories="publication" data-listing-date-sort="1638280800000" data-listing-file-modified-sort="1675889223072" data-listing-reading-time-sort="1.885">
+<div class="quarto-post image-right" data-index="9" data-categories="publication" data-listing-date-sort="1638313200000" data-listing-file-modified-sort="1675889223072" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
 <div class="body">
 <a href="./pubs/dighe_2020_bmc_medicine/index.html">
 <h3 class="no-anchor listing-title">
@@ -451,7 +453,7 @@ Amy Dighe, Lorenzo Cattarino, Gina Cuomo-Dannenburg, et al.
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="10" data-categories="publication" data-listing-date-sort="1638453600000" data-listing-file-modified-sort="1675889400750" data-listing-reading-time-sort="1.025">
+<div class="quarto-post image-right" data-index="10" data-categories="publication" data-listing-date-sort="1638486000000" data-listing-file-modified-sort="1675889400750" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
 <div class="body">
 <a href="./pubs/unwin_2020_nature_comm/index.html">
 <h3 class="no-anchor listing-title">
@@ -476,7 +478,7 @@ H Juliette T Unwin, Swapnil Mishra, Valerie C Bradley, et al.
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="11" data-categories="publication" data-listing-date-sort="1639317600000" data-listing-file-modified-sort="1675889317130" data-listing-reading-time-sort="2.205">
+<div class="quarto-post image-right" data-index="11" data-categories="publication" data-listing-date-sort="1639350000000" data-listing-file-modified-sort="1675889317130" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
 <div class="body">
 <a href="./pubs/miura_2021_plos_comp_bio/index.html">
 <h3 class="no-anchor listing-title">
@@ -501,7 +503,7 @@ Fuminari Miura, Ka Yin Leung, Don Klinkenberg, et al.
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="12" data-categories="publication" data-listing-date-sort="1639663200000" data-listing-file-modified-sort="1675889265814" data-listing-reading-time-sort="4.99">
+<div class="quarto-post image-right" data-index="12" data-categories="publication" data-listing-date-sort="1639695600000" data-listing-file-modified-sort="1675889265814" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5">
 <div class="body">
 <a href="./pubs/elliot_2021_science/index.html">
 <h3 class="no-anchor listing-title">
@@ -526,7 +528,7 @@ Paul Elliott, David Haw, Haowei Wang, et al.
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="13" data-categories="publication" data-listing-date-sort="1647784800000" data-listing-file-modified-sort="1675889476821" data-listing-reading-time-sort="1.35">
+<div class="quarto-post image-right" data-index="13" data-categories="publication" data-listing-date-sort="1647817200000" data-listing-file-modified-sort="1675889476821" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
 <div class="body">
 <a href="./pubs/eales_2022_wellcome_open_research/index.html">
 <h3 class="no-anchor listing-title">
@@ -551,7 +553,7 @@ Oliver Eales, Caroline E. Walters, Haowei Wang, et al.
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="14" data-categories="publication" data-listing-date-sort="1648735200000" data-listing-file-modified-sort="1675889207947" data-listing-reading-time-sort="2.82">
+<div class="quarto-post image-right" data-index="14" data-categories="publication" data-listing-date-sort="1648764000000" data-listing-file-modified-sort="1675889207947" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
 <div class="body">
 <a href="./pubs/chadeau-hyam_2022_lancet_resp_med/index.html">
 <h3 class="no-anchor listing-title">
@@ -576,7 +578,7 @@ Marc Chadeau-Hyam, Haowei Wang, Oliver Eales, et al.
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="15" data-categories="publication" data-listing-date-sort="1652018400000" data-listing-file-modified-sort="1670671353645" data-listing-reading-time-sort="2.815">
+<div class="quarto-post image-right" data-index="15" data-categories="publication" data-listing-date-sort="1652047200000" data-listing-file-modified-sort="1670671353645" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
 <div class="body">
 <a href="./pubs/ainslie_2022_vaccine/index.html">
 <h3 class="no-anchor listing-title">
@@ -601,7 +603,7 @@ Kylie E C Ainslie, Steven Riley
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="16" data-categories="publication" data-listing-date-sort="1661954400000" data-listing-file-modified-sort="1675889236887" data-listing-reading-time-sort="1.88">
+<div class="quarto-post image-right" data-index="16" data-categories="publication" data-listing-date-sort="1661983200000" data-listing-file-modified-sort="1675889236887" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
 <div class="body">
 <a href="./pubs/eales_2022_epidemics/index.html">
 <h3 class="no-anchor listing-title">
@@ -626,7 +628,7 @@ Oliver Eales, Kylie EC Ainslie, Caroline E Walters, et al.
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="17" data-categories="publication" data-listing-date-sort="1667397600000" data-listing-file-modified-sort="1675889147325" data-listing-reading-time-sort="2.405">
+<div class="quarto-post image-right" data-index="17" data-categories="publication" data-listing-date-sort="1667430000000" data-listing-file-modified-sort="1675889147325" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
 <div class="body">
 <a href="./pubs/ainslie_2022_eurosurveillance/index.html">
 <h3 class="no-anchor listing-title">
@@ -651,7 +653,7 @@ Kylie Ainslie, Jantien A Backer, Pieter T de Boer, et al.
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="18" data-categories="publication" data-listing-date-sort="1667484000000" data-listing-file-modified-sort="1675889385439" data-listing-reading-time-sort="1.93">
+<div class="quarto-post image-right" data-index="18" data-categories="publication" data-listing-date-sort="1667516400000" data-listing-file-modified-sort="1675889385439" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
 <div class="body">
 <a href="./pubs/tsang_2022_medrxiv/index.html">
 <h3 class="no-anchor listing-title">
@@ -676,7 +678,7 @@ Tim Tsang, Sheena G Sullivan, Xiaotong Huang, et al.
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="19" data-categories="publication" data-listing-date-sort="1669125600000" data-listing-file-modified-sort="1675889251437" data-listing-reading-time-sort="2.595">
+<div class="quarto-post image-right" data-index="19" data-categories="publication" data-listing-date-sort="1669158000000" data-listing-file-modified-sort="1675889251437" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
 <div class="body">
 <a href="./pubs/eales_2022_plos_comp_bio/index.html">
 <h3 class="no-anchor listing-title">
@@ -701,7 +703,7 @@ Oliver Eales, Haowei Wang, David Haw, et al.
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="20" data-categories="publication" data-listing-date-sort="1670076000000" data-listing-file-modified-sort="1675889333029" data-listing-reading-time-sort="0.9">
+<div class="quarto-post image-right" data-index="20" data-categories="publication" data-listing-date-sort="1670108400000" data-listing-file-modified-sort="1675889333029" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <div class="body">
 <a href="./pubs/miura_2022_medrxiv/index.html">
 <h3 class="no-anchor listing-title">
@@ -873,9 +875,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -940,6 +956,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
