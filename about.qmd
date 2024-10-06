@@ -2,7 +2,7 @@
 title: "About"
 ---
 
-I'm originally from Atlanta, GA (well, technically Decatur). I have always loved travelling, so as soon as I finished my PhD, I moved across the pond to London to do a postdoc at Imperial College London. During the COVID-19 pandemic, I relocated to Amsterdam and joined the Dutch National Institute of Public Health and the Environment (RIVM) as an infectious disease modeler. I continue to find any excuse to hop on a plane, train, or automobile and explore. In my free time, I love [cooking](https://www.instagram.com/goinginforthekale/), running, taking a class at the [gym](https://wearequeer.nl/en/), perfecting my homemade flat white, and, of course, spending time with my wife and puppy.
+Hi! I'm Kylie. I'm originally from Atlanta, GA (well, technically Decatur). I have always loved travelling, so as soon as I finished my PhD, I moved across the pond to London to do a postdoc at Imperial College London. During the COVID-19 pandemic, I relocated to Amsterdam and joined the Dutch National Institute of Public Health and the Environment (RIVM) as a senior researcher in infectious disease modelling. I continue to find any excuse to hop on a plane, train, or automobile and explore. In my free time, I love [cooking](https://www.instagram.com/goinginforthekale/), running, taking a class at the [gym](https://wearequeer.nl/en/), perfecting my homemade flat white, and, of course, spending time with my wife and puppy.
 
 I am also an organizer of the Amsterdam chapter of [R-Ladies](https://www.meetup.com/nl-NL/rladies-amsterdam/).
 
