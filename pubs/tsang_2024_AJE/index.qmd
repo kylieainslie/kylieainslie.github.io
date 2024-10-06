@@ -1,9 +1,9 @@
 ---
 title: 'Prior infections and effectiveness of SARS-CoV-2 vaccine in test-negative study: A systematic review and meta-analysis'
-description: 'Preprint on medRxiv'
-author: Tim Tsang, Sheena G Sullivan, Xiaotong Huang, et al.
-date: '2022-11-04'
-doi: https://doi.org/10.1101/2022.11.03.22281925
+description: 'American Journal of Epidemiology Jun 20:kwae142'
+author: Tim Tsang, Sheena G Sullivan, Xiaotong Huang, Can Wang, Yifan Wang,  Joshua Nealon, Binjy Yang, Kylie E C Ainslie, Benjamin J Cowling
+date: '2024-06-20'
+doi: https://doi.org/10.1093/aje/kwae142
 categories: 
   - publication
 ---
@@ -28,4 +28,4 @@ Based on a review of published VE estimates we found clear empirical evidence th
 
 # Citation
 
-Tim Tsang, Sheena G Sullivan, Xiaotong Huang, Can Wang, Yifan Wang, Joshua Nealon, Bingyi Yang, **Kylie EC Ainslie**, Ben J Cowling. 2022. Prior infections and effectiveness of SARS-CoV-2 vaccine in test-negative study: A systematic review and meta-analysis. *medRxiv*. [\[DOI\]](https://doi.org/10.1101/2022.11.03.22281925)
+Tsang TK, Sullivan SG, Huang X, Wang C, Wang Y, Nealon J, Yang B, Ainslie KEC, Cowling BJ. Prior infections and effectiveness of SARS-CoV-2 vaccine in test-negative studies: A systematic review and meta-analysis. Am J Epidemiol. 2024 Jun 20:kwae142. [\[DOI\]](https://doi.org/10.1093/aje/kwae142)
