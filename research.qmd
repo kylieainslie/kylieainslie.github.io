@@ -36,3 +36,4 @@ Scabies is a contagious skin disease caused by the infestation of the skin by th
 
 #### Related links
 -   `mitey` R package: <https://github.com/kylieainslie/mitey>
+
