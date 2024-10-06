@@ -194,5 +194,12 @@
     "title": "CV",
     "section": "",
     "text": "My CV can be downloaded here."
+  },
+  {
+    "objectID": "research.html#estimating-the-epidemiological-characteristics-of-scabies",
+    "href": "research.html#estimating-the-epidemiological-characteristics-of-scabies",
+    "title": "Research Projects",
+    "section": "Estimating the epidemiological characteristics of scabies",
+    "text": "Estimating the epidemiological characteristics of scabies\nScabies is a contagious skin disease caused by the infestation of the skin by the Sarcopes scabiei mite, causing an itchy rash. Scabies affects over 400 million people annually worldwide, and a rise in scabies cases has been observed in recent years throughout Western Europe. Despite the prevalence of scabies, some fundamental epidemiological characteristics of scabies infections have not been described. In this project, we use publicly available data on date of symptom onset during scabies outbreaks to estimate the mean serial interval, time between symptom onset in an infector and symptom onset in an infectee, of scabies infection. We also use weekly counts of scabies diagnoses from sentinel surveillance in the Netherlands from 2011-2023 to determine quantities related to the spread of scabies over time, namely, the time-varying reproduction number, growth rate, and basic reproduction number.\n\nRelated links\n\nmitey R package: https://github.com/kylieainslie/mitey"
   }
 ]
