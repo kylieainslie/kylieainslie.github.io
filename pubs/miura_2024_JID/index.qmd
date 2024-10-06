@@ -1,0 +1,17 @@
+---
+title: 'Time scales of human monkeypox transmission in the Netherlands'
+description: 'Journal of Infectious Disease 229(3):800-804'
+author: Fuminari Miura, Jantien A Backer, Gini van Rijckevorsel, Roisin Bavalia, Stijn Raven, Mariska Petrignani, Kylie E C Ainslie, Jacco Wallinga; Dutch Mpox Response Team
+date: '2024-03-14'
+doi: https://doi.org/10.1093/infdis/jiad091
+categories: 
+  - publication
+---
+
+# Abstract
+
+Mpox has spread rapidly to many countries in nonendemic regions. After reviewing detailed exposure histories of 109 pairs of mpox cases in the Netherlands, we identified 34 pairs where transmission was likely and the infectee reported a single potential infector with a mean serial interval of 10.1 days (95% credible interval, 6.6-14.7 days). Further investigation into pairs from 1 regional public health service revealed that presymptomatic transmission may have occurred in 5 of 18 pairs. These findings emphasize that precaution remains key, regardless of the presence of recognizable symptoms of mpox.
+
+# Citation
+
+Miura F, Backer JA, van Rijckevorsel G, Bavalia R, Raven S, Petrignani M, Ainslie KEC, Wallinga J; Dutch Mpox Response Team. Time Scales of Human Mpox Transmission in The Netherlands. J Infect Dis. 2024 Mar 14;229(3):800-804. [DOI](10.1093/infdis/jiad091)
