@@ -3,7 +3,7 @@ title: "Publications"
 listing: 
   contents: pubs
   type: default
-  sort: "date"
+  sort: "date desc"
   sort-ui: true
   filter-ui: true
   fields: [date, title, author, description]
