@@ -1,0 +1,17 @@
+---
+title: 'Maximum likelihood estimation of influenza vaccine effectiveness against transmission from the household and from the community'
+description: 'Stat Med 37(6):970-982.'
+author: 'Kylie E C Ainslie, Michael J Haber, Ryan E Malosh, Joshua G Petrie, Arnold S Monto'
+date: '2018-03-15'
+doi: https://doi.org/10.1002/sim.7558
+categories: 
+  - publication
+---
+
+# Abstract
+
+Influenza vaccination is recommended as the best way to protect against influenza infection and illness. Due to seasonal changes in influenza virus types and subtypes, a new vaccine must be produced, and vaccine effectiveness (VE) must be estimated, annually. Since 2010, influenza vaccination has been recommended universally in the United States, making randomized clinical trials unethical. Recent studies have used a monitored household cohort study design to determine separate VE estimates against influenza transmission from the household and community. We developed a probability model and accompanying maximum likelihood procedure to estimate vaccine-related protection against transmission of influenza from the household and the community. Using agent-based stochastic simulations, we validated that we can obtain maximum likelihood estimates of transmission parameters and VE close to their true values. Sensitivity analyses to examine the effect of deviations from our assumptions were conducted. We used our method to estimate transmission parameters and VE from data from a monitored household study in Michigan during the 2012-2013 influenza season and were able to detect a significant protective effect of influenza vaccination against community-acquired transmission.
+
+# Citation
+
+Ainslie KEC, Haber MJ, Malosh RE, Petrie JG, Monto AS. Maximum likelihood estimation of influenza vaccine effectiveness against transmission from the household and from the community. Stat Med. 2018 Mar 15;37(6):970-982. doi: 10.1002/sim.7558.

@@ -1,0 +1,17 @@
+---
+title: 'On the bias of estimates of influenza vaccine effectiveness from the test-negative studies'
+description: 'Vaccine 35(52):7297-7301.'
+author: 'Kylie E C Ainslie, Meng Shi, Michael Haber, Walter A Orenstein'
+date: '2017-12-19'
+doi: https://doi.org/10.1016/j.vaccine.2017.10.107
+categories: 
+  - publication
+---
+
+# Abstract
+
+Estimates of the effectiveness of influenza vaccines are commonly obtained from a test-negative design (TND) study, where cases and controls are patients seeking care for an acute respiratory illness who test positive and negative, respectively, for influenza infection. Vaccine effectiveness (VE) estimates from TND studies are usually interpreted as vaccine effectiveness against medically-attended influenza (MAI). However, it is also important to estimate VE against any influenza illness (symptomatic influenza (SI)) as individuals with SI are still a public health burden even if they do not seek medical care. We present a numerical method to evaluate the bias of TND-based estimates of influenza VE with respect to MAI and SI. We consider two sources of bias: (a) confounding bias due to a (possibly unobserved) covariate that is associated with both vaccination and the probability of the outcome of interest and (b) bias resulting from the effect of vaccination on the probability of seeking care. Our results indicate that (a) VE estimates may suffer from substantial confounding bias when a confounder has a different effect on the probabilities of influenza and non-influenza ARI, and (b) when vaccination reduces the probability of seeking care against influenza ARI, then estimates of VE against MAI may be unbiased while estimates of VE against SI may be have a substantial positive bias.
+
+# Citation
+
+Ainslie KEC, Shi M, Haber M, Orenstein WA. On the bias of estimates of influenza vaccine effectiveness from test-negative studies. Vaccine. 2017 Dec 19;35(52):7297-7301. doi: 10.1016/j.vaccine.2017.10.107.

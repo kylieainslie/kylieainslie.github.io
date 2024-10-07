@@ -1,0 +1,19 @@
+---
+title: 'Bias of influenza vaccine effectiveness estimates from test-negative studies conducted during an influenza pandemic'
+description: 'Vaccine 37(14): 1987–1993.'
+author: 'Kylie E. C. Ainslie, Michael Haber, Walter A. Orenstein'
+date: '2019-03-28'
+doi: https://doi.org/10.1016/j.vaccine.2019.02.036
+categories: 
+  - publication
+---
+
+# Abstract
+
+Test-negative (TN) studies have become the most widely used study design for the estimation of influenza vaccine effectiveness (VE) and are easily incorporated into existing influenza surveillance networks. We seek to determine the bias of TN-based VE estimates during a pandemic using a dynamic probability model. The model is used to evaluate and compare the bias of VE estimates under various sources of bias when vaccination occurs after the beginning of an outbreak, such as during a pandemic. The model includes two covariates (health status and health awareness), which may affect the probabilities of vaccination, developing influenza and non-influenza acute respiratory illness (ARI), and seeking medical care. Specifically, we evaluate the bias of VE estimates when ([1](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6449847/#R1)) vaccination affects the probability of developing a non-influenza ARI; ([2](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6449847/#R2)) vaccination affects the probability of seeking medical care; ([3](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6449847/#R3)) a covariate (e.g. health status) is related to both the probabilities of vaccination and developing an ARI; and ([4](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6449847/#R4)) a covariate (e.g. health awareness) is related to both the probabilities of vaccination and of seeking medical care. We considered two outcomes against which the vaccine is supposed to protect: symptomatic influenza and medically-attended influenza.
+
+When vaccination begins during an outbreak, we found that the effect of delayed onset of vaccination is unpredictable. VE estimates from TN studies were biased regardless of the source of bias present. However, if the core assumption of the TN design is satisfied, that is, if vaccination does not affect the probability of non-influenza ARI, then TN-based VE estimates against medically-attended influenza will only suffer from small (\<0.05) to moderate bias (≥0.05 and \<0.10). These results suggest that if sources of bias listed above are ruled out, TN studies are a valid study design for the estimation of VE during a pandemic.
+
+# Citation
+
+Ainslie KEC, Haber M, Orenstein WA. Bias of influenza vaccine effectiveness estimates from test-negative studies conducted during an influenza pandemic. Vaccine. 2019 Mar 28;37(14):1987-1993. [DOI](10.1016/j.vaccine.2019.02.036)

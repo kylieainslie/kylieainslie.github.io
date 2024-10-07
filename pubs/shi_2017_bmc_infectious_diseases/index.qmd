@@ -1,0 +1,31 @@
+---
+title: 'A comparison of the test-negative and the traditional case-control study designs for estimation of influenza vaccine effectiveness under nonrandom vaccination'
+description: 'BMC Infectious Diseases volume 17, 757 (2017)'
+author: 'Meng Shi, Qian An, Kylie E. C. Ainslie, Michael Haber, Walter A. Orenstein '
+date: '2017-12-08'
+doi: https://doi.org/10.1186/s12879-017-2838-2
+categories: 
+  - publication
+---
+
+# Abstract
+
+### Background
+
+As annual influenza vaccination is recommended for all U.S. persons aged 6 months or older, it is unethical to conduct randomized clinical trials to estimate influenza vaccine effectiveness (VE). Observational studies are being increasingly used to estimate VE. We developed a probability model for comparing the bias and the precision of VE estimates from two case-control designs: the traditional case-control (TCC) design and the test-negative (TN) design. In both study designs, acute respiratory illness (ARI) patients seeking medical care testing positive for influenza infection are considered cases. In the TN design, ARI patients seeking medical care who test negative serve as controls, while in the TCC design, controls are randomly selected individuals from the community who did not contract an ARI.
+
+### Methods
+
+Our model assigns each study participant a covariate corresponding to the person’s health status. The probabilities of vaccination and of contracting influenza and non-influenza ARI depend on health status. Hence, our model allows non-random vaccination and confounding. In addition, the probability of seeking care for ARI may depend on vaccination and health status. We consider two outcomes of interest: symptomatic influenza (SI) and medically-attended influenza (MAI).
+
+### Results
+
+If vaccination does not affect the probability of non-influenza ARI, then VE estimates from TN studies usually have smaller bias than estimates from TCC studies. We also found that if vaccinated influenza ARI patients are less likely to seek medical care than unvaccinated patients because the vaccine reduces symptoms’ severity, then estimates of VE from both types of studies may be severely biased when the outcome of interest is SI. The bias is not present when the outcome of interest is MAI.
+
+### Conclusions
+
+The TN design produces valid estimates of VE if (a) vaccination does not affect the probabilities of non-influenza ARI and of seeking care against influenza ARI, and (b) the confounding effects resulting from non-random vaccination are similar for influenza and non-influenza ARI. Since the bias of VE estimates depends on the outcome against which the vaccine is supposed to protect, it is important to specify the outcome of interest when evaluating the bias.
+
+# Citation
+
+Shi, M., An, Q., Ainslie, K. *et al.* A comparison of the test-negative and the traditional case-control study designs for estimation of influenza vaccine effectiveness under nonrandom vaccination. *BMC Infect Dis* **17**, 757 (2017). https://doi.org/10.1186/s12879-017-2838-2
