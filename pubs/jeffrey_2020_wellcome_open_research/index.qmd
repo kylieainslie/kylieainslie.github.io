@@ -1,7 +1,7 @@
 ---
 title: 'Anonymised and aggregated crowd level mobility data from mobile phones suggests that initial compliance with COVID-19 social distancing interventions was high and geographically consistent across the UK'
 description: 'Wellcome Open Research 27:2101090'
-author: Jeffrey Benjamin, Caroline E Walters, Kylie EC Ainslie, et al.
+author: Benjamin Jeffrey, Caroline E Walters, Kylie EC Ainslie, et al.
 date: '2020-07-17'
 doi: https://doi.org/10.12688/wellcomeopenres.15997.1
 categories: 

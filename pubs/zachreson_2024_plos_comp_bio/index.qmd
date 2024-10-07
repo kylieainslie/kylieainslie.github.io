@@ -1,0 +1,16 @@
+---
+title: 'Ethical frameworks should be applied to computational modelling of infectious disease interventions'
+description: 'PLoS Comput Biol 20(3):e1011933'
+author: 'Cameron Zachreson, Julian Savulescu, Freya M Shearer, Michael J Plank, Simon Coghlan, Joel C Miller, Kylie E C Ainslie, Nicholas Geard'
+date: '2024-03-21'
+doi: https://doi.org/10.1371/journal.pcbi.1011933
+categories: 
+  - publication
+---
+
+# Abstract
+
+This perspective is part of an international effort to improve epidemiological models with the goal of reducing the unintended consequences of infectious disease interventions. The scenarios in which models are applied often involve difficult trade-offs that are well recognised in public health ethics. Unless these trade-offs are explicitly accounted for, models risk overlooking contested ethical choices and values, leading to an increased risk of unintended consequences. We argue that such risks could be reduced if modellers were more aware of ethical frameworks and had the capacity to explicitly account for the relevant values in their models. We propose that public health ethics can provide a conceptual foundation for developing this capacity. After reviewing relevant concepts in public health and clinical ethics, we discuss examples from the COVID-19 pandemic to illustrate the current separation between public health ethics and infectious disease modelling. We conclude by describing practical steps to build the capacity for ethically aware modelling. Developing this capacity constitutes a critical step towards ethical practice in computational modelling of public health interventions, which will require collaboration with experts on public health ethics, decision support, behavioural interventions, and social determinants of health, as well as direct consultation with communities and policy makers.
+
+# Citation
+Zachreson C, Savulescu J, Shearer FM, Plank MJ, Coghlan S, Miller JC, Ainslie KEC, Geard N. Ethical frameworks should be applied to computational modelling of infectious disease interventions. PLoS Comput Biol. 2024 Mar 21;20(3):e1011933. [DOI](https://doi.org/10.1371/journal.pcbi.1011933)

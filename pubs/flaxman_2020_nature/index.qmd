@@ -1,0 +1,17 @@
+---
+title: 'Estimating the effects of non-pharmaceutical interventions on COVID-19 in Europe'
+description: 'Nature 584:257–261'
+author: 'Seth Flaxman, Swapnil Mishra, Axel Gandy, H. Juliette T. Unwin, Thomas A. Mellan, Helen Coupland, Charles Whittaker, Harrison Zhu, Tresnia Berah, Jeffrey W. Eaton, Mélodie Monod, Imperial College COVID-19 Response Team, Azra C. Ghani, Christl A. Donnelly, Steven Riley, Michaela A. C. Vollmer, Neil M. Ferguson, Lucy C. Okell, Samir Bhatt'
+date: '2020-06-08'
+doi: https://doi.org/10.1038/s41586-020-2405-7
+categories: 
+  - publication
+---
+
+# Abstract
+
+Following the detection of the new coronavirus^[1](https://www.nature.com/articles/s41586-020-2405-7#ref-CR1 "Li, R. et al. Substantial undocumented infection facilitates the rapid dissemination of novel coronavirus (SARS-CoV-2). Science 368, 489–493 (2020).")^ severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) and its spread outside of China, Europe has experienced large epidemics of coronavirus disease 2019 (COVID-19). In response, many European countries have implemented non-pharmaceutical interventions, such as the closure of schools and national lockdowns. Here we study the effect of major interventions across 11 European countries for the period from the start of the COVID-19 epidemics in February 2020 until 4 May 2020, when lockdowns started to be lifted. Our model calculates backwards from observed deaths to estimate transmission that occurred several weeks previously, allowing for the time lag between infection and death. We use partial pooling of information between countries, with both individual and shared effects on the time-varying reproduction number (*R~t~*). Pooling allows for more information to be used, helps to overcome idiosyncrasies in the data and enables more-timely estimates. Our model relies on fixed estimates of some epidemiological parameters (such as the infection fatality rate), does not include importation or subnational variation and assumes that changes in *R~t~* are an immediate response to interventions rather than gradual changes in behaviour. Amidst the ongoing pandemic, we rely on death data that are incomplete, show systematic biases in reporting and are subject to future consolidation. We estimate that—for all of the countries we consider here—current interventions have been sufficient to drive *R~t~* below 1 (probability *R~t~* \< 1.0 is greater than 99%) and achieve control of the epidemic. We estimate that across all 11 countries combined, between 12 and 15 million individuals were infected with SARS-CoV-2 up to 4 May 2020, representing between 3.2% and 4.0% of the population. Our results show that major non-pharmaceutical interventions—and lockdowns in particular—have had a large effect on reducing transmission. Continued intervention should be considered to keep transmission of SARS-CoV-2 under control.
+
+# Citation
+
+Flaxman, S., Mishra, S., Gandy, A. *et al.* Estimating the effects of non-pharmaceutical interventions on COVID-19 in Europe. *Nature* **584**, 257–261 (2020). [DOI](https://doi.org/10.1038/s41586-020-2405-7)

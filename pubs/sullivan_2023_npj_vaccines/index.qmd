@@ -1,0 +1,17 @@
+---
+title: 'The need for a clinical case definition in test-negative design studies estimating vaccine effectiveness'
+description: 'npj Vaccines 8, 118'
+author: 'Sheena G. Sullivan, Arseniy Khvorov, Xiaotong Huang, Can Wang, Kylie E. C. Ainslie, Joshua Nealon, Bingyi Yang, Benjamin J. Cowling, Tim K. Tsang'
+date: '2023-08-12'
+doi: https://doi.org/10.1038/s41541-023-00716-9
+categories: 
+  - publication
+---
+
+# Abstract
+
+Test negative studies have been used extensively for the estimation of COVID-19 vaccine effectiveness (VE). Such studies are able to estimate VE against medically-attended illness under certain assumptions. Selection bias may be present if the probability of participation is associated with vaccination or COVID-19, but this can be mitigated through use of a clinical case definition to screen patients for eligibility, which increases the likelihood that cases and non-cases come from the same source population. We examined the extent to which this type of bias could harm COVID-19 VE through systematic review and simulation. A systematic review of test-negative studies was re-analysed to identify studies ignoring the need for clinical criteria. Studies using a clinical case definition had a lower pooled VE estimate compared with studies that did not. Simulations varied the probability of selection by case and vaccination status. Positive bias away from the null (i.e., inflated VE consistent with the systematic review) was observed when there was a higher proportion of healthy, vaccinated non-cases, which may occur if a dataset contains many results from asymptomatic screening in settings where vaccination coverage is high. We provide an html tool for researchers to explore site-specific sources of selection bias in their own studies. We recommend all groups consider the potential for selection bias in their vaccine effectiveness studies, particularly when using administrative data.
+
+# Citation
+
+Sullivan, S.G., Khvorov, A., Huang, X. *et al.* The need for a clinical case definition in test-negative design studies estimating vaccine effectiveness. *npj Vaccines* **8**, 118 (2023). [DOI](https://doi.org/10.1038/s41541-023-00716-9)
