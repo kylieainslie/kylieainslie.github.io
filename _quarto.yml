@@ -18,6 +18,10 @@ website:
       - research.qmd
       - publications.qmd
       - cv.qmd
+      - text: Tutorials
+        menu:
+          - text: "Automated Pipelines with Maestro"
+            href: tutorials/automation_with_maestro.qmd
 
 format:
   html:
