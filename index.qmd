@@ -8,13 +8,10 @@ about:
       text: BlueSky
       href: https://bsky.app/profile/kylieainslie.bsky.social
     - icon: github
-      text: Github
       href: https://github.com/kylieainslie
     - icon: linkedin
-      text: LinkedIn
       href: https://www.linkedin.com/in/kylieainslie/
-    - icon: email
-      text: Email
+    - icon: envelope
       href: mailto:kylie.ainslie@rivm.nl
 ---
 
