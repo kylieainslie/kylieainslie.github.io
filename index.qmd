@@ -4,8 +4,7 @@ about:
   template: jolla
   image: Ainslie_headshot.jpg
   links:
-    - icon: bluesky
-      text: BlueSky
+    - text: "<img src='photos/Bluesky_Logo.svg' width='20' style='vertical-align:middle; filter: grayscale(100%) opacity(75%);'>"
       href: https://bsky.app/profile/kylieainslie.bsky.social
     - icon: github
       href: https://github.com/kylieainslie
