@@ -2,6 +2,7 @@
 title: "Publications"
 listing: 
   contents: pubs
+  page-size: 10
   type: default
   sort: "date desc"
   sort-ui: true
@@ -11,6 +12,9 @@ editor: visual
 format: 
   html: 
     page-layout: full
+    css: styles.css
 ---
 
-Selected publications are listed below. An up-to-date list of all of my publications can always be found [here](https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=gfJENK8AAAAJ&sortby=pubdate&citft=1&email_for_op=ainslie.kylie%40gmail.com). You can click on the entries below for more details.
+Selected publications are listed below. You can click on the entries below for more details.
+
+An up-to-date list of all of my publications can always be found [here](https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=gfJENK8AAAAJ&sortby=pubdate&citft=1&email_for_op=ainslie.kylie%40gmail.com).

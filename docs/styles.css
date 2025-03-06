@@ -1,1 +1,6 @@
 /* css styles */
+
+/* Make the title text in the publications table smaller */
+h3.listing-title a {
+    font-size: 0.75em; /* Adjust this to make the title smaller */
+}
