@@ -10,7 +10,7 @@ title-block-banner: true
 ::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
 ::: {.card .h-100}
 ::: {.card-header}
-![](images/mitey_hex_superman.png){.card-img-top style="height: 200px; object-fit: contain; background-color: #f8f9fa;"}
+![](images/mitey_hex_superman.png){.card-img-top style="height: 200px; object-fit: contain; background-color: var(--bs-body-bg);"}
 :::
 ::: {.card-body .d-flex .flex-column}
 ::: {.card-title}
@@ -33,7 +33,7 @@ A lightweight R package with methods to estimate infectious disease dynamics par
 ::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
 ::: {.card .h-100}
 ::: {.card-header}
-![](images/vacamole_hex.png){.card-img-top style="height: 200px; object-fit: contain; background-color: #f8f9fa;"}
+![](images/vacamole_hex.png){.card-img-top style="height: 200px; object-fit: contain; background-color: var(--bs-body-bg);"}
 :::
 ::: {.card-body .d-flex .flex-column}
 ::: {.card-title}
@@ -56,7 +56,7 @@ An R package that features a deterministic age-structured compartmental suscepti
 ::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
 ::: {.card .h-100}
 ::: {.card-header}
-![](images/morevac_hex.png){.card-img-top style="height: 200px; object-fit: contain; background-color: #f8f9fa;"}
+![](images/morevac_hex.png){.card-img-top style="height: 200px; object-fit: contain; background-color: var(--bs-body-bg);"}
 :::
 ::: {.card-body .d-flex .flex-column}
 ::: {.card-title}

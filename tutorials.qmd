@@ -10,7 +10,7 @@ title-block-banner: true
 ::: {.g-col-12 .g-col-md-8 .g-col-lg-6}
 ::: {.card .h-100}
 ::: {.card-header}
-![](images/maestro_thumbnail.png){.card-img-top style="height: 250px; object-fit: contain; background-color: #f8f9fa;"}
+![](images/maestro_thumbnail.png){.card-img-top style="height: 250px; object-fit: contain; background-color: var(--bs-body-bg);"}
 :::
 ::: {.card-body .d-flex .flex-column}
 ::: {.card-title}

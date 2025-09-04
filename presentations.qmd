@@ -10,7 +10,7 @@ title-block-banner: true
 ::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
 ::: {.card .h-100}
 ::: {.card-header}
-![](images/presentation-thumbnails/scabies-2024.png){.card-img-top style="height: 200px; object-fit: contain; background-color: #f8f9fa;"}
+![](images/presentation-thumbnails/scabies-2024.png){.card-img-top style="height: 200px; object-fit: contain; background-color: var(--bs-body-bg);"}
 :::
 ::: {.card-body .d-flex .flex-column}
 ::: {.card-title}
@@ -33,11 +33,11 @@ Estimating the epidemiological characteristics of scabies.
 ::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
 ::: {.card .h-100}
 ::: {.card-header}
-![](images/presentation-thumbnails/posit-conf-2025.png){.card-img-top style="height: 200px; object-fit: contain; background-color: #f8f9fa;"}
+![](images/presentation-thumbnails/posit-conf-2025.png){.card-img-top style="height: 200px; object-fit: contain; background-color: var(--bs-body-bg);"}
 :::
 ::: {.card-body .d-flex .flex-column}
 ::: {.card-title}
-## [Enhancing Public Health Decision Making with R Packages](presentations/influenza-waning-hku-2024.qmd)
+## [Enhancing Public Health Decision Making with R Packages](presentations/2025/posit_conf_2025/presentation_pc2025.pdf)
 :::
 ::: {.card-text}
 **posit::conf(2025), Coming Soon**  
@@ -56,7 +56,7 @@ Estimating the epidemiological characteristics of scabies.
 <!-- ::: {.g-col-12 .g-col-md-6 .g-col-lg-4} -->
 <!-- ::: {.card .h-100} -->
 <!-- ::: {.card-header} -->
-<!-- ![](images/presentation-thumbnails/react-study-2023.png){.card-img-top style="height: 200px; object-fit: contain; background-color: #f8f9fa;"} -->
+<!-- ![](images/presentation-thumbnails/react-study-2023.png){.card-img-top style="height: 200px; object-fit: contain; background-color: var(--bs-body-bg);"} -->
 <!-- ::: -->
 <!-- ::: {.card-body .d-flex .flex-column} -->
 <!-- ::: {.card-title} -->
