@@ -1,0 +1,113 @@
+---
+title: "Software"
+subtitle: "R packages, analysis code, and computational tools"
+page-layout: full
+title-block-banner: true
+---
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+::: {.card .h-100}
+::: {.card-header}
+![](images/mitey_hex_superman.png){.card-img-top style="height: 200px; object-fit: contain; background-color: #f8f9fa;"}
+:::
+::: {.card-body .d-flex .flex-column}
+::: {.card-title}
+## [mitey](https://kylieainslie.github.io/mitey/)
+:::
+::: {.card-text}
+A lightweight R package with methods to estimate infectious disease dynamics parameters.
+:::
+::: {.mt-auto}
+::: {.btn-group}
+[GitHub](https://github.com/kylieainslie/mitey){.btn .btn-primary .btn-sm}
+<!-- [Documentation](https://kylieainslie.github.io/mitey/){.btn .btn-outline-info .btn-sm} -->
+[Publication](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5184990){.btn .btn-outline-info .btn-sm}
+:::
+:::
+:::
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+::: {.card .h-100}
+::: {.card-header}
+![](images/vacamole_hex.png){.card-img-top style="height: 200px; object-fit: contain; background-color: #f8f9fa;"}
+:::
+::: {.card-body .d-flex .flex-column}
+::: {.card-title}
+## [vacamole](https://kylieainslie.github.io/vacamole/)
+:::
+::: {.card-text}
+An R package that features a deterministic age-structured compartmental susceptible-exposed-infectious-recovered (SEIR) model and supporting functions.
+:::
+::: {.mt-auto}
+::: {.btn-group}
+[GitHub](https://github.com/kylieainslie/vacamole){.btn .btn-primary .btn-sm}
+<!-- [Documentation](https://kylieainslie.github.io/vacamole/){.btn .btn-outline-info .btn-sm} -->
+[Publication](https://pmc.ncbi.nlm.nih.gov/articles/PMC9635025/){.btn .btn-outline-info .btn-sm}
+:::
+:::
+:::
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+::: {.card .h-100}
+::: {.card-header}
+![](images/morevac_hex.png){.card-img-top style="height: 200px; object-fit: contain; background-color: #f8f9fa;"}
+:::
+::: {.card-body .d-flex .flex-column}
+::: {.card-title}
+## [morevac](https://github.com/kylieainslie/morevac?tab=readme-ov-file#modelling-repeat-vaccination-morevac)
+:::
+::: {.card-text}
+An R package that features a multi-annual, individual-based, stochastic, force of infection model that accounts for individual exposure histories and disease/vaccine dynamics influencing susceptibility. 
+:::
+::: {.mt-auto}
+::: {.btn-group}
+[GitHub](https://github.com/kylieainslie/morevac){.btn .btn-primary .btn-sm}
+<!-- [Documentation](https://kylieainslie.github.io/morevac/){.btn .btn-outline-info .btn-sm} -->
+[Publication](https://doi.org/10.1016/j.vaccine.2022.03.065){.btn .btn-outline-info .btn-sm}
+:::
+:::
+:::
+:::
+:::
+
+:::
+
+<!-- ## Software Categories -->
+
+<!-- ### **R Packages** -->
+<!-- Published packages for infectious disease analysis, vaccine effectiveness studies, and statistical modeling methods. -->
+
+<!-- ### **Analysis Pipelines**   -->
+<!-- Reproducible analysis code accompanying research papers and collaborative projects. -->
+
+<!-- ### **Modeling Tools** -->
+<!-- Mathematical and agent-based models for infectious disease transmission and intervention evaluation. -->
+
+
+
+## Development Philosophy
+
+All software is developed with principles of:
+
+- **Reproducible research** - Clear documentation and version control
+- **Open science** - Publicly available code and transparent methods  
+- **User-friendly design** - Intuitive interfaces and comprehensive examples
+- **Rigorous testing** - Unit tests and validation against known results
+
+<!-- ## Technical Stack -->
+
+<!-- **Primary languages:** R, Stan (Bayesian modeling), Python   -->
+<!-- **Tools:** Git/GitHub, Docker, R Markdown/Quarto, Shiny   -->
+<!-- **Modeling frameworks:** Individual-based models, compartmental models, Bayesian inference -->
+
+---
+
+## Collaboration
+
+Interested in contributing to any of these projects? Most repositories welcome contributions via GitHub issues and pull requests. For major collaborations or new project ideas, feel free to reach out via email.
