@@ -68,11 +68,23 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<link href="site_libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet">
+<script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<link href="site_libs/leaflet-1.3.1/leaflet.css" rel="stylesheet">
+<script src="site_libs/leaflet-1.3.1/leaflet.js"></script>
+<link href="site_libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet">
+<script src="site_libs/proj4-2.6.2/proj4.min.js"></script>
+<script src="site_libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
+<link href="site_libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet">
+<script src="site_libs/leaflet-binding-2.2.2/leaflet.js"></script>
+<script src="site_libs/leaflet-providers-2.0.0/leaflet-providers_2.0.0.js"></script>
+<script src="site_libs/leaflet-providers-plugin-2.2.2/leaflet-providers-plugin.js"></script>
 
 
 <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="about_styles_css.css">
 <meta name="twitter:title" content="About – Kylie Ainslie, PhD">
-<meta name="twitter:description" content="">
 <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Bluesky_Social_logo.svg/1200px-Bluesky_Social_logo.svg.png">
 <meta name="twitter:creator" content="@kylieainslie">
 <meta name="twitter:card" content="summary_large_image">
@@ -116,13 +128,23 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-tutorials" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Tutorials</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-resources" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Resources</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-tutorials">    
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-resources">    
         <li>
-    <a class="dropdown-item" href="./tutorials/automation_with_maestro.html">
- <span class="dropdown-text">Automated Pipelines with Maestro</span></a>
+    <a class="dropdown-item" href="./tutorials.html">
+ <span class="dropdown-text">Tutorials</span></a>
+  </li>  
+        <li><hr class="dropdown-divider"></li>
+        <li>
+    <a class="dropdown-item" href="./presentations.html">
+ <span class="dropdown-text">Presentations</span></a>
+  </li>  
+        <li><hr class="dropdown-divider"></li>
+        <li>
+    <a class="dropdown-item" href="./software.html">
+ <span class="dropdown-text">Software</span></a>
   </li>  
     </ul>
   </li>
@@ -138,8 +160,16 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#my-journey" id="toc-my-journey" class="nav-link active" data-scroll-target="#my-journey">My Journey</a></li>
+  <li><a href="#quick-stats" id="toc-quick-stats" class="nav-link" data-scroll-target="#quick-stats">Quick Stats</a></li>
+  <li><a href="#life-outside-of-research" id="toc-life-outside-of-research" class="nav-link" data-scroll-target="#life-outside-of-research">Life Outside of Research</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -163,11 +193,193 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Hi! I’m Kylie. I’m originally from Atlanta, GA (well, technically Decatur). I have always loved travelling, so as soon as I finished my PhD, I moved across the pond to London to do a postdoc at Imperial College London. During the COVID-19 pandemic, I relocated to Amsterdam and joined the Dutch National Institute of Public Health and the Environment (RIVM) as a senior researcher in infectious disease modelling. I continue to find any excuse to hop on a plane, train, or automobile and explore. In my free time, I love <a href="https://www.instagram.com/goinginforthekale/">cooking</a>, running, taking a class at the <a href="https://wearequeer.nl/en/">gym</a>, perfecting my homemade flat white, and, of course, spending time with my wife and puppy.</p>
-<p>I am also an organizer of the Amsterdam chapter of <a href="https://www.meetup.com/nl-NL/rladies-amsterdam/">R-Ladies</a>.</p>
-<p><img src="photos/leon.jpeg" class="img-fluid" width="292"></p>
+<div class="cell">
+<script>
+// Simple scrollytelling for background map
+document.addEventListener('DOMContentLoaded', function() {
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        // Remove active class from all steps
+        document.querySelectorAll('.step').forEach(step => {
+          step.classList.remove('active');
+        });
+        
+        // Add active class to current step
+        entry.target.classList.add('active');
+        
+        // Update map
+        if (typeof window.updateMapStep === 'function') {
+          window.updateMapStep(entry.target.id);
+        }
+      }
+    });
+  }, {
+    threshold: 0.6
+  });
+
+  // Observe all steps
+  document.querySelectorAll('.step').forEach(step => {
+    observer.observe(step);
+  });
+});
+</script>
+</div>
+<div class="intro-section">
+<p>I’m Kylie, an Atlanta-native (technically Decatur), crazy dog lady, runner, and science nerd. I work as an infectious disease modeller, meaning that I use math, stats, and R to study the spread of diseases and how interventions, like vaccines, can impact that spread. My career path has taken me from Atlanta to London, Amsterdam, Hong Kong, and soon to Melbourne. I love to explore both near and far, whether that’s through research collaborations, weekend hikes, discovering local coffee shops, or finding the best running trails in each new city.</p>
+<p>Scroll through my journey below and watch it unfold on the map.</p>
+</div>
+<section id="my-journey" class="level3">
+<h3 class="anchored" data-anchor-id="my-journey">My Journey</h3>
+<div class="scrolly-container">
+<div class="scrolly-content">
+<!-- ::: {.step #step-intro} -->
+<!-- ### 🌍 A Global Adventure -->
+<!-- Scroll through my journey as it unfolds across the map. Each step of my career has taken me to new places and opened new opportunities. -->
+<!-- ::: -->
+<div id="step-atlanta" class="step">
+<section id="phd" class="level3">
+<h3 class="anchored" data-anchor-id="phd">🎓 PhD</h3>
+<div class="step-year">
+<p>2011-2018</p>
+</div>
+<p>I did my PhD at Emory University in Atlanta, GA. Georgia will always be home, but the world was calling!</p>
+</section>
+</div>
+<div id="step-london" class="step">
+<section id="postdoc" class="level3">
+<h3 class="anchored" data-anchor-id="postdoc">🇬🇧 Postdoc</h3>
+<div class="step-year">
+<p>2018-2020</p>
+</div>
+<p>Moved to London for a postdoc at Imperial College London.</p>
+</section>
+</div>
+<div id="step-amsterdam" class="step">
+<section id="senior-researcher" class="level3">
+<h3 class="anchored" data-anchor-id="senior-researcher">🇳🇱 Senior Researcher</h3>
+<div class="step-year">
+<p>2020-Present</p>
+</div>
+<p>During the pandemic, I relocated to Amsterdam and joined the RIVM as a senior researcher in infectious disease modelling. Found my niche in modelling for public health policy.</p>
+</section>
+</div>
+<div id="step-hongkong" class="step">
+<section id="honorary-assistant-professor" class="level3">
+<h3 class="anchored" data-anchor-id="honorary-assistant-professor">🇭🇰 Honorary Assistant Professor</h3>
+<div class="step-year">
+<p>2022-Present</p>
+</div>
+<p>Joined University of Hong Kong School of Public Health as Honorary Assistant Professor, expanding international research collaborations and working on real-world vaccine effectiveness.</p>
+</section>
+</div>
+<div id="step-melbourne" class="step">
+<section id="modelling-for-policy-lead" class="level3">
+<h3 class="anchored" data-anchor-id="modelling-for-policy-lead">🇦🇺 Modelling for Policy Lead</h3>
+<div class="step-year">
+<p>Coming soon!</p>
+</div>
+<p>Starting a new position at University of Melbourne - the journey continues down under! Excited for this next step! 🦘</p>
+</section>
+</div>
+</div>
+<div class="scrolly-map">
+<div class="cell">
+<div class="cell-output-display">
+<div class="leaflet html-widget html-fill-item" id="htmlwidget-21ddf83226781586dea5" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-21ddf83226781586dea5">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addProviderTiles","args":["CartoDB.Positron",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]}],"setView":[[20,30],2,[]]},"evals":[],"jsHooks":{"render":[{"code":"function(el, x, data) {\n  return (\nfunction(el, x) {\n  window.journeyMap = this;\n  \n  // Disable map interaction\n  this.dragging.disable();\n  this.touchZoom.disable();\n  this.doubleClickZoom.disable();\n  this.scrollWheelZoom.disable();\n  this.boxZoom.disable();\n  this.keyboard.disable();\n  if (this.tap) this.tap.disable();\n  \n  // Locations with optimized zoom levels for smooth transitions\n  window.locations = {\n    atlanta: {lng: -84.296, lat: 33.749, zoom: 6},\n    london: {lng: -0.1276, lat: 51.5074, zoom: 6},\n    amsterdam: {lng: 4.9041, lat: 52.3676, zoom: 6},\n    hongkong: {lng: 114.1694, lat: 22.3193, zoom: 5},\n    melbourne: {lng: 144.9631, lat: -37.8136, zoom: 6},\n    overview: {lng: 30, lat: 20, zoom: 2}\n  };\n  \n  window.currentMarkers = [];\n  \n  // Enhanced marker creation with better styling\n  var createMarker = function(lat, lng, popup, isPrimary) {\n    var size = isPrimary ? 28 : 18;\n    var color = isPrimary ? '#2DD4BF' : '#A7F3D0';\n    var pulseAnim = isPrimary ? 'animation: pulse 2s infinite;' : '';\n    \n    var icon = L.divIcon({\n      html: '<div style=\"background: ' + color + '; width: ' + size + 'px; height: ' + size + 'px; border-radius: 50%; border: 3px solid #FFFFFF; box-shadow: 0 6px 20px rgba(45,212,191,0.5); ' + pulseAnim + '\"><\/div><style>@keyframes pulse { 0% { transform: scale(1); box-shadow: 0 6px 20px rgba(45,212,191,0.5); } 50% { transform: scale(1.15); box-shadow: 0 8px 25px rgba(45,212,191,0.7); } 100% { transform: scale(1); box-shadow: 0 6px 20px rgba(45,212,191,0.5); } }<\/style>',\n      iconSize: [size, size],\n      className: 'journey-marker'\n    });\n    \n    var marker = L.marker([lat, lng], {icon: icon}).bindPopup(popup, {\n      className: 'custom-popup'\n    });\n    window.currentMarkers.push(marker);\n    return marker;\n  };\n  \n  // Smooth transition function\n  var smoothFlyTo = function(lat, lng, zoom) {\n    window.journeyMap.flyTo([lat, lng], zoom, {\n      animate: true,\n      duration: 2.5,  // Longer duration for smoother feel\n      easeLinearity: 0.1  // Smoother easing\n    });\n  };\n  \n  window.updateMapStep = function(stepId) {\n    var map = window.journeyMap;\n    \n    // Clear existing markers with fade effect\n    window.currentMarkers.forEach(function(marker) {\n      map.removeLayer(marker);\n    });\n    window.currentMarkers = [];\n    \n    // Clear existing lines\n    map.eachLayer(function(layer) {\n      if (layer._latlngs) {\n        map.removeLayer(layer);\n      }\n    });\n    \n    switch(stepId) {\n      case 'step-intro':\n        smoothFlyTo(window.locations.overview.lat, window.locations.overview.lng, window.locations.overview.zoom);\n        break;\n        \n      case 'step-atlanta':\n        smoothFlyTo(window.locations.atlanta.lat, window.locations.atlanta.lng, window.locations.atlanta.zoom);\n        setTimeout(function() {\n          createMarker(window.locations.atlanta.lat, window.locations.atlanta.lng, \n                      '<strong>Atlanta, GA<\/strong><br>PhD at Emory University<br>(2011-2018)', true).addTo(map);\n        }, 1000);\n        break;\n        \n      case 'step-london':\n        smoothFlyTo(window.locations.london.lat, window.locations.london.lng, window.locations.london.zoom);\n        setTimeout(function() {\n          createMarker(window.locations.atlanta.lat, window.locations.atlanta.lng, \n                      '<strong>Atlanta, GA<\/strong><br>PhD completed', false).addTo(map);\n          createMarker(window.locations.london.lat, window.locations.london.lng, \n                      '<strong>London, UK<\/strong><br>Postdoc at Imperial College<br>(2018-2020)', true).addTo(map);\n          \n          // Animate line drawing\n          var latlngs = [[window.locations.atlanta.lat, window.locations.atlanta.lng], \n                        [window.locations.london.lat, window.locations.london.lng]];\n          L.polyline(latlngs, {\n            color: '#2DD4BF', \n            weight: 4, \n            opacity: 0.8,\n            className: 'journey-line'\n          }).addTo(map);\n        }, 1000);\n        break;\n        \n      case 'step-amsterdam':\n        smoothFlyTo(window.locations.amsterdam.lat, window.locations.amsterdam.lng, window.locations.amsterdam.zoom);\n        setTimeout(function() {\n          createMarker(window.locations.atlanta.lat, window.locations.atlanta.lng, \n                      '<strong>Atlanta, GA<\/strong>', false).addTo(map);\n          createMarker(window.locations.london.lat, window.locations.london.lng, \n                      '<strong>London, UK<\/strong>', false).addTo(map);\n          createMarker(window.locations.amsterdam.lat, window.locations.amsterdam.lng, \n                      '<strong>Amsterdam, NL<\/strong><br>Senior Researcher at RIVM<br>(2020-Present)', true).addTo(map);\n          \n          L.polyline([[window.locations.atlanta.lat, window.locations.atlanta.lng], \n                     [window.locations.london.lat, window.locations.london.lng],\n                     [window.locations.amsterdam.lat, window.locations.amsterdam.lng]], \n                     {color: '#2DD4BF', weight: 4, opacity: 0.8}).addTo(map);\n        }, 1000);\n        break;\n        \n      case 'step-hongkong':\n        smoothFlyTo(window.locations.hongkong.lat, window.locations.hongkong.lng, window.locations.hongkong.zoom);\n        setTimeout(function() {\n          createMarker(window.locations.amsterdam.lat, window.locations.amsterdam.lng, \n                      '<strong>Amsterdam, NL<\/strong><br>Home base', false).addTo(map);\n          createMarker(window.locations.hongkong.lat, window.locations.hongkong.lng, \n                      '<strong>Hong Kong<\/strong><br>Honorary Assistant Professor<br>University of Hong Kong<br>(2022-Present)', true).addTo(map);\n          \n          L.polyline([[window.locations.amsterdam.lat, window.locations.amsterdam.lng], \n                     [window.locations.hongkong.lat, window.locations.hongkong.lng]], \n                     {color: '#14B8A6', weight: 3, opacity: 0.7, dashArray: '10,5'}).addTo(map);\n        }, 1000);\n        break;\n        \n      case 'step-melbourne':\n        smoothFlyTo(window.locations.melbourne.lat, window.locations.melbourne.lng, window.locations.melbourne.zoom);\n        setTimeout(function() {\n          createMarker(window.locations.amsterdam.lat, window.locations.amsterdam.lng, \n                      '<strong>Amsterdam, NL<\/strong><br>Current position', false).addTo(map);\n          createMarker(window.locations.melbourne.lat, window.locations.melbourne.lng, \n                      '<strong>Melbourne, AU<\/strong><br>University of Melbourne<br>Modelling for Policy Lead<br>(Coming Soon!)', true).addTo(map);\n          \n          L.polyline([[window.locations.amsterdam.lat, window.locations.amsterdam.lng], \n                     [window.locations.melbourne.lat, window.locations.melbourne.lng]], \n                     {color: '#5EEAD4', weight: 3, opacity: 0.6, dashArray: '15,8'}).addTo(map);\n        }, 1000);\n        break;\n        \n      default:\n        smoothFlyTo(window.locations.overview.lat, window.locations.overview.lng, window.locations.overview.zoom);\n        break;\n    }\n  };\n}\n).call(this.getMap(), el, x, data);\n}","data":null}]}}</script>
+</div>
+</div>
+</div>
+</div>
+<!-- Get stats -->
+<!-- Google scholar ID: gfJENK8AAAAJ -->
+</section>
+<section id="quick-stats" class="level3">
+<h3 class="anchored" data-anchor-id="quick-stats">Quick Stats</h3>
+<div class="outro-section">
+<div class="stats-grid">
+<div class="stat-card">
+<div id="km-stat" class="stat-number">
+<p>15,096.7</p>
+</div>
+<div class="stat-label">
+<p>Kilometers Run</p>
+</div>
+</div>
+<div class="stat-card">
+<div id="countries-stat" class="stat-number">
+<p>37</p>
+</div>
+<div class="stat-label">
+<p>Countries Visited</p>
+</div>
+</div>
+<div class="stat-card">
+<div id="pub-stat" class="stat-number">
+<p>108</p>
+</div>
+<div class="stat-label">
+<p>Google Scholar Publications</p>
+</div>
+</div>
+<div class="stat-card">
+<div class="stat-number">
+<p>17,320</p>
+</div>
+<div class="stat-label">
+<p>Total Citations</p>
+</div>
+</div>
+<div class="stat-card">
+<div id="books-stat" class="stat-number">
+<p>21</p>
+</div>
+<div class="stat-label">
+<p>Books Read This Year</p>
+</div>
+</div>
+<div class="stat-card">
+<div id="leon-stat" class="stat-number">
+<p>4</p>
+</div>
+<div class="stat-label">
+<p>Daily dog walks with Leon</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="life-outside-of-research" class="level3">
+<h3 class="anchored" data-anchor-id="life-outside-of-research">Life Outside of Research</h3>
+<div class="outro-section">
+<div class="photo-grid">
+<div class="photo-card">
+<p><img src="photos/leon.jpeg" class="img-fluid"> <strong>Leon</strong> - My pretty princess 👑</p>
+</div>
+<div class="photo-card">
+<p><a href="https://www.strava.com/athletes/37546778"><img src="photos/running.jpeg" class="img-fluid"></a> <strong>Running</strong> - Still my favorite way to explore</p>
+</div>
+<div class="photo-card">
+<p><img src="photos/kylie_redwoods.jpeg" class="img-fluid"> <strong>Hiking</strong> - Redwoods National &amp; State Parks</p>
+</div>
+<div class="photo-card">
+<p><a href="https://www.instagram.com/goinginforthekale/"><img src="photos/cooking.jpeg" class="img-fluid"></a> <strong>Cooking</strong> - Food adventures on Instagram</p>
+</div>
+<div class="photo-card">
+<p><img src="photos/coffee.jpeg" class="img-fluid"> <strong>Coffee</strong> - Perfecting my homemade flat white (my latte art needs work) 🙃</p>
+</div>
+<div class="photo-card">
+<p><a href="https://www.meetup.com/rladies-amsterdam/"><img src="images/rladies_amsterdam_logo.png" class="img-fluid"></a> <strong>R Ladies Amsterdam</strong> - Volunteer Organizer Follow on <a href="https://bsky.app/profile/rladiesamsterdam.bsky.social">BlueSky</a></p>
+</div>
+</div>
+<p>I continue to find any excuse to hop on a plane, train, or automobile and explore new places. Whether it’s for research collaborations, conferences, or just weekend adventures, I believe that travel enriches both personal and professional perspectives. With an upcoming move to Melbourne on the horizon, the adventure continues!</p>
+<hr>
+<p><em>Want to connect?</em> Find me on social media or drop me an email - I’m always happy to chat about research, travel recommendations, the perfect flat white recipe, or tips for international moves!</p>
+</div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

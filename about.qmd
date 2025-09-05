@@ -1,9 +1,405 @@
 ---
 title: "About"
+css: about_styles_css.css
 ---
 
-Hi! I'm Kylie. I'm originally from Atlanta, GA (well, technically Decatur). I have always loved travelling, so as soon as I finished my PhD, I moved across the pond to London to do a postdoc at Imperial College London. During the COVID-19 pandemic, I relocated to Amsterdam and joined the Dutch National Institute of Public Health and the Environment (RIVM) as a senior researcher in infectious disease modelling. I continue to find any excuse to hop on a plane, train, or automobile and explore. In my free time, I love [cooking](https://www.instagram.com/goinginforthekale/), running, taking a class at the [gym](https://wearequeer.nl/en/), perfecting my homemade flat white, and, of course, spending time with my wife and puppy.
+```{js, echo=FALSE}
+// Simple scrollytelling for background map
+document.addEventListener('DOMContentLoaded', function() {
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        // Remove active class from all steps
+        document.querySelectorAll('.step').forEach(step => {
+          step.classList.remove('active');
+        });
+        
+        // Add active class to current step
+        entry.target.classList.add('active');
+        
+        // Update map
+        if (typeof window.updateMapStep === 'function') {
+          window.updateMapStep(entry.target.id);
+        }
+      }
+    });
+  }, {
+    threshold: 0.6
+  });
 
-I am also an organizer of the Amsterdam chapter of [R-Ladies](https://www.meetup.com/nl-NL/rladies-amsterdam/).
+  // Observe all steps
+  document.querySelectorAll('.step').forEach(step => {
+    observer.observe(step);
+  });
+});
+```
 
-![](photos/leon.jpeg){width="292"}
+
+::: {.intro-section}
+I'm Kylie, an Atlanta-native (technically Decatur), crazy dog lady, runner, and science nerd. I work as an infectious disease modeller, meaning that I use math, stats, and R to study the spread of diseases and how interventions, like vaccines, can impact that spread. My career path has taken me from Atlanta to London, Amsterdam, Hong Kong, and soon to Melbourne. I love to explore both near and far, whether that's through research collaborations, weekend hikes, discovering local coffee shops, or finding the best running trails in each new city.
+
+Scroll through my journey below and watch it unfold on the map.
+:::
+
+### My Journey
+
+::: {.scrolly-container}
+::: {.scrolly-content}
+
+<!-- ::: {.step #step-intro} -->
+<!-- ### 🌍 A Global Adventure -->
+<!-- Scroll through my journey as it unfolds across the map. Each step of my career has taken me to new places and opened new opportunities. -->
+<!-- ::: -->
+
+::: {.step #step-atlanta}
+### 🎓 PhD
+::: {.step-year}
+2011-2018
+:::
+I did my PhD at Emory University in Atlanta, GA. Georgia will always be home, but the world was calling!
+:::
+
+::: {.step #step-london}
+### 🇬🇧 Postdoc  
+::: {.step-year}
+2018-2020
+:::
+Moved to London for a postdoc at Imperial College London. 
+:::
+
+::: {.step #step-amsterdam}
+### 🇳🇱 Senior Researcher
+::: {.step-year}
+2020-Present
+:::
+During the pandemic, I relocated to Amsterdam and joined the RIVM as a senior researcher in infectious disease modelling. Found my niche in modelling for public health policy.
+:::
+
+::: {.step #step-hongkong}
+### 🇭🇰 Honorary Assistant Professor
+::: {.step-year}
+2022-Present
+:::
+Joined University of Hong Kong School of Public Health as Honorary Assistant Professor, expanding international research collaborations and working on real-world vaccine effectiveness.
+:::
+
+::: {.step #step-melbourne}
+### 🇦🇺 Modelling for Policy Lead
+::: {.step-year}
+Coming soon!
+:::
+Starting a new position at University of Melbourne - the journey continues down under! Excited for this next step! 🦘
+:::
+
+:::
+
+::: {.scrolly-map}
+```{r map, echo=FALSE, message=FALSE, warning=FALSE}
+library(leaflet)
+
+# Create map with attractive tiles
+map <- leaflet() %>%
+  # Use CartoDB Positron for a clean, minimal look
+  addProviderTiles(providers$CartoDB.Positron) %>%
+  setView(lng = 30, lat = 20, zoom = 2)
+
+# Alternative attractive tile options (uncomment to try):
+# addProviderTiles(providers$CartoDB.DarkMatter) %>%  # Dark theme
+# addProviderTiles(providers$Stamen.Terrain) %>%      # Topographic
+# addProviderTiles(providers$Esri.WorldImagery) %>%   # Satellite
+# addProviderTiles(providers$Stamen.Toner) %>%        # Artistic B&W
+
+htmlwidgets::onRender(map, "
+function(el, x) {
+  window.journeyMap = this;
+  
+  // Disable map interaction
+  this.dragging.disable();
+  this.touchZoom.disable();
+  this.doubleClickZoom.disable();
+  this.scrollWheelZoom.disable();
+  this.boxZoom.disable();
+  this.keyboard.disable();
+  if (this.tap) this.tap.disable();
+  
+  // Locations with optimized zoom levels for smooth transitions
+  window.locations = {
+    atlanta: {lng: -84.296, lat: 33.749, zoom: 6},
+    london: {lng: -0.1276, lat: 51.5074, zoom: 6},
+    amsterdam: {lng: 4.9041, lat: 52.3676, zoom: 6},
+    hongkong: {lng: 114.1694, lat: 22.3193, zoom: 5},
+    melbourne: {lng: 144.9631, lat: -37.8136, zoom: 6},
+    overview: {lng: 30, lat: 20, zoom: 2}
+  };
+  
+  window.currentMarkers = [];
+  
+  // Enhanced marker creation with better styling
+  var createMarker = function(lat, lng, popup, isPrimary) {
+    var size = isPrimary ? 28 : 18;
+    var color = isPrimary ? '#2DD4BF' : '#A7F3D0';
+    var pulseAnim = isPrimary ? 'animation: pulse 2s infinite;' : '';
+    
+    var icon = L.divIcon({
+      html: '<div style=\"background: ' + color + '; width: ' + size + 'px; height: ' + size + 'px; border-radius: 50%; border: 3px solid #FFFFFF; box-shadow: 0 6px 20px rgba(45,212,191,0.5); ' + pulseAnim + '\"></div><style>@keyframes pulse { 0% { transform: scale(1); box-shadow: 0 6px 20px rgba(45,212,191,0.5); } 50% { transform: scale(1.15); box-shadow: 0 8px 25px rgba(45,212,191,0.7); } 100% { transform: scale(1); box-shadow: 0 6px 20px rgba(45,212,191,0.5); } }</style>',
+      iconSize: [size, size],
+      className: 'journey-marker'
+    });
+    
+    var marker = L.marker([lat, lng], {icon: icon}).bindPopup(popup, {
+      className: 'custom-popup'
+    });
+    window.currentMarkers.push(marker);
+    return marker;
+  };
+  
+  // Smooth transition function
+  var smoothFlyTo = function(lat, lng, zoom) {
+    window.journeyMap.flyTo([lat, lng], zoom, {
+      animate: true,
+      duration: 2.5,  // Longer duration for smoother feel
+      easeLinearity: 0.1  // Smoother easing
+    });
+  };
+  
+  window.updateMapStep = function(stepId) {
+    var map = window.journeyMap;
+    
+    // Clear existing markers with fade effect
+    window.currentMarkers.forEach(function(marker) {
+      map.removeLayer(marker);
+    });
+    window.currentMarkers = [];
+    
+    // Clear existing lines
+    map.eachLayer(function(layer) {
+      if (layer._latlngs) {
+        map.removeLayer(layer);
+      }
+    });
+    
+    switch(stepId) {
+      case 'step-intro':
+        smoothFlyTo(window.locations.overview.lat, window.locations.overview.lng, window.locations.overview.zoom);
+        break;
+        
+      case 'step-atlanta':
+        smoothFlyTo(window.locations.atlanta.lat, window.locations.atlanta.lng, window.locations.atlanta.zoom);
+        setTimeout(function() {
+          createMarker(window.locations.atlanta.lat, window.locations.atlanta.lng, 
+                      '<strong>Atlanta, GA</strong><br>PhD at Emory University<br>(2011-2018)', true).addTo(map);
+        }, 1000);
+        break;
+        
+      case 'step-london':
+        smoothFlyTo(window.locations.london.lat, window.locations.london.lng, window.locations.london.zoom);
+        setTimeout(function() {
+          createMarker(window.locations.atlanta.lat, window.locations.atlanta.lng, 
+                      '<strong>Atlanta, GA</strong><br>PhD completed', false).addTo(map);
+          createMarker(window.locations.london.lat, window.locations.london.lng, 
+                      '<strong>London, UK</strong><br>Postdoc at Imperial College<br>(2018-2020)', true).addTo(map);
+          
+          // Animate line drawing
+          var latlngs = [[window.locations.atlanta.lat, window.locations.atlanta.lng], 
+                        [window.locations.london.lat, window.locations.london.lng]];
+          L.polyline(latlngs, {
+            color: '#2DD4BF', 
+            weight: 4, 
+            opacity: 0.8,
+            className: 'journey-line'
+          }).addTo(map);
+        }, 1000);
+        break;
+        
+      case 'step-amsterdam':
+        smoothFlyTo(window.locations.amsterdam.lat, window.locations.amsterdam.lng, window.locations.amsterdam.zoom);
+        setTimeout(function() {
+          createMarker(window.locations.atlanta.lat, window.locations.atlanta.lng, 
+                      '<strong>Atlanta, GA</strong>', false).addTo(map);
+          createMarker(window.locations.london.lat, window.locations.london.lng, 
+                      '<strong>London, UK</strong>', false).addTo(map);
+          createMarker(window.locations.amsterdam.lat, window.locations.amsterdam.lng, 
+                      '<strong>Amsterdam, NL</strong><br>Senior Researcher at RIVM<br>(2020-Present)', true).addTo(map);
+          
+          L.polyline([[window.locations.atlanta.lat, window.locations.atlanta.lng], 
+                     [window.locations.london.lat, window.locations.london.lng],
+                     [window.locations.amsterdam.lat, window.locations.amsterdam.lng]], 
+                     {color: '#2DD4BF', weight: 4, opacity: 0.8}).addTo(map);
+        }, 1000);
+        break;
+        
+      case 'step-hongkong':
+        smoothFlyTo(window.locations.hongkong.lat, window.locations.hongkong.lng, window.locations.hongkong.zoom);
+        setTimeout(function() {
+          createMarker(window.locations.amsterdam.lat, window.locations.amsterdam.lng, 
+                      '<strong>Amsterdam, NL</strong><br>Home base', false).addTo(map);
+          createMarker(window.locations.hongkong.lat, window.locations.hongkong.lng, 
+                      '<strong>Hong Kong</strong><br>Honorary Assistant Professor<br>University of Hong Kong<br>(2022-Present)', true).addTo(map);
+          
+          L.polyline([[window.locations.amsterdam.lat, window.locations.amsterdam.lng], 
+                     [window.locations.hongkong.lat, window.locations.hongkong.lng]], 
+                     {color: '#14B8A6', weight: 3, opacity: 0.7, dashArray: '10,5'}).addTo(map);
+        }, 1000);
+        break;
+        
+      case 'step-melbourne':
+        smoothFlyTo(window.locations.melbourne.lat, window.locations.melbourne.lng, window.locations.melbourne.zoom);
+        setTimeout(function() {
+          createMarker(window.locations.amsterdam.lat, window.locations.amsterdam.lng, 
+                      '<strong>Amsterdam, NL</strong><br>Current position', false).addTo(map);
+          createMarker(window.locations.melbourne.lat, window.locations.melbourne.lng, 
+                      '<strong>Melbourne, AU</strong><br>University of Melbourne<br>Modelling for Policy Lead<br>(Coming Soon!)', true).addTo(map);
+          
+          L.polyline([[window.locations.amsterdam.lat, window.locations.amsterdam.lng], 
+                     [window.locations.melbourne.lat, window.locations.melbourne.lng]], 
+                     {color: '#5EEAD4', weight: 3, opacity: 0.6, dashArray: '15,8'}).addTo(map);
+        }, 1000);
+        break;
+        
+      default:
+        smoothFlyTo(window.locations.overview.lat, window.locations.overview.lng, window.locations.overview.zoom);
+        break;
+    }
+  };
+}
+")
+```
+:::
+
+:::
+
+<!-- Get stats -->
+<!-- Google scholar ID: gfJENK8AAAAJ -->
+```{r get_google_scholar_stats, echo=FALSE, include=FALSE}
+
+# Number of publications from Google Scholar
+library(scholar)
+library(dplyr)
+
+# Calculate publications count
+scholar_id <- "gfJENK8AAAAJ" 
+# Get publications count (removing duplicates)
+pub_count <- tryCatch({
+  pubs <- get_publications(scholar_id)
+  unique_pubs <- pubs %>%
+    distinct(title, .keep_all = TRUE)
+  nrow(unique_pubs)
+}, error = function(e) {
+  40  # Fallback
+})
+
+# Get total citations
+total_citations <- tryCatch({
+  profile <- get_profile(scholar_id)
+  profile$total_cites
+}, error = function(e) {
+  15000  # Fallback
+})
+```
+
+### Quick Stats
+
+::: {.outro-section}
+
+::: {.stats-grid}
+::: {.stat-card}
+::: {.stat-number #km-stat}
+15,096.7
+:::
+::: {.stat-label}
+Kilometers Run
+:::
+:::
+
+::: {.stat-card}
+::: {.stat-number #countries-stat}
+37
+:::
+::: {.stat-label}
+Countries Visited
+:::
+:::
+
+::: {.stat-card}
+::: {.stat-number #pub-stat}
+`r pub_count`
+:::
+::: {.stat-label}
+Google Scholar Publications
+:::
+:::
+
+::: {.stat-card}
+::: {.stat-number}
+`r format(total_citations, big.mark = ",", scientific = FALSE)`
+:::
+::: {.stat-label}
+Total Citations
+:::
+:::
+
+::: {.stat-card}
+::: {.stat-number #books-stat}
+21
+:::
+::: {.stat-label}
+Books Read This Year
+:::
+:::
+
+::: {.stat-card}
+::: {.stat-number #leon-stat}
+4
+:::
+::: {.stat-label}
+Daily dog walks with Leon
+:::
+:::
+:::
+:::
+
+### Life Outside of Research
+
+::: {.outro-section}
+::: {.photo-grid}
+
+::: {.photo-card}
+![](photos/leon.jpeg)
+**Leon** - My pretty princess 👑
+:::
+
+::: {.photo-card}
+[![](photos/running.jpeg)](https://www.strava.com/athletes/37546778)
+**Running** - Still my favorite way to explore
+:::
+
+::: {.photo-card}
+![](photos/kylie_redwoods.jpeg)
+**Hiking** - Redwoods National & State Parks
+:::
+
+::: {.photo-card}
+[![](photos/cooking.jpeg)](https://www.instagram.com/goinginforthekale/)
+**Cooking** - Food adventures on Instagram
+:::
+
+::: {.photo-card}
+![](photos/coffee.jpeg)
+**Coffee** - Perfecting my homemade flat white (my latte art needs work) 🙃
+:::
+
+::: {.photo-card}
+[![](images/rladies_amsterdam_logo.png)](https://www.meetup.com/rladies-amsterdam/)
+**R Ladies Amsterdam** - Volunteer Organizer
+Follow on [BlueSky](https://bsky.app/profile/rladiesamsterdam.bsky.social)
+:::
+
+:::
+
+I continue to find any excuse to hop on a plane, train, or automobile and explore new places. Whether it's for research collaborations, conferences, or just weekend adventures, I believe that travel enriches both personal and professional perspectives. With an upcoming move to Melbourne on the horizon, the adventure continues!
+
+---
+
+*Want to connect?* Find me on social media or drop me an email - I'm always happy to chat about research, travel recommendations, the perfect flat white recipe, or tips for international moves!
+
+:::
