@@ -1,0 +1,297 @@
+---
+title: "Elevating Public Health Decision Making with R Packages"
+author: "Kylie Ainslie"
+footer: posit::conf(2025) | 18 September 2025 | Atlanta, GA
+format:
+  revealjs:
+    embed-resources: true
+    theme: default  # or simple if you prefer
+    preview-links: auto
+    pdf-max-pages-per-slide: 1
+#logo: your_logo.svg
+incremental: false  # Since you want manual control of reveals
+progress: true
+slide-number: false
+header-includes:
+    - |
+      <style>
+        .reveal {
+            font-size: 1.8em;  /* Slightly smaller for more content
+        }
+      </style>
+from: markdown+emoji
+chalkboard: false
+---
+
+## Look familiar? {background-image="figures/project_file_hellscape.png" background-size="contain"}
+
+::: notes
+30 seconds - Everyone recognizes this chaos
+:::
+
+## What if there was a better way?
+
+::: fragment
+**Structure your project as an R package**
+:::
+
+::: notes
+30 seconds - Set up the solution
+:::
+
+## The Framework
+
+::: incremental
+-   **Step 1: Organize**\
+-   **Step 2: Document**
+-   **Step 3: Share**
+:::
+
+::: notes
+1 minute - Overview of the three steps
+:::
+
+## Let's travel back in time {background-image="figures/deLorean.png" background-size="contain"}
+
+::: notes
+15 seconds - Transition to case study
+:::
+
+## June 2021 in the Netherlands
+
+::::: columns
+::: {.column width="50%"}
+![](netherlands_covid_chart.png)
+:::
+
+::: {.column width="50%"}
+-   COVID-19 cases decreasing
+-   Vaccination ongoing in adults\
+-   Relaxation of control measures
+:::
+:::::
+
+::: notes
+45 seconds - Set the context
+:::
+
+## The Challenge
+
+**Question:** Should the Netherlands extend COVID-19 vaccination to adolescents and children?
+
+**Timeline:** \~2 weeks
+
+::: notes
+30 seconds - The urgent policy question
+:::
+
+------------------------------------------------------------------------
+
+# Step #1: Organize
+
+::::: columns
+::: {.column width="50%"}
+**:x: Typical Project**
+
+```         
+├── analysis.R
+├── analysis_v2.R  
+├── FINAL_analysis.R
+├── analysis_FINAL_v3.R
+├── data_raw.csv
+├── functions_maybe.R
+├── temp_script.R
+└── random_test.R
+```
+:::
+
+::: {.column width="50%"}
+**:white_check_mark: Package Structure**
+
+```         
+📦 mypackage/
+├── R/           # Code
+├── data/        # Data  
+├── man/         # Help files
+└── vignettes/   # Analysis
+```
+:::
+:::::
+
+::: notes
+:::
+
+## Impact: Organization → Efficiency
+
+::: incremental
+-   :arrows_counterclockwise: Models rapidly updated as new data became available
+-   :alarm_clock: Analysis delivered on time\
+-   :syringe: Directly informed health policy decisions
+:::
+
+::: notes
+45 seconds - Real-world results from being organized
+:::
+
+------------------------------------------------------------------------
+
+# Step #2: Document
+
+::::: columns
+::: {.column width="50%"}
+**:x: Separate Documents**
+
+```         
+├── analysis.R
+├── methodology.docx
+├── code_guide.pdf
+├── final_report.pdf
+├── final_report_FINAL.pdf
+└── README.txt
+```
+:::
+
+::: {.column width="50%"}
+**:white_check_mark: Integrated Package**
+
+```         
+📦 mypackage/
+├── R/           # Code
+├── man/         # Help files
+└── vignettes/   # Docs + Reports
+    └── analysis.Rmd → 📊 Report.pdf
+                     → 🌐 Website
+```
+:::
+:::::
+
+::: notes
+1 minute - Show how documentation lives with code
+:::
+
+## Vignettes = Dual Purpose
+
+```{mermaid}
+graph TD
+    A[📖 analysis.Rmd] --> B[📋 Documentation<br/>for developers]
+    A --> C[📊 Deliverable<br/>for clients]
+    B --> D[pkgdown website]
+    C --> E[PDF report]
+```
+
+::: notes
+45 seconds - Key insight about vignettes serving multiple purposes
+:::
+
+## Impact: Documentation → Transparency
+
+::: incremental
+-   :shield: Policy decisions backed by transparent analysis
+-   :bulb: Public could understand scientific basis for decisions
+-   :handshake: More public trust
+:::
+
+::: notes
+45 seconds - Results from transparency
+:::
+
+------------------------------------------------------------------------
+
+# Step #3: Share
+
+:::::::: columns
+::: {.column width="20%"}
+![](single_person_computer.png){width="80%"}
+
+**Steps 1-2**
+:::
+
+::: {.column width="10%"}
+**+**
+:::
+
+::: {.column width="30%"}
+![](github_logo.png){width="30%"} ![](cloud_storage.png){width="30%"} ![](network_drive.png){width="30%"}
+
+**Sharing Platform**
+:::
+
+::: {.column width="10%"}
+**=**
+:::
+
+::: {.column width="30%"}
+![](team_collaboration.png){width="80%"}
+
+**:sparkles: Magic :sparkles:**
+:::
+::::::::
+
+::: notes
+-   Steps 1-2: Just for you → Step 3: Collaborative magic
+-   Visual showing transformation from individual to collaborative work
+:::
+
+::: incremental
+-   :file_folder: **Standard Layout** → Easy team handovers
+-   :book: **Full documentation** → Independent verification
+-   :gear: **Complete Package** → Reusable tools
+:::
+
+::: notes
+1 minute - Show how sharing solves collaboration problems
+:::
+
+## Sharing → Reproducibility
+
+::: fragment
+The pattern emerges: **Organize → Document → Share**
+:::
+
+::: fragment
+Three simple steps that transform analysis into lasting impact
+:::
+
+::: notes
+45 seconds - Complete the pattern reveal and let audience see the full framework
+:::
+
+------------------------------------------------------------------------
+
+# Your Turn!
+
+::::: columns
+::: {.column width="60%"}
+-   Try an R package structure for your next project
+-   Tons of tools and learning materials available
+-   **You'll never go back to messy folders**
+-   *(Seriously, you'll judge your past self)*
+-   *(And maybe judge your colleagues' folders too)*
+:::
+
+::: {.column width="40%"}
+![](figures/usethis_logo.png){width="40%"} ![](figures/cover-2e-small.png){width="40%"}
+:::
+:::::
+
+::: notes
+:::
+
+## Announcement
+
+**I've just submitted my first R package to CRAN!**
+
+![](figures/mitey_hex_superman.png){width="30%"}
+
+::: notes
+:::
+
+## Get in touch!
+
+-   **LinkedIn:** https://www.linkedin.com/in/kylieainslie/
+-   **BlueSky:** @kylieainslie.bsky.social\
+-   **GitHub:** https://github.com/kylieainslie
+-   **Website:** https://kylieainslie.github.io/
+
+::: notes
+:::
