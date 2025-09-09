@@ -14,65 +14,120 @@ progress: true
 slide-number: false
 header-includes:
     - |
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+      
       <style>
         .reveal {
-            font-size: 1.8em;  /* Slightly smaller for more content
+            font-size: 1.8em;  /* Slightly smaller for more content */
+        }
+        
+        .car-slide {
+          animation: none; /* Reset animation initially */
+          display: inline-block;
+        }
+        
+        /* Trigger animation when slide becomes present */
+        .reveal .present .car-slide {
+          animation: slideAcross 3s ease-in-out;
+        }
+        
+        @keyframes slideAcross {
+          0% { 
+            transform: translateX(-300px); 
+            opacity: 1; 
+          }
+          100% { 
+            transform: translateX(100vw); 
+            opacity: 1; 
+          }
         }
       </style>
 from: markdown+emoji
 chalkboard: false
 ---
 
-## Look familiar? {background-image="figures/project_file_hellscape.png" background-size="contain"}
+## Look familiar?
+
+::: {.fragment}
+![](figures/project_file_hellscape.png){height=90%}
+:::
 
 ::: notes
-30 seconds - Everyone recognizes this chaos
+Have you ever thought to yourself:
+Where is that script?
+Which version is current?
+What was I thinking 6 months ago?
 :::
 
 ## What if there was a better way?
 
-::: fragment
+::: {.fragment .r-fit-text style="text-align: center;"}
 **Structure your project as an R package**
-:::
-
-::: notes
-30 seconds - Set up the solution
 :::
 
 ## The Framework
 
 ::: incremental
--   **Step 1: Organize**\
+-   **Step 1: Organize**
 -   **Step 2: Document**
 -   **Step 3: Share**
 :::
 
 ::: notes
-1 minute - Overview of the three steps
+Overview of the three steps
 :::
 
-## Let's travel back in time {background-image="figures/deLorean.png" background-size="contain"}
+## Let's travel back in time
 
-::: notes
-15 seconds - Transition to case study
+::: {.fragment}
+![](figures/delorean.png){.car-slide width="200px"}
 :::
 
 ## June 2021 in the Netherlands
 
 ::::: columns
 ::: {.column width="50%"}
-![](netherlands_covid_chart.png)
+![](figures/nl_june_canal.png)
 :::
 
 ::: {.column width="50%"}
--   COVID-19 cases decreasing
--   Vaccination ongoing in adults\
--   Relaxation of control measures
+![](figures/nl_windmills.png)
 :::
 :::::
 
+::: {.fragment .fade-in fragment-index="1"}
+![](figures/covid_clipart.jpg){width="100px" style="position: absolute; top: 1%; right: 20%;"}
+:::
+
+::: {.fragment .fade-in fragment-index="2"}
+![](figures/covid_clipart.jpg){width="100px" style="position: absolute; top: 60%; left: 30%;"}
+:::
+
+::: {.fragment .fade-in fragment-index="3"}
+![](figures/covid_clipart.jpg){width="100px" style="position: absolute; top: 70%; left: 70%;"}
+:::
+
 ::: notes
-45 seconds - Set the context
+Set the context
+:::
+
+## June 2021 in the Netherlands
+
+:::{.r-stack}
+
+![](figures/nl_covid_confirmed_cases.png){width="80%" style="max-height: 500px; object-fit: contain;"}
+
+::: {.fragment}
+![](figures/nl_covid_confirmed_cases_decreasing.png){width="80%" style="max-height: 500px; object-fit: contain;"}
+:::
+
+::: {.fragment}
+![](figures/nl_covid_confirmed_cases_vaccination.png){width="80%" style="max-height: 500px; object-fit: contain;"}
+:::
+
+::: {.fragment}
+![](figures/nl_covid_confirmed_cases_measures.png){width="80%" style="max-height: 500px; object-fit: contain;"}
+:::
 :::
 
 ## The Challenge
@@ -91,6 +146,7 @@ chalkboard: false
 
 ::::: columns
 ::: {.column width="50%"}
+::: {.fragment fragment-index="1"}
 **:x: Typical Project**
 
 ```         
@@ -104,8 +160,10 @@ chalkboard: false
 └── random_test.R
 ```
 :::
+:::
 
 ::: {.column width="50%"}
+::: {.fragment fragment-index="2"}
 **:white_check_mark: Package Structure**
 
 ```         
@@ -115,6 +173,7 @@ chalkboard: false
 ├── man/         # Help files
 └── vignettes/   # Analysis
 ```
+:::
 :::
 :::::
 
@@ -130,7 +189,7 @@ chalkboard: false
 :::
 
 ::: notes
-45 seconds - Real-world results from being organized
+
 :::
 
 ------------------------------------------------------------------------
@@ -139,6 +198,8 @@ chalkboard: false
 
 ::::: columns
 ::: {.column width="50%"}
+::: {.fragment fragment-index="1"}
+
 **:x: Separate Documents**
 
 ```         
@@ -150,8 +211,11 @@ chalkboard: false
 └── README.txt
 ```
 :::
+:::
 
 ::: {.column width="50%"}
+::: {.fragment fragment-index="2"}
+
 **:white_check_mark: Integrated Package**
 
 ```         
@@ -163,24 +227,33 @@ chalkboard: false
                      → 🌐 Website
 ```
 :::
+:::
 :::::
 
 ::: notes
-1 minute - Show how documentation lives with code
+Have you ever had to reconcile a separate word file and code file?
 :::
 
-## Vignettes = Dual Purpose
+## Step #2: Document
 
-```{mermaid}
-graph TD
-    A[📖 analysis.Rmd] --> B[📋 Documentation<br/>for developers]
-    A --> C[📊 Deliverable<br/>for clients]
-    B --> D[pkgdown website]
-    C --> E[PDF report]
-```
+Writing the help files as you write the code, so they can be documented in real time 
+
+[show screen shot of roxygen preamble and generated help file]
+
 
 ::: notes
-45 seconds - Key insight about vignettes serving multiple purposes
+Tell story about Jantien: some documentation about the project and the data used, but no specific information about the functions
+:::
+
+
+## Step #2: Document
+
+Vignettes
+
+::: notes
+Show screenshot of vignette with text, code, results
+Added bonus: Vignettes can be version controlled, whereas word documents can’t
+Many different versions of a file -> one file with VC history!
 :::
 
 ## Impact: Documentation → Transparency
@@ -192,7 +265,9 @@ graph TD
 :::
 
 ::: notes
-45 seconds - Results from transparency
+Transparency applies to all work, all sectors, particularly in work being used to inform decision making
+
+Mention that we were audit and how this structure helped immensely
 :::
 
 ------------------------------------------------------------------------
@@ -232,6 +307,7 @@ graph TD
 -   Visual showing transformation from individual to collaborative work
 :::
 
+# Step 3: Share
 ::: incremental
 -   :file_folder: **Standard Layout** → Easy team handovers
 -   :book: **Full documentation** → Independent verification
@@ -242,19 +318,17 @@ graph TD
 1 minute - Show how sharing solves collaboration problems
 :::
 
-## Sharing → Reproducibility
+# Impact: Sharing → Reproducibility
 
-::: fragment
-The pattern emerges: **Organize → Document → Share**
+::: incremental
+- <img src="figures/epidemics_hex.png" style="height: 1em; vertical-align: middle;"> Incorporated into `epidemics` package transmission model library 
+
+- :chart_with_downwards_trend: Used to inform European-wide disease modeling
+
+- :globe_showing_europe_africa: One national analysis became international infrastructure
+
 :::
 
-::: fragment
-Three simple steps that transform analysis into lasting impact
-:::
-
-::: notes
-45 seconds - Complete the pattern reveal and let audience see the full framework
-:::
 
 ------------------------------------------------------------------------
 
@@ -262,15 +336,25 @@ Three simple steps that transform analysis into lasting impact
 
 ::::: columns
 ::: {.column width="60%"}
+::: {.fragment fragment-index="1"}
 -   Try an R package structure for your next project
+:::
+
+::: {.fragment fragment-index="2"}
 -   Tons of tools and learning materials available
+:::
+
+::: {.fragment fragment-index="4"}
 -   **You'll never go back to messy folders**
 -   *(Seriously, you'll judge your past self)*
 -   *(And maybe judge your colleagues' folders too)*
 :::
+:::
 
 ::: {.column width="40%"}
+::: {.fragment fragment-index="3" .fade-in-then-out}
 ![](figures/usethis_logo.png){width="40%"} ![](figures/cover-2e-small.png){width="40%"}
+:::
 :::
 :::::
 
@@ -279,19 +363,24 @@ Three simple steps that transform analysis into lasting impact
 
 ## Announcement
 
+::: incremental
 **I've just submitted my first R package to CRAN!**
 
-![](figures/mitey_hex_superman.png){width="30%"}
+![](figures/mitey_hex_superman.png){width="20%"}
+
+:::
 
 ::: notes
 :::
 
 ## Get in touch!
 
--   **LinkedIn:** https://www.linkedin.com/in/kylieainslie/
--   **BlueSky:** @kylieainslie.bsky.social\
--   **GitHub:** https://github.com/kylieainslie
--   **Website:** https://kylieainslie.github.io/
+- <i class="fab fa-linkedin"></i> **LinkedIn:** https://www.linkedin.com/in/kylieainslie/
+- <i class="fa-brands fa-bluesky"></i> @kylieainslie.bsky.social\
+- <i class="fab fa-github"></i> **GitHub:** https://github.com/kylieainslie
+- <i class="fas fa-globe"></i> **Website:** https://kylieainslie.github.io/
+
+
 
 ::: notes
 :::
