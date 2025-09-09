@@ -5,99 +5,129 @@ page-layout: full
 title-block-banner: true
 ---
 
-::: {.grid}
-
-::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
-::: {.card .h-100}
-::: {.card-header}
+::::::::::::::::::: grid
+:::::::::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+::::::::: {.card .h-100}
+::: card-header
 ![](images/presentation-thumbnails/scabies-2024.png){.card-img-top style="height: 200px; object-fit: contain; background-color: var(--bs-body-bg);"}
 :::
-::: {.card-body .d-flex .flex-column}
-::: {.card-title}
+
+::::::: {.card-body .d-flex .flex-column}
+::: card-title
 ## [Scabies, who cares?](presentations/2024/scabies_liverpool/liverpool_presentation.pdf)
 :::
-::: {.card-text}
-**North West Seminar Series of Mathematical Biology and Data Science, University of Liverpool, November 2024**  
+
+::: card-text
+**North West Seminar Series of Mathematical Biology and Data Science, University of Liverpool, November 2024**\
 Estimating the epidemiological characteristics of scabies.
 :::
-::: {.mt-auto}
-::: {.btn-group}
-[View Slides](presentations/2024/scabies_liverpool/liverpool_presentation.qmd){.btn .btn-primary .btn-sm}
-[PDF](presentations/2024/scabies_liverpool/liverpool_presentation.pdf){.btn .btn-outline-secondary .btn-sm}
+
+:::: mt-auto
+::: btn-group
+[View Slides](presentations/2024/scabies_liverpool/liverpool_presentation.qmd){.btn .btn-primary .btn-sm} [PDF](presentations/2024/scabies_liverpool/liverpool_presentation.pdf){.btn .btn-outline-secondary .btn-sm}
 :::
-:::
-:::
-:::
+::::
+:::::::
+:::::::::
+::::::::::
+
+:::::::::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+::::::::: {.card .h-100}
+::: card-header
+Coming soon!
+<!-- ![](images/presentation-thumbnails/posit-conf-2025.png){.card-img-top style="height: 200px; object-fit: contain; background-color: var(--bs-body-bg);"} -->
 :::
 
-::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
-::: {.card .h-100}
-::: {.card-header}
-![](images/presentation-thumbnails/posit-conf-2025.png){.card-img-top style="height: 200px; object-fit: contain; background-color: var(--bs-body-bg);"}
-:::
-::: {.card-body .d-flex .flex-column}
-::: {.card-title}
+::::::: {.card-body .d-flex .flex-column}
+::: card-title
 ## [Enhancing Public Health Decision Making with R Packages](presentations/2025/posit_conf_2025/presentation_pc2025.pdf)
 :::
-::: {.card-text}
-**posit::conf(2025), Coming Soon**  
 
+::: card-text
+**posit::conf(2025), Coming Soon**
 :::
-::: {.mt-auto}
-::: {.btn-group}
-[View Slides](presentations/2025/posit_conf_2025/presentation_pc2025.qmd){.btn .btn-primary .btn-sm}
-[PDF](presentations/2025/posit_conf_2025/presentation_pc2025.pdf){.btn .btn-outline-secondary .btn-sm}
+
+:::: mt-auto
+::: btn-group
+[View Slides](presentations/2025/posit_conf_2025/presentation_pc2025.qmd){.btn .btn-primary .btn-sm} [PDF](presentations/2025/posit_conf_2025/presentation_pc2025.pdf){.btn .btn-outline-secondary .btn-sm}
 :::
-:::
-:::
-:::
-:::
+::::
+:::::::
+:::::::::
+::::::::::
 
 <!-- ::: {.g-col-12 .g-col-md-6 .g-col-lg-4} -->
+
 <!-- ::: {.card .h-100} -->
+
 <!-- ::: {.card-header} -->
+
 <!-- ![](images/presentation-thumbnails/react-study-2023.png){.card-img-top style="height: 200px; object-fit: contain; background-color: var(--bs-body-bg);"} -->
-<!-- ::: -->
-<!-- ::: {.card-body .d-flex .flex-column} -->
-<!-- ::: {.card-title} -->
-<!-- ## [REACT Study: Community Transmission Analysis](presentations/react-study-epidemics-2023.qmd) -->
-<!-- ::: -->
-<!-- ::: {.card-text} -->
-<!-- **Epidemics Conference, December 2023**   -->
-<!-- Real-time assessment of community transmission using the REACT study data during the COVID-19 pandemic. -->
-<!-- ::: -->
-<!-- ::: {.mt-auto} -->
-<!-- ::: {.btn-group} -->
-<!-- [View Slides](presentations/react-study-epidemics-2023.qmd){.btn .btn-primary .btn-sm} -->
-<!-- [PDF](presentations/pdfs/react-study-epidemics-2023.pdf){.btn .btn-outline-secondary .btn-sm} -->
-<!-- ::: -->
-<!-- ::: -->
-<!-- ::: -->
-<!-- ::: -->
+
 <!-- ::: -->
 
-:::
+<!-- ::: {.card-body .d-flex .flex-column} -->
+
+<!-- ::: {.card-title} -->
+
+<!-- ## [REACT Study: Community Transmission Analysis](presentations/react-study-epidemics-2023.qmd) -->
+
+<!-- ::: -->
+
+<!-- ::: {.card-text} -->
+
+<!-- **Epidemics Conference, December 2023**   -->
+
+<!-- Real-time assessment of community transmission using the REACT study data during the COVID-19 pandemic. -->
+
+<!-- ::: -->
+
+<!-- ::: {.mt-auto} -->
+
+<!-- ::: {.btn-group} -->
+
+<!-- [View Slides](presentations/react-study-epidemics-2023.qmd){.btn .btn-primary .btn-sm} -->
+
+<!-- [PDF](presentations/pdfs/react-study-epidemics-2023.pdf){.btn .btn-outline-secondary .btn-sm} -->
+
+<!-- ::: -->
+
+<!-- ::: -->
+
+<!-- ::: -->
+
+<!-- ::: -->
+
+<!-- ::: -->
+:::::::::::::::::::
 
 <!-- ## Presentation Categories -->
 
 <!-- ### **Conference Presentations** -->
+
 <!-- Talks delivered at major infectious disease and epidemiology conferences including Epidemics, ISDS, and ESCAIDE. -->
 
 <!-- ### **Invited Seminars**   -->
+
 <!-- Guest lectures and seminars at academic institutions and research organizations. -->
 
 <!-- ### **Workshop Presentations** -->
+
 <!-- Training workshops and methodology sessions on infectious disease modeling and vaccine effectiveness analysis. -->
 
 <!-- ## Recent Speaking Topics -->
 
 <!-- - **Mathematical modeling** of infectious disease transmission -->
+
 <!-- - **Vaccine effectiveness** studies using real-world data -->
+
 <!-- - **Agent-based modeling** for population health interventions -->
+
 <!-- - **Statistical methods** for waning immunity analysis -->
+
 <!-- - **COVID-19 pandemic response** modeling and surveillance -->
 
----
+------------------------------------------------------------------------
 
 ## Speaking Invitations
 

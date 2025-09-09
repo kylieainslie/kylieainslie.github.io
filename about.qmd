@@ -103,12 +103,6 @@ map <- leaflet() %>%
   addProviderTiles(providers$CartoDB.Positron) %>%
   setView(lng = 30, lat = 20, zoom = 2)
 
-# Alternative attractive tile options (uncomment to try):
-# addProviderTiles(providers$CartoDB.DarkMatter) %>%  # Dark theme
-# addProviderTiles(providers$Stamen.Terrain) %>%      # Topographic
-# addProviderTiles(providers$Esri.WorldImagery) %>%   # Satellite
-# addProviderTiles(providers$Stamen.Toner) %>%        # Artistic B&W
-
 htmlwidgets::onRender(map, "
 function(el, x) {
   window.journeyMap = this;
@@ -157,21 +151,20 @@ function(el, x) {
   var smoothFlyTo = function(lat, lng, zoom) {
     window.journeyMap.flyTo([lat, lng], zoom, {
       animate: true,
-      duration: 2.5,  // Longer duration for smoother feel
-      easeLinearity: 0.1  // Smoother easing
+      duration: 2.5,
+      easeLinearity: 0.1
     });
   };
   
   window.updateMapStep = function(stepId) {
     var map = window.journeyMap;
     
-    // Clear existing markers with fade effect
+    // Clear everything and rebuild to ensure proper primary/secondary states
     window.currentMarkers.forEach(function(marker) {
       map.removeLayer(marker);
     });
     window.currentMarkers = [];
     
-    // Clear existing lines
     map.eachLayer(function(layer) {
       if (layer._latlngs) {
         map.removeLayer(layer);
@@ -179,10 +172,6 @@ function(el, x) {
     });
     
     switch(stepId) {
-      case 'step-intro':
-        smoothFlyTo(window.locations.overview.lat, window.locations.overview.lng, window.locations.overview.zoom);
-        break;
-        
       case 'step-atlanta':
         smoothFlyTo(window.locations.atlanta.lat, window.locations.atlanta.lng, window.locations.atlanta.zoom);
         setTimeout(function() {
@@ -194,33 +183,31 @@ function(el, x) {
       case 'step-london':
         smoothFlyTo(window.locations.london.lat, window.locations.london.lng, window.locations.london.zoom);
         setTimeout(function() {
+          // Add previous markers (dimmed) and current (primary)
           createMarker(window.locations.atlanta.lat, window.locations.atlanta.lng, 
                       '<strong>Atlanta, GA</strong><br>PhD completed', false).addTo(map);
           createMarker(window.locations.london.lat, window.locations.london.lng, 
                       '<strong>London, UK</strong><br>Postdoc at Imperial College<br>(2018-2020)', true).addTo(map);
           
-          // Animate line drawing
-          var latlngs = [[window.locations.atlanta.lat, window.locations.atlanta.lng], 
-                        [window.locations.london.lat, window.locations.london.lng]];
-          L.polyline(latlngs, {
-            color: '#2DD4BF', 
-            weight: 4, 
-            opacity: 0.8,
-            className: 'journey-line'
-          }).addTo(map);
+          // Add journey line
+          L.polyline([[window.locations.atlanta.lat, window.locations.atlanta.lng], 
+                     [window.locations.london.lat, window.locations.london.lng]], 
+                     {color: '#2DD4BF', weight: 4, opacity: 0.8}).addTo(map);
         }, 1000);
         break;
         
       case 'step-amsterdam':
         smoothFlyTo(window.locations.amsterdam.lat, window.locations.amsterdam.lng, window.locations.amsterdam.zoom);
         setTimeout(function() {
+          // Add all previous markers (dimmed) and current (primary)
           createMarker(window.locations.atlanta.lat, window.locations.atlanta.lng, 
-                      '<strong>Atlanta, GA</strong>', false).addTo(map);
+                      '<strong>Atlanta, GA</strong><br>PhD completed', false).addTo(map);
           createMarker(window.locations.london.lat, window.locations.london.lng, 
-                      '<strong>London, UK</strong>', false).addTo(map);
+                      '<strong>London, UK</strong><br>Postdoc completed', false).addTo(map);
           createMarker(window.locations.amsterdam.lat, window.locations.amsterdam.lng, 
                       '<strong>Amsterdam, NL</strong><br>Senior Researcher at RIVM<br>(2020-Present)', true).addTo(map);
           
+          // Add complete journey line
           L.polyline([[window.locations.atlanta.lat, window.locations.atlanta.lng], 
                      [window.locations.london.lat, window.locations.london.lng],
                      [window.locations.amsterdam.lat, window.locations.amsterdam.lng]], 
@@ -231,11 +218,23 @@ function(el, x) {
       case 'step-hongkong':
         smoothFlyTo(window.locations.hongkong.lat, window.locations.hongkong.lng, window.locations.hongkong.zoom);
         setTimeout(function() {
+          // Add all previous markers
+          createMarker(window.locations.atlanta.lat, window.locations.atlanta.lng, 
+                      '<strong>Atlanta, GA</strong><br>PhD completed', false).addTo(map);
+          createMarker(window.locations.london.lat, window.locations.london.lng, 
+                      '<strong>London, UK</strong><br>Postdoc completed', false).addTo(map);
           createMarker(window.locations.amsterdam.lat, window.locations.amsterdam.lng, 
-                      '<strong>Amsterdam, NL</strong><br>Home base', false).addTo(map);
+                      '<strong>Amsterdam, NL</strong><br>Home base at RIVM', false).addTo(map);
           createMarker(window.locations.hongkong.lat, window.locations.hongkong.lng, 
                       '<strong>Hong Kong</strong><br>Honorary Assistant Professor<br>University of Hong Kong<br>(2022-Present)', true).addTo(map);
           
+          // Add main journey line
+          L.polyline([[window.locations.atlanta.lat, window.locations.atlanta.lng], 
+                     [window.locations.london.lat, window.locations.london.lng],
+                     [window.locations.amsterdam.lat, window.locations.amsterdam.lng]], 
+                     {color: '#2DD4BF', weight: 4, opacity: 0.8}).addTo(map);
+          
+          // Add collaboration line
           L.polyline([[window.locations.amsterdam.lat, window.locations.amsterdam.lng], 
                      [window.locations.hongkong.lat, window.locations.hongkong.lng]], 
                      {color: '#14B8A6', weight: 3, opacity: 0.7, dashArray: '10,5'}).addTo(map);
@@ -245,11 +244,30 @@ function(el, x) {
       case 'step-melbourne':
         smoothFlyTo(window.locations.melbourne.lat, window.locations.melbourne.lng, window.locations.melbourne.zoom);
         setTimeout(function() {
+          // Add all previous markers
+          createMarker(window.locations.atlanta.lat, window.locations.atlanta.lng, 
+                      '<strong>Atlanta, GA</strong><br>PhD completed', false).addTo(map);
+          createMarker(window.locations.london.lat, window.locations.london.lng, 
+                      '<strong>London, UK</strong><br>Postdoc completed', false).addTo(map);
           createMarker(window.locations.amsterdam.lat, window.locations.amsterdam.lng, 
-                      '<strong>Amsterdam, NL</strong><br>Current position', false).addTo(map);
+                      '<strong>Amsterdam, NL</strong><br>Current position at RIVM', false).addTo(map);
+          createMarker(window.locations.hongkong.lat, window.locations.hongkong.lng, 
+                      '<strong>Hong Kong</strong><br>Ongoing collaboration', false).addTo(map);
           createMarker(window.locations.melbourne.lat, window.locations.melbourne.lng, 
                       '<strong>Melbourne, AU</strong><br>University of Melbourne<br>Modelling for Policy Lead<br>(Coming Soon!)', true).addTo(map);
           
+          // Add main journey line
+          L.polyline([[window.locations.atlanta.lat, window.locations.atlanta.lng], 
+                     [window.locations.london.lat, window.locations.london.lng],
+                     [window.locations.amsterdam.lat, window.locations.amsterdam.lng]], 
+                     {color: '#2DD4BF', weight: 4, opacity: 0.8}).addTo(map);
+          
+          // Add collaboration line
+          L.polyline([[window.locations.amsterdam.lat, window.locations.amsterdam.lng], 
+                     [window.locations.hongkong.lat, window.locations.hongkong.lng]], 
+                     {color: '#14B8A6', weight: 3, opacity: 0.7, dashArray: '10,5'}).addTo(map);
+          
+          // Add future connection
           L.polyline([[window.locations.amsterdam.lat, window.locations.amsterdam.lng], 
                      [window.locations.melbourne.lat, window.locations.melbourne.lng]], 
                      {color: '#5EEAD4', weight: 3, opacity: 0.6, dashArray: '15,8'}).addTo(map);
@@ -391,6 +409,7 @@ Daily dog walks with Leon
 ::: {.photo-card}
 [![](images/rladies_amsterdam_logo.png)](https://www.meetup.com/rladies-amsterdam/)
 **R Ladies Amsterdam** - Volunteer Organizer
+
 Follow on [BlueSky](https://bsky.app/profile/rladiesamsterdam.bsky.social)
 :::
 

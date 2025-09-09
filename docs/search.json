@@ -18,7 +18,7 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "Hi! I’m Kylie. I’m originally from Atlanta, GA (well, technically Decatur). I have always loved travelling, so as soon as I finished my PhD, I moved across the pond to London to do a postdoc at Imperial College London. During the COVID-19 pandemic, I relocated to Amsterdam and joined the Dutch National Institute of Public Health and the Environment (RIVM) as a senior researcher in infectious disease modelling. I continue to find any excuse to hop on a plane, train, or automobile and explore. In my free time, I love cooking, running, taking a class at the gym, perfecting my homemade flat white, and, of course, spending time with my wife and puppy.\nI am also an organizer of the Amsterdam chapter of R-Ladies."
+    "text": "I’m Kylie, an Atlanta-native (technically Decatur), crazy dog lady, runner, and science nerd. I work as an infectious disease modeller, meaning that I use math, stats, and R to study the spread of diseases and how interventions, like vaccines, can impact that spread. My career path has taken me from Atlanta to London, Amsterdam, Hong Kong, and soon to Melbourne. I love to explore both near and far, whether that’s through research collaborations, weekend hikes, discovering local coffee shops, or finding the best running trails in each new city.\nScroll through my journey below and watch it unfold on the map.\n\n\nMy Journey\n\n\n\n\n\n\n\n\n🎓 PhD\n\n2011-2018\n\nI did my PhD at Emory University in Atlanta, GA. Georgia will always be home, but the world was calling!\n\n\n\n\n🇬🇧 Postdoc\n\n2018-2020\n\nMoved to London for a postdoc at Imperial College London.\n\n\n\n\n🇳🇱 Senior Researcher\n\n2020-Present\n\nDuring the pandemic, I relocated to Amsterdam and joined the RIVM as a senior researcher in infectious disease modelling. Found my niche in modelling for public health policy.\n\n\n\n\n🇭🇰 Honorary Assistant Professor\n\n2022-Present\n\nJoined University of Hong Kong School of Public Health as Honorary Assistant Professor, expanding international research collaborations and working on real-world vaccine effectiveness.\n\n\n\n\n🇦🇺 Modelling for Policy Lead\n\nComing soon!\n\nStarting a new position at University of Melbourne - the journey continues down under! Excited for this next step! 🦘\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nQuick Stats\n\n\n\n\n15,096.7\n\n\nKilometers Run\n\n\n\n\n37\n\n\nCountries Visited\n\n\n\n\n108\n\n\nGoogle Scholar Publications\n\n\n\n\n17,320\n\n\nTotal Citations\n\n\n\n\n21\n\n\nBooks Read This Year\n\n\n\n\n4\n\n\nDaily dog walks with Leon\n\n\n\n\n\n\nLife Outside of Research\n\n\n\n Leon - My pretty princess 👑\n\n\n Running - Still my favorite way to explore\n\n\n Hiking - Redwoods National & State Parks\n\n\n Cooking - Food adventures on Instagram\n\n\n Coffee - Perfecting my homemade flat white (my latte art needs work) 🙃\n\n\n R Ladies Amsterdam - Volunteer Organizer\nFollow on BlueSky\n\n\nI continue to find any excuse to hop on a plane, train, or automobile and explore new places. Whether it’s for research collaborations, conferences, or just weekend adventures, I believe that travel enriches both personal and professional perspectives. With an upcoming move to Melbourne on the horizon, the adventure continues!\n\nWant to connect? Find me on social media or drop me an email - I’m always happy to chat about research, travel recommendations, the perfect flat white recipe, or tips for international moves!"
   },
   {
     "objectID": "pubs/ward_2021_nature_comm/index.html",
@@ -178,15 +178,15 @@
     "objectID": "research.html#evaluation-of-waning-vaccine-effectiveness-wave",
     "href": "research.html#evaluation-of-waning-vaccine-effectiveness-wave",
     "title": "Research Projects",
-    "section": "Evaluation of WAning Vaccine Effectiveness (WAVE)",
-    "text": "Evaluation of WAning Vaccine Effectiveness (WAVE)\nInformation regarding decreasing VE is essential to optimally design booster vaccination campaigns with respect to the risk of outbreaks and whether repeated vaccination is cost-effective and ethical. The COVID-19 pandemic highlighted the lack of robust methods to: assess waning vaccine effectiveness, disentangle true from perceived waning, and identify determinants of waning. In this project, we aim to develop and rigorously compare methods to assess waning vaccine-induced protection (for vaccines such as those against pertussis, influenza, and COVID-19). Using these methods, we will analyze data from observational studies to estimate the rate of waning vaccine effectiveness and determine how individual characteristics influence rate of waning vaccine-induced protection.\n\nRelated publications\n\nHaber, M., et al. Comparing statistical methods for detecting and estimating waning efficacy of rotavirus vaccines in developing countries. Hum Vaccin Immunother. 2021;17: 4632–4635. link"
+    "section": "Evaluation of Waning Vaccine Effectiveness (WAVE)",
+    "text": "Evaluation of Waning Vaccine Effectiveness (WAVE)"
   },
   {
     "objectID": "research.html#modelling-the-impact-of-vaccination-strategies",
     "href": "research.html#modelling-the-impact-of-vaccination-strategies",
     "title": "Research Projects",
-    "section": "Modelling the impact of vaccination strategies",
-    "text": "Modelling the impact of vaccination strategies\nIn this project, we use mathematical models of infectious disease transmission to determine the impact of vaccination strategies on disease spread. Specifically, we developed a deterministic age-structured compartmental model to compare different COVID-19 vaccination scenarios with respect to disease outcomes (e.g., infections, hospitalisations). This work also contributed to the European Scenario Modelling Hub.\n\nRelated publications\n\nAinslie, K. E. C., et al. A scenario modelling analysis to anticipate the impact of COVID-19 vaccination in adolescents and children on disease outcomes in the Netherlands, summer 2021. Euro Surveill. 2022;27(44):pii=2101090. link\nSherratt, K., et al. Characterising information gains and losses when collecting multiple epidemic model outputs. medRxiv 2024. link\nAinslie, K. E. C. et al. The expected outcome of COVID-19 vaccination strategies. RIVM 2021. link\n\n\n\nRelated links\n\nTransmission model code base: https://github.com/kylieainslie/vacamole\nEuropean scenario modelling hub: https://github.com/european-modelling-hubs/covid19-scenario-hub-europe"
+    "section": "Modelling the Impact of Vaccination Strategies",
+    "text": "Modelling the Impact of Vaccination Strategies"
   },
   {
     "objectID": "cv.html",
@@ -200,7 +200,7 @@
     "href": "research.html#estimating-the-epidemiological-characteristics-of-scabies",
     "title": "Research Projects",
     "section": "Estimating the epidemiological characteristics of scabies",
-    "text": "Estimating the epidemiological characteristics of scabies\nScabies is a contagious skin disease caused by the infestation of the skin by the Sarcopes scabiei mite, causing an itchy rash. Scabies affects over 400 million people annually worldwide, and a rise in scabies cases has been observed in recent years throughout Western Europe. Despite the prevalence of scabies, some fundamental epidemiological characteristics of scabies infections have not been described. In this project, we use publicly available data on date of symptom onset during scabies outbreaks to estimate the mean serial interval, time between symptom onset in an infector and symptom onset in an infectee, of scabies infection. We also use weekly counts of scabies diagnoses from sentinel surveillance in the Netherlands from 2011-2023 to determine quantities related to the spread of scabies over time, namely, the time-varying reproduction number, growth rate, and basic reproduction number.\n\nRelated links\n\nmitey R package: https://github.com/kylieainslie/mitey"
+    "text": "Estimating the epidemiological characteristics of scabies\nScabies is a contagious skin disease caused by the infestation of the skin by the Sarcopes scabiei mite, causing an itchy rash. Scabies affects over 400 million people annually worldwide, and a rise in scabies cases has been observed in recent years throughout Western Europe. Despite the prevalence of scabies, some fundamental epidemiological characteristics of scabies infections have not been described. In this project, we use publicly available data on date of symptom onset during scabies outbreaks to estimate the mean serial interval, time between symptom onset in an infector and symptom onset in an infectee, of scabies infection. We also use weekly counts of scabies diagnoses from sentinel surveillance in the Netherlands from 2011-2023 to determine quantities related to the spread of scabies over time, namely, the time-varying reproduction number, growth rate, and basic reproduction number.\n\nRelated links\n\nAinslie, K. E. C. , M. Hooiveld, J. Wallinga. Estimation of the epidemiological characteristics of scabies. (preprint) 2025. link\nmitey R package: https://github.com/kylieainslie/mitey"
   },
   {
     "objectID": "pubs/sherratt_2024_epidemics/index.html",
@@ -425,5 +425,180 @@
     "title": "Automating Data Pipelines with Maeestro",
     "section": "Conclusion",
     "text": "Conclusion\nThat’s it! After setting up the YAML file, wrapping the pipeline in a function, creating the .sh file, and scheduling the job with cron, your pipeline should run automatically at the intervals you’ve defined. Remember, maestro handles the pipeline’s internal orchestration, but cron or another scheduling system is what ensures the pipeline is triggered at the right frequency."
+  },
+  {
+    "objectID": "research.html#scabies-epidemiology",
+    "href": "research.html#scabies-epidemiology",
+    "title": "Research Projects",
+    "section": "Scabies Epidemiology",
+    "text": "Scabies Epidemiology"
+  },
+  {
+    "objectID": "research.html#evaluation-of-waning-vaccine-effectiveness-wave-1",
+    "href": "research.html#evaluation-of-waning-vaccine-effectiveness-wave-1",
+    "title": "Research Projects",
+    "section": "Evaluation of WAning Vaccine Effectiveness (WAVE)",
+    "text": "Evaluation of WAning Vaccine Effectiveness (WAVE)\nInformation regarding decreasing VE is essential to optimally design booster vaccination campaigns with respect to the risk of outbreaks and whether repeated vaccination is cost-effective and ethical. The COVID-19 pandemic highlighted the lack of robust methods to: assess waning vaccine effectiveness, disentangle true from perceived waning, and identify determinants of waning. In this project, we aim to develop and rigorously compare methods to assess waning vaccine-induced protection (for vaccines such as those against pertussis, influenza, and COVID-19). Using these methods, we will analyze data from observational studies to estimate the rate of waning vaccine effectiveness and determine how individual characteristics influence rate of waning vaccine-induced protection.\n\nRelated publications\n\nHaber, M., et al. Comparing statistical methods for detecting and estimating waning efficacy of rotavirus vaccines in developing countries. Hum Vaccin Immunother. 2021;17: 4632–4635. link"
+  },
+  {
+    "objectID": "research.html#modelling-the-impact-of-vaccination-strategies-1",
+    "href": "research.html#modelling-the-impact-of-vaccination-strategies-1",
+    "title": "Research Projects",
+    "section": "Modelling the impact of vaccination strategies",
+    "text": "Modelling the impact of vaccination strategies\nIn this project, we use mathematical models of infectious disease transmission to determine the impact of vaccination strategies on disease spread. Specifically, we developed a deterministic age-structured compartmental model to compare different COVID-19 vaccination scenarios with respect to disease outcomes (e.g., infections, hospitalisations). This work also contributed to the European Scenario Modelling Hub.\n\nRelated publications\n\nAinslie, K. E. C., et al. A scenario modelling analysis to anticipate the impact of COVID-19 vaccination in adolescents and children on disease outcomes in the Netherlands, summer 2021. Euro Surveill. 2022;27(44):pii=2101090. link\nSherratt, K., et al. Characterising information gains and losses when collecting multiple epidemic model outputs. medRxiv 2024. link\nAinslie, K. E. C. et al. The expected outcome of COVID-19 vaccination strategies. RIVM 2021. link\n\n\n\nRelated links\n\nTransmission model code base: https://github.com/kylieainslie/vacamole\nEuropean scenario modelling hub: https://github.com/european-modelling-hubs/covid19-scenario-hub-europe"
+  },
+  {
+    "objectID": "tutorials.html",
+    "href": "tutorials.html",
+    "title": "Tutorials",
+    "section": "",
+    "text": "Learn how to create automated data analysis pipelines using the Maestro R package. Perfect for reproducible research workflows and scheduling complex analyses in infectious disease modeling.\n\n\n\nView Tutorial"
+  },
+  {
+    "objectID": "tutorials.html#questions-or-suggestions",
+    "href": "tutorials.html#questions-or-suggestions",
+    "title": "Tutorials",
+    "section": "Questions or Suggestions?",
+    "text": "Questions or Suggestions?\nHave suggestions for new tutorials or found an error? Please open an issue on GitHub or reach out via email."
+  },
+  {
+    "objectID": "software.html",
+    "href": "software.html",
+    "title": "Software",
+    "section": "",
+    "text": "A lightweight R package with methods to estimate infectious disease dynamics parameters.\n\n\n\nGitHub  Publication\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAn R package that features a deterministic age-structured compartmental susceptible-exposed-infectious-recovered (SEIR) model and supporting functions.\n\n\n\nGitHub  Publication\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAn R package that features a multi-annual, individual-based, stochastic, force of infection model that accounts for individual exposure histories and disease/vaccine dynamics influencing susceptibility.\n\n\n\nGitHub  Publication"
+  },
+  {
+    "objectID": "software.html#development-philosophy",
+    "href": "software.html#development-philosophy",
+    "title": "Software",
+    "section": "Development Philosophy",
+    "text": "Development Philosophy\nAll software is developed with principles of:\n\nReproducible research - Clear documentation and version control\nOpen science - Publicly available code and transparent methods\n\nUser-friendly design - Intuitive interfaces and comprehensive examples\nRigorous testing - Unit tests and validation against known results"
+  },
+  {
+    "objectID": "software.html#collaboration",
+    "href": "software.html#collaboration",
+    "title": "Software",
+    "section": "Collaboration",
+    "text": "Collaboration\nInterested in contributing to any of these projects? Most repositories welcome contributions via GitHub issues and pull requests. For major collaborations or new project ideas, feel free to reach out via email."
+  },
+  {
+    "objectID": "presentations.html",
+    "href": "presentations.html",
+    "title": "Presentations",
+    "section": "",
+    "text": "North West Seminar Series of Mathematical Biology and Data Science, University of Liverpool, November 2024\nEstimating the epidemiological characteristics of scabies.\n\n\n\nView Slides PDF\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nposit::conf(2025), Coming Soon\n\n\n\nView Slides PDF"
+  },
+  {
+    "objectID": "presentations.html#speaking-invitations",
+    "href": "presentations.html#speaking-invitations",
+    "title": "Presentations",
+    "section": "Speaking Invitations",
+    "text": "Speaking Invitations\nInterested in having me present at your conference or institution? Please reach out via email to discuss potential topics and availability."
+  },
+  {
+    "objectID": "presentations/2025/posit_conf_2025/presentation_pc2025.html#look-familiar",
+    "href": "presentations/2025/posit_conf_2025/presentation_pc2025.html#look-familiar",
+    "title": "Elevating Public Health Decision Making with R Packages",
+    "section": "Look familiar?",
+    "text": "Look familiar?"
+  },
+  {
+    "objectID": "presentations/2025/posit_conf_2025/presentation_pc2025.html#what-if-there-was-a-better-way",
+    "href": "presentations/2025/posit_conf_2025/presentation_pc2025.html#what-if-there-was-a-better-way",
+    "title": "Elevating Public Health Decision Making with R Packages",
+    "section": "What if there was a better way?",
+    "text": "What if there was a better way?\n\nStructure your project as an R package"
+  },
+  {
+    "objectID": "presentations/2025/posit_conf_2025/presentation_pc2025.html#the-framework",
+    "href": "presentations/2025/posit_conf_2025/presentation_pc2025.html#the-framework",
+    "title": "Elevating Public Health Decision Making with R Packages",
+    "section": "The Framework",
+    "text": "The Framework\n\n\nStep 1: Organize\nStep 2: Document\nStep 3: Share\n\n\n\nOverview of the three steps"
+  },
+  {
+    "objectID": "presentations/2025/posit_conf_2025/presentation_pc2025.html#lets-travel-back-in-time",
+    "href": "presentations/2025/posit_conf_2025/presentation_pc2025.html#lets-travel-back-in-time",
+    "title": "Elevating Public Health Decision Making with R Packages",
+    "section": "Let’s travel back in time",
+    "text": "Let’s travel back in time"
+  },
+  {
+    "objectID": "presentations/2025/posit_conf_2025/presentation_pc2025.html#june-2021-in-the-netherlands",
+    "href": "presentations/2025/posit_conf_2025/presentation_pc2025.html#june-2021-in-the-netherlands",
+    "title": "Elevating Public Health Decision Making with R Packages",
+    "section": "June 2021 in the Netherlands",
+    "text": "June 2021 in the Netherlands\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSet the context"
+  },
+  {
+    "objectID": "presentations/2025/posit_conf_2025/presentation_pc2025.html#the-challenge",
+    "href": "presentations/2025/posit_conf_2025/presentation_pc2025.html#the-challenge",
+    "title": "Elevating Public Health Decision Making with R Packages",
+    "section": "The Challenge",
+    "text": "The Challenge\nQuestion: Should the Netherlands extend COVID-19 vaccination to adolescents and children?\nTimeline: ~2 weeks\n\n30 seconds - The urgent policy question"
+  },
+  {
+    "objectID": "presentations/2025/posit_conf_2025/presentation_pc2025.html#impact-organization-efficiency",
+    "href": "presentations/2025/posit_conf_2025/presentation_pc2025.html#impact-organization-efficiency",
+    "title": "Elevating Public Health Decision Making with R Packages",
+    "section": "Impact: Organization → Efficiency",
+    "text": "Impact: Organization → Efficiency\n\n\n🔄 Models rapidly updated as new data became available\n⏰ Analysis delivered on time\n\n💉 Directly informed health policy decisions\n\n\n\n45 seconds - Real-world results from being organized"
+  },
+  {
+    "objectID": "presentations/2025/posit_conf_2025/presentation_pc2025.html#vignettes-dual-purpose",
+    "href": "presentations/2025/posit_conf_2025/presentation_pc2025.html#vignettes-dual-purpose",
+    "title": "Elevating Public Health Decision Making with R Packages",
+    "section": "Vignettes = Dual Purpose",
+    "text": "Vignettes = Dual Purpose"
+  },
+  {
+    "objectID": "presentations/2025/posit_conf_2025/presentation_pc2025.html#impact-documentation-transparency",
+    "href": "presentations/2025/posit_conf_2025/presentation_pc2025.html#impact-documentation-transparency",
+    "title": "Elevating Public Health Decision Making with R Packages",
+    "section": "Impact: Documentation → Transparency",
+    "text": "Impact: Documentation → Transparency\n\n\n🛡️ Policy decisions backed by transparent analysis\n💡 Public could understand scientific basis for decisions\n🤝 More public trust"
+  },
+  {
+    "objectID": "presentations/2025/posit_conf_2025/presentation_pc2025.html#sharing-reproducibility",
+    "href": "presentations/2025/posit_conf_2025/presentation_pc2025.html#sharing-reproducibility",
+    "title": "Elevating Public Health Decision Making with R Packages",
+    "section": "Sharing → Reproducibility",
+    "text": "Sharing → Reproducibility\n\nThe pattern emerges: Organize → Document → Share\n\n\nThree simple steps that transform analysis into lasting impact\n\n\n45 seconds - Complete the pattern reveal and let audience see the full framework"
+  },
+  {
+    "objectID": "presentations/2025/posit_conf_2025/presentation_pc2025.html#announcement",
+    "href": "presentations/2025/posit_conf_2025/presentation_pc2025.html#announcement",
+    "title": "Elevating Public Health Decision Making with R Packages",
+    "section": "Announcement",
+    "text": "Announcement\n\nI’ve just submitted my first R package to CRAN!"
+  },
+  {
+    "objectID": "presentations/2025/posit_conf_2025/presentation_pc2025.html#get-in-touch",
+    "href": "presentations/2025/posit_conf_2025/presentation_pc2025.html#get-in-touch",
+    "title": "Elevating Public Health Decision Making with R Packages",
+    "section": "Get in touch!",
+    "text": "Get in touch!\n\n LinkedIn: https://www.linkedin.com/in/kylieainslie/\n @kylieainslie.bsky.social\n\n GitHub: https://github.com/kylieainslie\n Website: https://kylieainslie.github.io/\n\n\n\n\n\n\n\nposit::conf(2025) | 18 September 2025 | Atlanta, GA"
+  },
+  {
+    "objectID": "about.html#my-journey",
+    "href": "about.html#my-journey",
+    "title": "About",
+    "section": "My Journey",
+    "text": "My Journey\nHi! I’m Kylie. I’m originally from Atlanta, GA (well, technically Decatur), and my path has taken me on quite an adventure across continents and career milestones. Currently based in Amsterdam while holding positions in the Netherlands and Hong Kong, I’m preparing for my next chapter in Melbourne!\n\nThe Journey So Far\n\n\n\n\n\n🌍 A Global Adventure\nScroll through my journey as it unfolds across the map. Each step of my career has taken me to new places and opened new opportunities.\n\n\n\n\n🎓 PhD Completion\n\n~2018\n\nFinished my PhD in Atlanta and immediately started planning my next adventure across the pond. Georgia will always be home, but the world was calling!\n\n\n\n\n🇬🇧 London Postdoc\n\n2018-2020\n\nMoved to London for a postdoc at Imperial College London. Fell in love with European life, research opportunities, and the incredible public transport system.\n\n\n\n\n🦠 COVID-19 Pivot\n\n2020-Present\n\nDuring the pandemic, relocated to Amsterdam and joined RIVM as a senior researcher in infectious disease modelling. Found my niche in pandemic preparedness.\n\n\n\n\n🇭🇰 Hong Kong Honorary Role\n\n2022-Present\n\nJoined University of Hong Kong as Honorary Assistant Professor, expanding international research collaborations and working on real-world vaccine effectiveness.\n\n\n\n\n🇦🇺 Next Adventure\n\nLate 2025\n\nStarting a new position at University of Melbourne - the journey continues down under! Excited for new collaborations and Southern Hemisphere research.\n\n\n\n\n\n\n\n\n\n\n\n\n\nQuick Stats\n\n\n\n5\n\n\nCities Across 4 Continents\n\n\n\n\n4+\n\n\nR Packages Developed\n\n\n\n\n3\n\n\nUniversities & Counting\n\n\n\n\n∞\n\n\nFlat White Experiments\n\n\n\n\n\nLife Outside the Lab\n\n\n ::: {.photo-overlay} 🍳 Cooking\n@goinginforthekale\n\n\n\n ::: {.photo-overlay} 🏃‍♀️ Running\nExploring Amsterdam one run at a time\n\n:::\n\n ::: {.photo-overlay} 💪 Fitness\nClasses at Queer Gym\n\n:::\n\n ::: {.photo-overlay} ☕ Coffee\nPerfecting the homemade flat white\n\n:::\n\n ::: {.photo-overlay} 👩‍💻 R-Ladies\nOrganizing Amsterdam chapter\n\n:::\n\n ::: {.photo-overlay} 🐕 Leon\nThe star of the show\n\n::: :::\nI continue to find any excuse to hop on a plane, train, or automobile and explore new places. Whether it’s for research collaborations, conferences, or just weekend adventures, I believe that travel enriches both personal and professional perspectives. With an upcoming move to Melbourne on the horizon, the adventure continues!\n\nWant to connect? Find me on social media or drop me an email - I’m always happy to chat about research, travel recommendations, the perfect flat white recipe, or tips for international moves!"
+  },
+  {
+    "objectID": "presentations/2025/posit_conf_2025/presentation_pc2025.html#section",
+    "href": "presentations/2025/posit_conf_2025/presentation_pc2025.html#section",
+    "title": "Elevating Public Health Decision Making with R Packages",
+    "section": "",
+    "text": "Structure your project as an R package"
+  },
+  {
+    "objectID": "presentations/2025/posit_conf_2025/presentation_pc2025.html#june-2021-in-the-netherlands-1",
+    "href": "presentations/2025/posit_conf_2025/presentation_pc2025.html#june-2021-in-the-netherlands-1",
+    "title": "Elevating Public Health Decision Making with R Packages",
+    "section": "June 2021 in the Netherlands",
+    "text": "June 2021 in the Netherlands"
   }
 ]

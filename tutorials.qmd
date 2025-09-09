@@ -5,50 +5,59 @@ page-layout: full
 title-block-banner: true
 ---
 
-::: {.grid}
-
-::: {.g-col-12 .g-col-md-8 .g-col-lg-6}
-::: {.card .h-100}
-::: {.card-header}
+::::::::::: grid
+:::::::::: {.g-col-12 .g-col-md-8 .g-col-lg-6}
+::::::::: {.card .h-100}
+::: card-header
 ![](images/maestro_thumbnail.png){.card-img-top style="height: 250px; object-fit: contain; background-color: var(--bs-body-bg);"}
 :::
-::: {.card-body .d-flex .flex-column}
-::: {.card-title}
+
+::::::: {.card-body .d-flex .flex-column}
+::: card-title
 ## [Automated Pipelines with Maestro](tutorials/automation_with_maestro.qmd)
 :::
-::: {.card-text}
+
+::: card-text
 Learn how to create automated data analysis pipelines using the Maestro R package. Perfect for reproducible research workflows and scheduling complex analyses in infectious disease modeling.
 :::
-::: {.mt-auto}
-::: {.btn-group}
+
+:::: mt-auto
+::: btn-group
 [View Tutorial](tutorials/automation_with_maestro.qmd){.btn .btn-primary}
 :::
-:::
-:::
-:::
-:::
-
-:::
+::::
+:::::::
+:::::::::
+::::::::::
+:::::::::::
 
 <!-- ## About These Tutorials -->
 
 <!-- These tutorials focus on practical skills for infectious disease research, covering statistical methods, mathematical modeling techniques, and reproducible workflow tools that I use in my research at RIVM and the University of Hong Kong. -->
 
 <!-- Each tutorial includes: -->
+
 <!-- - Step-by-step instructions with code examples -->
+
 <!-- - Real-world applications to infectious disease problems   -->
+
 <!-- - Reproducible examples you can run yourself -->
+
 <!-- - Links to relevant resources and further reading -->
 
 <!-- ## Upcoming Tutorials -->
 
 <!-- I'm working on additional tutorials covering: -->
+
 <!-- - **Agent-based modeling** for infectious disease transmission -->
+
 <!-- - **Vaccine effectiveness analysis** from observational studies   -->
+
 <!-- - **Bayesian methods** for epidemiological inference -->
+
 <!-- - **Data visualization** for infectious disease data -->
 
----
+------------------------------------------------------------------------
 
 ## Questions or Suggestions?
 
