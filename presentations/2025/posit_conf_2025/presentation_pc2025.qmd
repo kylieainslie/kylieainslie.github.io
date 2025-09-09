@@ -303,19 +303,20 @@ Mention that we were audit and how this structure helped immensely
 ::::::::
 
 ::: notes
--   Steps 1-2: Just for you → Step 3: Collaborative magic
--   Visual showing transformation from individual to collaborative work
+Steps 1 + 2 have largely been about your individual workflow.
+But when the R package structure is paired with a file sharing platfrom, magic happens.
 :::
 
 # Step 3: Share
 ::: incremental
 -   :file_folder: **Standard Layout** → Easy team handovers
 -   :book: **Full documentation** → Independent verification
--   :gear: **Complete Package** → Reusable tools
+-   :gear: **Complete Package** → Collaboration
 :::
 
 ::: notes
-1 minute - Show how sharing solves collaboration problems
+Without all three steps, it doesn't work.
+This approach has been instrumental in collaborating with external experts. 
 :::
 
 # Impact: Sharing → Reproducibility

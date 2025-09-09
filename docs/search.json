@@ -507,15 +507,15 @@
     "objectID": "research.html#evaluation-of-waning-vaccine-effectiveness-wave",
     "href": "research.html#evaluation-of-waning-vaccine-effectiveness-wave",
     "title": "Research Projects",
-    "section": "Evaluation of Waning Vaccine Effectiveness (WAVE)",
-    "text": "Evaluation of Waning Vaccine Effectiveness (WAVE)"
+    "section": "Evaluation of WAning Vaccine Effectiveness (WAVE)",
+    "text": "Evaluation of WAning Vaccine Effectiveness (WAVE)\nInformation regarding decreasing VE is essential to optimally design booster vaccination campaigns with respect to the risk of outbreaks and whether repeated vaccination is cost-effective and ethical. The COVID-19 pandemic highlighted the lack of robust methods to: assess waning vaccine effectiveness, disentangle true from perceived waning, and identify determinants of waning. In this project, we aim to develop and rigorously compare methods to assess waning vaccine-induced protection (for vaccines such as those against pertussis, influenza, and COVID-19). Using these methods, we will analyze data from observational studies to estimate the rate of waning vaccine effectiveness and determine how individual characteristics influence rate of waning vaccine-induced protection.\n\nRelated publications\n\nHaber, M., et al. Comparing statistical methods for detecting and estimating waning efficacy of rotavirus vaccines in developing countries. Hum Vaccin Immunother. 2021;17: 4632–4635. link"
   },
   {
     "objectID": "research.html#modelling-the-impact-of-vaccination-strategies",
     "href": "research.html#modelling-the-impact-of-vaccination-strategies",
     "title": "Research Projects",
-    "section": "Modelling the Impact of Vaccination Strategies",
-    "text": "Modelling the Impact of Vaccination Strategies"
+    "section": "Modelling the impact of vaccination strategies",
+    "text": "Modelling the impact of vaccination strategies\nIn this project, we use mathematical models of infectious disease transmission to determine the impact of vaccination strategies on disease spread. Specifically, we developed a deterministic age-structured compartmental model to compare different COVID-19 vaccination scenarios with respect to disease outcomes (e.g., infections, hospitalisations). This work also contributed to the European Scenario Modelling Hub.\n\nRelated publications\n\nAinslie, K. E. C., et al. A scenario modelling analysis to anticipate the impact of COVID-19 vaccination in adolescents and children on disease outcomes in the Netherlands, summer 2021. Euro Surveill. 2022;27(44):pii=2101090. link\nSherratt, K., et al. Characterising information gains and losses when collecting multiple epidemic model outputs. medRxiv 2024. link\nAinslie, K. E. C. et al. The expected outcome of COVID-19 vaccination strategies. RIVM 2021. link\n\n\n\nRelated links\n\nTransmission model code base: https://github.com/kylieainslie/vacamole\nEuropean scenario modelling hub: https://github.com/european-modelling-hubs/covid19-scenario-hub-europe"
   },
   {
     "objectID": "research.html#scabies-epidemiology",
@@ -557,7 +557,7 @@
     "href": "presentations/2025/posit_conf_2025/presentation_pc2025.html#look-familiar",
     "title": "Elevating Public Health Decision Making with R Packages",
     "section": "Look familiar?",
-    "text": "Look familiar?"
+    "text": "Look familiar?\n\n\n\n\nHave you ever thought to yourself: Where is that script? Which version is current? What was I thinking 6 months ago?"
   },
   {
     "objectID": "presentations/2025/posit_conf_2025/presentation_pc2025.html#what-if-there-was-a-better-way",
@@ -606,7 +606,7 @@
     "href": "presentations/2025/posit_conf_2025/presentation_pc2025.html#impact-organization-efficiency",
     "title": "Elevating Public Health Decision Making with R Packages",
     "section": "Impact: Organization → Efficiency",
-    "text": "Impact: Organization → Efficiency\n\n\n🔄 Models rapidly updated as new data became available\n⏰ Analysis delivered on time\n\n💉 Directly informed health policy decisions\n\n\n\n45 seconds - Real-world results from being organized"
+    "text": "Impact: Organization → Efficiency\n\n\n🔄 Models rapidly updated as new data became available\n⏰ Analysis delivered on time\n\n💉 Directly informed health policy decisions"
   },
   {
     "objectID": "presentations/2025/posit_conf_2025/presentation_pc2025.html#vignettes-dual-purpose",
@@ -620,7 +620,7 @@
     "href": "presentations/2025/posit_conf_2025/presentation_pc2025.html#impact-documentation-transparency",
     "title": "Elevating Public Health Decision Making with R Packages",
     "section": "Impact: Documentation → Transparency",
-    "text": "Impact: Documentation → Transparency\n\n\n🛡️ Policy decisions backed by transparent analysis\n💡 Public could understand scientific basis for decisions\n🤝 More public trust"
+    "text": "Impact: Documentation → Transparency\n\n\n🛡️ Policy decisions backed by transparent analysis\n💡 Public could understand scientific basis for decisions\n🤝 More public trust\n\n\n\nTransparency applies to all work, all sectors, particularly in work being used to inform decision making\nMention that we were audit and how this structure helped immensely"
   },
   {
     "objectID": "presentations/2025/posit_conf_2025/presentation_pc2025.html#announcement",
@@ -641,14 +641,14 @@
     "href": "software.html",
     "title": "Software",
     "section": "",
-    "text": "A lightweight R package with methods to estimate infectious disease dynamics parameters.\n\n\n\nGitHub  Publication\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAn R package that features a deterministic age-structured compartmental susceptible-exposed-infectious-recovered (SEIR) model and supporting functions.\n\n\n\nGitHub  Publication\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAn R package that features a multi-annual, individual-based, stochastic, force of infection model that accounts for individual exposure histories and disease/vaccine dynamics influencing susceptibility.\n\n\n\nGitHub  Publication"
+    "text": "A lightweight R package with methods to estimate infectious disease dynamics parameters.\n\n\n\nGitHub  Publication\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAn R package that features a deterministic age-structured compartmental susceptible-exposed-infectious-recovered (SEIR) model and supporting functions.\n\n\n\nGitHub  Publication\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAn R package that features a multi-annual, individual-based, stochastic, force of infection model that accounts for individual exposure histories and disease/vaccine dynamics influencing susceptibility.\n\n\n\nGitHub  Publication\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInterested in contributing to any of these projects? Most repositories welcome contributions via GitHub issues and pull requests. For major collaborations or new project ideas, feel free to reach out via email."
   },
   {
     "objectID": "software.html#collaboration",
     "href": "software.html#collaboration",
     "title": "Software",
-    "section": "Collaboration",
-    "text": "Collaboration\nInterested in contributing to any of these projects? Most repositories welcome contributions via GitHub issues and pull requests. For major collaborations or new project ideas, feel free to reach out via email."
+    "section": "",
+    "text": "Interested in contributing to any of these projects? Most repositories welcome contributions via GitHub issues and pull requests. For major collaborations or new project ideas, feel free to reach out via email."
   },
   {
     "objectID": "pubs/flaxman_2020_nature/index.html",
@@ -873,5 +873,19 @@
     "title": "Automating Data Pipelines with Maeestro",
     "section": "Conclusion",
     "text": "Conclusion\nThat’s it! After setting up the YAML file, wrapping the pipeline in a function, creating the .sh file, and scheduling the job with cron, your pipeline should run automatically at the intervals you’ve defined. Remember, maestro handles the pipeline’s internal orchestration, but cron or another scheduling system is what ensures the pipeline is triggered at the right frequency."
+  },
+  {
+    "objectID": "presentations/2025/posit_conf_2025/presentation_pc2025.html#step-2-document-1",
+    "href": "presentations/2025/posit_conf_2025/presentation_pc2025.html#step-2-document-1",
+    "title": "Elevating Public Health Decision Making with R Packages",
+    "section": "Step #2: Document",
+    "text": "Step #2: Document\nWriting the help files as you write the code, so they can be documented in real time\n[show screen shot of roxygen preamble and generated help file]\n\nTell story about Jantien: some documentation about the project and the data used, but no specific information about the functions"
+  },
+  {
+    "objectID": "presentations/2025/posit_conf_2025/presentation_pc2025.html#step-2-document-2",
+    "href": "presentations/2025/posit_conf_2025/presentation_pc2025.html#step-2-document-2",
+    "title": "Elevating Public Health Decision Making with R Packages",
+    "section": "Step #2: Document",
+    "text": "Step #2: Document\nVignettes\n\nShow screenshot of vignette with text, code, results Added bonus: Vignettes can be version controlled, whereas word documents can’t Many different versions of a file -&gt; one file with VC history!"
   }
 ]
