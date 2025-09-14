@@ -43,10 +43,10 @@ chalkboard: true       # comment out when wanting to make a selfcontained html
 
 ::::: columns
 ::: {.column width="60%"}
-- Scabies is a disease caused by infestation of the skin with a microscopic mite.
-  - a.k.a. the Itch or seven-year itch
-  - From the Latin *scabere*, meaning 'to scratch'.
-- Symptoms are characterized by itchiness and rash at the site of infestation.
+-   Scabies is a disease caused by infestation of the skin with a microscopic mite.
+    -   a.k.a. the Itch or seven-year itch
+    -   From the Latin *scabere*, meaning 'to scratch'.
+-   Symptoms are characterized by itchiness and rash at the site of infestation.
 :::
 
 ::: {.column width="40%"}
@@ -56,9 +56,9 @@ chalkboard: true       # comment out when wanting to make a selfcontained html
 
 ## How does scabies spread?
 
-- Direct, extended, skin-to-skin contact
-- Sharing clothing, towels, or bedding used by an infected person
-  - Less common
+-   Direct, extended, skin-to-skin contact
+-   Sharing clothing, towels, or bedding used by an infected person
+    -   Less common
 
 # Do people still get scabies?
 
@@ -75,9 +75,9 @@ Karimkhani et al. 2017. Lancet Infect. Dis. 17(12):1247 - 1254
 
 ## Scabies in Europe (then)
 
-- Scabies infections were a common affliction in Europe in the late 1800s and early 1900s
-    - Highest incidence seen in 1918 and 1945.
-    
+-   Scabies infections were a common affliction in Europe in the late 1800s and early 1900s
+    -   Highest incidence seen in 1918 and 1945.
+
 ![](scabies_in_scotland.jpg){.fragment width="600" height="350"}
 
 ::: {style="font-size: 0.5em;"}
@@ -154,7 +154,6 @@ van Deursen et al. 2022. PLoS One; 17:e0268865
 
 ::::: columns
 ::: {.column width="60%"}
-
 :::
 
 ::: {.column width="40%"}
@@ -164,163 +163,160 @@ van Deursen et al. 2022. PLoS One; 17:e0268865
 
 ## What we need to know
 
-::::: columns
-::: {.column width="60%"}
+:::::: columns
+:::: {.column width="60%"}
 ::: nonincremental
-- the **incubation period:** time from infection to symptom onset
+-   the **incubation period:** time from infection to symptom onset
 :::
-:::
+::::
 
 ::: {.column width="40%"}
 ![Adapted from: Lehtinen et al. 2021. J. R. Soc. Interface.1820200756](incubation_period_schematic.jpeg){style="font-size: 0.7em;" fig-align="left" width="120%" height="120%"}
 :::
-:::::
+::::::
 
 ## What we need to know
 
-::::: columns
-::: {.column width="60%"}
+:::::: columns
+:::: {.column width="60%"}
 ::: nonincremental
-- [**incubation period:** time from infection to symptom onset]{style="color:grey;"}
-- **generation time:** time between infection of an index case and a secondary case
+-   [**incubation period:** time from infection to symptom onset]{style="color:grey;"}
+-   **generation time:** time between infection of an index case and a secondary case
 :::
-:::
+::::
 
 ::: {.column width="40%"}
 ![Adapted from: Lehtinen et al. 2021. J. R. Soc. Interface.1820200756](generation_time.jpg){style="font-size: 0.7em;" fig-align="left" width="120%" height="120%"}
 :::
-:::::
+::::::
 
 ## What we need to know
 
-::::: columns
-::: {.column width="60%"}
+:::::: columns
+:::: {.column width="60%"}
 ::: nonincremental
-- [**incubation period:** time from infection to symptom onset]{style="color:grey;"}
-- [**generation time:** time between infection of an index case and a secondary case]{style="color:grey;"}
-- **serial interval:** the time from onset of symptoms in an index case to the time of symptom onset in a secondary case
+-   [**incubation period:** time from infection to symptom onset]{style="color:grey;"}
+-   [**generation time:** time between infection of an index case and a secondary case]{style="color:grey;"}
+-   **serial interval:** the time from onset of symptoms in an index case to the time of symptom onset in a secondary case
 :::
-:::
+::::
 
 ::: {.column width="40%"}
 ![Adapted from: Lehtinen et al. 2021. J. R. Soc. Interface.1820200756](serial_interval_schematic.jpeg){style="font-size: 0.7em;" fig-align="left" width="120%" height="120%"}
 :::
-:::::
+::::::
 
 ## What we need to know
 
-::::: columns
-::: {.column width="60%"}
+:::::: columns
+:::: {.column width="60%"}
 ::: nonincremental
-- [**incubation period:** time from infection to symptom onset]{style="color:grey;"}
-- [**generation time:** time between infection of an index case and a secondary case]{style="color:grey;"}
-- [**serial interval:** the time from onset of symptoms in an index case to the time of symptom onset in a secondary case]{style="color:grey;"}
-- **growth rate:** how quickly the numbers of infections are changing over time
+-   [**incubation period:** time from infection to symptom onset]{style="color:grey;"}
+-   [**generation time:** time between infection of an index case and a secondary case]{style="color:grey;"}
+-   [**serial interval:** the time from onset of symptoms in an index case to the time of symptom onset in a secondary case]{style="color:grey;"}
+-   **growth rate:** how quickly the numbers of infections are changing over time
 :::
-:::
+::::
 
 ::: {.column width="40%"}
 ![Picheira-Brown and Bentancor. 2021. Epidemics; 37:100486](growth_rate.jpg){style="font-size: 0.7em;" fig-align="left" width="100%" height="100%"}
 :::
-:::::
+::::::
 
 ## What we need to know
 
-::::: columns
-::: {.column width="60%"}
+:::::: columns
+:::: {.column width="60%"}
 ::: nonincremental
-- [**incubation period:** time from infection to symptom onset]{style="color:grey;"}
-- [**generation time:** time between infection of an index case and a secondary case]{style="color:grey;"}
-- [**serial interval:** the time from onset of symptoms in an index case to the time of symptom onset in a secondary case]{style="color:grey;"}
-- [**growth rate:** how quickly the numbers of infections are changing over time]{style="color:grey;"}
-- **reproduction number:** the average number of secondary cases resulting from one index case
+-   [**incubation period:** time from infection to symptom onset]{style="color:grey;"}
+-   [**generation time:** time between infection of an index case and a secondary case]{style="color:grey;"}
+-   [**serial interval:** the time from onset of symptoms in an index case to the time of symptom onset in a secondary case]{style="color:grey;"}
+-   [**growth rate:** how quickly the numbers of infections are changing over time]{style="color:grey;"}
+-   **reproduction number:** the average number of secondary cases resulting from one index case
 :::
-:::
+::::
 
 ::: {.column width="40%"}
 ![https://andreashandel.github.io/IDEMAbook/R0.html](R0Scheme.png){style="font-size: 0.7em;" fig-align="left" width="60%" height="60%"}
 :::
-:::::
+::::::
 
 ## What we know
+
 ::: nonincremental
-- [**incubation period:** time from infection to symptom onset]{style="color:green;"}
-- [**generation time:** time between infection of an index case and a secondary case]{style="color:red;"}
-- [**serial interval:** the time from onset of symptoms in an index case to the time of symptom onset in a secondary case]{style="color:red;"}
-- [**growth rate:** how quickly the numbers of infections are changing over time]{style="color:red;"}
-- [**reproduction number:** the average number of secondary cases resulting from one index case]{style="color:red;"}
+-   [**incubation period:** time from infection to symptom onset]{style="color:green;"}
+-   [**generation time:** time between infection of an index case and a secondary case]{style="color:red;"}
+-   [**serial interval:** the time from onset of symptoms in an index case to the time of symptom onset in a secondary case]{style="color:red;"}
+-   [**growth rate:** how quickly the numbers of infections are changing over time]{style="color:red;"}
+-   [**reproduction number:** the average number of secondary cases resulting from one index case]{style="color:red;"}
 :::
 
 ## What we know
 
 ::::: columns
 ::: {.column width="60%"}
-- Incubation period
-  - 4-6 weeks after primary infection
-  - 24 hours after post-primary infection
-- A series of studies in the 1940s form much of the basis of our current understanding of scabies transmission.
-
-
+-   Incubation period
+    -   4-6 weeks after primary infection
+    -   24 hours after post-primary infection
+-   A series of studies in the 1940s form much of the basis of our current understanding of scabies transmission.
 :::
 
 ::: {.column width="40%"}
-![](scabies_oxford_war_manual.png){.fragment fig-align="center"}
-![](mellanby_1944.png){.fragment width="600" height="100"} 
+![](scabies_oxford_war_manual.png){.fragment fig-align="center"} ![](mellanby_1944.png){.fragment width="600" height="100"}
 :::
 :::::
 
 # Let's dive in!
 
 ## Our Roadmap
-- What is the timescale of a typical scabies transmission event?
-- How are the number of scabies cases changing over time?
-- How many people will a scabies case go on to infect?
-- How does scabies transmission change over time?
+
+-   What is the timescale of a typical scabies transmission event?
+-   How are the number of scabies cases changing over time?
+-   How many people will a scabies case go on to infect?
+-   How does scabies transmission change over time?
 
 ## Our Roadmap
-- What is the timescale of a typical scabies transmission event?
+
+-   What is the timescale of a typical scabies transmission event?
 
 ## Serial Interval
 
-::::: columns
+:::::: columns
 ::: {.column width="35%"}
 ![Adapted from: Lehtinen et al. 2021. J. R. Soc. Interface.1820200756](serial_interval_schematic.jpeg){style="font-size: 0.7em;" fig-align="left" width="120%" height="120%"}
-
 :::
 
-::: {.column width="65%"}
+:::: {.column width="65%"}
 ![](epi_curves_plot.png){.fragment style="font-size: 0.7em;" width="100%" height="100%"}
 
 ::: {.fragment style="font-size: 0.5em;"}
 Date of symptom onset data from four scabies outbreaks.
 :::
-:::
-:::::
+::::
+::::::
 
 ## Serial Interval
 
-- We calculate the index case-to-case (ICC) interval for each person,
-  - **index case:** the person with the greatest value for number of days since symptom onset. 
-  - **"secondary" cases:** have an ICC interval calculated as the number of days between their symptom onset day and the index case. 
+-   We calculate the index case-to-case (ICC) interval for each person,
+    -   **index case:** the person with the greatest value for number of days since symptom onset.
+    -   **"secondary" cases:** have an ICC interval calculated as the number of days between their symptom onset day and the index case.
 
 ## Serial Interval
 
 ::: nonincremental
-- We use a maximum likelihood framework to determine how likely each ICC interval can be attributed to each transmission route
-  [- We then estimate serial interval using ICC intervals consistent with Primary-Secondary transmission]{style="color:white;"}
+-   We use a maximum likelihood framework to determine how likely each ICC interval can be attributed to each transmission route [- We then estimate serial interval using ICC intervals consistent with Primary-Secondary transmission]{style="color:white;"}
 :::
-  
+
 ![Vink et al. 2014. Am J Epidemiol; 180(9):865–875](icc_interval.png)
 
 ## Serial Interval
 
 ::: nonincremental
-- We use a maximum likelihood framework to determine how likely each ICC interval can be attributed to each transmission route
-  - We then estimate serial interval using ICC intervals consistent with Primary-Secondary transmission
+-   We use a maximum likelihood framework to determine how likely each ICC interval can be attributed to each transmission route
+    -   We then estimate serial interval using ICC intervals consistent with Primary-Secondary transmission
 :::
-  
-![Vink et al. 2014. Am J Epidemiol; 180(9):865–875](icc_interval_w_red_box.png)
 
+![Vink et al. 2014. Am J Epidemiol; 180(9):865–875](icc_interval_w_red_box.png)
 
 ## Serial Interval
 
@@ -330,70 +326,67 @@ Date of symptom onset data from four scabies outbreaks.
 :::
 
 ::: {.column width="40%"}
-![*unit is days](si_table.png)
+![\*unit is days](si_table.png)
 :::
 :::::
 
-
 ## Serial Interval
+
 ::::: columns
 ::: {.column width="40%"}
 -   We performed a meta-analysis.
--   **Estimated pooled mean serial interval:** 
-    - 123.24 days (95% credible interval: 91.44, 153.41 days)
-
+-   **Estimated pooled mean serial interval:**
+    -   123.24 days (95% credible interval: 91.44, 153.41 days)
 :::
 
 ::: {.column width="60%"}
 ![](forest_plot.png){.fragment}
-
 :::
 :::::
 
 ## Our Roadmap
-- [What is the timescale of a typical scabies transmission event?]{style="color:grey;"}
-- How are the number of scabies cases changing over time?
+
+-   [What is the timescale of a typical scabies transmission event?]{style="color:grey;"}
+-   How are the number of scabies cases changing over time?
 
 ## Growth Rate
+
 ::::: columns
 ::: {.column width="40%"}
-- To determine how the number of scabies cases is changing each year in NL we estimated the *annual* growth rate
-  - Fit GLM to the annual number of scabies diagnoses per 1000 people.
-- **Estimated an annual growth rate:** 0.25 (95% CI: 0.2, 0.3)
-
+-   To determine how the number of scabies cases is changing each year in NL we estimated the *annual* growth rate
+    -   Fit GLM to the annual number of scabies diagnoses per 1000 people.
+-   **Estimated an annual growth rate:** 0.25 (95% CI: 0.2, 0.3)
 :::
 
 ::: {.column width="60%"}
 ![](growth_rate_plot.png){.fragment}
-
 :::
 :::::
 
 ## Our Roadmap
-- [What is the timescale of a typical scabies transmission event?]{style="color:grey;"}
-- [How are the number of scabies cases changing over time?]{style="color:grey;"}
-- How many people will a scabies case go on to infect?
 
+-   [What is the timescale of a typical scabies transmission event?]{style="color:grey;"}
+-   [How are the number of scabies cases changing over time?]{style="color:grey;"}
+-   How many people will a scabies case go on to infect?
 
 ## Basic Reproduction Number $R_0$
 
--   We can relate the growth rate to the basic reproduction number as 
-$$R_0 = \exp(r*T – (1/2) r^2 s^2)$$ 
-    - $r$ is the annual growth rate, 
-    - $T$ is the mean generation time (in years), and 
-    - $s^2$ is the variance of the generation time distribution.
+-   We can relate the growth rate to the basic reproduction number as $$R_0 = \exp(r*T – (1/2) r^2 s^2)$$
+    -   $r$ is the annual growth rate,
+    -   $T$ is the mean generation time (in years), and
+    -   $s^2$ is the variance of the generation time distribution.
 
 ::: aside
 **Assumption:** nearly everyone exposed has not been previously infected.
 :::
 
 ## Basic Reproduction Number $R_0$
+
 ::: nonincremental
--   We can relate the growth rate to the basic reproduction number as 
-$$R_0 = \exp(r*T – (1/2) r^2 s^2)$$ 
-    - $r$ is the annual growth rate, 
-    - $T$ is the mean ~~generation time~~ serial interval (in years), and 
-    - $s^2$ is the variance of the ~~generation time~~ serial interval distribution.
+-   We can relate the growth rate to the basic reproduction number as $$R_0 = \exp(r*T – (1/2) r^2 s^2)$$
+    -   $r$ is the annual growth rate,
+    -   $T$ is the mean ~~generation time~~ serial interval (in years), and
+    -   $s^2$ is the variance of the ~~generation time~~ serial interval distribution.
 :::
 
 -   This gives us an $R_0 = 1.09$ $(95\% CI: 1.07, 1.11)$
@@ -403,14 +396,15 @@ $$R_0 = \exp(r*T – (1/2) r^2 s^2)$$
 :::
 
 ## Our Roadmap
-- [What is the timescale of a typical scabies transmission event?]{style="color:grey;"}
-- [How are the number of scabies cases changing over time?]{style="color:grey;"}
-- [How many people will a scabies case go on to infect?]{style="color:grey;"}
-- How does scabies transmission change over time?
+
+-   [What is the timescale of a typical scabies transmission event?]{style="color:grey;"}
+-   [How are the number of scabies cases changing over time?]{style="color:grey;"}
+-   [How many people will a scabies case go on to infect?]{style="color:grey;"}
+-   How does scabies transmission change over time?
 
 ## Time-varying Reproduction Number $R_t$
 
-![Incidence of scabies infections per 1000 people in the Netherlands by date of diagnosis.](nivel_epidemic_curve.png){width="75%" height="75%" style="font-size: 0.7em;" fig-align="left"} 
+![Incidence of scabies infections per 1000 people in the Netherlands by date of diagnosis.](nivel_epidemic_curve.png){width="75%" height="75%" style="font-size: 0.7em;" fig-align="left"}
 
 ## Time-varying Reproduction Number $R_t$
 
@@ -428,25 +422,23 @@ $$R_0 = \exp(r*T – (1/2) r^2 s^2)$$
 ::: {.column width="70%"}
 -   Scabies cases are increasing in the Netherlands.
 -   Minimal control measures could decrease $R_0<1$, such as
-    - educate age groups (adolescents and young adults) with highest prevalence of scabies about the causes and symptoms of scabies infections,
-    - require a scabies check for university students prior to the school year, or
-    - inform GPs about the higher risk of scabies in certain groups
-        - could lead to quicker diagnoses
-
+    -   educate age groups (adolescents and young adults) with highest prevalence of scabies about the causes and symptoms of scabies infections,
+    -   require a scabies check for university students prior to the school year, or
+    -   inform GPs about the higher risk of scabies in certain groups
+        -   could lead to quicker diagnoses
 :::
 
 ::: {.column width="30%"}
 ![https://www.informedhealth.org/scabies-how-can-you-prevent-infection.html](scabies_prevention_fig.jpg){style="font-size: 0.7em;"}
-
 :::
 :::::
 
 ## This is only the beginning
 
-- The epidemiological quantities estimated here can be used to parameterise mathematical models of scabies spread 
-- There is still a lot that we don't know
-  - Future work should focus on obtaining more precise estimates of the underlying quantities that govern scabies spread.
-  
+-   The epidemiological quantities estimated here can be used to parameterise mathematical models of scabies spread
+-   There is still a lot that we don't know
+    -   Future work should focus on obtaining more precise estimates of the underlying quantities that govern scabies spread.
+
 ## Your turn
 
 [`mitey` package](https://kylieainslie.github.io/mitey/){preview-link="true"}
@@ -455,26 +447,27 @@ $$R_0 = \exp(r*T – (1/2) r^2 s^2)$$
 
 ::: nonincremental
 ### Thank you
-- Jacco Wallinga
-- Mariette Hooiveld
+
+-   Jacco Wallinga
+-   Mariette Hooiveld
 
 ### Funding
+
 This work was financed by the Netherlands Ministry of Health, Welfare and Sport.
 :::
 
 ## Contact
 
 ::: nonincremental
-Email: kylie.ainslie@rivm.ml
+Email: kylie.ainslie\@rivm.ml
 
-Website: [https://kylieainslie.github.io/](https://kylieainslie.github.io/){preview-link="true}
+Website: [https://kylieainslie.github.io/](https://kylieainslie.github.io/){preview-link="\"true"}
 
 GitHub: https://github.com/kylieainslie
 
 Bluesky: https://bsky.app/profile/kylieainslie.bsky.social
 
 LinkedIn: https://www.linkedin.com/in/kylieainslie/
-
 :::
 
 ```{r, eval = FALSE}

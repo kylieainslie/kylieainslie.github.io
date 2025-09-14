@@ -564,7 +564,7 @@
     "href": "presentations/2025/posit_conf_2025/presentation_pc2025.html#what-if-there-was-a-better-way",
     "title": "Elevating Public Health Decision Making with R Packages",
     "section": "What if there was a better way?",
-    "text": "What if there was a better way?\n\nStructure your project as an R package"
+    "text": "What if there was a better way?\n\n\n\n\n\n\n\n➡️"
   },
   {
     "objectID": "presentations/2025/posit_conf_2025/presentation_pc2025.html#the-framework",
@@ -592,7 +592,7 @@
     "href": "presentations/2025/posit_conf_2025/presentation_pc2025.html#june-2021-in-the-netherlands-1",
     "title": "Elevating Public Health Decision Making with R Packages",
     "section": "June 2021 in the Netherlands",
-    "text": "June 2021 in the Netherlands"
+    "text": "June 2021 in the Netherlands\n\n\n\n\n\n\n\n\n\n\n\n\n\nMake picture bigger"
   },
   {
     "objectID": "presentations/2025/posit_conf_2025/presentation_pc2025.html#the-challenge",
@@ -606,7 +606,7 @@
     "href": "presentations/2025/posit_conf_2025/presentation_pc2025.html#impact-organization-efficiency",
     "title": "Elevating Public Health Decision Making with R Packages",
     "section": "Impact: Organization → Efficiency",
-    "text": "Impact: Organization → Efficiency\n\n\n🔄 Models rapidly updated as new data became available\n⏰ Analysis delivered on time\n\n💉 Directly informed health policy decisions"
+    "text": "Impact: Organization → Efficiency\n\n\n🔄 Models rapidly updated as new data became available\n⏰ Analysis delivered on time\n💉 Directly informed health policy decisions"
   },
   {
     "objectID": "presentations/2025/posit_conf_2025/presentation_pc2025.html#vignettes-dual-purpose",
@@ -634,7 +634,7 @@
     "href": "presentations/2025/posit_conf_2025/presentation_pc2025.html#get-in-touch",
     "title": "Elevating Public Health Decision Making with R Packages",
     "section": "Get in touch!",
-    "text": "Get in touch!\n\n LinkedIn: https://www.linkedin.com/in/kylieainslie/\n @kylieainslie.bsky.social\n\n GitHub: https://github.com/kylieainslie\n Website: https://kylieainslie.github.io/\n\n\n\n\n\n\n\nposit::conf(2025) | 18 September 2025 | Atlanta, GA"
+    "text": "Get in touch!\n\n\n linkedin.com/in/kylieainslie\n @kylieainslie.bsky.social\n github.com/kylieainslie\n kylieainslie.github.io\n\n\n\n\n\n\n\n\n\n\nposit::conf(2025) | 18 September 2025 | Atlanta, GA"
   },
   {
     "objectID": "software.html",
@@ -879,13 +879,174 @@
     "href": "presentations/2025/posit_conf_2025/presentation_pc2025.html#step-2-document-1",
     "title": "Elevating Public Health Decision Making with R Packages",
     "section": "Step #2: Document",
-    "text": "Step #2: Document\nWriting the help files as you write the code, so they can be documented in real time\n[show screen shot of roxygen preamble and generated help file]\n\nTell story about Jantien: some documentation about the project and the data used, but no specific information about the functions"
+    "text": "Step #2: Document\n\n\n\n\n\n\n\n\n\n\n\nWriting the help files as you write the code, so they can be documented in real time\nMake text bigger! Use simpler fake function."
   },
   {
     "objectID": "presentations/2025/posit_conf_2025/presentation_pc2025.html#step-2-document-2",
     "href": "presentations/2025/posit_conf_2025/presentation_pc2025.html#step-2-document-2",
     "title": "Elevating Public Health Decision Making with R Packages",
     "section": "Step #2: Document",
-    "text": "Step #2: Document\nVignettes\n\nShow screenshot of vignette with text, code, results Added bonus: Vignettes can be version controlled, whereas word documents can’t Many different versions of a file -&gt; one file with VC history!"
+    "text": "Step #2: Document\n\n\nShow screenshot of vignette with text, code, results Added bonus: Vignettes can be version controlled, whereas word documents can’t Many different versions of a file -&gt; one file with VC history!"
+  },
+  {
+    "objectID": "presentations/2025/posit_conf_2025/presentation_pc2025.html#how",
+    "href": "presentations/2025/posit_conf_2025/presentation_pc2025.html#how",
+    "title": "Elevating Public Health Decision Making with R Packages",
+    "section": "How?",
+    "text": "How?\n\nStructure your project as an R package\n\n\n\nOrganize\nDocument\nShare"
+  },
+  {
+    "objectID": "presentations/2025/posit_conf_2025/presentation_pc2025.html#the-question",
+    "href": "presentations/2025/posit_conf_2025/presentation_pc2025.html#the-question",
+    "title": "Elevating Public Health Decision Making with R Packages",
+    "section": "The Question",
+    "text": "The Question\nShould the Netherlands extend COVID-19 vaccination to adolescents and children?"
+  },
+  {
+    "objectID": "presentations/2025/posit_conf_2025/presentation_pc2025.html#step-1-organize",
+    "href": "presentations/2025/posit_conf_2025/presentation_pc2025.html#step-1-organize",
+    "title": "Elevating Public Health Decision Making with R Packages",
+    "section": "Step #1: Organize",
+    "text": "Step #1: Organize\n\n\n\n❌ Typical Project\nmyproject/\n├── analysis.R\n├── analysis_FINAL.R\n├── analysis_FINAL_v2.R\n├── code_guide.pdf\n├── data_raw.csv\n├── final_report.pdf\n├── final_report_FINAL.pdf\n├── functions.R\n├── methodology.docx\n└── more_functions.R\n\n\nmyproject/\n├── analysis.R\n├── analysis_FINAL.R\n├── analysis_FINAL_v2.R\n├── code_guide.pdf\n├── data_raw.csv\n├── final_report.pdf\n├── final_report_FINAL.pdf\n├── functions.R\n├── methodology.docx\n└── more_functions.R\n\n\n\nmyproject/\n├── analysis.R\n├── analysis_FINAL.R\n├── analysis_FINAL_v2.R\n├── code_guide.pdf\n├── data_raw.csv\n├── final_report.pdf\n├── final_report_FINAL.pdf\n├── functions.R\n├── methodology.docx\n└── more_functions.R\n\n\n\nmyproject/\n├── analysis.R\n├── analysis_FINAL.R\n├── analysis_FINAL_v2.R\n├── code_guide.pdf\n├── data_raw.csv\n├── final_report.pdf\n├── final_report_FINAL.pdf\n├── functions.R\n├── methodology.docx\n└── more_functions.R\n\n\n\n\n✅ Package Structure\n📦 mypackage/\n├── R/            # Code\n├── inst/extdata/ # Data + Scripts \n├── man/          # Help files\n└── vignettes/    # Analysis\n\n\n✅ Package Structure\n📦 mypackage/\n├── R/            # Code\n    ├── functions.R\n    └── more_functions.R\n├── inst/extdata/ # Data + Scripts \n├── man/          # Help files\n└── vignettes/    # Analysis\n\n\n✅ Package Structure\n📦 mypackage/\n├── R/            # Code\n├── inst/extdata/ # Data + Scripts\n    ├── analysis.R\n    ├── analysis_FINAL.R\n    ├── analysis_FINAL_v2.R\n    └── data_raw.csv\n├── man/          # Help files\n└── vignettes/    # Analysis\n\n\n✅ Package Structure\n📦 mypackage/\n├── R/            # Code\n├── inst/extdata/ # Data + Scripts\n├── man/          # Help files\n└── vignettes/    # Analysis\n    ├── code_guide.Rmd\n    ├── methodology.Rmd\n    └── report.Rmd\n\n\n\nmake all of these images bigger and make sure you can’t see the edges of previous images"
+  },
+  {
+    "objectID": "presentations/2025/posit_conf_2025/presentation_pc2025.html#step-2-document",
+    "href": "presentations/2025/posit_conf_2025/presentation_pc2025.html#step-2-document",
+    "title": "Elevating Public Health Decision Making with R Packages",
+    "section": "Step #2: Document",
+    "text": "Step #2: Document\n\nShow screenshot of vignette with text, code, results Added bonus: Vignettes can be version controlled, whereas word documents can’t Many different versions of a file -&gt; one file with VC history!"
+  },
+  {
+    "objectID": "presentations/2025/posit_conf_2025/presentation_pc2025.html#step-3-share",
+    "href": "presentations/2025/posit_conf_2025/presentation_pc2025.html#step-3-share",
+    "title": "Elevating Public Health Decision Making with R Packages",
+    "section": "Step #3: Share",
+    "text": "Step #3: Share\n\n\nSteps 1 + 2 have largely been about your individual workflow. But when the R package structure is paired with a file sharing platfrom, magic happens."
+  },
+  {
+    "objectID": "presentations/2025/posit_conf_2025/presentation_pc2025.html#step-3-share-1",
+    "href": "presentations/2025/posit_conf_2025/presentation_pc2025.html#step-3-share-1",
+    "title": "Elevating Public Health Decision Making with R Packages",
+    "section": "Step 3: Share",
+    "text": "Step 3: Share\n\n\n📁 Standard Layout → Easy team handovers\n📖 Full documentation → Independent verification\n⚙️ Shareable Package → Collaboration\n\n\n\nWithout all three steps, it doesn’t work. This approach has been instrumental in collaborating with external experts."
+  },
+  {
+    "objectID": "presentations/2025/posit_conf_2025/presentation_pc2025.html#impact-sharing-reproducibility",
+    "href": "presentations/2025/posit_conf_2025/presentation_pc2025.html#impact-sharing-reproducibility",
+    "title": "Elevating Public Health Decision Making with R Packages",
+    "section": "Impact: Sharing → Reproducibility",
+    "text": "Impact: Sharing → Reproducibility\n\n\n Incorporated into epidemics package transmission model library\n📉 Used to inform European-wide disease modeling\n🌍 One national analysis became international infrastructure"
+  },
+  {
+    "objectID": "presentations/2025/posit_conf_2025/presentation_pc2025.html#unexpected-benefits",
+    "href": "presentations/2025/posit_conf_2025/presentation_pc2025.html#unexpected-benefits",
+    "title": "Elevating Public Health Decision Making with R Packages",
+    "section": "Unexpected Benefits",
+    "text": "Unexpected Benefits"
+  },
+  {
+    "objectID": "presentations/2025/posit_conf_2025/presentation_pc2025.html#your-turn",
+    "href": "presentations/2025/posit_conf_2025/presentation_pc2025.html#your-turn",
+    "title": "Elevating Public Health Decision Making with R Packages",
+    "section": "Your Turn!",
+    "text": "Your Turn!\n\n\n\n\nTry an R package structure for your next project\n\n\n\n\nTons of tools and learning materials available\n\n\n\n\nYou’ll never go back to messy folders"
+  },
+  {
+    "objectID": "presentations/2025/posit_conf_2025/presentation_pc2025.html#june-2021-in-the-netherlands-2",
+    "href": "presentations/2025/posit_conf_2025/presentation_pc2025.html#june-2021-in-the-netherlands-2",
+    "title": "Elevating Public Health Decision Making with R Packages",
+    "section": "June 2021 in the Netherlands",
+    "text": "June 2021 in the Netherlands\n\nShould the Netherlands extend COVID-19 vaccination to adolescents and children?"
+  },
+  {
+    "objectID": "presentations/2025/posit_conf_2025/presentation_pc2025.html#organize",
+    "href": "presentations/2025/posit_conf_2025/presentation_pc2025.html#organize",
+    "title": "Elevating Public Health Decision Making with R Packages",
+    "section": "Organize",
+    "text": "Organize\n\n\n\n\n❌ Typical Project\nmyproject/\n├── analysis.R\n├── analysis_FINAL.R\n├── analysis_FINAL_v2.R\n├── code_guide.pdf\n├── data_raw.csv\n├── final_report.pdf\n├── final_report_FINAL.pdf\n├── functions.R\n├── methodology.docx\n└── more_functions.R\n\n\n\n\n✅ Package Structure\n📦 mypackage/\n├── R/            # Code\n├── inst/extdata/ # Data + Scripts \n├── man/          # Help files\n└── vignettes/    # Analysis"
+  },
+  {
+    "objectID": "presentations/2025/posit_conf_2025/presentation_pc2025.html#organize-1",
+    "href": "presentations/2025/posit_conf_2025/presentation_pc2025.html#organize-1",
+    "title": "Elevating Public Health Decision Making with R Packages",
+    "section": "Organize",
+    "text": "Organize\n\n\n\n❌ Typical Project\nmyproject/\n├── analysis.R\n├── analysis_FINAL.R\n├── analysis_FINAL_v2.R\n├── code_guide.pdf\n├── data_raw.csv\n├── final_report.pdf\n├── final_report_FINAL.pdf\n├── functions.R\n├── methodology.docx\n└── more_functions.R\n\n\n✅ Package Structure\n📦 mypackage/\n├── R/            # Code\n    ├── functions.R\n    └── more_functions.R\n├── inst/extdata/ # Data + Scripts \n├── man/          # Help files\n└── vignettes/    # Analysis"
+  },
+  {
+    "objectID": "presentations/2025/posit_conf_2025/presentation_pc2025.html#organize-2",
+    "href": "presentations/2025/posit_conf_2025/presentation_pc2025.html#organize-2",
+    "title": "Elevating Public Health Decision Making with R Packages",
+    "section": "Organize",
+    "text": "Organize\n\n\n\n❌ Typical Project\nmyproject/\n├── analysis.R\n├── analysis_FINAL.R\n├── analysis_FINAL_v2.R\n├── code_guide.pdf\n├── data_raw.csv\n├── final_report.pdf\n├── final_report_FINAL.pdf\n├── functions.R\n├── methodology.docx\n└── more_functions.R\n\n\n✅ Package Structure\n📦 mypackage/\n├── R/            # Code\n├── inst/extdata/ # Data + Scripts\n    ├── analysis.R\n    ├── analysis_FINAL.R\n    ├── analysis_FINAL_v2.R\n    └── data_raw.csv\n├── man/          # Help files\n└── vignettes/    # Analysis"
+  },
+  {
+    "objectID": "presentations/2025/posit_conf_2025/presentation_pc2025.html#organize-3",
+    "href": "presentations/2025/posit_conf_2025/presentation_pc2025.html#organize-3",
+    "title": "Elevating Public Health Decision Making with R Packages",
+    "section": "Organize",
+    "text": "Organize\n\n\n\n❌ Typical Project\nmyproject/\n├── analysis.R\n├── analysis_FINAL.R\n├── analysis_FINAL_v2.R\n├── code_guide.pdf\n├── data_raw.csv\n├── final_report.pdf\n├── final_report_FINAL.pdf\n├── functions.R\n├── methodology.docx\n└── more_functions.R\n\n\n✅ Package Structure\n📦 mypackage/\n├── R/            # Code\n├── inst/extdata/ # Data + Scripts\n├── man/          # Help files\n└── vignettes/    # Analysis\n    ├── code_guide.Rmd\n    ├── methodology.Rmd\n    └── report.Rmd"
+  },
+  {
+    "objectID": "presentations/2025/posit_conf_2025/presentation_pc2025.html#document",
+    "href": "presentations/2025/posit_conf_2025/presentation_pc2025.html#document",
+    "title": "Elevating Public Health Decision Making with R Packages",
+    "section": "Document",
+    "text": "Document\n\n\n\n❌ Separate Documents\nmyproject/\n├── analysis.R\n├── analysis_FINAL.R\n├── analysis_FINAL_v2.R\n├── code_guide.pdf\n├── data_raw.csv\n├── final_report.pdf\n├── final_report_FINAL.pdf\n├── functions.R\n├── methodology.docx\n└── more_functions.R\n\n\n\n\n✅ Documentation lives WITH the code\n📦 mypackage/\n├── R/           \n├── man/         # Help files\n    ├── hello_world.Rd\n    ├── do_something.Rd\n    └── busy_busy_busy.Rd\n└── vignettes/   # Docs + Reports\n    ├── code_guide.Rmd\n    ├── methodology.Rmd\n    └── report.Rmd\n                     \n\n\n\nHave you ever had to reconcile a separate word file and code file?"
+  },
+  {
+    "objectID": "presentations/2025/posit_conf_2025/presentation_pc2025.html#document-1",
+    "href": "presentations/2025/posit_conf_2025/presentation_pc2025.html#document-1",
+    "title": "Elevating Public Health Decision Making with R Packages",
+    "section": "Document",
+    "text": "Document\n#' Calculate Required Coffee for Debugging Session\n#'\n#' @param error_messages Integer. Number of different error messages\n#' @param browser_tabs Integer. Troubleshooting browser tabs currently open\n#' @param hours_stuck Numeric. Hours spent on current bug\n#'\n#' @return Integer. Recommended cups of coffee (max 3 for your health)\n#'\n#' @examples\n#' coffee_for_debugging(1, 2, 0.5)\n#'\n#' @author Caffeinated Coder\n#' \ncoffee_for_debugging &lt;- function(error_messages,browser_tabs, hours_stuck){\n  \n  coffee_needed &lt;- error_messages + (browser_tabs * 0.2) + hours_stuck\n  result &lt;- min(ceiling(coffee_needed), 3)  # Cap at 3 cups\n  \n  if (result &gt;= 3) {\n    message(\"Maybe try rubber duck debugging instead?\")\n  }\n  return(result)\n}\n\nWriting the help files as you write the code, so they can be documented in real time Future you will thank you!"
+  },
+  {
+    "objectID": "presentations/2025/posit_conf_2025/presentation_pc2025.html#document-2",
+    "href": "presentations/2025/posit_conf_2025/presentation_pc2025.html#document-2",
+    "title": "Elevating Public Health Decision Making with R Packages",
+    "section": "Document",
+    "text": "Document\n\n\n\nShow screenshot of vignette with text, code, results Added bonus: Vignettes can be version controlled, whereas word documents can’t Many different versions of a file -&gt; one file with VC history!"
+  },
+  {
+    "objectID": "presentations/2025/posit_conf_2025/presentation_pc2025.html#share",
+    "href": "presentations/2025/posit_conf_2025/presentation_pc2025.html#share",
+    "title": "Elevating Public Health Decision Making with R Packages",
+    "section": "Share",
+    "text": "Share\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n\n\n\nSteps 1 + 2 have largely been about your individual workflow. But when the R package structure is paired with a file sharing platfrom, magic happens."
+  },
+  {
+    "objectID": "presentations/2025/posit_conf_2025/presentation_pc2025.html#share-1",
+    "href": "presentations/2025/posit_conf_2025/presentation_pc2025.html#share-1",
+    "title": "Elevating Public Health Decision Making with R Packages",
+    "section": "Share",
+    "text": "Share"
+  },
+  {
+    "objectID": "presentations/2025/posit_conf_2025/presentation_pc2025.html#document-3",
+    "href": "presentations/2025/posit_conf_2025/presentation_pc2025.html#document-3",
+    "title": "Elevating Public Health Decision Making with R Packages",
+    "section": "Document",
+    "text": "Document\n\n\n❌ Separate Documents\nmyproject/\n├── analysis.R\n├── analysis_FINAL.R\n├── analysis_FINAL_v2.R\n├── code_guide.pdf\n├── data_raw.csv\n├── final_report.pdf\n├── final_report_FINAL.pdf\n├── functions.R\n├── methodology.docx\n└── more_functions.R\n\n\n✅ Documentation lives WITH the code\n📦 mypackage/\n├── R/           \n├── man/         # Help files\n    ├── hello_world.Rd\n    ├── do_something.Rd\n    └── busy_busy_busy.Rd\n└── vignettes/   # Docs + Reports\n    ├── code_guide.Rmd\n    ├── methodology.Rmd\n    └── report.Rmd"
+  },
+  {
+    "objectID": "presentations/2025/posit_conf_2025/presentation_pc2025.html#document-4",
+    "href": "presentations/2025/posit_conf_2025/presentation_pc2025.html#document-4",
+    "title": "Elevating Public Health Decision Making with R Packages",
+    "section": "Document",
+    "text": "Document\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nShow screenshot of vignette with text, code, results Added bonus: Vignettes can be version controlled, whereas word documents can’t Many different versions of a file -&gt; one file with VC history!"
+  },
+  {
+    "objectID": "presentations/2025/posit_conf_2025/presentation_pc2025.html#share-2",
+    "href": "presentations/2025/posit_conf_2025/presentation_pc2025.html#share-2",
+    "title": "Elevating Public Health Decision Making with R Packages",
+    "section": "Share",
+    "text": "Share\n\n\n➡️ Easy Handovers → New team members instantly understand structure\n🔍 Full Reproducibility → Anyone can verify and replicate your analysis\n🛠️ Extensible Work → Others build new features on your foundation\n🧑‍🤝‍🧑 External Collaboration → Domain experts can contribute directly\n\n\n\nWithout all three steps, it doesn’t work. This approach has been instrumental in collaborating with external experts."
+  },
+  {
+    "objectID": "presentations/2025/posit_conf_2025/presentation_pc2025.html#document-5",
+    "href": "presentations/2025/posit_conf_2025/presentation_pc2025.html#document-5",
+    "title": "Elevating Public Health Decision Making with R Packages",
+    "section": "Document",
+    "text": "Document\n\n\n❌ Separate Documents\nmyproject/\n├── analysis.R\n├── analysis_FINAL.R\n├── analysis_FINAL_v2.R\n├── code_guide.pdf\n├── data_raw.csv\n├── final_report.pdf\n├── final_report_FINAL.pdf\n├── functions.R\n├── methodology.docx\n└── more_functions.R\n\n\n✅ Documentation lives WITH the code\n📦 mypackage/\n├── R/           \n├── man/         # Help files\n    ├── hello_world.Rd\n    ├── do_something.Rd\n    └── busy_busy_busy.Rd\n└── vignettes/   # Docs + Reports\n    ├── code_guide.Rmd\n    ├── methodology.Rmd\n    └── report.Rmd"
   }
 ]

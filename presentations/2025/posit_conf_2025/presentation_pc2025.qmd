@@ -8,13 +8,13 @@ format:
     theme: default  # or simple if you prefer
     preview-links: auto
     pdf-max-pages-per-slide: 1
-#logo: your_logo.svg
+logo: figures/Atlanta2.png
 incremental: false  # Since you want manual control of reveals
 progress: true
 slide-number: false
 header-includes:
     - |
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.6.0/css/all.css">
       
       <style>
         .reveal {
@@ -46,10 +46,17 @@ from: markdown+emoji
 chalkboard: false
 ---
 
+::: notes
+Intro: 
+- I analyze real-world health data with complex models to help policymakers mitigate infectious disease spread
+- My work is high-stakes and requires transparency, reproducibility, and efficiency
+- Today I want to share with you a workflow that has elevated my ability to inform public health policy decisions
+:::
+
 ## Look familiar?
 
 ::: {.fragment}
-![](figures/project_file_hellscape.png){height=90%}
+![](figures/project_file_hellscape.png){height=70%}
 :::
 
 ::: notes
@@ -61,20 +68,40 @@ What was I thinking 6 months ago?
 
 ## What if there was a better way?
 
+:::::{columns}
+:::{.column width="50%"}
+::: {.fragment index="1"}
+![](figures/hellscape_dir_screenshot.png){width="90%" style="max-height: 80vh; object-fit: contain;"}
+:::
+:::
+
+:::{.column width="10%"}
+::: {.fragment index="2"}
+:arrow_right:
+:::
+:::
+
+:::{.column width="40%"}
+::: {.fragment index="3"}
+![](figures/vacamole_dir_screenshot.png){width="90%" style="max-height: 80vh; object-fit: contain;"}
+:::
+:::
+:::::
+
+## How?
+
 ::: {.fragment .r-fit-text style="text-align: center;"}
 **Structure your project as an R package**
 :::
 
-## The Framework
-
 ::: incremental
--   **Step 1: Organize**
--   **Step 2: Document**
--   **Step 3: Share**
+-   **Organize**
+-   **Document**
+-   **Share**
 :::
 
 ::: notes
-Overview of the three steps
+
 :::
 
 ## Let's travel back in time
@@ -99,11 +126,11 @@ Overview of the three steps
 ![](figures/covid_clipart.jpg){width="100px" style="position: absolute; top: 1%; right: 20%;"}
 :::
 
-::: {.fragment .fade-in fragment-index="2"}
+::: {.fragment .fade-in fragment-index="1"}
 ![](figures/covid_clipart.jpg){width="100px" style="position: absolute; top: 60%; left: 30%;"}
 :::
 
-::: {.fragment .fade-in fragment-index="3"}
+::: {.fragment .fade-in fragment-index="1"}
 ![](figures/covid_clipart.jpg){width="100px" style="position: absolute; top: 70%; left: 70%;"}
 :::
 
@@ -115,76 +142,208 @@ Set the context
 
 :::{.r-stack}
 
-![](figures/nl_covid_confirmed_cases.png){width="80%" style="max-height: 500px; object-fit: contain;"}
+![](figures/nl_covid_confirmed_cases.png){width="100%" style="max-height: 500px; object-fit: contain;"}
 
 ::: {.fragment}
-![](figures/nl_covid_confirmed_cases_decreasing.png){width="80%" style="max-height: 500px; object-fit: contain;"}
-:::
-
-::: {.fragment}
-![](figures/nl_covid_confirmed_cases_vaccination.png){width="80%" style="max-height: 500px; object-fit: contain;"}
+![](figures/nl_covid_confirmed_cases_decreasing.png){width="98%" style="max-height: 500px; object-fit: contain;"}
 :::
 
 ::: {.fragment}
-![](figures/nl_covid_confirmed_cases_measures.png){width="80%" style="max-height: 500px; object-fit: contain;"}
+![](figures/nl_covid_confirmed_cases_vaccination.png){width="100%" style="max-height: 500px; object-fit: contain;"}
+:::
+
+::: {.fragment}
+![](figures/nl_covid_confirmed_cases_measures.png){width="98%" style="max-height: 500px; object-fit: contain;"}
 :::
 :::
-
-## The Challenge
-
-**Question:** Should the Netherlands extend COVID-19 vaccination to adolescents and children?
-
-**Timeline:** \~2 weeks
 
 ::: notes
-30 seconds - The urgent policy question
+Make picture bigger
+:::
+
+## June 2021 in the Netherlands
+
+::: {.fragment .r-fit-text style="text-align: center;"}
+*Should the Netherlands extend COVID-19 vaccination to adolescents and children?*
 :::
 
 ------------------------------------------------------------------------
 
-# Step #1: Organize
-
+## Organize
+<!-- slide 1 -->
 ::::: columns
 ::: {.column width="50%"}
 ::: {.fragment fragment-index="1"}
 **:x: Typical Project**
 
-```         
+```{=html}
+<pre style="font-family: monospace; margin: 0; font-size: 24px;">
+myproject/
 ├── analysis.R
-├── analysis_v2.R  
-├── FINAL_analysis.R
-├── analysis_FINAL_v3.R
+├── analysis_FINAL.R
+├── analysis_FINAL_v2.R
+├── code_guide.pdf
 ├── data_raw.csv
-├── functions_maybe.R
-├── temp_script.R
-└── random_test.R
+├── final_report.pdf
+├── final_report_FINAL.pdf
+├── functions.R
+├── methodology.docx
+└── more_functions.R
+</pre>
 ```
 :::
+
 :::
 
 ::: {.column width="50%"}
 ::: {.fragment fragment-index="2"}
 **:white_check_mark: Package Structure**
 
-```         
+```{=html}
+<pre style="font-family: monospace; margin: 0;">
 📦 mypackage/
-├── R/           # Code
-├── data/        # Data  
-├── man/         # Help files
-└── vignettes/   # Analysis
+├── R/            # Code
+├── inst/extdata/ # Data + Scripts 
+├── man/          # Help files
+└── vignettes/    # Analysis
+</pre>
 ```
 :::
+
 :::
 :::::
 
-::: notes
+## Organize
+<!-- slide 2 -->
+::::: columns
+::: {.column width="50%"}
+**:x: Typical Project**
+
+```{=html}
+<pre style="font-family: monospace; margin: 0;">
+myproject/
+├── analysis.R
+├── analysis_FINAL.R
+├── analysis_FINAL_v2.R
+├── code_guide.pdf
+├── data_raw.csv
+├── final_report.pdf
+├── final_report_FINAL.pdf
+<span style="background-color: #fff3cd;">├── functions.R</span>
+├── methodology.docx
+<span style="background-color: #fff3cd;">└── more_functions.R</span>
+</pre>
+```
 :::
+
+::: {.column width="50%"}
+
+**:white_check_mark: Package Structure**
+
+```{=html} 
+<pre style="font-family: monospace; margin: 0;">
+📦 mypackage/
+<span style="background-color: #fff3cd;">├── R/</span>            # Code
+<span style="background-color: #fff3cd;">    ├── functions.R</span>
+<span style="background-color: #fff3cd;">    └── more_functions.R</span>
+├── inst/extdata/ # Data + Scripts 
+├── man/          # Help files
+└── vignettes/    # Analysis
+</pre>
+```
+:::
+:::::
+
+## Organize
+<!-- slide 3 -->
+::::: columns
+::: {.column width="50%"}
+**:x: Typical Project**
+
+```{=html}
+<pre style="font-family: monospace; margin: 0;">
+myproject/
+<span style="background-color: #e7f3ff;">├── analysis.R</span>
+<span style="background-color: #e7f3ff;">├── analysis_FINAL.R</span>
+<span style="background-color: #e7f3ff;">├── analysis_FINAL_v2.R</span>
+├── code_guide.pdf
+<span style="background-color: #e7f3ff;">├── data_raw.csv</span>
+├── final_report.pdf
+├── final_report_FINAL.pdf
+├── functions.R
+├── methodology.docx
+└── more_functions.R
+</pre>
+```
+:::
+
+::: {.column width="50%"}
+
+**:white_check_mark: Package Structure**
+
+```{=html} 
+<pre style="font-family: monospace; margin: 0;">
+📦 mypackage/
+├── R/            # Code
+<span style="background-color: #e7f3ff;">├── inst/extdata/</span> # Data + Scripts
+<span style="background-color: #e7f3ff;">    ├── analysis.R</span>
+<span style="background-color: #e7f3ff;">    ├── analysis_FINAL.R</span>
+<span style="background-color: #e7f3ff;">    ├── analysis_FINAL_v2.R</span>
+<span style="background-color: #e7f3ff;">    └── data_raw.csv</span>
+├── man/          # Help files
+└── vignettes/    # Analysis
+</pre>
+```
+:::
+:::::
+
+## Organize
+<!-- slide 4 -->
+::::: columns
+::: {.column width="50%"}
+**:x: Typical Project**
+
+```{=html}
+<pre style="font-family: monospace; margin: 0;">
+myproject/
+├── analysis.R
+├── analysis_FINAL.R
+├── analysis_FINAL_v2.R
+<span style="background-color: #f0fff0;">├── code_guide.pdf</span>
+├── data_raw.csv
+<span style="background-color: #f0fff0;">├── final_report.pdf</span>
+<span style="background-color: #f0fff0;">├── final_report_FINAL.pdf</span>
+├── functions.R
+<span style="background-color: #f0fff0;">├── methodology.docx</span>
+└── more_functions.R
+</pre>
+```
+:::
+
+::: {.column width="50%"}
+
+**:white_check_mark: Package Structure**
+
+```{=html} 
+<pre style="font-family: monospace; margin: 0;">
+📦 mypackage/
+├── R/            # Code
+├── inst/extdata/ # Data + Scripts
+├── man/          # Help files
+<span style="background-color: #f0fff0;">└── vignettes/</span>    # Analysis
+<span style="background-color: #f0fff0;">    ├── code_guide.Rmd</span>
+ <span style="background-color: #f0fff0;">   ├── methodology.Rmd</span>
+<span style="background-color: #f0fff0;">    └── report.Rmd</span>
+</pre>
+```
+:::
+:::::
 
 ## Impact: Organization → Efficiency
 
 ::: incremental
 -   :arrows_counterclockwise: Models rapidly updated as new data became available
--   :alarm_clock: Analysis delivered on time\
+-   :alarm_clock: Analysis delivered on time
 -   :syringe: Directly informed health policy decisions
 :::
 
@@ -194,7 +353,7 @@ Set the context
 
 ------------------------------------------------------------------------
 
-# Step #2: Document
+## Document
 
 ::::: columns
 ::: {.column width="50%"}
@@ -202,13 +361,20 @@ Set the context
 
 **:x: Separate Documents**
 
-```         
+```{=html}
+<pre style="font-family: monospace; margin: 0;">
+myproject/
 ├── analysis.R
-├── methodology.docx
-├── code_guide.pdf
-├── final_report.pdf
-├── final_report_FINAL.pdf
-└── README.txt
+├── analysis_FINAL.R
+├── analysis_FINAL_v2.R
+<span style="background-color: #f0fff0;">├── code_guide.pdf</span>
+├── data_raw.csv
+<span style="background-color: #f0fff0;">├── final_report.pdf</span>
+<span style="background-color: #f0fff0;">├── final_report_FINAL.pdf</span>
+├── functions.R
+<span style="background-color: #f0fff0;">├── methodology.docx</span>
+└── more_functions.R
+</pre>
 ```
 :::
 :::
@@ -216,15 +382,21 @@ Set the context
 ::: {.column width="50%"}
 ::: {.fragment fragment-index="2"}
 
-**:white_check_mark: Integrated Package**
+**:white_check_mark: Documentation lives WITH the code**
 
-```         
+```{=html}
+<pre style="font-family: monospace; margin: 0;">
 📦 mypackage/
-├── R/           # Code
+├── R/           
 ├── man/         # Help files
+    ├── hello_world.Rd
+    ├── do_something.Rd
+    └── busy_busy_busy.Rd
 └── vignettes/   # Docs + Reports
-    └── analysis.Rmd → 📊 Report.pdf
-                     → 🌐 Website
+    ├── code_guide.Rmd
+    ├── methodology.Rmd
+    └── report.Rmd
+</pre>                     
 ```
 :::
 :::
@@ -234,27 +406,165 @@ Set the context
 Have you ever had to reconcile a separate word file and code file?
 :::
 
-## Step #2: Document
+## Document
 
-Writing the help files as you write the code, so they can be documented in real time 
-
-[show screen shot of roxygen preamble and generated help file]
+```{.r code-line-numbers="|1|3-5|7|9-10"}
+#' Calculate Required Coffee for Debugging Session
+#'
+#' @param error_messages Integer. Number of different error messages
+#' @param browser_tabs Integer. Troubleshooting browser tabs currently open
+#' @param hours_stuck Numeric. Hours spent on current bug
+#'
+#' @return Integer. Recommended cups of coffee (max 3 for your health)
+#'
+#' @examples
+#' coffee_for_debugging(1, 2, 0.5)
+#'
+#' @author Caffeinated Coder
+#' 
+coffee_for_debugging <- function(error_messages,browser_tabs, hours_stuck){
+  
+  coffee_needed <- error_messages + (browser_tabs * 0.2) + hours_stuck
+  result <- min(ceiling(coffee_needed), 3)  # Cap at 3 cups
+  
+  if (result >= 3) {
+    message("Maybe try rubber duck debugging instead?")
+  }
+  return(result)
+}
+```
 
 
 ::: notes
-Tell story about Jantien: some documentation about the project and the data used, but no specific information about the functions
+Writing the help files as you write the code, so they can be documented in real time 
+Future you will thank you!
 :::
 
+# Document
 
-## Step #2: Document
+![](figures/coffee_for_debugging.png){width="55%"}
 
-Vignettes
+## Document
+
+::::: columns
+::: {.column width="50%"}
+**:x: Separate Documents**
+
+```{=html}
+<pre style="font-family: monospace; margin: 0;">
+myproject/
+├── analysis.R
+├── analysis_FINAL.R
+├── analysis_FINAL_v2.R
+<span style="background-color: #f0fff0;">├── code_guide.pdf</span>
+├── data_raw.csv
+<span style="background-color: #f0fff0;">├── final_report.pdf</span>
+<span style="background-color: #f0fff0;">├── final_report_FINAL.pdf</span>
+├── functions.R
+<span style="background-color: #f0fff0;">├── methodology.docx</span>
+└── more_functions.R
+</pre>
+```
+:::
+
+::: {.column width="50%"}
+**:white_check_mark: Documentation lives WITH the code**
+
+```{=html}
+<pre style="font-family: monospace; margin: 0;">
+📦 mypackage/
+├── R/           
+├── man/         # Help files
+    ├── hello_world.Rd
+    ├── do_something.Rd
+    └── busy_busy_busy.Rd
+└── vignettes/   # Docs + Reports
+    ├── <s>code_guide.Rmd</s>
+    ├── methodology.Rmd
+    └── report.Rmd
+</pre>                     
+```
+
+:::
+:::::
+
+
+## Document
+
+::::: columns
+::: {.column width="70%"}
+::: {.fragment fragment-index="1"}
+![](figures/vignette_screenshot.png)
+:::
+:::
+
+::: {.column width="10%"}
+::: {.fragment fragment-index="2"}
+::: {style="display: flex; align-items: center; justify-content: center; height: 80vh; font-size: 3em; font-weight: bold;"}
+<i class="fab fa-plus"></i> 
+:::
+:::
+:::
+
+::: {.column width="20%"}
+::: {.fragment fragment-index="3"}
+::: {style="display: flex; align-items: center; justify-content: center; height: 80vh; font-size: 5em; font-weight: bold;"}
+<i class="fab fa-github"></i> 
+:::
+:::
+:::
+:::::
 
 ::: notes
 Show screenshot of vignette with text, code, results
 Added bonus: Vignettes can be version controlled, whereas word documents can’t
 Many different versions of a file -> one file with VC history!
 :::
+
+## Document
+
+::::: columns
+::: {.column width="50%"}
+**:x: Separate Documents**
+
+```{=html}
+<pre style="font-family: monospace; margin: 0;">
+myproject/
+├── analysis.R
+├── analysis_FINAL.R
+├── analysis_FINAL_v2.R
+<span style="background-color: #f0fff0;">├── code_guide.pdf</span>
+├── data_raw.csv
+<span style="background-color: #f0fff0;">├── final_report.pdf</span>
+<span style="background-color: #f0fff0;">├── final_report_FINAL.pdf</span>
+├── functions.R
+<span style="background-color: #f0fff0;">├── methodology.docx</span>
+└── more_functions.R
+</pre>
+```
+:::
+
+::: {.column width="50%"}
+**:white_check_mark: Documentation lives WITH the code**
+
+```{=html}
+<pre style="font-family: monospace; margin: 0;">
+📦 mypackage/
+├── R/           
+├── man/         # Help files
+    ├── hello_world.Rd
+    ├── do_something.Rd
+    └── busy_busy_busy.Rd
+└── vignettes/   # Docs + Reports
+    ├── <s>code_guide.Rmd</s>
+    ├── <s>methodology.Rmd</s>
+    └── report.Rmd
+</pre>                     
+```
+
+:::
+:::::
+
 
 ## Impact: Documentation → Transparency
 
@@ -272,46 +582,53 @@ Mention that we were audit and how this structure helped immensely
 
 ------------------------------------------------------------------------
 
-# Step #3: Share
+## Share
 
-:::::::: columns
-::: {.column width="20%"}
-![](single_person_computer.png){width="80%"}
-
-**Steps 1-2**
+::::: columns
+::: {.column width="50%"}
+::: {.fragment fragment-index="1"}
+![](figures/workplace.jpg)
+:::
 :::
 
-::: {.column width="10%"}
-**+**
+::: {.column width="15%"}
+::: {.fragment fragment-index="2"}
+::: {style="display: flex; align-items: center; justify-content: center; height: 80vh; font-size: 3em; font-weight: bold;"}
+<i class="fab fa-plus"></i> 
+:::
+:::
 :::
 
-::: {.column width="30%"}
-![](github_logo.png){width="30%"} ![](cloud_storage.png){width="30%"} ![](network_drive.png){width="30%"}
-
-**Sharing Platform**
+::: {.column width="35%"}
+::: {.fragment fragment-index="2"}
+::: {style="display: flex; align-items: center; justify-content: space-between; height: 80vh; font-size: 1.1em"}
+<!-- style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2em;" -->
+<i class="fab fa-github fa-3x"></i>
+<i class="fas fa-cloud fa-3x"></i>
+<i class="fas fa-server fa-3x"></i>
+:::
+:::
 :::
 
-::: {.column width="10%"}
-**=**
-:::
+:::::
 
-::: {.column width="30%"}
-![](team_collaboration.png){width="80%"}
-
-**:sparkles: Magic :sparkles:**
-:::
-::::::::
 
 ::: notes
 Steps 1 + 2 have largely been about your individual workflow.
 But when the R package structure is paired with a file sharing platfrom, magic happens.
 :::
 
-# Step 3: Share
+## Share
+
+![](figures/collaboration.png)
+
+## Share
+
 ::: incremental
--   :file_folder: **Standard Layout** → Easy team handovers
--   :book: **Full documentation** → Independent verification
--   :gear: **Complete Package** → Collaboration
+-   :arrow_right: **Easy Handovers** → New team members instantly understand structure
+-   :mag: **Full Reproducibility** → Anyone can verify and replicate your analysis
+-   :hammer_and_wrench: **Extensible Work** → Others build new features on your foundation
+-   :people_holding_hands: **External Collaboration** → Domain experts can contribute directly
 :::
 
 ::: notes
@@ -319,21 +636,21 @@ Without all three steps, it doesn't work.
 This approach has been instrumental in collaborating with external experts. 
 :::
 
-# Impact: Sharing → Reproducibility
+## Impact: Sharing → Reproducibility
 
 ::: incremental
 - <img src="figures/epidemics_hex.png" style="height: 1em; vertical-align: middle;"> Incorporated into `epidemics` package transmission model library 
 
 - :chart_with_downwards_trend: Used to inform European-wide disease modeling
 
-- :globe_showing_europe_africa: One national analysis became international infrastructure
+- 🌍 One national analysis became international infrastructure
 
 :::
 
 
 ------------------------------------------------------------------------
 
-# Your Turn!
+## Your Turn!
 
 ::::: columns
 ::: {.column width="60%"}
@@ -347,8 +664,6 @@ This approach has been instrumental in collaborating with external experts.
 
 ::: {.fragment fragment-index="4"}
 -   **You'll never go back to messy folders**
--   *(Seriously, you'll judge your past self)*
--   *(And maybe judge your colleagues' folders too)*
 :::
 :::
 
@@ -376,11 +691,21 @@ This approach has been instrumental in collaborating with external experts.
 
 ## Get in touch!
 
-- <i class="fab fa-linkedin"></i> **LinkedIn:** https://www.linkedin.com/in/kylieainslie/
-- <i class="fa-brands fa-bluesky"></i> @kylieainslie.bsky.social\
-- <i class="fab fa-github"></i> **GitHub:** https://github.com/kylieainslie
-- <i class="fas fa-globe"></i> **Website:** https://kylieainslie.github.io/
+::::: columns
+::: {.column width="60%"}
+<i class="fab fa-linkedin"></i> linkedin.com/in/kylieainslie
 
+<i class="fa-brands fa-bluesky"></i> @kylieainslie.bsky.social
+
+<i class="fab fa-github"></i> github.com/kylieainslie
+
+<i class="fas fa-globe"></i> kylieainslie.github.io
+:::
+
+::: {.column width="40%"}
+![](figures/leon.jpeg){width="70%"}
+:::
+:::::
 
 
 ::: notes
