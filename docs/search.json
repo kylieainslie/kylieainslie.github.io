@@ -564,7 +564,7 @@
     "href": "presentations/2025/posit_conf_2025/presentation_pc2025.html#what-if-there-was-a-better-way",
     "title": "Elevating Public Health Decision Making with R Packages",
     "section": "What if there was a better way?",
-    "text": "What if there was a better way?\n\n\n\n\n\n\n\n➡️"
+    "text": "What if there was a better way?\n\n\n\n\n\n\n\n\n➡️"
   },
   {
     "objectID": "presentations/2025/posit_conf_2025/presentation_pc2025.html#the-framework",
@@ -592,7 +592,7 @@
     "href": "presentations/2025/posit_conf_2025/presentation_pc2025.html#june-2021-in-the-netherlands-1",
     "title": "Elevating Public Health Decision Making with R Packages",
     "section": "June 2021 in the Netherlands",
-    "text": "June 2021 in the Netherlands\n\n\n\n\n\n\n\n\n\n\n\n\n\nMake picture bigger"
+    "text": "June 2021 in the Netherlands\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMake picture bigger"
   },
   {
     "objectID": "presentations/2025/posit_conf_2025/presentation_pc2025.html#the-challenge",
@@ -627,7 +627,7 @@
     "href": "presentations/2025/posit_conf_2025/presentation_pc2025.html#announcement",
     "title": "Elevating Public Health Decision Making with R Packages",
     "section": "Announcement",
-    "text": "Announcement\n\nI’ve just submitted my first R package to CRAN!"
+    "text": "Announcement\n\nI’ve just had my first R package accepted to CRAN!"
   },
   {
     "objectID": "presentations/2025/posit_conf_2025/presentation_pc2025.html#get-in-touch",
@@ -1033,14 +1033,14 @@
     "href": "presentations/2025/posit_conf_2025/presentation_pc2025.html#document-4",
     "title": "Elevating Public Health Decision Making with R Packages",
     "section": "Document",
-    "text": "Document\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nShow screenshot of vignette with text, code, results Added bonus: Vignettes can be version controlled, whereas word documents can’t Many different versions of a file -&gt; one file with VC history!"
+    "text": "Document\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAdded bonus: Vignettes can be version controlled, whereas word documents can’t Many different versions of a file -&gt; one file with VC history!"
   },
   {
     "objectID": "presentations/2025/posit_conf_2025/presentation_pc2025.html#share-2",
     "href": "presentations/2025/posit_conf_2025/presentation_pc2025.html#share-2",
     "title": "Elevating Public Health Decision Making with R Packages",
     "section": "Share",
-    "text": "Share\n\n\n➡️ Easy Handovers → New team members instantly understand structure\n🔍 Full Reproducibility → Anyone can verify and replicate your analysis\n🛠️ Extensible Work → Others build new features on your foundation\n🧑‍🤝‍🧑 External Collaboration → Domain experts can contribute directly\n\n\n\nWithout all three steps, it doesn’t work. This approach has been instrumental in collaborating with external experts."
+    "text": "Share\n\n\n⚙️ Easy Installation\n➡️ Seamless Handovers\n🛠️ Reusable Tools\n🧑‍🤝‍🧑 Facilitates Collaboration\n\n\n\nWithout all three steps, it doesn’t work. This approach has been instrumental in collaborating with external experts."
   },
   {
     "objectID": "presentations/2025/posit_conf_2025/presentation_pc2025.html#document-5",

@@ -4,6 +4,7 @@ author: "Kylie Ainslie"
 footer: posit::conf(2025) | 18 September 2025 | Atlanta, GA
 format:
   revealjs:
+    fontsize: 1.5em
     embed-resources: true
     theme: default  # or simple if you prefer
     preview-links: auto
@@ -56,7 +57,7 @@ Intro:
 ## Look familiar?
 
 ::: {.fragment}
-![](figures/project_file_hellscape.png){height=70%}
+![](figures/project_file_hellscape.png){width=60%}
 :::
 
 ::: notes
@@ -71,19 +72,21 @@ What was I thinking 6 months ago?
 :::::{columns}
 :::{.column width="50%"}
 ::: {.fragment index="1"}
-![](figures/hellscape_dir_screenshot.png){width="90%" style="max-height: 80vh; object-fit: contain;"}
+![](figures/hellscape_dir_screenshot.png){width="95%" style="max-height: 80vh; object-fit: contain;"}
 :::
 :::
 
 :::{.column width="10%"}
 ::: {.fragment index="2"}
+::: {style="display: flex; align-items: center; justify-content: center; height: 80vh; font-size: 2em; font-weight: bold;"}
 :arrow_right:
+:::
 :::
 :::
 
 :::{.column width="40%"}
 ::: {.fragment index="3"}
-![](figures/vacamole_dir_screenshot.png){width="90%" style="max-height: 80vh; object-fit: contain;"}
+![](figures/vacamole_dir_screenshot.png){width="85%" style="max-height: 80vh; object-fit: contain;"}
 :::
 :::
 :::::
@@ -107,7 +110,7 @@ What was I thinking 6 months ago?
 ## Let's travel back in time
 
 ::: {.fragment}
-![](figures/delorean.png){.car-slide width="200px"}
+![](figures/delorean.png){.car-slide width="300px"}
 :::
 
 ## June 2021 in the Netherlands
@@ -142,18 +145,20 @@ Set the context
 
 :::{.r-stack}
 
-![](figures/nl_covid_confirmed_cases.png){width="100%" style="max-height: 500px; object-fit: contain;"}
-
-::: {.fragment}
-![](figures/nl_covid_confirmed_cases_decreasing.png){width="98%" style="max-height: 500px; object-fit: contain;"}
+::: {.fragment .fade-in-then-out}
+![](figures/nl_covid_confirmed_cases.png){width="100%" style="max-height: 600px; object-fit: contain;"}
 :::
 
-::: {.fragment}
-![](figures/nl_covid_confirmed_cases_vaccination.png){width="100%" style="max-height: 500px; object-fit: contain;"}
+::: {.fragment .fade-in-then-out}
+![](figures/nl_covid_confirmed_cases_decreasing.png){width="98%" style="max-height: 600px; object-fit: contain;"}
 :::
 
-::: {.fragment}
-![](figures/nl_covid_confirmed_cases_measures.png){width="98%" style="max-height: 500px; object-fit: contain;"}
+::: {.fragment .fade-in-then-out}
+![](figures/nl_covid_confirmed_cases_vaccination.png){width="100%" style="max-height: 600px; object-fit: contain;"}
+:::
+
+::: {.fragment .fade-in}
+![](figures/nl_covid_confirmed_cases_measures.png){width="98%" style="max-height: 600px; object-fit: contain;"}
 :::
 :::
 
@@ -165,7 +170,10 @@ Make picture bigger
 
 ::: {.fragment .r-fit-text style="text-align: center;"}
 *Should the Netherlands extend COVID-19 vaccination to adolescents and children?*
+
+![](figures/kids.jpg){width="25%"}
 :::
+
 
 ------------------------------------------------------------------------
 
@@ -200,7 +208,7 @@ myproject/
 **:white_check_mark: Package Structure**
 
 ```{=html}
-<pre style="font-family: monospace; margin: 0;">
+<pre style="font-family: monospace; margin: 0; font-size: 24px;">
 📦 mypackage/
 ├── R/            # Code
 ├── inst/extdata/ # Data + Scripts 
@@ -220,7 +228,7 @@ myproject/
 **:x: Typical Project**
 
 ```{=html}
-<pre style="font-family: monospace; margin: 0;">
+<pre style="font-family: monospace; margin: 0; font-size: 24px;">
 myproject/
 ├── analysis.R
 ├── analysis_FINAL.R
@@ -241,7 +249,7 @@ myproject/
 **:white_check_mark: Package Structure**
 
 ```{=html} 
-<pre style="font-family: monospace; margin: 0;">
+<pre style="font-family: monospace; margin: 0; font-size: 24px;">
 📦 mypackage/
 <span style="background-color: #fff3cd;">├── R/</span>            # Code
 <span style="background-color: #fff3cd;">    ├── functions.R</span>
@@ -261,7 +269,7 @@ myproject/
 **:x: Typical Project**
 
 ```{=html}
-<pre style="font-family: monospace; margin: 0;">
+<pre style="font-family: monospace; margin: 0; font-size: 24px;">
 myproject/
 <span style="background-color: #e7f3ff;">├── analysis.R</span>
 <span style="background-color: #e7f3ff;">├── analysis_FINAL.R</span>
@@ -282,7 +290,7 @@ myproject/
 **:white_check_mark: Package Structure**
 
 ```{=html} 
-<pre style="font-family: monospace; margin: 0;">
+<pre style="font-family: monospace; margin: 0; font-size: 24px;">
 📦 mypackage/
 ├── R/            # Code
 <span style="background-color: #e7f3ff;">├── inst/extdata/</span> # Data + Scripts
@@ -304,7 +312,7 @@ myproject/
 **:x: Typical Project**
 
 ```{=html}
-<pre style="font-family: monospace; margin: 0;">
+<pre style="font-family: monospace; margin: 0; font-size: 24px;">
 myproject/
 ├── analysis.R
 ├── analysis_FINAL.R
@@ -325,7 +333,7 @@ myproject/
 **:white_check_mark: Package Structure**
 
 ```{=html} 
-<pre style="font-family: monospace; margin: 0;">
+<pre style="font-family: monospace; margin: 0; font-size: 24px;">
 📦 mypackage/
 ├── R/            # Code
 ├── inst/extdata/ # Data + Scripts
@@ -362,7 +370,7 @@ myproject/
 **:x: Separate Documents**
 
 ```{=html}
-<pre style="font-family: monospace; margin: 0;">
+<pre style="font-family: monospace; margin: 0; font-size: 24px;">
 myproject/
 ├── analysis.R
 ├── analysis_FINAL.R
@@ -385,7 +393,7 @@ myproject/
 **:white_check_mark: Documentation lives WITH the code**
 
 ```{=html}
-<pre style="font-family: monospace; margin: 0;">
+<pre style="font-family: monospace; margin: 0; font-size: 24px;">
 📦 mypackage/
 ├── R/           
 ├── man/         # Help files
@@ -451,7 +459,7 @@ Future you will thank you!
 **:x: Separate Documents**
 
 ```{=html}
-<pre style="font-family: monospace; margin: 0;">
+<pre style="font-family: monospace; margin: 0; font-size: 24px;">
 myproject/
 ├── analysis.R
 ├── analysis_FINAL.R
@@ -471,7 +479,7 @@ myproject/
 **:white_check_mark: Documentation lives WITH the code**
 
 ```{=html}
-<pre style="font-family: monospace; margin: 0;">
+<pre style="font-family: monospace; margin: 0; font-size: 24px;">
 📦 mypackage/
 ├── R/           
 ├── man/         # Help files
@@ -516,7 +524,6 @@ myproject/
 :::::
 
 ::: notes
-Show screenshot of vignette with text, code, results
 Added bonus: Vignettes can be version controlled, whereas word documents can’t
 Many different versions of a file -> one file with VC history!
 :::
@@ -528,7 +535,7 @@ Many different versions of a file -> one file with VC history!
 **:x: Separate Documents**
 
 ```{=html}
-<pre style="font-family: monospace; margin: 0;">
+<pre style="font-family: monospace; margin: 0; font-size: 24px;">
 myproject/
 ├── analysis.R
 ├── analysis_FINAL.R
@@ -548,7 +555,7 @@ myproject/
 **:white_check_mark: Documentation lives WITH the code**
 
 ```{=html}
-<pre style="font-family: monospace; margin: 0;">
+<pre style="font-family: monospace; margin: 0; font-size: 24px;">
 📦 mypackage/
 ├── R/           
 ├── man/         # Help files
@@ -625,10 +632,10 @@ But when the R package structure is paired with a file sharing platfrom, magic h
 ## Share
 
 ::: incremental
--   :arrow_right: **Easy Handovers** → New team members instantly understand structure
--   :mag: **Full Reproducibility** → Anyone can verify and replicate your analysis
--   :hammer_and_wrench: **Extensible Work** → Others build new features on your foundation
--   :people_holding_hands: **External Collaboration** → Domain experts can contribute directly
+- :gear: Easy Installation
+- :arrow_right: Seamless Handovers
+- :hammer_and_wrench: Reusable Tools
+- :people_holding_hands: Facilitates Collaboration 
 :::
 
 ::: notes
@@ -668,7 +675,7 @@ This approach has been instrumental in collaborating with external experts.
 :::
 
 ::: {.column width="40%"}
-::: {.fragment fragment-index="3" .fade-in-then-out}
+::: {.fragment fragment-index="3" .fade-in}
 ![](figures/usethis_logo.png){width="40%"} ![](figures/cover-2e-small.png){width="40%"}
 :::
 :::
@@ -680,9 +687,9 @@ This approach has been instrumental in collaborating with external experts.
 ## Announcement
 
 ::: incremental
-**I've just submitted my first R package to CRAN!**
+**I've just had my first R package accepted to CRAN!**
 
-![](figures/mitey_hex_superman.png){width="20%"}
+![](figures/mitey_hex_superman.png){width="30%"}
 
 :::
 
@@ -703,7 +710,7 @@ This approach has been instrumental in collaborating with external experts.
 :::
 
 ::: {.column width="40%"}
-![](figures/leon.jpeg){width="70%"}
+![](figures/leon.jpeg){width="100%"}
 :::
 :::::
 
