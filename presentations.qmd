@@ -34,22 +34,21 @@ Estimating the epidemiological characteristics of scabies.
 :::::::::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
 ::::::::: {.card .h-100}
 ::: card-header
-Coming soon!
-<!-- ![](images/presentation-thumbnails/posit-conf-2025.png){.card-img-top style="height: 200px; object-fit: contain; background-color: var(--bs-body-bg);"} -->
+![](images/presentation-thumbnails/posit-conf-2025.png){.card-img-top style="height: 200px; object-fit: contain; background-color: var(--bs-body-bg);"}
 :::
 
 ::::::: {.card-body .d-flex .flex-column}
 ::: card-title
-## [Enhancing Public Health Decision Making with R Packages](presentations/2025/posit_conf_2025/presentation_pc2025.pdf)
+## [Elevating Public Health Decision Making with R Packages](presentations/2025/posit_conf_2025/presentation_pc2025.qmd)
 :::
 
 ::: card-text
-**posit::conf(2025), Coming Soon**
+**posit::conf(2025), Atlanta, GA, September 2025**
 :::
 
 :::: mt-auto
 ::: btn-group
-[View Slides](presentations/2025/posit_conf_2025/presentation_pc2025.qmd){.btn .btn-primary .btn-sm} [PDF](presentations/2025/posit_conf_2025/presentation_pc2025.pdf){.btn .btn-outline-secondary .btn-sm}
+[View Slides](docs/presentations/2025/posit_conf_2025/presentation_pc2025.html){.btn .btn-primary .btn-sm} 
 :::
 ::::
 :::::::
