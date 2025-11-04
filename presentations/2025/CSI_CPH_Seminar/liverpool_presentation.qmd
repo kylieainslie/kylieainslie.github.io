@@ -50,7 +50,7 @@ chalkboard: true       # comment out when wanting to make a selfcontained html
 :::
 
 ::: {.column width="40%"}
-![Scabies mite. Image Credit: Aliaksei Marozau / Shutterstock.com](figures/scabies_mite.png){style="font-size: 0.7em;"}
+![Scabies mite. Image Credit: Aliaksei Marozau / Shutterstock.com](scabies_mite.png){style="font-size: 0.7em;"}
 :::
 :::::
 
@@ -67,7 +67,7 @@ chalkboard: true       # comment out when wanting to make a selfcontained html
 -   Scabies affects around 400 million people per year.
 -   Accounts for a large proportion of skin disease in many low- and middle-income countries
 
-![](figures/scabies_disease_burden_map2.png){.fragment width="700" height="325"}
+![](scabies_disease_burden_map2.png){.fragment width="700" height="325"}
 
 ::: {.fragment style="font-size: 0.5em;"}
 Karimkhani et al. 2017. Lancet Infect. Dis. 17(12):1247 - 1254
@@ -78,7 +78,7 @@ Karimkhani et al. 2017. Lancet Infect. Dis. 17(12):1247 - 1254
 -   Scabies infections were a common affliction in Europe in the late 1800s and early 1900s
     -   Highest incidence seen in 1918 and 1945.
 
-![](figures/scabies_in_scotland.jpg){.fragment width="600" height="350"}
+![](scabies_in_scotland.jpg){.fragment width="600" height="350"}
 
 ::: {style="font-size: 0.5em;"}
 Savin 2005. J R Soc Med; 98(3):124–129.4
@@ -90,7 +90,7 @@ Savin 2005. J R Soc Med; 98(3):124–129.4
 A rise in scabies cases has been observed through out Europe in recent years.
 :::
 
-![](figures/scabies_in_germany.jpg){width="600" height="350"}
+![](scabies_in_germany.jpg){width="600" height="350"}
 
 ::: {style="font-size: 0.5em;"}
 Reichert et al. 2021. Emerg Infect Dis.;27(6):1693–1696.
@@ -102,7 +102,7 @@ Reichert et al. 2021. Emerg Infect Dis.;27(6):1693–1696.
 A rise in scabies cases has been observed through out Europe in recent years.
 :::
 
-![](figures/scabies_in_croatia.jpeg){width="600" height="350"}
+![](scabies_in_croatia.jpeg){width="600" height="350"}
 
 ::: {style="font-size: 0.5em;"}
 Lugović-Mihić et al. 2020. Zdravstveno Varstvo; 59(4):264-272.
@@ -114,7 +114,7 @@ Lugović-Mihić et al. 2020. Zdravstveno Varstvo; 59(4):264-272.
 A rise in scabies cases has been observed through out Europe in recent years.
 :::
 
-![](figures/scabies_in_norway.jpg){width="600" height="350"}
+![](scabies_in_norway.jpg){width="600" height="350"}
 
 ::: {style="font-size: 0.5em;"}
 Amato et al. 2019. Eurosurveillance; 24(23):pii=190020.
@@ -126,7 +126,7 @@ Amato et al. 2019. Eurosurveillance; 24(23):pii=190020.
 A rise in scabies cases has been observed through out Europe in recent years.
 :::
 
-![](figures/scabies_in_NL.png){width="600" height="350"}
+![](scabies_in_NL.png){width="600" height="350"}
 
 ::: {style="font-size: 0.5em;"}
 van Deursen et al. 2022. PLoS One; 17:e0268865
@@ -157,7 +157,7 @@ van Deursen et al. 2022. PLoS One; 17:e0268865
 :::
 
 ::: {.column width="40%"}
-![Adapted from: Lehtinen et al. 2021. J. R. Soc. Interface.1820200756](figures/epi_intervals_schematic.jpeg){style="font-size: 0.7em;" fig-align="left" width="120%" height="120%"}
+![Adapted from: Lehtinen et al. 2021. J. R. Soc. Interface.1820200756](epi_intervals_schematic.jpeg){style="font-size: 0.7em;" fig-align="left" width="120%" height="120%"}
 :::
 :::::
 
@@ -171,7 +171,7 @@ van Deursen et al. 2022. PLoS One; 17:e0268865
 ::::
 
 ::: {.column width="40%"}
-![Adapted from: Lehtinen et al. 2021. J. R. Soc. Interface.1820200756](figures/incubation_period_schematic.jpeg){style="font-size: 0.7em;" fig-align="left" width="120%" height="120%"}
+![Adapted from: Lehtinen et al. 2021. J. R. Soc. Interface.1820200756](incubation_period_schematic.jpeg){style="font-size: 0.7em;" fig-align="left" width="120%" height="120%"}
 :::
 ::::::
 
@@ -186,7 +186,7 @@ van Deursen et al. 2022. PLoS One; 17:e0268865
 ::::
 
 ::: {.column width="40%"}
-![Adapted from: Lehtinen et al. 2021. J. R. Soc. Interface.1820200756](figures/generation_time.jpg){style="font-size: 0.7em;" fig-align="left" width="120%" height="120%"}
+![Adapted from: Lehtinen et al. 2021. J. R. Soc. Interface.1820200756](generation_time.jpg){style="font-size: 0.7em;" fig-align="left" width="120%" height="120%"}
 :::
 ::::::
 
@@ -202,7 +202,7 @@ van Deursen et al. 2022. PLoS One; 17:e0268865
 ::::
 
 ::: {.column width="40%"}
-![Adapted from: Lehtinen et al. 2021. J. R. Soc. Interface.1820200756](figures/serial_interval_schematic.jpeg){style="font-size: 0.7em;" fig-align="left" width="120%" height="120%"}
+![Adapted from: Lehtinen et al. 2021. J. R. Soc. Interface.1820200756](serial_interval_schematic.jpeg){style="font-size: 0.7em;" fig-align="left" width="120%" height="120%"}
 :::
 ::::::
 
@@ -219,7 +219,7 @@ van Deursen et al. 2022. PLoS One; 17:e0268865
 ::::
 
 ::: {.column width="40%"}
-![Picheira-Brown and Bentancor. 2021. Epidemics; 37:100486](figures/growth_rate.jpg){style="font-size: 0.7em;" fig-align="left" width="100%" height="100%"}
+![Picheira-Brown and Bentancor. 2021. Epidemics; 37:100486](growth_rate.jpg){style="font-size: 0.7em;" fig-align="left" width="100%" height="100%"}
 :::
 ::::::
 
@@ -237,7 +237,7 @@ van Deursen et al. 2022. PLoS One; 17:e0268865
 ::::
 
 ::: {.column width="40%"}
-![https://andreashandel.github.io/IDEMAbook/R0.html](figures/R0Scheme.png){style="font-size: 0.7em;" fig-align="left" width="60%" height="60%"}
+![https://andreashandel.github.io/IDEMAbook/R0.html](R0Scheme.png){style="font-size: 0.7em;" fig-align="left" width="60%" height="60%"}
 :::
 ::::::
 
@@ -262,7 +262,7 @@ van Deursen et al. 2022. PLoS One; 17:e0268865
 :::
 
 ::: {.column width="40%"}
-![](scabies_oxford_war_manual.png){.fragment fig-align="center"} ![](figures/mellanby_1944.png){.fragment width="600" height="100"}
+![](scabies_oxford_war_manual.png){.fragment fig-align="center"} ![](mellanby_1944.png){.fragment width="600" height="100"}
 :::
 :::::
 
@@ -283,11 +283,11 @@ van Deursen et al. 2022. PLoS One; 17:e0268865
 
 :::::: columns
 ::: {.column width="35%"}
-![Adapted from: Lehtinen et al. 2021. J. R. Soc. Interface.1820200756](figures/serial_interval_schematic.jpeg){style="font-size: 0.7em;" fig-align="left" width="120%" height="120%"}
+![Adapted from: Lehtinen et al. 2021. J. R. Soc. Interface.1820200756](serial_interval_schematic.jpeg){style="font-size: 0.7em;" fig-align="left" width="120%" height="120%"}
 :::
 
 :::: {.column width="65%"}
-![](figures/epi_curves_plot.png){.fragment style="font-size: 0.7em;" width="100%" height="100%"}
+![](epi_curves_plot.png){.fragment style="font-size: 0.7em;" width="100%" height="100%"}
 
 ::: {.fragment style="font-size: 0.5em;"}
 Date of symptom onset data from four scabies outbreaks.
@@ -307,7 +307,7 @@ Date of symptom onset data from four scabies outbreaks.
 -   We use a maximum likelihood framework to determine how likely each ICC interval can be attributed to each transmission route [- We then estimate serial interval using ICC intervals consistent with Primary-Secondary transmission]{style="color:white;"}
 :::
 
-![Vink et al. 2014. Am J Epidemiol; 180(9):865–875](figures/icc_interval.png)
+![Vink et al. 2014. Am J Epidemiol; 180(9):865–875](icc_interval.png)
 
 ## Serial Interval
 
@@ -316,17 +316,17 @@ Date of symptom onset data from four scabies outbreaks.
     -   We then estimate serial interval using ICC intervals consistent with Primary-Secondary transmission
 :::
 
-![Vink et al. 2014. Am J Epidemiol; 180(9):865–875](figures/icc_interval_w_red_box.png)
+![Vink et al. 2014. Am J Epidemiol; 180(9):865–875](icc_interval_w_red_box.png)
 
 ## Serial Interval
 
 ::::: columns
 ::: {.column width="60%"}
-![Epidemic curves and estimated serial interval distributions from four scabies outbreaks. Red line indicates estimated serial interval density assuming an underlying normal distribution.](figures/si_fit_plot.png){style="font-size: 0.7em;"}
+![Epidemic curves and estimated serial interval distributions from four scabies outbreaks. Red line indicates estimated serial interval density assuming an underlying normal distribution.](si_fit_plot.png){style="font-size: 0.7em;"}
 :::
 
 ::: {.column width="40%"}
-![\*unit is days](figures/si_table.png)
+![\*unit is days](si_table.png)
 :::
 :::::
 
@@ -340,7 +340,7 @@ Date of symptom onset data from four scabies outbreaks.
 :::
 
 ::: {.column width="60%"}
-![](figures/forest_plot.png){.fragment}
+![](forest_plot.png){.fragment}
 :::
 :::::
 
@@ -359,7 +359,7 @@ Date of symptom onset data from four scabies outbreaks.
 :::
 
 ::: {.column width="60%"}
-![](figures/growth_rate_plot.png){.fragment}
+![](growth_rate_plot.png){.fragment}
 :::
 :::::
 
@@ -404,15 +404,15 @@ Date of symptom onset data from four scabies outbreaks.
 
 ## Time-varying Reproduction Number $R_t$
 
-![Incidence of scabies infections per 1000 people in the Netherlands by date of diagnosis.](figures/nivel_epidemic_curve.png){width="75%" height="75%" style="font-size: 0.7em;" fig-align="left"}
+![Incidence of scabies infections per 1000 people in the Netherlands by date of diagnosis.](nivel_epidemic_curve.png){width="75%" height="75%" style="font-size: 0.7em;" fig-align="left"}
 
 ## Time-varying Reproduction Number $R_t$
 
-![](figures/nivel_cases_by_month.png){width="75%" height="75%" style="font-size: 0.7em;" fig-align="left"}
+![](nivel_cases_by_month.png){width="75%" height="75%" style="font-size: 0.7em;" fig-align="left"}
 
 ## Time-varying Reproduction Number $R_t$
 
-![](figures/rt_plot.png){width="75%" height="75%" style="font-size: 0.7em;" fig-align="left"}
+![](rt_plot.png){width="75%" height="75%" style="font-size: 0.7em;" fig-align="left"}
 
 # Now what?
 
@@ -429,7 +429,7 @@ Date of symptom onset data from four scabies outbreaks.
 :::
 
 ::: {.column width="30%"}
-![https://www.informedhealth.org/scabies-how-can-you-prevent-infection.html](figures/scabies_prevention_fig.jpg){style="font-size: 0.7em;"}
+![https://www.informedhealth.org/scabies-how-can-you-prevent-infection.html](scabies_prevention_fig.jpg){style="font-size: 0.7em;"}
 :::
 :::::
 
