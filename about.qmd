@@ -34,8 +34,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 ```
 
-
-::: {.intro-section}
+::: intro-section
 I'm Kylie, an Atlanta-native (technically Decatur), crazy dog lady, runner, and science nerd. I work as an infectious disease modeller, meaning that I use math, stats, and R to study the spread of diseases and how interventions, like vaccines, can impact that spread. My career path has taken me from Atlanta to London, Amsterdam, Hong Kong, and soon to Melbourne. I love to explore both near and far, whether that's through research collaborations, weekend hikes, discovering local coffee shops, or finding the best running trails in each new city.
 
 Scroll through my journey below and watch it unfold on the map.
@@ -43,57 +42,68 @@ Scroll through my journey below and watch it unfold on the map.
 
 ### My Journey
 
-::: {.scrolly-container}
-::: {.scrolly-content}
-
+::::::::::::::: scrolly-container
+::::::::::::: scrolly-content
 <!-- ::: {.step #step-intro} -->
+
 <!-- ### 🌍 A Global Adventure -->
+
 <!-- Scroll through my journey as it unfolds across the map. Each step of my career has taken me to new places and opened new opportunities. -->
+
 <!-- ::: -->
 
-::: {.step #step-atlanta}
+:::: {#step-atlanta .step}
 ### 🎓 PhD
-::: {.step-year}
+
+::: step-year
 2011-2018
 :::
-I did my PhD at Emory University in Atlanta, GA. Georgia will always be home, but the world was calling!
-:::
 
-::: {.step #step-london}
-### 🇬🇧 Postdoc  
-::: {.step-year}
+I did my PhD at Emory University in Atlanta, GA. Georgia will always be home, but the world was calling!
+::::
+
+:::: {#step-london .step}
+### 🇬🇧 Postdoc
+
+::: step-year
 2018-2020
 :::
-Moved to London for a postdoc at Imperial College London. 
-:::
 
-::: {.step #step-amsterdam}
+Moved to London for a postdoc at Imperial College London.
+::::
+
+:::: {#step-amsterdam .step}
 ### 🇳🇱 Senior Researcher
-::: {.step-year}
-2020-Present
-:::
-During the pandemic, I relocated to Amsterdam and joined the RIVM as a senior researcher in infectious disease modelling. Found my niche in modelling for public health policy.
+
+::: step-year
+2020-2025
 :::
 
-::: {.step #step-hongkong}
+During the pandemic, I relocated to Amsterdam and joined the RIVM as a senior researcher in infectious disease modelling. Found my niche in modelling for public health policy.
+::::
+
+:::: {#step-hongkong .step}
 ### 🇭🇰 Honorary Assistant Professor
-::: {.step-year}
+
+::: step-year
 2022-Present
 :::
+
 Joined University of Hong Kong School of Public Health as Honorary Assistant Professor, expanding international research collaborations and working on real-world vaccine effectiveness.
-:::
+::::
 
-::: {.step #step-melbourne}
+:::: {#step-melbourne .step}
 ### 🇦🇺 Modelling for Policy Lead
-::: {.step-year}
-Coming soon!
-:::
-Starting a new position at University of Melbourne - the journey continues down under! Excited for this next step! 🦘
+
+::: step-year
+2025-Present
 :::
 
-:::
+Started a new position at the Peter Doherty Institute for Infectious and Immunity at the University of Melbourne in October 2025! 🦘
+::::
+:::::::::::::
 
-::: {.scrolly-map}
+::: scrolly-map
 ```{r map, echo=FALSE, message=FALSE, warning=FALSE}
 library(leaflet)
 
@@ -283,11 +293,12 @@ function(el, x) {
 ")
 ```
 :::
-
-:::
+:::::::::::::::
 
 <!-- Get stats -->
+
 <!-- Google scholar ID: gfJENK8AAAAJ -->
+
 ```{r get_google_scholar_stats, echo=FALSE, include=FALSE}
 
 # Number of publications from Google Scholar
@@ -317,108 +328,104 @@ total_citations <- tryCatch({
 
 ### Quick Stats
 
-::: {.outro-section}
-
-::: {.stats-grid}
-::: {.stat-card}
-::: {.stat-number #km-stat}
+:::::::::::::::::::::: outro-section
+::::::::::::::::::::: stats-grid
+::::: stat-card
+::: {#km-stat .stat-number}
 15,096.7
 :::
-::: {.stat-label}
+
+::: stat-label
 Kilometers Run
 :::
-:::
+:::::
 
-::: {.stat-card}
-::: {.stat-number #countries-stat}
+::::: stat-card
+::: {#countries-stat .stat-number}
 37
 :::
-::: {.stat-label}
+
+::: stat-label
 Countries Visited
 :::
-:::
+:::::
 
-::: {.stat-card}
-::: {.stat-number #pub-stat}
+::::: stat-card
+::: {#pub-stat .stat-number}
 `r pub_count`
 :::
-::: {.stat-label}
+
+::: stat-label
 Google Scholar Publications
 :::
-:::
+:::::
 
-::: {.stat-card}
-::: {.stat-number}
+::::: stat-card
+::: stat-number
 `r format(total_citations, big.mark = ",", scientific = FALSE)`
 :::
-::: {.stat-label}
+
+::: stat-label
 Total Citations
 :::
+:::::
+
+::::: stat-card
+::: {#books-stat .stat-number}
+25
 :::
 
-::: {.stat-card}
-::: {.stat-number #books-stat}
-21
-:::
-::: {.stat-label}
+::: stat-label
 Books Read This Year
 :::
-:::
+:::::
 
-::: {.stat-card}
-::: {.stat-number #leon-stat}
+::::: stat-card
+::: {#leon-stat .stat-number}
 4
 :::
-::: {.stat-label}
+
+::: stat-label
 Daily dog walks with Leon
 :::
-:::
-:::
-:::
+:::::
+:::::::::::::::::::::
+::::::::::::::::::::::
 
 ### Life Outside of Research
 
-::: {.outro-section}
-::: {.photo-grid}
-
-::: {.photo-card}
-![](photos/leon.jpeg)
-**Leon** - My pretty princess 👑
+:::::::::: outro-section
+::::::::: photo-grid
+::: photo-card
+![](photos/leon.jpeg) **Leon** - My pretty princess 👑
 :::
 
-::: {.photo-card}
-[![](photos/running.jpeg)](https://www.strava.com/athletes/37546778)
-**Running** - Still my favorite way to explore
+::: photo-card
+[![](photos/running.jpeg)](https://www.strava.com/athletes/37546778) **Running** - Still my favorite way to explore
 :::
 
-::: {.photo-card}
-![](photos/kylie_redwoods.jpeg)
-**Hiking** - Redwoods National & State Parks
+::: photo-card
+![](photos/kylie_redwoods.jpeg) **Hiking** - Redwoods National & State Parks
 :::
 
-::: {.photo-card}
-[![](photos/cooking.jpeg)](https://www.instagram.com/goinginforthekale/)
-**Cooking** - Food adventures on Instagram
+::: photo-card
+[![](photos/cooking.jpeg)](https://www.instagram.com/goinginforthekale/) **Cooking** - Food adventures on Instagram
 :::
 
-::: {.photo-card}
-![](photos/coffee.jpeg)
-**Coffee** - Perfecting my homemade flat white (my latte art needs work) 🙃
+::: photo-card
+![](photos/coffee.jpeg) **Coffee** - Perfecting my homemade flat white (my latte art needs work) 🙃
 :::
 
-::: {.photo-card}
-[![](images/rladies_amsterdam_logo.png)](https://www.meetup.com/rladies-amsterdam/)
-**R Ladies Amsterdam** - Volunteer Organizer
+::: photo-card
+[![](images/rladies_amsterdam_logo.png)](https://www.meetup.com/rladies-amsterdam/) **R Ladies Amsterdam** - Volunteer Organizer
 
 Follow on [BlueSky](https://bsky.app/profile/rladiesamsterdam.bsky.social)
 :::
-
-:::
+:::::::::
 
 I continue to find any excuse to hop on a plane, train, or automobile and explore new places. Whether it's for research collaborations, conferences, or just weekend adventures, I believe that travel enriches both personal and professional perspectives. With an upcoming move to Melbourne on the horizon, the adventure continues!
 
----
+------------------------------------------------------------------------
 
 *Want to connect?* Find me on social media or drop me an email - I'm always happy to chat about research, travel recommendations, the perfect flat white recipe, or tips for international moves!
-
-:::
+::::::::::
