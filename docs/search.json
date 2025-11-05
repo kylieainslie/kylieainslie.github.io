@@ -550,7 +550,7 @@
     "href": "presentations/2025/posit_conf_2025/presentation_pc2025.html#how",
     "title": "Elevating Public Health Decision Making with R Packages",
     "section": "How?",
-    "text": "How?\n\nStructure your project as an R package\n\n\n\nOrganize\nDocument\nShare"
+    "text": "How?\n\nStructure your project as an R package\n\n\nOrganize\nDocument\nShare"
   },
   {
     "objectID": "presentations/2025/posit_conf_2025/presentation_pc2025.html#lets-travel-back-in-time",
@@ -613,7 +613,7 @@
     "href": "presentations/2025/posit_conf_2025/presentation_pc2025.html#impact-organization-efficiency",
     "title": "Elevating Public Health Decision Making with R Packages",
     "section": "Impact: Organization → Efficiency",
-    "text": "Impact: Organization → Efficiency\n\n\n🔄 Models rapidly updated as new data became available\n⏰ Analysis delivered on time\n💉 Directly informed health policy decisions"
+    "text": "Impact: Organization → Efficiency\n\n🔄 Models rapidly updated as new data became available\n⏰ Analysis delivered on time\n💉 Directly informed health policy decisions"
   },
   {
     "objectID": "presentations/2025/posit_conf_2025/presentation_pc2025.html#document",
@@ -655,7 +655,7 @@
     "href": "presentations/2025/posit_conf_2025/presentation_pc2025.html#impact-documentation-transparency",
     "title": "Elevating Public Health Decision Making with R Packages",
     "section": "Impact: Documentation → Transparency",
-    "text": "Impact: Documentation → Transparency\n\n\n🛡️ Policy decisions backed by transparent analysis\n💡 Public could understand scientific basis for decisions\n🤝 More public trust\n\n\n\nTransparency applies to all work, all sectors, particularly in work being used to inform decision making\nMention that we were audit and how this structure helped immensely"
+    "text": "Impact: Documentation → Transparency\n\n🛡️ Policy decisions backed by transparent analysis\n💡 Public could understand scientific basis for decisions\n🤝 More public trust\n\n\nTransparency applies to all work, all sectors, particularly in work being used to inform decision making\nMention that we were audit and how this structure helped immensely"
   },
   {
     "objectID": "presentations/2025/posit_conf_2025/presentation_pc2025.html#share",
@@ -676,14 +676,14 @@
     "href": "presentations/2025/posit_conf_2025/presentation_pc2025.html#share-2",
     "title": "Elevating Public Health Decision Making with R Packages",
     "section": "Share",
-    "text": "Share\n\n\n⚙️ Easy Installation\n➡️ Seamless Handovers\n🛠️ Reusable Tools\n🧑‍🤝‍🧑 Facilitates Collaboration\n\n\n\nWithout all three steps, it doesn’t work. This approach has been instrumental in collaborating with external experts."
+    "text": "Share\n\n⚙️ Easy Installation\n➡️ Seamless Handovers\n🛠️ Reusable Tools\n🧑‍🤝‍🧑 Facilitates Collaboration\n\n\nWithout all three steps, it doesn’t work. This approach has been instrumental in collaborating with external experts."
   },
   {
     "objectID": "presentations/2025/posit_conf_2025/presentation_pc2025.html#impact-sharing-reproducibility",
     "href": "presentations/2025/posit_conf_2025/presentation_pc2025.html#impact-sharing-reproducibility",
     "title": "Elevating Public Health Decision Making with R Packages",
     "section": "Impact: Sharing → Reproducibility",
-    "text": "Impact: Sharing → Reproducibility\n\n\n Incorporated into epidemics package transmission model library\n📉 Used to inform European-wide disease modeling\n🌍 One national analysis became international infrastructure"
+    "text": "Impact: Sharing → Reproducibility\n\n Incorporated into epidemics package transmission model library\n📉 Used to inform European-wide disease modeling\n🌍 One national analysis became international infrastructure"
   },
   {
     "objectID": "presentations/2025/posit_conf_2025/presentation_pc2025.html#your-turn",
@@ -697,14 +697,14 @@
     "href": "presentations/2025/posit_conf_2025/presentation_pc2025.html#announcement",
     "title": "Elevating Public Health Decision Making with R Packages",
     "section": "Announcement",
-    "text": "Announcement\n\nI’ve just had my first R package accepted to CRAN!"
+    "text": "Announcement\nI’ve just had my first R package accepted to CRAN!"
   },
   {
     "objectID": "presentations/2025/posit_conf_2025/presentation_pc2025.html#get-in-touch",
     "href": "presentations/2025/posit_conf_2025/presentation_pc2025.html#get-in-touch",
     "title": "Elevating Public Health Decision Making with R Packages",
     "section": "Get in touch!",
-    "text": "Get in touch!\n\n\n linkedin.com/in/kylieainslie\n @kylieainslie.bsky.social\n github.com/kylieainslie\n kylieainslie.github.io\n\n\n\n\n\n\n\n\n\n\nposit::conf(2025) | 18 September 2025 | Atlanta, GA"
+    "text": "Get in touch!\n\n\n linkedin.com/in/kylieainslie\n @kylieainslie.bsky.social\n github.com/kylieainslie\n kylieainslie.github.io"
   },
   {
     "objectID": "software.html",
@@ -943,5 +943,313 @@
     "title": "Automating Data Pipelines with Maeestro",
     "section": "Conclusion",
     "text": "Conclusion\nThat’s it! After setting up the YAML file, wrapping the pipeline in a function, creating the .sh file, and scheduling the job with cron, your pipeline should run automatically at the intervals you’ve defined. Remember, maestro handles the pipeline’s internal orchestration, but cron or another scheduling system is what ensures the pipeline is triggered at the right frequency."
+  },
+  {
+    "objectID": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#sarcoptes-scabiei",
+    "href": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#sarcoptes-scabiei",
+    "title": "Scabies, who cares?",
+    "section": "Sarcoptes scabiei",
+    "text": "Sarcoptes scabiei\n\n\n\n\nScabies is a disease caused by infestation of the skin with a microscopic mite.\n\n\na.k.a. the Itch or seven-year itch.\n\n\n\n\nFrom the Latin scabere, meaning ‘to scratch’.\n\n\n\n\n\n\nSymptoms are characterized by itchiness and rash at the site of infestation.\n\n\n\n\n\n\n\nScabies mite. Image Credit: Aliaksei Marozau / Shutterstock.com"
+  },
+  {
+    "objectID": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#how-does-scabies-spread",
+    "href": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#how-does-scabies-spread",
+    "title": "Scabies, who cares?",
+    "section": "How does scabies spread?",
+    "text": "How does scabies spread?\n\nDirect, extended, skin-to-skin contact\nSharing clothing, towels, or bedding used by an infected person\n\nLess common"
+  },
+  {
+    "objectID": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#scabies-worldwide",
+    "href": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#scabies-worldwide",
+    "title": "Scabies, who cares?",
+    "section": "Scabies Worldwide",
+    "text": "Scabies Worldwide\n\n\n\n\n\nScabies affects around 400 million people per year.\n\n\n\n\nAccounts for a large proportion of skin disease in many low- and middle-income countries\n\n\n\n\n\n\n\n\nKarimkhani et al. 2017. Lancet Infect. Dis. 17(12):1247 - 1254"
+  },
+  {
+    "objectID": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#scabies-in-europe-then",
+    "href": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#scabies-in-europe-then",
+    "title": "Scabies, who cares?",
+    "section": "Scabies in Europe (then)",
+    "text": "Scabies in Europe (then)\n\nScabies infections were a common affliction in Europe in the late 1800s and early 1900s\n\nHighest incidence seen in 1918 and 1945.\n\n\n\n\n\n\nSavin 2005. J R Soc Med; 98(3):124–129.4"
+  },
+  {
+    "objectID": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#scabies-in-europe-now",
+    "href": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#scabies-in-europe-now",
+    "title": "Scabies, who cares?",
+    "section": "Scabies in Europe (now)",
+    "text": "Scabies in Europe (now)\nA rise in scabies cases has been observed through out Europe in recent years.\n\n\n\n\n\nGermany: Reichert et al. 2021. Emerg Infect Dis.;27(6):1693–1696.\n\n\n\n\n\n\n\nCroatia: Lugović-Mihić et al. 2020. Zdravstveno Varstvo; 59(4):264-272.\n\n\n\n\n\n\n\nNorway: Amato et al. 2019. Eurosurveillance; 24(23):pii=190020.\n\n\n\n\n\n\n\nNetherlands: van Deursen et al. 2022. PLoS One; 17:e0268865"
+  },
+  {
+    "objectID": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#scabies-in-europe-now-1",
+    "href": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#scabies-in-europe-now-1",
+    "title": "Scabies, who cares?",
+    "section": "Scabies in Europe (now)",
+    "text": "Scabies in Europe (now)\nA rise in scabies cases has been observed through out Europe in recent years.\n\n\nLugović-Mihić et al. 2020. Zdravstveno Varstvo; 59(4):264-272."
+  },
+  {
+    "objectID": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#scabies-in-europe-now-2",
+    "href": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#scabies-in-europe-now-2",
+    "title": "Scabies, who cares?",
+    "section": "Scabies in Europe (now)",
+    "text": "Scabies in Europe (now)\nA rise in scabies cases has been observed through out Europe in recent years.\n\n\nAmato et al. 2019. Eurosurveillance; 24(23):pii=190020."
+  },
+  {
+    "objectID": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#scabies-in-europe-now-3",
+    "href": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#scabies-in-europe-now-3",
+    "title": "Scabies, who cares?",
+    "section": "Scabies in Europe (now)",
+    "text": "Scabies in Europe (now)\nA rise in scabies cases has been observed through out Europe in recent years.\n\n\nvan Deursen et al. 2022. PLoS One; 17:e0268865"
+  },
+  {
+    "objectID": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#ok-so-whats-the-big-deal",
+    "href": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#ok-so-whats-the-big-deal",
+    "title": "Scabies, who cares?",
+    "section": "Ok, so what’s the big deal?",
+    "text": "Ok, so what’s the big deal?\n\nThe global disease burden of scabies is low compared to other infectious diseases\nDisease severity is also low"
+  },
+  {
+    "objectID": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#what-we-need-to-know",
+    "href": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#what-we-need-to-know",
+    "title": "Scabies, who cares?",
+    "section": "What we need to know",
+    "text": "What we need to know\n\n\n\n\n\n\n\nAdapted from: Lehtinen et al. 2021. J. R. Soc. Interface.1820200756"
+  },
+  {
+    "objectID": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#what-we-need-to-know-1",
+    "href": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#what-we-need-to-know-1",
+    "title": "Scabies, who cares?",
+    "section": "What we need to know",
+    "text": "What we need to know\n\n\n\nthe incubation period: time from infection to symptom onset\n\n\n\n\n\nAdapted from: Lehtinen et al. 2021. J. R. Soc. Interface.1820200756"
+  },
+  {
+    "objectID": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#what-we-need-to-know-2",
+    "href": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#what-we-need-to-know-2",
+    "title": "Scabies, who cares?",
+    "section": "What we need to know",
+    "text": "What we need to know\n\n\n\nincubation period: time from infection to symptom onset\ngeneration time: time between infection of an index case and a secondary case\n\n\n\n\n\nAdapted from: Lehtinen et al. 2021. J. R. Soc. Interface.1820200756"
+  },
+  {
+    "objectID": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#what-we-need-to-know-3",
+    "href": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#what-we-need-to-know-3",
+    "title": "Scabies, who cares?",
+    "section": "What we need to know",
+    "text": "What we need to know\n\n\n\nincubation period: time from infection to symptom onset\ngeneration time: time between infection of an index case and a secondary case\nserial interval: the time from onset of symptoms in an index case to the time of symptom onset in a secondary case\n\n\n\n\n\nAdapted from: Lehtinen et al. 2021. J. R. Soc. Interface.1820200756"
+  },
+  {
+    "objectID": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#what-we-need-to-know-4",
+    "href": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#what-we-need-to-know-4",
+    "title": "Scabies, who cares?",
+    "section": "What we need to know",
+    "text": "What we need to know\n\n\n\nincubation period: time from infection to symptom onset\ngeneration time: time between infection of an index case and a secondary case\nserial interval: the time from onset of symptoms in an index case to the time of symptom onset in a secondary case\ngrowth rate: how quickly the numbers of infections are changing over time\n\n\n\n\n\nPicheira-Brown and Bentancor. 2021. Epidemics; 37:100486"
+  },
+  {
+    "objectID": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#what-we-need-to-know-5",
+    "href": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#what-we-need-to-know-5",
+    "title": "Scabies, who cares?",
+    "section": "What we need to know",
+    "text": "What we need to know\n\n\n\nincubation period: time from infection to symptom onset\ngeneration time: time between infection of an index case and a secondary case\nserial interval: the time from onset of symptoms in an index case to the time of symptom onset in a secondary case\ngrowth rate: how quickly the numbers of infections are changing over time\nreproduction number: the average number of secondary cases resulting from one index case\n\n\n\n\n\nAdam Cole/NPR"
+  },
+  {
+    "objectID": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#what-we-know",
+    "href": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#what-we-know",
+    "title": "Scabies, who cares?",
+    "section": "What we know",
+    "text": "What we know\n\nincubation period: time from infection to symptom onset\ngeneration time: time between infection of an index case and a secondary case\nserial interval: the time from onset of symptoms in an index case to the time of symptom onset in a secondary case\ngrowth rate: how quickly the numbers of infections are changing over time\nreproduction number: the average number of secondary cases resulting from one index case"
+  },
+  {
+    "objectID": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#what-we-know-1",
+    "href": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#what-we-know-1",
+    "title": "Scabies, who cares?",
+    "section": "What we know",
+    "text": "What we know"
+  },
+  {
+    "objectID": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#our-roadmap",
+    "href": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#our-roadmap",
+    "title": "Scabies, who cares?",
+    "section": "Our Roadmap",
+    "text": "Our Roadmap\n\nWhat is the timescale of a typical scabies transmission event?\nHow are the number of scabies cases changing over time?\nHow many people will a scabies case go on to infect?\nHow does scabies transmission change over time?"
+  },
+  {
+    "objectID": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#our-roadmap-1",
+    "href": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#our-roadmap-1",
+    "title": "Scabies, who cares?",
+    "section": "Our Roadmap",
+    "text": "Our Roadmap\n\nWhat is the timescale of a typical scabies transmission event?"
+  },
+  {
+    "objectID": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#serial-interval",
+    "href": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#serial-interval",
+    "title": "Scabies, who cares?",
+    "section": "Serial Interval",
+    "text": "Serial Interval\n\n\n\n\n\n\nAdapted from: Lehtinen et al. 2021. J. R. Soc. Interface.1820200756\n\n\n\n\n\n\n\n\nDate of symptom onset data from four scabies outbreaks."
+  },
+  {
+    "objectID": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#serial-interval-1",
+    "href": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#serial-interval-1",
+    "title": "Scabies, who cares?",
+    "section": "Serial Interval",
+    "text": "Serial Interval\n\nWe calculate the index case-to-case (ICC) interval for each person,\n\nindex case: the person with the greatest value for number of days since symptom onset.\n“secondary” cases: have an ICC interval calculated as the number of days between their symptom onset day and the index case."
+  },
+  {
+    "objectID": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#serial-interval-2",
+    "href": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#serial-interval-2",
+    "title": "Scabies, who cares?",
+    "section": "Serial Interval",
+    "text": "Serial Interval\n\nWe use a maximum likelihood framework to determine how likely each ICC interval can be attributed to each transmission route - We then estimate serial interval using ICC intervals consistent with Primary-Secondary transmission\n\n\nVink et al. 2014. Am J Epidemiol; 180(9):865–875"
+  },
+  {
+    "objectID": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#serial-interval-3",
+    "href": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#serial-interval-3",
+    "title": "Scabies, who cares?",
+    "section": "Serial Interval",
+    "text": "Serial Interval\n\nWe use a maximum likelihood framework to determine how likely each ICC interval can be attributed to each transmission route\n\nWe then estimate serial interval using ICC intervals consistent with Primary-Secondary transmission\n\n\n\nVink et al. 2014. Am J Epidemiol; 180(9):865–875"
+  },
+  {
+    "objectID": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#serial-interval-4",
+    "href": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#serial-interval-4",
+    "title": "Scabies, who cares?",
+    "section": "Serial Interval",
+    "text": "Serial Interval\n\n\nIndex-case-to-case (ICC) intervals (A-D) and comparison of serial interval estimates across studies (E). Red curves show fitted distributions."
+  },
+  {
+    "objectID": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#serial-interval-5",
+    "href": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#serial-interval-5",
+    "title": "Scabies, who cares?",
+    "section": "Serial Interval",
+    "text": "Serial Interval\n\n\n\nWe performed a meta-analysis.\nEstimated pooled mean serial interval:\n\n123.24 days (95% credible interval: 91.44, 153.41 days)"
+  },
+  {
+    "objectID": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#our-roadmap-2",
+    "href": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#our-roadmap-2",
+    "title": "Scabies, who cares?",
+    "section": "Our Roadmap",
+    "text": "Our Roadmap\n\nWhat is the timescale of a typical scabies transmission event?\nHow are the number of scabies cases changing over time?"
+  },
+  {
+    "objectID": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#growth-rate",
+    "href": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#growth-rate",
+    "title": "Scabies, who cares?",
+    "section": "Growth Rate",
+    "text": "Growth Rate\n\nTo determine how the number of scabies cases is changing each year in the Netherlands, we estimated the annual growth rate\nEstimated annual growth rate: 0.25 (95% CI: 0.2, 0.3)"
+  },
+  {
+    "objectID": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#our-roadmap-3",
+    "href": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#our-roadmap-3",
+    "title": "Scabies, who cares?",
+    "section": "Our Roadmap",
+    "text": "Our Roadmap\n\nWhat is the timescale of a typical scabies transmission event?\nHow are the number of scabies cases changing over time?\nHow many people will a scabies case go on to infect?"
+  },
+  {
+    "objectID": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#basic-reproduction-number-r_0",
+    "href": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#basic-reproduction-number-r_0",
+    "title": "Scabies, who cares?",
+    "section": "Basic Reproduction Number \\(R_0\\)",
+    "text": "Basic Reproduction Number \\(R_0\\)\n\nWe can relate the growth rate to the basic reproduction number as \\[R_0 = \\exp(r*T – (1/2) r^2 s^2)\\]\n\n\\(r\\) is the annual growth rate,\n\\(T\\) is the mean generation time (in years), and\n\\(s^2\\) is the variance of the generation time distribution.\n\n\n\n\nAssumption: nearly everyone exposed has not been previously infected."
+  },
+  {
+    "objectID": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#basic-reproduction-number-r_0-1",
+    "href": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#basic-reproduction-number-r_0-1",
+    "title": "Scabies, who cares?",
+    "section": "Basic Reproduction Number \\(R_0\\)",
+    "text": "Basic Reproduction Number \\(R_0\\)\n\nWe can relate the growth rate to the basic reproduction number as \\[R_0 = \\exp(r*T – (1/2) r^2 s^2)\\]\n\n\\(r\\) is the annual growth rate,\n\\(T\\) is the mean generation time serial interval (in years), and\n\\(s^2\\) is the variance of the generation time serial interval distribution.\n\n\n\nThis gives us an \\(R_0 = 1.09\\) \\((95\\% CI: 1.07, 1.11)\\)\n\n\n\nAssumption: nearly everyone exposed has not been previously infected."
+  },
+  {
+    "objectID": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#our-roadmap-4",
+    "href": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#our-roadmap-4",
+    "title": "Scabies, who cares?",
+    "section": "Our Roadmap",
+    "text": "Our Roadmap\n\nWhat is the timescale of a typical scabies transmission event?\nHow are the number of scabies cases changing over time?\nHow many people will a scabies case go on to infect?\nHow does scabies transmission change over time?"
+  },
+  {
+    "objectID": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#time-varying-reproduction-number-r_t",
+    "href": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#time-varying-reproduction-number-r_t",
+    "title": "Scabies, who cares?",
+    "section": "Time-varying Reproduction Number \\(R_t\\)",
+    "text": "Time-varying Reproduction Number \\(R_t\\)\n\n\n\nIncidence of scabies infections per 1000 people in the Netherlands by date of diagnosis."
+  },
+  {
+    "objectID": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#time-varying-reproduction-number-r_t-1",
+    "href": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#time-varying-reproduction-number-r_t-1",
+    "title": "Scabies, who cares?",
+    "section": "Time-varying Reproduction Number \\(R_t\\)",
+    "text": "Time-varying Reproduction Number \\(R_t\\)"
+  },
+  {
+    "objectID": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#time-varying-reproduction-number-r_t-2",
+    "href": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#time-varying-reproduction-number-r_t-2",
+    "title": "Scabies, who cares?",
+    "section": "Time-varying Reproduction Number \\(R_t\\)",
+    "text": "Time-varying Reproduction Number \\(R_t\\)"
+  },
+  {
+    "objectID": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#policy-implications",
+    "href": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#policy-implications",
+    "title": "Scabies, who cares?",
+    "section": "Policy Implications",
+    "text": "Policy Implications\n\nControlling 8% of secondary infections prevents epidemic growth\n\n\n\n\n Educational campaign targeting high-risk groups\n\n\n\n\n Enhanced GP training for rapid diagnosis\n\n\n\n\n Voluntary screening\n\n\n\n\n Systematic contact tracing\n\n\n\n\n Targeted (voluntary) mass drug administration campaigns"
+  },
+  {
+    "objectID": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#this-is-only-the-beginning",
+    "href": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#this-is-only-the-beginning",
+    "title": "Scabies, who cares?",
+    "section": "This is only the beginning",
+    "text": "This is only the beginning\n\nThere is still a lot that we don’t know\n\n\n\nFuture research should prioritize three key areas:\n\n\n\n\n\ncollecting transmission pair data\n\n\n\n\ncharacterizing the delays between symptom onset and healthcare seeking\n\n\n\n\nreproducing Mellanby’s 1944 incubation period estimates"
+  },
+  {
+    "objectID": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#your-turn",
+    "href": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#your-turn",
+    "title": "Scabies, who cares?",
+    "section": "Your turn",
+    "text": "Your turn\n\nmitey package"
+  },
+  {
+    "objectID": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#wrapping-up",
+    "href": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#wrapping-up",
+    "title": "Scabies, who cares?",
+    "section": "Wrapping up",
+    "text": "Wrapping up\nManuscript\n\nNature Communications 2025 (in press)\nPreprint: Available at SSRN\n\nThank you\n\nJacco Wallinga\nMariette Hooiveld\n\nFunding\nThis work was financed by the Netherlands Ministry of Health, Welfare and Sport."
+  },
+  {
+    "objectID": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#get-in-touch",
+    "href": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#get-in-touch",
+    "title": "Scabies, who cares?",
+    "section": "Get in touch!",
+    "text": "Get in touch!\n\n\n kylie.ainslie@unimelb.edu.au\n linkedin.com/in/kylieainslie\n @kylieainslie.bsky.social\n github.com/kylieainslie\n kylieainslie.github.io"
+  },
+  {
+    "objectID": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#but",
+    "href": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#but",
+    "title": "Scabies, who cares?",
+    "section": "But…",
+    "text": "But…\nDuring periods of high scabies prevalence:\n\nHigher burden due to secondary infections\nIncreased pressure on healthcare systems\nNegative economic impacts\nStigma-related delays in care-seeking"
+  },
+  {
+    "objectID": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#what-we-need-to-know-6",
+    "href": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#what-we-need-to-know-6",
+    "title": "Scabies, who cares?",
+    "section": "What we need to know",
+    "text": "What we need to know\n\n\n\nincubation period: time from infection to symptom onset\ngeneration time: time between infection of an index case and a secondary case\nserial interval: the time from onset of symptoms in an index case to the time of symptom onset in a secondary case\ngrowth rate: how quickly the numbers of infections are changing over time\nreproduction number: the average number of secondary cases resulting from one index case\n\n\n\n\n\nAdam Cole/NPR"
+  },
+  {
+    "objectID": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#what-we-know-2",
+    "href": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#what-we-know-2",
+    "title": "Scabies, who cares?",
+    "section": "What we know",
+    "text": "What we know\n\n\n\n\nA series of studies in the 1940s form much of the basis of our current understanding of scabies transmission.\n\n\n\n\nIncubation period\n\n4-6 weeks after primary infection\n24 hours after post-primary infection"
+  },
+  {
+    "objectID": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#software",
+    "href": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#software",
+    "title": "Scabies, who cares?",
+    "section": "Software",
+    "text": "Software\nWe developed an R package called mitey.\n\n\nSoftware developed to support reproducible analyses and wider application of the methods used in this work."
+  },
+  {
+    "objectID": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#control-strategies",
+    "href": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#control-strategies",
+    "title": "Scabies, who cares?",
+    "section": "Control Strategies",
+    "text": "Control Strategies\n\nThe required control effort to prevent epidemic growth is 8% of secondary infections\n\n\n\n\n Educational campaign targeting high-risk groups\n\n\n\n\n Enhanced GP training for rapid diagnosis\n\n\n\n\n Voluntary screening\n\n\n\n\n Systematic contact tracing\n\n\n\n\n Targeted (voluntary) mass drug administration campaigns"
   }
 ]

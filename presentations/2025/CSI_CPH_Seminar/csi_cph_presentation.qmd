@@ -1,6 +1,6 @@
 ---
 title: "Scabies, who cares?"
-subtitle: North West Seminar Series of Mathematical Biology and Data Science
+subtitle: "Doherty CSI: Clinical and Public Health Seminar"
 author: Kylie Ainslie
 format:
   revealjs: 
@@ -8,10 +8,10 @@ format:
     theme: default
     preview-links: auto
     pdf-max-pages-per-slide: 1
-logo: logo_rivm.svg
-incremental: true
+logo: figures/UoM_Logo.svg
+incremental: false
 progress: true   # default
-footer: University of Liverpool | 13 November 2024 | Kylie Ainslie
+footer: Doherty Institute | 5 November 2025 | Kylie Ainslie
 slide-number: false 
 header-includes:
     - |
@@ -39,114 +39,117 @@ chalkboard: true       # comment out when wanting to make a selfcontained html
 
 # What even is scabies?
 
-## *Sarcoptes scabiei*
+## Sarcoptes *scabiei*
 
-::::: columns
-::: {.column width="60%"}
+:::::::::: columns
+::::::: {.column width="60%"}
+::: {.fragment .fade-in fragment-index="1"}
 -   Scabies is a disease caused by infestation of the skin with a microscopic mite.
-    -   a.k.a. the Itch or seven-year itch
+
+    ::: {.fragment fragment-index="3"}
+    -   a.k.a. the Itch or seven-year itch. 
+    :::
+
+    ::: {.fragment fragment-index="4"}
     -   From the Latin *scabere*, meaning 'to scratch'.
+    :::
+:::
+
+::: {.fragment .fade-in fragment-index="5"}
 -   Symptoms are characterized by itchiness and rash at the site of infestation.
 :::
+:::::::
 
-::: {.column width="40%"}
-![Scabies mite. Image Credit: Aliaksei Marozau / Shutterstock.com](scabies_mite.png){style="font-size: 0.7em;"}
+:::: {.column width="40%"}
+::: {.fragment .fade-in fragment-index="2"}
+![Scabies mite. Image Credit: Aliaksei Marozau / Shutterstock.com](figures/scabies_mite.png){style="font-size: 0.7em;"}
 :::
-:::::
+::::
+::::::::::
 
 ## How does scabies spread?
 
+::: incremental
 -   Direct, extended, skin-to-skin contact
 -   Sharing clothing, towels, or bedding used by an infected person
     -   Less common
+    
+:::
 
 # Do people still get scabies?
 
 ## Scabies Worldwide
 
+::: {.r-stack}
+
+::: {.fragment .fade-out fragment-index="3"}
+::: {style="text-align: left; width: 100%;"}
+::: {.fragment .fade-in fragment-index="1"}
 -   Scabies affects around 400 million people per year.
+:::
+
+::: {.fragment .fade-in fragment-index="2"}
 -   Accounts for a large proportion of skin disease in many low- and middle-income countries
+:::
+:::
+:::
 
-![](scabies_disease_burden_map2.png){.fragment width="700" height="325"}
+::: {.fragment .fade-in fragment-index="3" style="text-align: center;"}
+![Karimkhani et al. 2017. Lancet Infect. Dis. 17(12):1247 - 1254](figures/scabies_disease_burden_map2.png){width="100%" style="max-height: 95vh; object-fit: contain;"}
+:::
 
-::: {.fragment style="font-size: 0.5em;"}
-Karimkhani et al. 2017. Lancet Infect. Dis. 17(12):1247 - 1254
 :::
 
 ## Scabies in Europe (then)
 
--   Scabies infections were a common affliction in Europe in the late 1800s and early 1900s
-    -   Highest incidence seen in 1918 and 1945.
+::: incremental
+- Scabies infections were a common affliction in Europe in the late 1800s and early 1900s
+  - Highest incidence seen in 1918 and 1945.
 
-![](scabies_in_scotland.jpg){.fragment width="600" height="350"}
+:::
 
-::: {style="font-size: 0.5em;"}
-Savin 2005. J R Soc Med; 98(3):124–129.4
+::: {.fragment style="text-align: center;"}
+![Savin 2005. J R Soc Med; 98(3):124–129.4](figures/scabies_in_scotland.jpg){width="600" height="350"}
 :::
 
 ## Scabies in Europe (now)
 
-::: nonincremental
 A rise in scabies cases has been observed through out Europe in recent years.
+
+::::::: r-stack
+::: {.fragment .fade-in-then-out style="text-align: center;"}
+![Germany: Reichert et al. 2021. Emerg Infect Dis.;27(6):1693–1696.](figures/scabies_in_germany.jpg){width="100%" style="max-height: 500px; object-fit: contain;"}
 :::
 
-![](scabies_in_germany.jpg){width="600" height="350"}
-
-::: {style="font-size: 0.5em;"}
-Reichert et al. 2021. Emerg Infect Dis.;27(6):1693–1696.
+::: {.fragment .fade-in-then-out style="text-align: center;"}
+![Croatia: Lugović-Mihić et al. 2020. Zdravstveno Varstvo; 59(4):264-272.](figures/scabies_in_croatia.jpeg){width="98%" style="max-height: 600px; object-fit: contain;"}
 :::
 
-## Scabies in Europe (now)
-
-::: nonincremental
-A rise in scabies cases has been observed through out Europe in recent years.
+::: {.fragment .fade-in-then-out style="text-align: center;"}
+![Norway: Amato et al. 2019. Eurosurveillance; 24(23):pii=190020.](figures/scabies_in_norway.jpg){width="100%" style="max-height: 600px; object-fit: contain;"}
 :::
 
-![](scabies_in_croatia.jpeg){width="600" height="350"}
-
-::: {style="font-size: 0.5em;"}
-Lugović-Mihić et al. 2020. Zdravstveno Varstvo; 59(4):264-272.
+::: {.fragment .fade-in style="text-align: center;"}
+![Netherlands: van Deursen et al. 2022. PLoS One; 17:e0268865](figures/scabies_in_NL.png){width="98%" style="max-height: 600px; object-fit: contain;"}
 :::
-
-## Scabies in Europe (now)
-
-::: nonincremental
-A rise in scabies cases has been observed through out Europe in recent years.
-:::
-
-![](scabies_in_norway.jpg){width="600" height="350"}
-
-::: {style="font-size: 0.5em;"}
-Amato et al. 2019. Eurosurveillance; 24(23):pii=190020.
-:::
-
-## Scabies in Europe (now)
-
-::: nonincremental
-A rise in scabies cases has been observed through out Europe in recent years.
-:::
-
-![](scabies_in_NL.png){width="600" height="350"}
-
-::: {style="font-size: 0.5em;"}
-van Deursen et al. 2022. PLoS One; 17:e0268865
-:::
+:::::::
 
 ## Ok, so what's the big deal?
 
+::: incremental
 -   The global disease burden of scabies is low compared to other infectious diseases
+-   Disease severity is also low 
+:::
 
--   Disease severity is also low - you're not going to die
+## But...
+During periods of high scabies prevalence:
 
--   BUT
-
--   Secondary infections can lead to severe outcomes
-
--   No simple diagnostic test for scabies
-
-    -   diagnoses rely on clinical assessment (more GP visits)
-
--   scabies can have economic implications for both the patients and the healthcare system
+::: incremental
+- Higher burden due to secondary infections
+- Increased pressure on healthcare systems 
+- Negative economic impacts
+- Stigma-related delays in care-seeking
+:::
 
 # What can we do about it?
 
@@ -157,7 +160,7 @@ van Deursen et al. 2022. PLoS One; 17:e0268865
 :::
 
 ::: {.column width="40%"}
-![Adapted from: Lehtinen et al. 2021. J. R. Soc. Interface.1820200756](epi_intervals_schematic.jpeg){style="font-size: 0.7em;" fig-align="left" width="120%" height="120%"}
+![Adapted from: Lehtinen et al. 2021. J. R. Soc. Interface.1820200756](figures/epi_intervals_schematic.jpeg){style="font-size: 0.7em;" fig-align="left" width="120%" height="120%"}
 :::
 :::::
 
@@ -171,7 +174,7 @@ van Deursen et al. 2022. PLoS One; 17:e0268865
 ::::
 
 ::: {.column width="40%"}
-![Adapted from: Lehtinen et al. 2021. J. R. Soc. Interface.1820200756](incubation_period_schematic.jpeg){style="font-size: 0.7em;" fig-align="left" width="120%" height="120%"}
+![Adapted from: Lehtinen et al. 2021. J. R. Soc. Interface.1820200756](figures/incubation_period_schematic.jpeg){style="font-size: 0.7em;" fig-align="left" width="120%" height="120%"}
 :::
 ::::::
 
@@ -186,7 +189,7 @@ van Deursen et al. 2022. PLoS One; 17:e0268865
 ::::
 
 ::: {.column width="40%"}
-![Adapted from: Lehtinen et al. 2021. J. R. Soc. Interface.1820200756](generation_time.jpg){style="font-size: 0.7em;" fig-align="left" width="120%" height="120%"}
+![Adapted from: Lehtinen et al. 2021. J. R. Soc. Interface.1820200756](figures/generation_time.jpg){style="font-size: 0.7em;" fig-align="left" width="120%" height="120%"}
 :::
 ::::::
 
@@ -202,7 +205,7 @@ van Deursen et al. 2022. PLoS One; 17:e0268865
 ::::
 
 ::: {.column width="40%"}
-![Adapted from: Lehtinen et al. 2021. J. R. Soc. Interface.1820200756](serial_interval_schematic.jpeg){style="font-size: 0.7em;" fig-align="left" width="120%" height="120%"}
+![Adapted from: Lehtinen et al. 2021. J. R. Soc. Interface.1820200756](figures/serial_interval_schematic.jpeg){style="font-size: 0.7em;" fig-align="left" width="120%" height="120%"}
 :::
 ::::::
 
@@ -219,7 +222,7 @@ van Deursen et al. 2022. PLoS One; 17:e0268865
 ::::
 
 ::: {.column width="40%"}
-![Picheira-Brown and Bentancor. 2021. Epidemics; 37:100486](growth_rate.jpg){style="font-size: 0.7em;" fig-align="left" width="100%" height="100%"}
+![Picheira-Brown and Bentancor. 2021. Epidemics; 37:100486](figures/growth_rate.jpg){style="font-size: 0.7em;" fig-align="left" width="120%" height="120%"}
 :::
 ::::::
 
@@ -237,7 +240,7 @@ van Deursen et al. 2022. PLoS One; 17:e0268865
 ::::
 
 ::: {.column width="40%"}
-![https://andreashandel.github.io/IDEMAbook/R0.html](R0Scheme.png){style="font-size: 0.7em;" fig-align="left" width="60%" height="60%"}
+![Adam Cole/NPR](figures/R0_comparison_chart.png){style="font-size: 0.7em;" fig-align="left" width="150%" height="150%"}
 :::
 ::::::
 
@@ -253,16 +256,35 @@ van Deursen et al. 2022. PLoS One; 17:e0268865
 
 ## What we know
 
+## What we know
+
 ::::: columns
 ::: {.column width="60%"}
--   Incubation period
-    -   4-6 weeks after primary infection
-    -   24 hours after post-primary infection
--   A series of studies in the 1940s form much of the basis of our current understanding of scabies transmission.
+
+::: {.fragment fragment-index="1"}
+- A series of studies in the 1940s form much of the basis of our current understanding of scabies transmission.
+:::
+
+::: {.fragment fragment-index="3"}
+- Incubation period
+  - 4-6 weeks after primary infection
+  - 24 hours after post-primary infection
+    
+:::
 :::
 
 ::: {.column width="40%"}
-![](scabies_oxford_war_manual.png){.fragment fig-align="center"} ![](mellanby_1944.png){.fragment width="600" height="100"}
+::: {.r-stack}
+
+::: {.fragment fragment-index="2"}
+![](figures/scabies_oxford_war_manual.png){fig-align="center"}
+:::
+
+::: {.fragment fragment-index="4"}
+![](figures/mellanby_1944.png){width="600" height="100"}
+:::
+
+:::
 :::
 :::::
 
@@ -270,10 +292,12 @@ van Deursen et al. 2022. PLoS One; 17:e0268865
 
 ## Our Roadmap
 
+::: incremental
 -   What is the timescale of a typical scabies transmission event?
 -   How are the number of scabies cases changing over time?
 -   How many people will a scabies case go on to infect?
 -   How does scabies transmission change over time?
+:::
 
 ## Our Roadmap
 
@@ -283,23 +307,26 @@ van Deursen et al. 2022. PLoS One; 17:e0268865
 
 :::::: columns
 ::: {.column width="35%"}
-![Adapted from: Lehtinen et al. 2021. J. R. Soc. Interface.1820200756](serial_interval_schematic.jpeg){style="font-size: 0.7em;" fig-align="left" width="120%" height="120%"}
+::: {.fragment fragment-index="1"}
+![Adapted from: Lehtinen et al. 2021. J. R. Soc. Interface.1820200756](figures/serial_interval_schematic.jpeg){style="font-size: 0.7em;" fig-align="left" width="120%" height="120%"}
+:::
 :::
 
 :::: {.column width="65%"}
-![](epi_curves_plot.png){.fragment style="font-size: 0.7em;" width="100%" height="100%"}
-
-::: {.fragment style="font-size: 0.5em;"}
-Date of symptom onset data from four scabies outbreaks.
+:::{.fragment fagment-index="2"}
+![Date of symptom onset data from four scabies outbreaks.](figures/epi_curves_plot.png){style="font-size: 0.7em;" width="100%" height="100%"}
 :::
 ::::
 ::::::
 
 ## Serial Interval
 
+:::incremental
 -   We calculate the index case-to-case (ICC) interval for each person,
     -   **index case:** the person with the greatest value for number of days since symptom onset.
     -   **"secondary" cases:** have an ICC interval calculated as the number of days between their symptom onset day and the index case.
+
+:::
 
 ## Serial Interval
 
@@ -307,7 +334,7 @@ Date of symptom onset data from four scabies outbreaks.
 -   We use a maximum likelihood framework to determine how likely each ICC interval can be attributed to each transmission route [- We then estimate serial interval using ICC intervals consistent with Primary-Secondary transmission]{style="color:white;"}
 :::
 
-![Vink et al. 2014. Am J Epidemiol; 180(9):865–875](icc_interval.png)
+![Vink et al. 2014. Am J Epidemiol; 180(9):865–875](figures/icc_interval.png)
 
 ## Serial Interval
 
@@ -316,33 +343,15 @@ Date of symptom onset data from four scabies outbreaks.
     -   We then estimate serial interval using ICC intervals consistent with Primary-Secondary transmission
 :::
 
-![Vink et al. 2014. Am J Epidemiol; 180(9):865–875](icc_interval_w_red_box.png)
+![Vink et al. 2014. Am J Epidemiol; 180(9):865–875](figures/icc_interval_w_red_box.png)
 
 ## Serial Interval
 
-::::: columns
-::: {.column width="60%"}
-![Epidemic curves and estimated serial interval distributions from four scabies outbreaks. Red line indicates estimated serial interval density assuming an underlying normal distribution.](si_fit_plot.png){style="font-size: 0.7em;"}
-:::
+![](figures/fig1.png){width="100%"}
 
-::: {.column width="40%"}
-![\*unit is days](si_table.png)
+::: {style="font-size: 0.5em;"}
+Index-case-to-case (ICC) intervals (A-D) and comparison of serial interval estimates across studies (E). Red curves show fitted distributions.
 :::
-:::::
-
-## Serial Interval
-
-::::: columns
-::: {.column width="40%"}
--   We performed a meta-analysis.
--   **Estimated pooled mean serial interval:**
-    -   123.24 days (95% credible interval: 91.44, 153.41 days)
-:::
-
-::: {.column width="60%"}
-![](forest_plot.png){.fragment}
-:::
-:::::
 
 ## Our Roadmap
 
@@ -350,18 +359,15 @@ Date of symptom onset data from four scabies outbreaks.
 -   How are the number of scabies cases changing over time?
 
 ## Growth Rate
+::: incremental
+-   To determine how the number of scabies cases is changing each year in the Netherlands, we estimated the annual growth rate
 
-::::: columns
-::: {.column width="40%"}
--   To determine how the number of scabies cases is changing each year in NL we estimated the *annual* growth rate
-    -   Fit GLM to the annual number of scabies diagnoses per 1000 people.
--   **Estimated an annual growth rate:** 0.25 (95% CI: 0.2, 0.3)
+-   **Estimated annual growth rate:** 0.25 (95% CI: 0.2, 0.3)
 :::
 
-::: {.column width="60%"}
-![](growth_rate_plot.png){.fragment}
+::: {.fragment}
+![](figures/growth_rate_model_fit.png){width="60%"}
 :::
-:::::
 
 ## Our Roadmap
 
@@ -404,48 +410,84 @@ Date of symptom onset data from four scabies outbreaks.
 
 ## Time-varying Reproduction Number $R_t$
 
-![Incidence of scabies infections per 1000 people in the Netherlands by date of diagnosis.](nivel_epidemic_curve.png){width="75%" height="75%" style="font-size: 0.7em;" fig-align="left"}
-
-## Time-varying Reproduction Number $R_t$
-
-![](nivel_cases_by_month.png){width="75%" height="75%" style="font-size: 0.7em;" fig-align="left"}
-
-## Time-varying Reproduction Number $R_t$
-
-![](rt_plot.png){width="75%" height="75%" style="font-size: 0.7em;" fig-align="left"}
+![Incidence of scabies infections per 1000 people in the Netherlands by date of diagnosis.](figures/fig2.png){width="75%" height="75%" style="font-size: 0.7em;" fig-align="left"}
 
 # Now what?
 
 ## Policy Implications
 
-::::: columns
-::: {.column width="70%"}
--   Scabies cases are increasing in the Netherlands.
--   Minimal control measures could decrease $R_0<1$, such as
-    -   educate age groups (adolescents and young adults) with highest prevalence of scabies about the causes and symptoms of scabies infections,
-    -   require a scabies check for university students prior to the school year, or
-    -   inform GPs about the higher risk of scabies in certain groups
-        -   could lead to quicker diagnoses
+::: {.fragment fragment-index="1"}
+**Controlling 8% of secondary infections prevents epidemic growth**
 :::
 
-::: {.column width="30%"}
-![https://www.informedhealth.org/scabies-how-can-you-prevent-infection.html](scabies_prevention_fig.jpg){style="font-size: 0.7em;"}
+::: {style="font-size: 0.85em; margin-left: 2em;"}
+
+::: {.fragment fragment-index="2"}
+-   <i class="fas fa-bullhorn"></i> Educational campaign targeting high-risk groups
 :::
-:::::
+
+::: {.fragment fragment-index="3"}
+-   <i class="fas fa-user-md"></i> Enhanced GP training for rapid diagnosis
+:::
+
+::: {.fragment fragment-index="4"}
+-   <i class="fas fa-clipboard-check"></i> Voluntary screening
+:::
+
+::: {.fragment fragment-index="5"}
+-   <i class="fas fa-project-diagram"></i> Systematic contact tracing
+:::
+
+::: {.fragment fragment-index="6"}
+-   <i class="fas fa-pills"></i> Targeted (voluntary) mass drug administration campaigns
+:::
+
+:::
 
 ## This is only the beginning
 
--   The epidemiological quantities estimated here can be used to parameterise mathematical models of scabies spread
--   There is still a lot that we don't know
-    -   Future work should focus on obtaining more precise estimates of the underlying quantities that govern scabies spread.
+::: {.fragment fragment-index="1"}
+**There is still a lot that we don't know**
+:::
 
-## Your turn
+::: {.fragment fragment-index="2"}
+- Future research should prioritize three key areas: 
+:::
 
-[`mitey` package](https://kylieainslie.github.io/mitey/){preview-link="true"}
+::: {style="font-size: 0.85em; margin-left: 2em;"}
+
+::: {.fragment fragment-index="3"}
+- collecting transmission pair data 
+:::
+
+::: {.fragment fragment-index="4"}
+- characterizing the delays between symptom onset and healthcare seeking 
+:::
+
+::: {.fragment fragment-index="5"}
+- reproducing Mellanby’s 1944 incubation period estimates
+:::
+:::
+
+## Software
+
+We developed an R package called [`mitey`](https://kylieainslie.github.io/mitey/){preview-link="true"}. 
+
+![](figures/mitey_hex_superman.png){width="30%"}
+
+:::notes
+Software developed to support reproducible analyses and wider application of the methods used in this work.
+
+:::
 
 ## Wrapping up
-
 ::: nonincremental
+### Manuscript
+
+- Nature Communications 2025 *(in press)*
+- Preprint: Available at [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5184990)
+
+
 ### Thank you
 
 -   Jacco Wallinga
@@ -456,21 +498,27 @@ Date of symptom onset data from four scabies outbreaks.
 This work was financed by the Netherlands Ministry of Health, Welfare and Sport.
 :::
 
-## Contact
+## Get in touch!
 
-::: nonincremental
-Email: kylie.ainslie\@rivm.ml
+::::: columns
+::: {.column width="60%"}
+<i class="fas fa-envelope"></i> kylie.ainslie\@unimelb.edu.au
 
-Website: [https://kylieainslie.github.io/](https://kylieainslie.github.io/){preview-link="\"true"}
+<i class="fab fa-linkedin"></i> linkedin.com/in/kylieainslie
 
-GitHub: https://github.com/kylieainslie
+<i class="fa-brands fa-bluesky"></i> @kylieainslie.bsky.social
 
-Bluesky: https://bsky.app/profile/kylieainslie.bsky.social
+<i class="fab fa-github"></i> github.com/kylieainslie
 
-LinkedIn: https://www.linkedin.com/in/kylieainslie/
+<i class="fas fa-globe"></i> kylieainslie.github.io
 :::
 
+::: {.column width="40%"}
+![](figures/leon.jpeg){width="100%"}
+:::
+:::::
+
 ```{r, eval = FALSE}
-pagedown::chrome_print("liverpool_presentation.html")
+pagedown::chrome_print("csi_cph_presentation.html")
 
 ```
