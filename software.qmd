@@ -79,38 +79,33 @@ An R package that features a multi-annual, individual-based, stochastic, force o
 :::::::
 :::::::::
 ::::::::::
+
+:::::::::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+::::::::: {.card .h-100}
+::: card-header
+![](images/pika_hex.png){.card-img-top style="height: 200px; object-fit: contain; background-color: var(--bs-body-bg);"}
+:::
+
+::::::: {.card-body .d-flex .flex-column}
+::: card-title
+## [pika](https://github.com/mrc-ide/pika)
+:::
+
+::: card-text
+A lightweight R package for estimating the optimal lag and rolling correlation by grouping variable between two time series.
+:::
+
+:::: mt-auto
+::: btn-group
+[GitHub](https://github.com/mrc-ide/pika){.btn .btn-primary .btn-sm} <!-- [Documentation](https://kylieainslie.github.io/morevac/){.btn .btn-outline-info .btn-sm} --> [Publication](https://doi.org/10.12688/wellcomeopenres.15843.2){.btn .btn-outline-info .btn-sm}
+:::
+::::
+:::::::
+:::::::::
+::::::::::
+
 :::::::::::::::::::::::::::
 
-<!-- ## Software Categories -->
-
-<!-- ### **R Packages** -->
-
-<!-- Published packages for infectious disease analysis, vaccine effectiveness studies, and statistical modeling methods. -->
-
-<!-- ### **Analysis Pipelines**   -->
-
-<!-- Reproducible analysis code accompanying research papers and collaborative projects. -->
-
-<!-- ### **Modeling Tools** -->
-
-<!-- Mathematical and agent-based models for infectious disease transmission and intervention evaluation. -->
-
-<!-- ## Development Philosophy -->
-
-<!-- All software is developed with principles of: -->
-
-<!-- -   **Reproducible research** - Clear documentation and version control -->
-<!-- -   **Open science** - Publicly available code and transparent methods -->
-<!-- -   **User-friendly design** - Intuitive interfaces and comprehensive examples -->
-<!-- -   **Rigorous testing** - Unit tests and validation against known results -->
-
-<!-- ## Technical Stack -->
-
-<!-- **Primary languages:** R, Stan (Bayesian modeling), Python   -->
-
-<!-- **Tools:** Git/GitHub, Docker, R Markdown/Quarto, Shiny   -->
-
-<!-- **Modeling frameworks:** Individual-based models, compartmental models, Bayesian inference -->
 
 ------------------------------------------------------------------------
 
