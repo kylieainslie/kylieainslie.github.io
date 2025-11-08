@@ -23,19 +23,48 @@ library(DT)
 library(dplyr)
 library(htmltools)
 
+# Function to bold name variations
+bold_my_name <- function(author_string, is_mine) {
+  if (is_mine != "YES" || is.na(author_string) || author_string == "") {
+    return(author_string)
+  }
+  
+  # All name variations
+  name_variants <- c(
+    "Kylie E. C. Ainslie", "Kylie Ainslie", "Kylie E.C. Ainslie",
+    "Kylie E C Ainslie", "Kylie EC Ainslie", "Kylie E. Ainslie",
+    "K. E. C. Ainslie", "K. Ainslie", "K.E.C. Ainslie",
+    "K.E. Ainslie", "K E C Ainslie", "K E Ainslie",
+    "Ainslie, Kylie E. C.", "Ainslie, Kylie", "Ainslie, K. E. C.",
+    "Ainslie, K."
+  )
+  
+  # Sort by length (longest first) to avoid partial replacements
+  name_variants <- name_variants[order(nchar(name_variants), decreasing = TRUE)]
+  
+  result <- author_string
+  for (variant in name_variants) {
+    result <- gsub(variant, 
+                  paste0("<strong>", variant, "</strong>"), 
+                  result, 
+                  fixed = TRUE)
+  }
+  return(result)
+}
+
+
 # Read the data
 pubs <- read.csv("publications_data.csv", stringsAsFactors = FALSE)
 
 # Create formatted columns
 pubs_display <- pubs %>%
+  rowwise() %>%
   mutate(
     # Format year
     Year = ifelse(year == "", "Unknown", year),
     
     # Bold your name in authors if is_my_paper == "YES"
-    Authors = ifelse(is_my_paper == "YES" & authors != "",
-                    gsub("Ainslie", paste0("<strong>", "Ainslie", "</strong>"), authors),
-                    authors),
+    Authors = bold_my_name(authors, is_my_paper),
     
     # Format journal with volume/issue
     Journal = case_when(
@@ -65,6 +94,7 @@ pubs_display <- pubs %>%
       paste0('<div class="pub-title">', title, '</div>')
     )
   ) %>%
+  ungroup() %>%
   select(Year, Authors, Title_Display, Journal, Link)
 
 # Create the DataTable
