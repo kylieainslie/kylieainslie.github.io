@@ -1,11 +1,12 @@
 import requests
 import json
 from datetime import datetime
+import csv
 
-# CHANGE THESE TWO VALUES:
-ORCID_ID = "0000-0001-5419-7206"  # Your ORCID ID here
-YOUR_LAST_NAME = "Ainslie"  # Your last name to highlight in author lists
-YOUR_EMAIL = "ainslie.kylie@gmail.com"  # Your email for API requests
+# CHANGE THESE THREE VALUES:
+ORCID_ID = "0000-0001-5419-7206"
+YOUR_LAST_NAME = "Ainslie"
+YOUR_EMAIL = "ainslie.kylie@gmail.com"
 
 ORCID_API = "https://pub.orcid.org/v3.0/"
 
@@ -21,11 +22,48 @@ def fetch_doi_metadata(doi):
         if response.status_code == 200:
             return response.json()
     except Exception as e:
-        print(f"Error fetching DOI {doi}: {e}")
+        print(f"  Warning: Could not fetch DOI metadata: {e}")
     return None
 
+def extract_orcid_metadata(work_summary):
+    """Extract metadata directly from ORCID work summary"""
+    title = work_summary.get('title', {})
+    if title:
+        title = title.get('title', {}).get('value', 'Untitled')
+    else:
+        title = 'Untitled'
+    
+    year = None
+    pub_date = work_summary.get('publication-date')
+    if pub_date:
+        year = pub_date.get('year', {}).get('value')
+    
+    journal = work_summary.get('journal-title', {})
+    if journal:
+        journal = journal.get('value', '')
+    else:
+        journal = ''
+    
+    work_type = work_summary.get('type', 'publication')
+    
+    external_ids = {}
+    if work_summary.get('external-ids'):
+        for ext_id in work_summary['external-ids']['external-id']:
+            id_type = ext_id.get('external-id-type', '')
+            id_value = ext_id.get('external-id-value', '')
+            external_ids[id_type] = id_value
+    
+    return {
+        'title': title,
+        'year': year,
+        'journal': journal,
+        'type': work_type,
+        'external_ids': external_ids,
+        'source': 'orcid'
+    }
+
 def get_orcid_publications():
-    """Fetch publications from ORCID"""
+    """Fetch ALL publications from ORCID"""
     url = f"{ORCID_API}{ORCID_ID}/works"
     headers = {"Accept": "application/json"}
     
@@ -39,10 +77,12 @@ def get_orcid_publications():
     total_works = len(data.get("group", []))
     print(f"Found {total_works} works in ORCID profile")
     
+    with_doi = 0
+    without_doi = 0
+    
     for idx, group in enumerate(data.get("group", []), 1):
         work_summary = group["work-summary"][0]
         
-        # Extract DOI
         doi = None
         if work_summary.get("external-ids"):
             for ext_id in work_summary["external-ids"]["external-id"]:
@@ -51,197 +91,174 @@ def get_orcid_publications():
                     break
         
         if doi:
-            print(f"  [{idx}/{total_works}] Fetching: {doi}")
-            metadata = fetch_doi_metadata(doi)
-            if metadata:
-                # Extract abstract if available
-                abstract = metadata.get('abstract', '')
-                
+            print(f"  [{idx}/{total_works}] Fetching DOI: {doi}")
+            doi_metadata = fetch_doi_metadata(doi)
+            
+            if doi_metadata:
+                with_doi += 1
                 publications.append({
-                    'title': metadata.get('title', ''),
-                    'authors': metadata.get('author', []),
-                    'year': metadata.get('issued', {}).get('date-parts', [[None]])[0][0],
-                    'journal': metadata.get('container-title', ''),
+                    'title': doi_metadata.get('title', ''),
+                    'authors': doi_metadata.get('author', []),
+                    'year': doi_metadata.get('issued', {}).get('date-parts', [[None]])[0][0],
+                    'journal': doi_metadata.get('container-title', ''),
                     'doi': doi,
-                    'type': metadata.get('type', 'article'),
-                    'abstract': abstract,
-                    'volume': metadata.get('volume', ''),
-                    'issue': metadata.get('issue', ''),
-                    'page': metadata.get('page', '')
+                    'type': doi_metadata.get('type', 'article'),
+                    'abstract': doi_metadata.get('abstract', ''),
+                    'volume': doi_metadata.get('volume', ''),
+                    'issue': doi_metadata.get('issue', ''),
+                    'page': doi_metadata.get('page', ''),
+                    'source': 'doi'
                 })
             else:
-                print(f"  [{idx}/{total_works}] Warning: Could not fetch metadata for {doi}")
+                print(f"  [{idx}/{total_works}] DOI fetch failed, using ORCID metadata")
+                orcid_data = extract_orcid_metadata(work_summary)
+                orcid_data['doi'] = doi
+                publications.append(orcid_data)
+                without_doi += 1
         else:
             title = work_summary.get('title', {}).get('title', {}).get('value', 'Unknown')
-            print(f"  [{idx}/{total_works}] Skipping (no DOI): {title}")
+            print(f"  [{idx}/{total_works}] No DOI: {title[:60]}...")
+            publications.append(extract_orcid_metadata(work_summary))
+            without_doi += 1
+    
+    print(f"\n✓ Processed {total_works} total publications:")
+    print(f"  - {with_doi} with full DOI metadata")
+    print(f"  - {without_doi} using ORCID metadata only")
     
     return publications
 
-def format_authors(authors, highlight_name=YOUR_LAST_NAME):
-    """Format author list, highlighting your name"""
-    author_list = []
+def format_authors_list(authors, highlight_name=YOUR_LAST_NAME):
+    """Format author list as string, noting which to highlight"""
+    if not authors:
+        return "", ""
+    
+    author_names = []
     for author in authors:
         family = author.get('family', '')
         given = author.get('given', '')
         name = f"{given} {family}".strip()
-        
-        # Bold your name
-        if highlight_name.lower() in family.lower():
-            name = f"**{name}**"
-        
-        author_list.append(name)
+        author_names.append(name)
     
-    if len(author_list) == 0:
-        return ""
-    elif len(author_list) == 1:
-        return author_list[0]
-    elif len(author_list) == 2:
-        return f"{author_list[0]} and {author_list[1]}"
+    # Create full author string
+    if len(author_names) <= 2:
+        author_str = " and ".join(author_names)
+    elif len(author_names) > 10:
+        author_str = f"{', '.join(author_names[:3])}, et al."
     else:
-        # All authors if 10 or fewer, otherwise first 3 + et al.
-        if len(author_list) > 10:
-            return f"{', '.join(author_list[:3])}, et al."
-        else:
-            return f"{', '.join(author_list[:-1])}, and {author_list[-1]}"
+        author_str = f"{', '.join(author_names[:-1])}, and {author_names[-1]}"
+    
+    # Mark which author is you (for R to bold)
+    is_author = any(highlight_name.lower() in name.lower() for name in author_names)
+    
+    return author_str, "YES" if is_author else "NO"
 
 def clean_abstract(abstract):
     """Remove common HTML/XML tags from abstract"""
     if not abstract:
         return ""
     
-    # Remove common tags
     replacements = {
         '<jats:p>': '',
         '</jats:p>': '',
-        '<jats:italic>': '*',
-        '</jats:italic>': '*',
-        '<jats:bold>': '**',
-        '</jats:bold>': '**',
+        '<jats:italic>': '',
+        '</jats:italic>': '',
+        '<jats:bold>': '',
+        '</jats:bold>': '',
         '<p>': '',
-        '</p>': '\n\n',
+        '</p>': ' ',
     }
     
     for old, new in replacements.items():
         abstract = abstract.replace(old, new)
     
+    abstract = ' '.join(abstract.split())
     return abstract.strip()
 
-def generate_publications_qmd(publications):
-    """Generate Quarto markdown with collapsible abstracts"""
+def save_to_csv(publications, filename='publications_data.csv'):
+    """Save publications to CSV for R to read"""
     
-    # Sort by year (newest first)
-    publications.sort(key=lambda x: x.get('year', 0) or 0, reverse=True)
-    
-    # Group by year
-    by_year = {}
+    rows = []
     for pub in publications:
-        year = pub.get('year', 'Unknown')
-        if year not in by_year:
-            by_year[year] = []
-        by_year[year].append(pub)
-    
-    # Generate markdown
-    content = """---
-title: "Publications"
----
-
-*Last updated: {date}*
-
-::: {{.callout-note}}
-## About
-All publications are automatically updated from my [ORCID profile](https://orcid.org/{orcid}).  
-Click on any publication title to view the abstract.
-:::
-
-""".format(date=datetime.now().strftime("%B %d, %Y"), orcid=ORCID_ID)
-    
-    for year in sorted(by_year.keys(), reverse=True):
-        if year == 'Unknown':
-            continue
-            
-        content += f"\n## {year}\n\n"
+        year = pub.get('year', '')
         
-        for i, pub in enumerate(by_year[year], 1):
-            authors = format_authors(pub.get('authors', []))
+        if pub.get('source') == 'doi':
+            authors, is_author = format_authors_list(pub.get('authors', []))
             title = pub.get('title', 'Untitled')
             journal = pub.get('journal', '')
             doi = pub.get('doi', '')
-            abstract = pub.get('abstract', '')
+            abstract = clean_abstract(pub.get('abstract', ''))
             
-            # Build citation
-            content += f"{i}. {authors}. "
-            content += f"*{title}*. "
-            if journal:
-                content += f"{journal}"
-                volume = pub.get('volume', '')
-                issue = pub.get('issue', '')
-                page = pub.get('page', '')
-                
-                if volume:
-                    content += f" {volume}"
-                if issue:
-                    content += f"({issue})"
-                if page:
-                    content += f":{page}"
-                content += ". "
+            volume = pub.get('volume', '')
+            issue = pub.get('issue', '')
+            page = pub.get('page', '')
             
-            if doi:
-                content += f"[https://doi.org/{doi}](https://doi.org/{doi})"
-            
-            content += "\n\n"
-            
-            # Collapsible abstract
-            if abstract:
-                clean_abs = clean_abstract(abstract)
-                if clean_abs:
-                    # Make title clickable to expand abstract
-                    content += f"""<details>
-<summary>Show abstract</summary>
-
-{clean_abs}
-
-</details>
-
-"""
-            
-            content += "\n"
-    
-    # Add publications with unknown year at the end
-    if 'Unknown' in by_year:
-        content += "\n## Other Publications\n\n"
-        for i, pub in enumerate(by_year['Unknown'], 1):
-            authors = format_authors(pub.get('authors', []))
+            rows.append({
+                'year': year if year else '',
+                'authors': authors,
+                'is_my_paper': is_author,
+                'title': title,
+                'journal': journal,
+                'volume': volume,
+                'issue': issue,
+                'page': page,
+                'doi': doi,
+                'abstract': abstract,
+                'type': pub.get('type', ''),
+                'has_doi': 'YES'
+            })
+        else:
             title = pub.get('title', 'Untitled')
+            journal = pub.get('journal', '')
             doi = pub.get('doi', '')
+            external_ids = pub.get('external_ids', {})
             
-            content += f"{i}. {authors}. *{title}*. "
-            if doi:
-                content += f"[https://doi.org/{doi}](https://doi.org/{doi})"
-            content += "\n\n"
+            pmid = external_ids.get('pmid', '')
+            arxiv = external_ids.get('arxiv', '')
+            
+            rows.append({
+                'year': year if year else '',
+                'authors': '',
+                'is_my_paper': 'UNKNOWN',
+                'title': title,
+                'journal': journal,
+                'volume': '',
+                'issue': '',
+                'page': '',
+                'doi': doi if doi else '',
+                'abstract': '',
+                'type': pub.get('type', ''),
+                'has_doi': 'YES' if doi else ('PMID' if pmid else ('ARXIV' if arxiv else 'NO'))
+            })
     
-    return content
+    # Write to CSV
+    if rows:
+        fieldnames = ['year', 'authors', 'is_my_paper', 'title', 'journal', 'volume', 
+                     'issue', 'page', 'doi', 'abstract', 'type', 'has_doi']
+        
+        with open(filename, 'w', newline='', encoding='utf-8') as f:
+            writer = csv.DictWriter(f, fieldnames=fieldnames)
+            writer.writeheader()
+            writer.writerows(rows)
+        
+        print(f"✓ Saved {len(rows)} publications to {filename}")
+    else:
+        print("⚠ No publications to save")
 
 if __name__ == "__main__":
     print("=" * 60)
-    print("ORCID Publications Updater")
+    print("ORCID Publications Data Fetcher")
     print("=" * 60)
     
     try:
         publications = get_orcid_publications()
         
-        print(f"\n✓ Successfully fetched {len(publications)} publications with DOIs")
+        print(f"\nSaving publications to CSV...")
+        save_to_csv(publications)
         
-        print("\nGenerating publications.qmd...")
-        content = generate_publications_qmd(publications)
-        
-        with open("publications.qmd", "w", encoding='utf-8') as f:
-            f.write(content)
-        
-        print("✓ Done! publications.qmd has been updated.")
+        print("✓ Done!")
         print("\nNext steps:")
-        print("1. Review publications.qmd")
-        print("2. Run 'quarto preview' to see how it looks")
-        print("3. Commit and push to GitHub")
+        print("1. Check publications_data.csv")
+        print("2. Use this CSV in your publications.qmd with R")
         
     except Exception as e:
         print(f"\n✗ Error: {e}")
