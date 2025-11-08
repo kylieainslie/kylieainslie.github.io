@@ -47,10 +47,7 @@ jobs:
       - name: Install R packages
         uses: r-lib/actions/setup-r-dependencies@v2
         with:
-          packages: |
-            any::DT
-            any::dplyr
-            any::htmltools
+          cache-version: 2
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
