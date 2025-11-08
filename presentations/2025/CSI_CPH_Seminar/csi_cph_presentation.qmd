@@ -41,13 +41,13 @@ chalkboard: true       # comment out when wanting to make a selfcontained html
 
 ## Sarcoptes *scabiei*
 
-:::::::::: columns
-::::::: {.column width="60%"}
+:::::::: columns
+::::: {.column width="60%"}
 ::: {.fragment .fade-in fragment-index="1"}
 -   Scabies is a disease caused by infestation of the skin with a microscopic mite.
 
     ::: {.fragment fragment-index="3"}
-    -   a.k.a. the Itch or seven-year itch. 
+    -   a.k.a. the Itch or seven-year itch.
     :::
 
     ::: {.fragment fragment-index="4"}
@@ -58,14 +58,14 @@ chalkboard: true       # comment out when wanting to make a selfcontained html
 ::: {.fragment .fade-in fragment-index="5"}
 -   Symptoms are characterized by itchiness and rash at the site of infestation.
 :::
-:::::::
+:::::
 
 :::: {.column width="40%"}
 ::: {.fragment .fade-in fragment-index="2"}
 ![Scabies mite. Image Credit: Aliaksei Marozau / Shutterstock.com](figures/scabies_mite.png){style="font-size: 0.7em;"}
 :::
 ::::
-::::::::::
+::::::::
 
 ## How does scabies spread?
 
@@ -73,17 +73,15 @@ chalkboard: true       # comment out when wanting to make a selfcontained html
 -   Direct, extended, skin-to-skin contact
 -   Sharing clothing, towels, or bedding used by an infected person
     -   Less common
-    
 :::
 
 # Do people still get scabies?
 
 ## Scabies Worldwide
 
-::: {.r-stack}
-
-::: {.fragment .fade-out fragment-index="3"}
-::: {style="text-align: left; width: 100%;"}
+:::::::: r-stack
+:::::: {.fragment .fade-out fragment-index="3"}
+::::: {style="text-align: left; width: 100%;"}
 ::: {.fragment .fade-in fragment-index="1"}
 -   Scabies affects around 400 million people per year.
 :::
@@ -91,21 +89,19 @@ chalkboard: true       # comment out when wanting to make a selfcontained html
 ::: {.fragment .fade-in fragment-index="2"}
 -   Accounts for a large proportion of skin disease in many low- and middle-income countries
 :::
-:::
-:::
+:::::
+::::::
 
 ::: {.fragment .fade-in fragment-index="3" style="text-align: center;"}
 ![Karimkhani et al. 2017. Lancet Infect. Dis. 17(12):1247 - 1254](figures/scabies_disease_burden_map2.png){width="100%" style="max-height: 95vh; object-fit: contain;"}
 :::
-
-:::
+::::::::
 
 ## Scabies in Europe (then)
 
 ::: incremental
-- Scabies infections were a common affliction in Europe in the late 1800s and early 1900s
-  - Highest incidence seen in 1918 and 1945.
-
+-   Scabies infections were a common affliction in Europe in the late 1800s and early 1900s
+    -   Highest incidence seen in 1918 and 1945.
 :::
 
 ::: {.fragment style="text-align: center;"}
@@ -138,17 +134,18 @@ A rise in scabies cases has been observed through out Europe in recent years.
 
 ::: incremental
 -   The global disease burden of scabies is low compared to other infectious diseases
--   Disease severity is also low 
+-   Disease severity is also low
 :::
 
 ## But...
+
 During periods of high scabies prevalence:
 
 ::: incremental
-- Higher burden due to secondary infections
-- Increased pressure on healthcare systems 
-- Negative economic impacts
-- Stigma-related delays in care-seeking
+-   Higher burden due to secondary infections
+-   Increased pressure on healthcare systems
+-   Negative economic impacts
+-   Stigma-related delays in care-seeking
 :::
 
 # What can we do about it?
@@ -258,24 +255,21 @@ During periods of high scabies prevalence:
 
 ## What we know
 
-::::: columns
-::: {.column width="60%"}
-
+:::::::::: columns
+::::: {.column width="60%"}
 ::: {.fragment fragment-index="1"}
-- A series of studies in the 1940s form much of the basis of our current understanding of scabies transmission.
+-   A series of studies in the 1940s form much of the basis of our current understanding of scabies transmission.
 :::
 
 ::: {.fragment fragment-index="3"}
-- Incubation period
-  - 4-6 weeks after primary infection
-  - 24 hours after post-primary infection
-    
+-   Incubation period
+    -   4-6 weeks after primary infection
+    -   24 hours after post-primary infection
 :::
-:::
+:::::
 
-::: {.column width="40%"}
-::: {.r-stack}
-
+:::::: {.column width="40%"}
+::::: r-stack
 ::: {.fragment fragment-index="2"}
 ![](figures/scabies_oxford_war_manual.png){fig-align="center"}
 :::
@@ -283,10 +277,9 @@ During periods of high scabies prevalence:
 ::: {.fragment fragment-index="4"}
 ![](figures/mellanby_1944.png){width="600" height="100"}
 :::
-
-:::
-:::
 :::::
+::::::
+::::::::::
 
 # Let's dive in!
 
@@ -305,27 +298,26 @@ During periods of high scabies prevalence:
 
 ## Serial Interval
 
-:::::: columns
-::: {.column width="35%"}
+::::::: columns
+:::: {.column width="35%"}
 ::: {.fragment fragment-index="1"}
 ![Adapted from: Lehtinen et al. 2021. J. R. Soc. Interface.1820200756](figures/serial_interval_schematic.jpeg){style="font-size: 0.7em;" fig-align="left" width="120%" height="120%"}
 :::
-:::
+::::
 
 :::: {.column width="65%"}
-:::{.fragment fagment-index="2"}
+::: {.fragment fagment-index="2"}
 ![Date of symptom onset data from four scabies outbreaks.](figures/epi_curves_plot.png){style="font-size: 0.7em;" width="100%" height="100%"}
 :::
 ::::
-::::::
+:::::::
 
 ## Serial Interval
 
-:::incremental
+::: incremental
 -   We calculate the index case-to-case (ICC) interval for each person,
     -   **index case:** the person with the greatest value for number of days since symptom onset.
     -   **"secondary" cases:** have an ICC interval calculated as the number of days between their symptom onset day and the index case.
-
 :::
 
 ## Serial Interval
@@ -359,13 +351,14 @@ Index-case-to-case (ICC) intervals (A-D) and comparison of serial interval estim
 -   How are the number of scabies cases changing over time?
 
 ## Growth Rate
+
 ::: incremental
 -   To determine how the number of scabies cases is changing each year in the Netherlands, we estimated the annual growth rate
 
 -   **Estimated annual growth rate:** 0.25 (95% CI: 0.2, 0.3)
 :::
 
-::: {.fragment}
+::: fragment
 ![](figures/growth_rate_model_fit.png){width="60%"}
 :::
 
@@ -420,8 +413,7 @@ Index-case-to-case (ICC) intervals (A-D) and comparison of serial interval estim
 **Controlling 8% of secondary infections prevents epidemic growth**
 :::
 
-::: {style="font-size: 0.85em; margin-left: 2em;"}
-
+:::::::: {style="font-size: 0.85em; margin-left: 2em;"}
 ::: {.fragment fragment-index="2"}
 -   <i class="fas fa-bullhorn"></i> Educational campaign targeting high-risk groups
 :::
@@ -441,8 +433,7 @@ Index-case-to-case (ICC) intervals (A-D) and comparison of serial interval estim
 ::: {.fragment fragment-index="6"}
 -   <i class="fas fa-pills"></i> Targeted (voluntary) mass drug administration campaigns
 :::
-
-:::
+::::::::
 
 ## This is only the beginning
 
@@ -451,42 +442,40 @@ Index-case-to-case (ICC) intervals (A-D) and comparison of serial interval estim
 :::
 
 ::: {.fragment fragment-index="2"}
-- Future research should prioritize three key areas: 
+-   Future research should prioritize three key areas:
 :::
 
-::: {style="font-size: 0.85em; margin-left: 2em;"}
-
+:::::: {style="font-size: 0.85em; margin-left: 2em;"}
 ::: {.fragment fragment-index="3"}
-- collecting transmission pair data 
+-   collecting transmission pair data
 :::
 
 ::: {.fragment fragment-index="4"}
-- characterizing the delays between symptom onset and healthcare seeking 
+-   characterizing the delays between symptom onset and healthcare seeking
 :::
 
 ::: {.fragment fragment-index="5"}
-- reproducing Mellanby’s 1944 incubation period estimates
+-   reproducing Mellanby’s 1944 incubation period estimates
 :::
-:::
+::::::
 
 ## Software
 
-We developed an R package called [`mitey`](https://kylieainslie.github.io/mitey/){preview-link="true"}. 
+We developed an R package called [`mitey`](https://kylieainslie.github.io/mitey/){preview-link="true"}.
 
 ![](figures/mitey_hex_superman.png){width="30%"}
 
-:::notes
+::: notes
 Software developed to support reproducible analyses and wider application of the methods used in this work.
-
 :::
 
 ## Wrapping up
+
 ::: nonincremental
 ### Manuscript
 
-- Nature Communications 2025 *(in press)*
-- Preprint: Available at [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5184990)
-
+-   Nature Communications 2025 *(in press)*
+-   Preprint: Available at [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5184990)
 
 ### Thank you
 
@@ -519,6 +508,5 @@ This work was financed by the Netherlands Ministry of Health, Welfare and Sport.
 :::::
 
 ```{r, eval = FALSE}
-pagedown::chrome_print("csi_cph_presentation.html")
-
+quarto::quarto_render("presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.qmd")
 ```
