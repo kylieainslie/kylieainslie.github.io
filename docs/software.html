@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -32,18 +32,19 @@ ul.task-list li input[type="checkbox"] {
 <meta name="quarto:offset" content="./">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-7e86f3b80ba07cd67b8563d785b462c4.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-42594c4ebb0dca2d8655b0d44d04bcde.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-7e86f3b80ba07cd67b8563d785b462c4.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-5311e8573f1ca5d29999c4191e502ac3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-8448bcf7f9565bffb32063743d474478.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-5311e8573f1ca5d29999c4191e502ac3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -335,7 +336,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#r-packages" id="toc-r-packages" class="nav-link active" data-scroll-target="#r-packages">R packages</a>
+  <li><a href="#r-packages" id="toc-r-packages" class="nav-link active" data-scroll-target="#r-packages">R packages</a></li>
+  <li><a href="#web-applications" id="toc-web-applications" class="nav-link" data-scroll-target="#web-applications">Web Applications</a>
   <ul class="collapse">
   <li><a href="#collaboration" id="toc-collaboration" class="nav-link" data-scroll-target="#collaboration">Collaboration</a></li>
   </ul></li>
@@ -359,15 +361,15 @@ ul.task-list li input[type="checkbox"] {
 <p><img src="images/mitey_hex_superman.png" class="card-img-top img-fluid" style="height: 200px; object-fit: contain; background-color: var(--bs-body-bg);"></p>
 </div>
 <div class="card-body d-flex flex-column">
-<section id="mitey" class="level2 card-title">
-<h2 class="anchored" data-anchor-id="mitey"><a href="https://kylieainslie.github.io/mitey/">mitey</a></h2>
+<section id="mitey-v0.3.0" class="level2 card-title">
+<h2 class="anchored" data-anchor-id="mitey-v0.3.0"><a href="https://kylieainslie.github.io/mitey/">mitey</a> <span class="badge bg-success">v0.3.0</span></h2>
 </section>
 <div class="card-text">
-<p>A lightweight R package with methods to estimate infectious disease dynamics parameters.</p>
+<p>A lightweight R package with methods to estimate serial intervals and time-varying reproduction numbers from infectious disease outbreak data.</p>
 </div>
 <div class="mt-auto">
 <div class="btn-group">
-<p><a href="https://github.com/kylieainslie/mitey" class="btn btn-primary btn-sm">GitHub</a> <!-- [Documentation](https://kylieainslie.github.io/mitey/){.btn .btn-outline-info .btn-sm} --> <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5184990" class="btn btn-outline-info btn-sm">Publication</a></p>
+<p><a href="https://github.com/kylieainslie/mitey" class="btn btn-primary btn-sm">GitHub</a> <a href="https://cran.r-project.org/package=mitey" class="btn btn-outline-secondary btn-sm">CRAN</a> <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5184990" class="btn btn-outline-info btn-sm">Publication</a></p>
 </div>
 </div>
 </div>
@@ -428,6 +430,32 @@ ul.task-list li input[type="checkbox"] {
 <div class="mt-auto">
 <div class="btn-group">
 <p><a href="https://github.com/mrc-ide/pika" class="btn btn-primary btn-sm">GitHub</a> <!-- [Documentation](https://kylieainslie.github.io/morevac/){.btn .btn-outline-info .btn-sm} --> <a href="https://doi.org/10.12688/wellcomeopenres.15843.2" class="btn btn-outline-info btn-sm">Publication</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr>
+</section>
+<section id="web-applications" class="level1">
+<h1>Web Applications</h1>
+<div class="grid">
+<div class="g-col-12 g-col-md-6 g-col-lg-4">
+<div class="card h-100">
+<div class="card-header">
+<p><img src="images/the_warehouse_logo.png" class="card-img-top img-fluid" style="height: 200px; object-fit: contain; background-color: var(--bs-body-bg);"></p>
+</div>
+<div class="card-body d-flex flex-column">
+<section id="the-warehouse" class="level2 card-title">
+<h2 class="anchored" data-anchor-id="the-warehouse"><a href="https://thewarehouse-pkg.netlify.app/">The Warehouse</a></h2>
+</section>
+<div class="card-text">
+<p>A function-first R package directory that helps data scientists find packages by what they do, not just by their names. Features AI-powered semantic search, curated categories, and community reviews.</p>
+</div>
+<div class="mt-auto">
+<div class="btn-group">
+<p><a href="https://thewarehouse-pkg.netlify.app/" class="btn btn-primary btn-sm">Website</a> <a href="https://github.com/kylieainslie/warehouse" class="btn btn-outline-secondary btn-sm">GitHub</a></p>
 </div>
 </div>
 </div>
@@ -508,13 +536,14 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

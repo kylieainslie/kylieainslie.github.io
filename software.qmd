@@ -16,16 +16,16 @@ title-block-banner: true
 
 ::::::: {.card-body .d-flex .flex-column}
 ::: card-title
-## [mitey](https://kylieainslie.github.io/mitey/)
+## [mitey](https://kylieainslie.github.io/mitey/) <span class="badge bg-success">v0.3.0</span>
 :::
 
 ::: card-text
-A lightweight R package with methods to estimate infectious disease dynamics parameters.
+A lightweight R package with methods to estimate serial intervals and time-varying reproduction numbers from infectious disease outbreak data.
 :::
 
 :::: mt-auto
 ::: btn-group
-[GitHub](https://github.com/kylieainslie/mitey){.btn .btn-primary .btn-sm} <!-- [Documentation](https://kylieainslie.github.io/mitey/){.btn .btn-outline-info .btn-sm} --> [Publication](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5184990){.btn .btn-outline-info .btn-sm}
+[GitHub](https://github.com/kylieainslie/mitey){.btn .btn-primary .btn-sm} [CRAN](https://cran.r-project.org/package=mitey){.btn .btn-outline-secondary .btn-sm} [Publication](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5184990){.btn .btn-outline-info .btn-sm}
 :::
 ::::
 :::::::
@@ -106,6 +106,36 @@ A lightweight R package for estimating the optimal lag and rolling correlation b
 
 :::::::::::::::::::::::::::
 
+------------------------------------------------------------------------
+
+# Web Applications
+
+::::::::::::::::::::::::::: grid
+:::::::::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+::::::::: {.card .h-100}
+::: card-header
+![](images/the_warehouse_logo.png){.card-img-top style="height: 200px; object-fit: contain; background-color: var(--bs-body-bg);"}
+:::
+
+::::::: {.card-body .d-flex .flex-column}
+::: card-title
+## [The Warehouse](https://thewarehouse-pkg.netlify.app/)
+:::
+
+::: card-text
+A function-first R package directory that helps data scientists find packages by what they do, not just by their names. Features AI-powered semantic search, curated categories, and community reviews.
+:::
+
+:::: mt-auto
+::: btn-group
+[Website](https://thewarehouse-pkg.netlify.app/){.btn .btn-primary .btn-sm} [GitHub](https://github.com/kylieainslie/warehouse){.btn .btn-outline-secondary .btn-sm}
+:::
+::::
+:::::::
+:::::::::
+::::::::::
+
+:::::::::::::::::::::::::::
 
 ------------------------------------------------------------------------
 

@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Kylie Ainslie">
-<meta name="dcterms.date" content="2025-11-10">
+<meta name="dcterms.date" content="2026-01-08">
 
 <title>Automating Data Pipelines with Maeestro – Kylie Ainslie, PhD</title>
 <style>
@@ -69,18 +69,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <meta name="quarto:offset" content="../">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-7e86f3b80ba07cd67b8563d785b462c4.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-42594c4ebb0dca2d8655b0d44d04bcde.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-7e86f3b80ba07cd67b8563d785b462c4.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-5311e8573f1ca5d29999c4191e502ac3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-8448bcf7f9565bffb32063743d474478.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-5311e8573f1ca5d29999c4191e502ac3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -395,7 +396,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">November 10, 2025</p>
+      <p class="date">January 8, 2026</p>
     </div>
   </div>
   
@@ -438,9 +439,9 @@ print(Sys.info())
                                                                                                  sysname 
                                                                                                 "Darwin" 
                                                                                                  release 
-                                                                                                "25.0.0" 
+                                                                                                "25.2.0" 
                                                                                                  version 
-"Darwin Kernel Version 25.0.0: Wed Sep 17 21:42:08 PDT 2025; root:xnu-12377.1.9~141/RELEASE_ARM64_T8132" 
+"Darwin Kernel Version 25.2.0: Tue Nov 18 21:08:48 PST 2025; root:xnu-12377.61.12~1/RELEASE_ARM64_T8132" 
                                                                                                 nodename 
                                                                                         "UML-F27W5CQ2HF" 
                                                                                                  machine 
@@ -465,7 +466,7 @@ print(Sys.info())
 <section id="create-a-yaml-file" class="level3">
 <h3 class="anchored" data-anchor-id="create-a-yaml-file">1. Create a YAML file</h3>
 <p>The first step is to create a <strong>YAML file</strong> that defines the schedule, tasks, and notifications for the pipeline. Here’s an example:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">name</span><span class="kw">:</span><span class="at"> my_data_pipeline</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">name</span><span class="kw">:</span><span class="at"> my_data_pipeline</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">schedule</span><span class="kw">:</span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">type</span><span class="kw">:</span><span class="at"> cron</span></span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">cron</span><span class="kw">:</span><span class="at"> </span><span class="st">"0 0 1,15 * *"</span><span class="co">  # Runs on the 1st and 15th of every month at midnight</span></span>
@@ -482,14 +483,14 @@ print(Sys.info())
 <span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="fu">to</span><span class="kw">:</span><span class="at"> my.email@gmail.com</span></span>
 <span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">on_failure</span><span class="kw">:</span></span>
 <span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="kw">-</span><span class="at"> </span><span class="fu">type</span><span class="kw">:</span><span class="at"> email</span></span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="fu">to</span><span class="kw">:</span><span class="at"> my.email@gmail.com</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="fu">to</span><span class="kw">:</span><span class="at"> my.email@gmail.com</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p>The <code>name</code> field should be a descriptive name for your pipeline. The <code>schedule</code> field specifies when and how often the task should run, and using what scheduling mechanism (here, <code>type: cron</code>). <code>start_time</code> specifies the first time the pipeline is allowed to run, (here, <strong>December 1, 2024 at 12:00 AM</strong>). The <code>task</code> field defines the details of the task to execute. Specifically, <code>script</code> specifies the command to run the pipeline, <code>working_dir</code> specifies the directory to execute the script from, <code>retry_policy</code> specifies how retries are handled if the task fails, <code>retries</code> denotes the maximum number of retries (here, 3), and <code>delay</code> specifies the time delay between retries (here, 5 minutes). The <code>notifications</code> field configures notifications for task outcomes. Here, we configure <code>maestro</code> to send an email when the task succeeds (<code>on_success</code>) and when the task fails (<code>on_failure</code>).</p>
 </section>
 <section id="wrap-your-pipeline-into-a-function" class="level3">
 <h3 class="anchored" data-anchor-id="wrap-your-pipeline-into-a-function">2. Wrap your pipeline into a function</h3>
 <p>Ensure that your pipeline is encapsulated within a function, such as <code>my_package::my_data_pipeline()</code>, so that it can be executed with the appropriate arguments. There’s a good explanation of how to do this in the <a href="https://github.com/whipson/maestro/tree/main"><code>maestro</code> README</a>. Below is an example I took from the above README.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co">#' Example ETL pipeline</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co">#' Example ETL pipeline</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="co">#' @maestroFrequency 1 day</span></span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="co">#' @maestroStartTime 2024-03-25 12:30:00</span></span>
 <span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>my_etl <span class="ot">&lt;-</span> <span class="cf">function</span>() {</span>
@@ -506,7 +507,7 @@ print(Sys.info())
 <span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Load - write to a location</span></span>
 <span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">message</span>(<span class="st">"Writing"</span>)</span>
 <span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">write.csv</span>(transformed, <span class="at">file =</span> <span class="fu">paste0</span>(<span class="st">"transformed_mtcars_"</span>, <span class="fu">Sys.Date</span>(), <span class="st">".csv"</span>))</span>
-<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p>All of the pipeline tasks are wrapped in a function called <code>my_etl()</code>, which has some <code>maestro</code>-specific <code>roxygen</code>-style comments, namely <code>@maestroFrequency</code> and <code>@maestroStartTime</code>which indicate how frequently the pipeline should run and when it should strat, respectively. For more details, see <a href="https://github.com/whipson/maestro/tree/main">here</a>.</p>
 </section>
@@ -517,12 +518,12 @@ print(Sys.info())
 <h4 class="anchored" data-anchor-id="step-3.1-create-a-.sh-file">Step 3.1: Create a <code>.sh</code> file</h4>
 <p>Create a <code>.sh</code> file by first opening a text editor using the Mac terminal. I used the <code>nano</code> editor.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">nano</span> my_script.sh</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">nano</span> my_script.sh</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p>Add the text to the <code>.sh</code> file to execute the pipeline using <code>Rscript</code>:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co">#!/bin/bash</span></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="ex">Rscript</span> <span class="at">-e</span> <span class="st">"system('maestro run /path/to/maestro.yaml')"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co">#!/bin/bash</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="ex">Rscript</span> <span class="at">-e</span> <span class="st">"system('maestro run /path/to/maestro.yaml')"</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p>If editing the text to the <code>.sh</code> file directly in the terminal with <code>nano</code>:</p>
 <ul>
@@ -535,25 +536,25 @@ print(Sys.info())
 <h4 class="anchored" data-anchor-id="step-3.2-make-the-.sh-file-executable">Step 3.2: Make the <code>.sh</code> file executable</h4>
 <p>Run the following command to make the script executable:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">chmod</span> +x /path/to/run_pipeline.sh</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">chmod</span> +x /path/to/run_pipeline.sh</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </section>
 <section id="step-3.3-schedule-the-pipeline-with-cron" class="level4">
 <h4 class="anchored" data-anchor-id="step-3.3-schedule-the-pipeline-with-cron">Step 3.3: Schedule the pipeline with cron</h4>
 <p>Open your crontab configuration using <code>crontab -e</code> in the terminal and adding a line to schedule the pipeline to run at the desired frequency. For example, to run it daily at midnight:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="ex">0</span> 0 <span class="pp">*</span> <span class="pp">*</span> <span class="pp">*</span> /path/to/run_pipeline.sh</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="ex">0</span> 0 <span class="pp">*</span> <span class="pp">*</span> <span class="pp">*</span> /path/to/run_pipeline.sh</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p>The <code>cron</code> schedule is defined by five fields followed by the command to execute:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="ex">*</span> <span class="pp">*</span> <span class="pp">*</span> <span class="pp">*</span> <span class="pp">*</span> command_to_run</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="ex">*</span> <span class="pp">*</span> <span class="pp">*</span> <span class="pp">*</span> <span class="pp">*</span> command_to_run</span>
 <span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="ex">-</span> <span class="at">-</span> <span class="at">-</span> <span class="at">-</span> <span class="at">-</span></span>
 <span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="kw">|</span> <span class="kw">|</span> <span class="kw">|</span> <span class="kw">|</span> <span class="kw">|</span></span>
 <span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a><span class="kw">|</span> <span class="kw">|</span> <span class="kw">|</span> <span class="kw">|</span> <span class="ex">+---</span> Day of the week <span class="er">(</span><span class="ex">0</span> <span class="at">-</span> 7, where both 0 and 7 represent Sunday<span class="kw">)</span></span>
 <span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a><span class="kw">|</span> <span class="kw">|</span> <span class="kw">|</span> <span class="ex">+-----</span> Month <span class="er">(</span><span class="ex">1</span> <span class="at">-</span> 12<span class="kw">)</span></span>
 <span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a><span class="kw">|</span> <span class="kw">|</span> <span class="ex">+-------</span> Day of the month <span class="er">(</span><span class="ex">1</span> <span class="at">-</span> 31<span class="kw">)</span></span>
 <span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a><span class="kw">|</span> <span class="ex">+---------</span> Hour <span class="er">(</span><span class="ex">0</span> <span class="at">-</span> 23<span class="kw">)</span></span>
-<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a><span class="ex">+-----------</span> Minute <span class="er">(</span><span class="ex">0</span> <span class="at">-</span> 59<span class="kw">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a><span class="ex">+-----------</span> Minute <span class="er">(</span><span class="ex">0</span> <span class="at">-</span> 59<span class="kw">)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p>The different fields are defined as: 1. Minute: Specifies the minute of the hour (0-59). 2. Hour: Specifies the hour of the day (0-23, 24-hour clock). 3. Day of the Month: Specifies the day of the month (1-31). 4. Month: Specifies the month (1-12, or names like jan, feb). 5. Day of the Week: Specifies the day of the week (0-7, where both 0 and 7 represent Sunday).</p>
 <p>Special characters can be used to indicated: - <code>*</code>: Wildcard that means “every” (e.g., every minute, every hour). - <code>,</code>: List separator (e.g., 1,15 means the 1st and 15th). - <code>-</code>: Range (e.g., 1-5 means days 1 through 5). - <code>/</code>: Step values (e.g., */5 means every 5 units, like every 5 minutes).</p>
@@ -569,7 +570,7 @@ print(Sys.info())
 <h4 class="anchored" data-anchor-id="step-3.4-verify-the-cron-job">Step 3.4: Verify the <code>cron</code> job</h4>
 <p>Once you’ve configured your chrontab, you can check that the <code>cron</code> job has been scheduled successfully by running:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">crontab</span> <span class="at">-l</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">crontab</span> <span class="at">-l</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </section>
 </section>
@@ -577,7 +578,7 @@ print(Sys.info())
 <h3 class="anchored" data-anchor-id="run-the-pipeline-manually">4. Run the pipeline manually</h3>
 <p>Before waiting for the first scheduled runtime, test that everything is set up correctly by manually running the <code>.sh</code> script in the terminal:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="ex">/path/to/run_pipeline.sh</span> </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="ex">/path/to/run_pipeline.sh</span> </span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </section>
 <section id="wait-for-the-scheduled-runtime" class="level3">
@@ -657,13 +658,14 @@ print(Sys.info())
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
