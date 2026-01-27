@@ -1,0 +1,232 @@
+---
+title: "Transmission Dynamics & Tools"
+subtitle: "Estimating epidemiological parameters and developing accessible analysis tools"
+page-layout: article
+title-block-banner: "#e67e22"
+title-block-banner-color: white
+---
+
+```{=html}
+<style>
+.highlight-card {
+  border-left: 4px solid #e67e22;
+  background: linear-gradient(135deg, #f8f9fa 0%, #fff3e0 100%);
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  border-radius: 0 8px 8px 0;
+}
+
+.project-card {
+  background: white;
+  border: 1px solid #dee2e6;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+
+.project-card h3 {
+  color: #2c3e50;
+  margin-bottom: 0.75rem;
+  font-size: 1.25rem;
+}
+
+.pub-item {
+  background: #f8f9fa;
+  padding: 1rem 1.25rem;
+  margin: 0.75rem 0;
+  border-radius: 8px;
+  border-left: 3px solid #e67e22;
+}
+
+.pub-item:hover {
+  background: #e9ecef;
+}
+
+.section-header {
+  border-bottom: 2px solid #e67e22;
+  padding-bottom: 0.5rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.featured-image {
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+  margin: 2rem 0;
+}
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #6c757d;
+  text-decoration: none;
+  font-weight: 500;
+  margin-top: 2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.back-link:hover {
+  background: #f8f9fa;
+  color: #2c3e50;
+}
+
+.software-highlight {
+  background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%);
+  border: 2px solid #e67e22;
+  border-radius: 12px;
+  padding: 2rem;
+  margin: 1.5rem 0;
+  text-align: center;
+}
+
+.software-highlight h3 {
+  color: #e67e22;
+  margin-bottom: 1rem;
+}
+
+.software-features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+  text-align: left;
+}
+
+.software-feature {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  font-size: 0.95rem;
+}
+
+.disease-card {
+  background: white;
+  border: 1px solid #dee2e6;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  border-top: 4px solid #e67e22;
+}
+
+.disease-card h3 {
+  color: #e67e22;
+  margin-bottom: 0.75rem;
+}
+
+.finding-list {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0 0;
+}
+
+.finding-list li {
+  padding: 0.5rem 0 0.5rem 1.5rem;
+  position: relative;
+}
+
+.finding-list li::before {
+  content: "→";
+  position: absolute;
+  left: 0;
+  color: #e67e22;
+  font-weight: bold;
+}
+</style>
+```
+
+::: {.highlight-card}
+**Focus:** Understanding fundamental characteristics of infectious disease transmission and developing accessible software tools for outbreak analysis.
+:::
+
+![](../images/placeholder_transmission.png){.featured-image fig-align="center" width="100%"}
+
+## The mitey Package {.section-header}
+
+::: {.software-highlight}
+### Serial Interval & Reproduction Number Estimation
+
+[**mitey**](https://kylieainslie.github.io/mitey/) is a lightweight R package for estimating key epidemiological parameters from outbreak data.
+
+::: {.software-features}
+::: {.software-feature}
+**Vink Method**<br>
+Serial interval estimation from outbreak data with mixture models
+:::
+
+::: {.software-feature}
+**Time-Varying R**<br>
+Reproduction number estimation tracking transmission over time
+:::
+
+::: {.software-feature}
+**Robust Fitting**<br>
+Multiple restarts & convergence diagnostics for reliable estimates
+:::
+
+::: {.software-feature}
+**Well Documented**<br>
+Vignettes with real-world examples and validation
+:::
+:::
+
+::: {.btn-group}
+[Documentation](https://kylieainslie.github.io/mitey/){.btn .btn-warning .btn-sm} [CRAN](https://cran.r-project.org/package=mitey){.btn .btn-outline-secondary .btn-sm} [GitHub](https://github.com/kylieainslie/mitey){.btn .btn-outline-secondary .btn-sm}
+:::
+:::
+
+## Disease Investigations {.section-header}
+
+::: {.disease-card}
+### Epidemiology of Scabies
+
+Scabies is a contagious skin disease caused by the *Sarcoptes scabiei* mite, affecting over **400 million people annually** worldwide. Despite its prevalence, fundamental epidemiological characteristics have remained poorly described.
+
+Using data from Dutch sentinel surveillance (2011-2023), we provided:
+
+<ul class="finding-list">
+<li>**First published estimates** of the mean serial interval of scabies infection</li>
+<li>**Time-varying reproduction numbers** showing increasing transmission in recent years</li>
+<li>**Methods applicable** to other neglected tropical diseases</li>
+</ul>
+:::
+
+::: {.disease-card}
+### Mpox Transmission
+
+Following the 2022 mpox outbreak in non-endemic regions, we investigated transmission characteristics using detailed exposure histories from cases in the Netherlands.
+
+<ul class="finding-list">
+<li>**Serial interval estimates** from identified transmission pairs</li>
+<li>**Evidence of presymptomatic transmission** informing isolation guidance</li>
+<li>**Public health recommendations** for contact tracing protocols</li>
+</ul>
+:::
+
+## Key Publications {.section-header}
+
+::: {.pub-item}
+**Ainslie, K. E. C.**, Hooiveld, M., Wallinga, J. Estimation of the epidemiological characteristics of scabies. *(preprint)* 2025. [Read paper →](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5184990)
+:::
+
+::: {.pub-item}
+Miura, F., Backer, J. A., van Rijckevorsel, G., *et al*. Time Scales of Human Mpox Transmission in The Netherlands. *J Infect Dis.* 2023. [Read paper →](https://doi.org/10.1093/infdis/jiad091)
+:::
+
+## Related Software {.section-header}
+
+::: {.btn-group}
+[mitey](https://kylieainslie.github.io/mitey/){.btn .btn-warning .btn-sm} [CRAN](https://cran.r-project.org/package=mitey){.btn .btn-outline-secondary .btn-sm} [GitHub](https://github.com/kylieainslie/mitey){.btn .btn-outline-secondary .btn-sm} [Scabies Vignette](https://kylieainslie.github.io/mitey/articles/epidemiology_of_scabies.html){.btn .btn-outline-info .btn-sm}
+:::
+
+<a href="../research.html" class="back-link">← Back to Research</a>

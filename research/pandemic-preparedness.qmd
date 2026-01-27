@@ -1,0 +1,146 @@
+---
+title: "Pandemic Preparedness & Response"
+subtitle: "Real-time modelling and analysis during infectious disease outbreaks"
+page-layout: article
+title-block-banner: "#2c3e50"
+title-block-banner-color: white
+---
+
+```{=html}
+<style>
+.highlight-card {
+  border-left: 4px solid #3498db;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  border-radius: 0 8px 8px 0;
+}
+
+.project-card {
+  background: white;
+  border: 1px solid #dee2e6;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+
+.project-card h3 {
+  color: #2c3e50;
+  margin-bottom: 0.75rem;
+  font-size: 1.25rem;
+}
+
+.pub-item {
+  background: #f8f9fa;
+  padding: 1rem 1.25rem;
+  margin: 0.75rem 0;
+  border-radius: 8px;
+  border-left: 3px solid #3498db;
+}
+
+.pub-item:hover {
+  background: #e9ecef;
+}
+
+.section-header {
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 0.5rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.featured-image {
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+  margin: 2rem 0;
+}
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #6c757d;
+  text-decoration: none;
+  font-weight: 500;
+  margin-top: 2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.back-link:hover {
+  background: #f8f9fa;
+  color: #2c3e50;
+}
+</style>
+```
+
+::: {.highlight-card}
+**Focus:** Developing and applying real-time analytical frameworks for outbreak response, from community surveillance to intervention evaluation.
+:::
+
+![](../images/placeholder_pandemic.png){.featured-image fig-align="center" width="100%"}
+
+## COVID-19 Pandemic Response {.section-header}
+
+During the COVID-19 pandemic, I contributed to several major initiatives providing real-time epidemiological intelligence:
+
+::: {.project-card}
+### REACT Study (England)
+
+The REal-time Assessment of Community Transmission (REACT) study was one of the largest community surveillance programmes for SARS-CoV-2. Using repeated cross-sectional surveys of random samples of the population in England, we tracked infection prevalence and detected resurgences before they appeared in routine surveillance data.
+:::
+
+::: {.project-card}
+### European Interventions Analysis
+
+As part of the Imperial College COVID-19 Response Team, we estimated the effects of non-pharmaceutical interventions on COVID-19 transmission across 11 European countries. This work, published in *Nature*, demonstrated that lockdowns substantially reduced transmission and prevented millions of deaths.
+:::
+
+::: {.project-card}
+### China's Exit from Lockdown
+
+We developed methods to track the success of China's exit from strict social distancing measures by analyzing the relationship between mobility data and transmission dynamics.
+:::
+
+## ESCAPE Project {.section-header}
+
+::: {.project-card}
+The [**ESCAPE**](https://www.escapepandemics.com/) (European Surveillance and Control of Antimicrobial Resistant, Pandemic, and Epidemic Diseases) project aims to build European capacity for rapid response to future pandemic threats.
+
+**Key objectives:**
+
+- Developing standardised surveillance protocols
+- Building modelling capacity across European institutions
+- Creating frameworks for rapid data sharing during outbreaks
+- Training the next generation of outbreak responders
+:::
+
+## Key Publications {.section-header}
+
+::: {.pub-item}
+Riley, S., **Ainslie, K. E. C.**, *et al*. Resurgence of SARS-CoV-2: Detection by community viral surveillance. *Science* 2021. [Read paper →](https://doi.org/10.1126/science.abf0874)
+:::
+
+::: {.pub-item}
+Flaxman, S., *et al*. Estimating the effects of non-pharmaceutical interventions on COVID-19 in Europe. *Nature* 2020. [Read paper →](https://doi.org/10.1038/s41586-020-2405-7)
+:::
+
+::: {.pub-item}
+**Ainslie, K. E. C.**, *et al*. Evidence of initial success for China exiting COVID-19 social distancing policy. *Wellcome Open Research* 2020. [Read paper →](https://doi.org/10.12688/wellcomeopenres.15843.2)
+:::
+
+## Related Software {.section-header}
+
+::: {.btn-group}
+[pika](https://mrc-ide.github.io/pika/){.btn .btn-primary .btn-sm}
+:::
+
+<a href="../research.html" class="back-link">← Back to Research</a>

@@ -1,0 +1,173 @@
+---
+title: "Modelling for Public Health Policy"
+subtitle: "Using mathematical models to inform health policy decisions"
+page-layout: article
+title-block-banner: "#27ae60"
+title-block-banner-color: white
+---
+
+```{=html}
+<style>
+.highlight-card {
+  border-left: 4px solid #27ae60;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e8f5e9 100%);
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  border-radius: 0 8px 8px 0;
+}
+
+.project-card {
+  background: white;
+  border: 1px solid #dee2e6;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+
+.project-card h3 {
+  color: #2c3e50;
+  margin-bottom: 0.75rem;
+  font-size: 1.25rem;
+}
+
+.pub-item {
+  background: #f8f9fa;
+  padding: 1rem 1.25rem;
+  margin: 0.75rem 0;
+  border-radius: 8px;
+  border-left: 3px solid #27ae60;
+}
+
+.pub-item:hover {
+  background: #e9ecef;
+}
+
+.section-header {
+  border-bottom: 2px solid #27ae60;
+  padding-bottom: 0.5rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.featured-image {
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+  margin: 2rem 0;
+}
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #6c757d;
+  text-decoration: none;
+  font-weight: 500;
+  margin-top: 2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.back-link:hover {
+  background: #f8f9fa;
+  color: #2c3e50;
+}
+
+.key-points {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.key-point {
+  background: #e8f5e9;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 500;
+  color: #2c3e50;
+}
+</style>
+```
+
+::: {.highlight-card}
+**Focus:** Developing and applying mathematical models to evaluate intervention strategies and support evidence-based public health decision-making.
+:::
+
+![](../images/placeholder_policy.png){.featured-image fig-align="center" width="100%"}
+
+## COVID-19 Vaccination Strategies {.section-header}
+
+::: {.project-card}
+### Scenario Modelling in the Netherlands
+
+During the COVID-19 pandemic, I led scenario modelling efforts at RIVM (the Dutch National Institute for Public Health and the Environment) to anticipate the impact of vaccination strategies. We developed a deterministic age-structured compartmental model (**vacamole**) to compare different vaccination scenarios with respect to disease outcomes.
+
+::: {.key-points}
+::: {.key-point}
+Infections
+:::
+::: {.key-point}
+Hospitalisations
+:::
+::: {.key-point}
+ICU Admissions
+:::
+::: {.key-point}
+Deaths
+:::
+:::
+
+Key analyses included evaluating the impact of extending vaccination to adolescents and children, comparing different vaccine rollout strategies, and assessing the timing and targeting of booster campaigns.
+:::
+
+::: {.project-card}
+### European Scenario Modelling Hub
+
+I contributed to the [**European COVID-19 Scenario Modelling Hub**](https://covid19scenariohub.eu/), a collaborative initiative that brought together modelling teams across Europe to provide ensemble projections for policy planning.
+
+This work demonstrated the value of multi-model approaches for capturing uncertainty in epidemic projections and informed public health planning across multiple countries.
+:::
+
+## Beyond Vaccination {.section-header}
+
+::: {.project-card}
+### Intervention Analysis
+
+My policy modelling work extends beyond vaccination to evaluating non-pharmaceutical interventions and their timing:
+
+- **Optimal timing** of intervention implementation
+- **Trade-offs** between intervention stringency and duration
+- **Regional coordination** of public health measures
+- **Resource allocation** during outbreak response
+:::
+
+## Key Publications {.section-header}
+
+::: {.pub-item}
+**Ainslie, K. E. C.**, *et al*. A scenario modelling analysis to anticipate the impact of COVID-19 vaccination in adolescents and children on disease outcomes in the Netherlands, summer 2021. *Euro Surveill.* 2022. [Read paper →](https://doi.org/10.2807/1560-7917.ES.2022.27.44.2101090)
+:::
+
+::: {.pub-item}
+Sherratt, K., *et al*. Characterising information gains and losses when collecting multiple epidemic model outputs. *Epidemics* 2024. [Read paper →](https://doi.org/10.1016/j.epidem.2024.100765)
+:::
+
+::: {.pub-item}
+**Ainslie, K. E. C.** *et al.* The expected outcome of COVID-19 vaccination strategies. RIVM 2021. [Read report →](https://www.rivm.nl/documenten/expected-outcome-of-covid-19-vaccination-strategies)
+:::
+
+## Related Software {.section-header}
+
+::: {.btn-group}
+[vacamole](https://github.com/kylieainslie/vacamole){.btn .btn-success .btn-sm} [European Scenario Hub](https://github.com/european-modelling-hubs/covid19-scenario-hub-europe){.btn .btn-outline-secondary .btn-sm}
+:::
+
+<a href="../research.html" class="back-link">← Back to Research</a>
