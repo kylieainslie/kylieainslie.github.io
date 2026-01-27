@@ -44,7 +44,7 @@ h3.listing-title a {
 
 /* Card header styling */
 .card-header {
-    background: var(--bs-success, #78c2ad);
+    background: #2c3e50;
     color: white;
     padding: 1.5rem;
     border: none;
@@ -52,7 +52,7 @@ h3.listing-title a {
 
 /* Dark mode header */
 [data-bs-theme="dark"] .card-header {
-    background: var(--bs-success, #00bc8c);
+    background: #1a252f;
 }
 
 .card-header h2 {

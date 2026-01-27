@@ -1,41 +1,128 @@
 ---
-title: "Research Projects"
-editor: visual
+title: "Research"
+subtitle: "Infectious disease modelling, vaccine effectiveness, and epidemiological methods"
+page-layout: full
+title-block-banner: true
 ---
 
-------------------------------------------------------------------------
+::::::::::::::::::::::::::: grid
+:::::::::: {.g-col-12 .g-col-md-6}
+::::::::: {.card .h-100 .research-card}
+<a href="research/pandemic-preparedness.html" class="stretched-link"></a>
 
-## Evaluation of WAning Vaccine Effectiveness (WAVE)
+::: card-header
+![](images/placeholder_pandemic.jpg){.card-img-top style="height: 250px; object-fit: cover;"}
+:::
 
-Information regarding decreasing VE is essential to optimally design booster vaccination campaigns with respect to the risk of outbreaks and whether repeated vaccination is cost-effective and ethical. The COVID-19 pandemic highlighted the lack of robust methods to: assess waning vaccine effectiveness, disentangle true from perceived waning, and identify determinants of waning. In this project, we aim to develop and rigorously compare methods to assess waning vaccine-induced protection (for vaccines such as those against pertussis, influenza, and COVID-19). Using these methods, we will analyze data from observational studies to estimate the rate of waning vaccine effectiveness and determine how individual characteristics influence rate of waning vaccine-induced protection.
+::::::: {.card-body}
+::: card-title
+## Pandemic Preparedness & Response
+:::
 
-#### Related publications
+::: card-text
+Real-time modelling during outbreaks, evaluation of interventions, and building systems for rapid response to emerging infectious disease threats.
+:::
+:::::::
+:::::::::
+::::::::::
 
--   Haber, M., et al. Comparing statistical methods for detecting and estimating waning efficacy of rotavirus vaccines in developing countries. Hum Vaccin Immunother. 2021;17: 4632–4635. [link](https://pubmed.ncbi.nlm.nih.gov/34613877/)
+:::::::::: {.g-col-12 .g-col-md-6}
+::::::::: {.card .h-100 .research-card}
+<a href="research/policy-modelling.html" class="stretched-link"></a>
 
-## Modelling the impact of vaccination strategies
+::: card-header
+![](images/placeholder_policy.jpg){.card-img-top style="height: 250px; object-fit: cover;"}
+:::
 
-In this project, we use mathematical models of infectious disease transmission to determine the impact of vaccination strategies on disease spread. Specifically, we developed a deterministic age-structured compartmental model to compare different COVID-19 vaccination scenarios with respect to disease outcomes (e.g., infections, hospitalisations). This work also contributed to the [European Scenario Modelling Hub](https://covid19scenariohub.eu/).
+::::::: {.card-body}
+::: card-title
+## Modelling for Public Health Policy
+:::
 
-#### Related publications
+::: card-text
+Using mathematical models to inform public health decision-making, including vaccination strategies, intervention timing, and resource allocation.
+:::
+:::::::
+:::::::::
+::::::::::
 
--   Ainslie, K. E. C., *et al*. A scenario modelling analysis to anticipate the impact of COVID-19 vaccination in adolescents and children on disease outcomes in the Netherlands, summer 2021. Euro Surveill. 2022;27(44):pii=2101090. [link](https://doi.org/10.2807/1560-7917.ES.2022.27.44.2101090)
+:::::::::: {.g-col-12 .g-col-md-6}
+::::::::: {.card .h-100 .research-card}
+<a href="research/vaccine-effectiveness.html" class="stretched-link"></a>
 
--   Sherratt, K., *et al*. Characterising information gains and losses when collecting multiple epidemic model outputs. medRxiv 2024. [link](https://doi.org/10.1101/2023.07.05.23292245)
+::: card-header
+![](images/placeholder_ve.jpg){.card-img-top style="height: 250px; object-fit: cover;"}
+:::
 
--   Ainslie, K. E. C. *et al.* The expected outcome of COVID-19 vaccination strategies. RIVM 2021. [link](https://www.rivm.nl/documenten/expected-outcome-of-covid-19-vaccination-strategies)
+::::::: {.card-body}
+::: card-title
+## Vaccine Effectiveness Methods
+:::
 
-#### Related links
+::: card-text
+Developing and evaluating statistical methods for estimating vaccine effectiveness from observational data, including methods to assess waning protection.
+:::
+:::::::
+:::::::::
+::::::::::
 
--   Transmission model code base: <https://github.com/kylieainslie/vacamole>
+:::::::::: {.g-col-12 .g-col-md-6}
+::::::::: {.card .h-100 .research-card}
+<a href="research/transmission-dynamics.html" class="stretched-link"></a>
 
--   European scenario modelling hub: <https://github.com/european-modelling-hubs/covid19-scenario-hub-europe>
+::: card-header
+![](images/placeholder_transmission.jpg){.card-img-top style="height: 250px; object-fit: cover;"}
+:::
 
-## Estimating the epidemiological characteristics of scabies
+::::::: {.card-body}
+::: card-title
+## Transmission Dynamics & Tools
+:::
 
-Scabies is a contagious skin disease caused by the infestation of the skin by the Sarcopes scabiei mite, causing an itchy rash. Scabies affects over 400 million people annually worldwide, and a rise in scabies cases has been observed in recent years throughout Western Europe. Despite the prevalence of scabies, some fundamental epidemiological characteristics of scabies infections have not been described. In this project, we use publicly available data on date of symptom onset during scabies outbreaks to estimate the mean serial interval, time between symptom onset in an infector and symptom onset in an infectee, of scabies infection. We also use weekly counts of scabies diagnoses from sentinel surveillance in the Netherlands from 2011-2023 to determine quantities related to the spread of scabies over time, namely, the time-varying reproduction number, growth rate, and basic reproduction number.
+::: card-text
+Estimating fundamental epidemiological parameters and developing accessible software tools for outbreak analysis and disease surveillance.
+:::
+:::::::
+:::::::::
+::::::::::
+:::::::::::::::::::::::::::
 
-#### Related links
+```{=html}
+<style>
+.research-card {
+  position: relative;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+}
 
--   Ainslie, K. E. C. , M. Hooiveld, J. Wallinga. Estimation of the epidemiological characteristics of scabies. *(preprint)* 2025. [link](https://kylieainslie.github.io/mitey/articles/epidemiology_of_scabies.html)
--   `mitey` R package: <https://github.com/kylieainslie/mitey>
+.research-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.research-card .stretched-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.research-card .card-title h2 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.research-card .card-text {
+  color: var(--bs-secondary-color);
+  font-size: 0.95rem;
+}
+</style>
+```
+
+---
+
+## Collaboration
+
+Interested in collaborating on any of these research areas? I'm always open to new projects and partnerships. Feel free to reach out via email or connect on GitHub.
