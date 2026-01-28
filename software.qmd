@@ -88,7 +88,7 @@ An R package that features a multi-annual, individual-based, stochastic, force o
 
 ::::::: {.card-body .d-flex .flex-column}
 ::: card-title
-## [pika](https://github.com/mrc-ide/pika)
+## [pika](https://mrc-ide.github.io/pika/)
 :::
 
 ::: card-text

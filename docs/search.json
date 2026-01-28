@@ -231,32 +231,193 @@
     "text": "Hello!\nI’m Kylie Ainslie, and I am the Modelling For Policy Lead at The Peter Doherty Institute for Infection and Immunity at the University of Melbourne (UoM, 2025-Present) and an Honorary Assistant Professor at the University of Hong Kong School of Public Health (2022-Present). At UoM, I lead a large multidisciplinary team that directly informs Australia’s National Immunisation Program. My broader research interests are the development of mathematical and statistical methods to determine how vaccine-induced protection wanes over time and the development of open-source software. At the University of Hong Kong my work focuses on determining the real world protection provided by vaccines against respiratory diseases, such as COVID-19 and influenza.\nPreviously, I was an Senior Researcher in infectious disease modelling at the Dutch National Institute of Public Health and the Environment (RIVM) (2020-2025), where my work focused on using mathematical models of infectious disease transmission to determine the impact of vaccination strategies on disease spread.\nPrior to joining RIVM, I was a postdoctoral researcher at the MRC Centre for Global Infectious Disease Analysis at Imperial College London (2018-2020), where I was involved in modelling infectious disease dynamics, specifically developing individual-based mathematical models of susceptibility to determine how repeated exposures to pathogens (e.g., influenza) and interventions (e.g., vaccines) influence an individual’s susceptibility to subsequent infections. I was also a member of the Imperial COVID-19 Response Team and actively involved in the modelling and characterisation of the ongoing COVID-19 pandemic, including as part of the Real-time Assessment of Community Transmission (REACT) study analytical team.\nI obtained a PhD in Biostatistics from Emory University. My doctoral research focused on developing stochastic, agent-based models of infectious diseases and statistical methods to evaluate vaccine effectiveness from observational studies."
   },
   {
-    "objectID": "research.html#evaluation-of-waning-vaccine-effectiveness-wave",
-    "href": "research.html#evaluation-of-waning-vaccine-effectiveness-wave",
-    "title": "Research Projects",
-    "section": "Evaluation of WAning Vaccine Effectiveness (WAVE)",
-    "text": "Evaluation of WAning Vaccine Effectiveness (WAVE)\nInformation regarding decreasing VE is essential to optimally design booster vaccination campaigns with respect to the risk of outbreaks and whether repeated vaccination is cost-effective and ethical. The COVID-19 pandemic highlighted the lack of robust methods to: assess waning vaccine effectiveness, disentangle true from perceived waning, and identify determinants of waning. In this project, we aim to develop and rigorously compare methods to assess waning vaccine-induced protection (for vaccines such as those against pertussis, influenza, and COVID-19). Using these methods, we will analyze data from observational studies to estimate the rate of waning vaccine effectiveness and determine how individual characteristics influence rate of waning vaccine-induced protection.\n\nRelated publications\n\nHaber, M., et al. Comparing statistical methods for detecting and estimating waning efficacy of rotavirus vaccines in developing countries. Hum Vaccin Immunother. 2021;17: 4632–4635. link"
+    "objectID": "research/pandemic-preparedness.html",
+    "href": "research/pandemic-preparedness.html",
+    "title": "Pandemic Preparedness & Response",
+    "section": "",
+    "text": "Focus: Developing and applying real-time analytical frameworks for outbreak response, from community surveillance to intervention evaluation."
   },
   {
-    "objectID": "research.html#modelling-the-impact-of-vaccination-strategies",
-    "href": "research.html#modelling-the-impact-of-vaccination-strategies",
-    "title": "Research Projects",
-    "section": "Modelling the impact of vaccination strategies",
-    "text": "Modelling the impact of vaccination strategies\nIn this project, we use mathematical models of infectious disease transmission to determine the impact of vaccination strategies on disease spread. Specifically, we developed a deterministic age-structured compartmental model to compare different COVID-19 vaccination scenarios with respect to disease outcomes (e.g., infections, hospitalisations). This work also contributed to the European Scenario Modelling Hub.\n\nRelated publications\n\nAinslie, K. E. C., et al. A scenario modelling analysis to anticipate the impact of COVID-19 vaccination in adolescents and children on disease outcomes in the Netherlands, summer 2021. Euro Surveill. 2022;27(44):pii=2101090. link\nSherratt, K., et al. Characterising information gains and losses when collecting multiple epidemic model outputs. medRxiv 2024. link\nAinslie, K. E. C. et al. The expected outcome of COVID-19 vaccination strategies. RIVM 2021. link\n\n\n\nRelated links\n\nTransmission model code base: https://github.com/kylieainslie/vacamole\nEuropean scenario modelling hub: https://github.com/european-modelling-hubs/covid19-scenario-hub-europe"
+    "objectID": "research/pandemic-preparedness.html#overview",
+    "href": "research/pandemic-preparedness.html#overview",
+    "title": "Pandemic Preparedness & Response",
+    "section": "",
+    "text": "Pandemic preparedness requires robust analytical frameworks that can be rapidly deployed during emerging outbreaks. My work focuses on developing and applying real-time modelling approaches to support public health decision-making during epidemics and pandemics."
   },
   {
-    "objectID": "research.html#estimating-the-epidemiological-characteristics-of-scabies",
-    "href": "research.html#estimating-the-epidemiological-characteristics-of-scabies",
-    "title": "Research Projects",
-    "section": "Estimating the epidemiological characteristics of scabies",
-    "text": "Estimating the epidemiological characteristics of scabies\nScabies is a contagious skin disease caused by the infestation of the skin by the Sarcopes scabiei mite, causing an itchy rash. Scabies affects over 400 million people annually worldwide, and a rise in scabies cases has been observed in recent years throughout Western Europe. Despite the prevalence of scabies, some fundamental epidemiological characteristics of scabies infections have not been described. In this project, we use publicly available data on date of symptom onset during scabies outbreaks to estimate the mean serial interval, time between symptom onset in an infector and symptom onset in an infectee, of scabies infection. We also use weekly counts of scabies diagnoses from sentinel surveillance in the Netherlands from 2011-2023 to determine quantities related to the spread of scabies over time, namely, the time-varying reproduction number, growth rate, and basic reproduction number.\n\nRelated links\n\nAinslie, K. E. C. , M. Hooiveld, J. Wallinga. Estimation of the epidemiological characteristics of scabies. (preprint) 2025. link\nmitey R package: https://github.com/kylieainslie/mitey"
+    "objectID": "research/pandemic-preparedness.html#covid-19-pandemic-response",
+    "href": "research/pandemic-preparedness.html#covid-19-pandemic-response",
+    "title": "Pandemic Preparedness & Response",
+    "section": "COVID-19 Pandemic Response",
+    "text": "COVID-19 Pandemic Response\nDuring the COVID-19 pandemic, I contributed to several major initiatives providing real-time epidemiological intelligence:\n\nREACT Study (England)\nThe REal-time Assessment of Community Transmission (REACT) study was one of the largest community surveillance programmes for SARS-CoV-2. Using repeated cross-sectional surveys of random samples of the population in England, we tracked infection prevalence and detected resurgences before they appeared in routine surveillance data.\n\n\nEuropean Interventions Analysis\nAs part of the Imperial College COVID-19 Response Team, we estimated the effects of non-pharmaceutical interventions on COVID-19 transmission across 11 European countries. This work, published in Nature, demonstrated that lockdowns substantially reduced transmission and prevented millions of deaths.\n\n\nChina’s Exit from Lockdown\nWe developed methods to track the success of China’s exit from strict social distancing measures by analyzing the relationship between mobility data and transmission dynamics."
+  },
+  {
+    "objectID": "research/pandemic-preparedness.html#escape-project",
+    "href": "research/pandemic-preparedness.html#escape-project",
+    "title": "Pandemic Preparedness & Response",
+    "section": "ESCAPE Project",
+    "text": "ESCAPE Project\n\nThe ESCAPE (European Surveillance and Control of Antimicrobial Resistant, Pandemic, and Epidemic Diseases) project aims to build European capacity for rapid response to future pandemic threats.\nKey objectives:\n\nDeveloping standardised surveillance protocols\nBuilding modelling capacity across European institutions\nCreating frameworks for rapid data sharing during outbreaks\nTraining the next generation of outbreak responders"
+  },
+  {
+    "objectID": "research/pandemic-preparedness.html#key-publications",
+    "href": "research/pandemic-preparedness.html#key-publications",
+    "title": "Pandemic Preparedness & Response",
+    "section": "Key Publications",
+    "text": "Key Publications\n\nRiley, S., Ainslie, K. E. C., et al. Resurgence of SARS-CoV-2: Detection by community viral surveillance. Science 2021. Read paper →\n\n\nFlaxman, S., et al. Estimating the effects of non-pharmaceutical interventions on COVID-19 in Europe. Nature 2020. Read paper →\n\n\nAinslie, K. E. C., et al. Evidence of initial success for China exiting COVID-19 social distancing policy. Wellcome Open Research 2020. Read paper →"
+  },
+  {
+    "objectID": "research/pandemic-preparedness.html#related-software",
+    "href": "research/pandemic-preparedness.html#related-software",
+    "title": "Pandemic Preparedness & Response",
+    "section": "Related Software",
+    "text": "Related Software\n\npika\n\n← Back to Research"
+  },
+  {
+    "objectID": "research/transmission-dynamics.html",
+    "href": "research/transmission-dynamics.html",
+    "title": "Transmission Dynamics & Tools",
+    "section": "",
+    "text": "Focus: Understanding fundamental characteristics of infectious disease transmission and developing accessible software tools for outbreak analysis."
+  },
+  {
+    "objectID": "research/transmission-dynamics.html#overview",
+    "href": "research/transmission-dynamics.html#overview",
+    "title": "Transmission Dynamics & Tools",
+    "section": "",
+    "text": "Understanding the fundamental characteristics of infectious disease transmission is essential for outbreak response and public health planning. My research focuses on estimating key epidemiological parameters and developing accessible software tools that make these methods widely available."
+  },
+  {
+    "objectID": "research/transmission-dynamics.html#serial-interval-reproduction-number-estimation",
+    "href": "research/transmission-dynamics.html#serial-interval-reproduction-number-estimation",
+    "title": "Transmission Dynamics & Tools",
+    "section": "Serial Interval & Reproduction Number Estimation",
+    "text": "Serial Interval & Reproduction Number Estimation\nThe serial interval (time between symptom onset in successive cases) and reproduction number (average number of secondary infections) are fundamental parameters for understanding disease spread. I have developed methods and software for estimating these parameters from outbreak data.\n\nThe mitey Package\nmitey is a lightweight R package that implements:\n\nThe Vink method for serial interval estimation from outbreak data\nMethods for estimating time-varying reproduction numbers\nConvergence diagnostics and multiple restart optimization for robust estimation\n\nThe package is available on CRAN and includes detailed vignettes demonstrating applications to real outbreak data."
+  },
+  {
+    "objectID": "research/transmission-dynamics.html#disease-investigations",
+    "href": "research/transmission-dynamics.html#disease-investigations",
+    "title": "Transmission Dynamics & Tools",
+    "section": "Disease Investigations",
+    "text": "Disease Investigations\n\nEpidemiology of Scabies\nScabies is a contagious skin disease caused by the Sarcoptes scabiei mite, affecting over 400 million people annually worldwide. Despite its prevalence, fundamental epidemiological characteristics have remained poorly described.\nUsing data from Dutch sentinel surveillance (2011-2023), we provided:\n\n\nFirst published estimates of the mean serial interval of scabies infection\n\n\nTime-varying reproduction numbers showing increasing transmission in recent years\n\n\nMethods applicable to other neglected tropical diseases\n\n\n\n\nMpox Transmission\nFollowing the 2022 mpox outbreak in non-endemic regions, we investigated transmission characteristics using detailed exposure histories from cases in the Netherlands.\n\n\nSerial interval estimates from identified transmission pairs\n\n\nEvidence of presymptomatic transmission informing isolation guidance\n\n\nPublic health recommendations for contact tracing protocols"
+  },
+  {
+    "objectID": "research/transmission-dynamics.html#key-publications",
+    "href": "research/transmission-dynamics.html#key-publications",
+    "title": "Transmission Dynamics & Tools",
+    "section": "Key Publications",
+    "text": "Key Publications\n\nAinslie, K. E. C., Hooiveld, M., Wallinga, J. Estimation of the epidemiological characteristics of scabies. (preprint) 2025. Read paper →\n\n\nMiura, F., Backer, J. A., van Rijckevorsel, G., et al. Time Scales of Human Mpox Transmission in The Netherlands. J Infect Dis. 2023. Read paper →"
+  },
+  {
+    "objectID": "research/transmission-dynamics.html#related-software",
+    "href": "research/transmission-dynamics.html#related-software",
+    "title": "Transmission Dynamics & Tools",
+    "section": "Related Software",
+    "text": "Related Software\n\nmitey CRAN GitHub Scabies Vignette\n\n← Back to Research"
+  },
+  {
+    "objectID": "research/policy-modelling.html",
+    "href": "research/policy-modelling.html",
+    "title": "Modelling for Public Health Policy",
+    "section": "",
+    "text": "Focus: Developing and applying mathematical models to evaluate intervention strategies and support evidence-based public health decision-making."
+  },
+  {
+    "objectID": "research/policy-modelling.html#overview",
+    "href": "research/policy-modelling.html#overview",
+    "title": "Modelling for Public Health Policy",
+    "section": "",
+    "text": "Mathematical models of infectious disease transmission are valuable tools for informing public health policy. My work focuses on developing and applying models that can evaluate different intervention scenarios and support evidence-based decision-making."
+  },
+  {
+    "objectID": "research/policy-modelling.html#covid-19-vaccination-strategies",
+    "href": "research/policy-modelling.html#covid-19-vaccination-strategies",
+    "title": "Modelling for Public Health Policy",
+    "section": "COVID-19 Vaccination Strategies",
+    "text": "COVID-19 Vaccination Strategies\n\nScenario Modelling in the Netherlands\nDuring the COVID-19 pandemic, I led scenario modelling efforts at RIVM (the Dutch National Institute for Public Health and the Environment) to anticipate the impact of vaccination strategies. We developed a deterministic age-structured compartmental model (vacamole) to compare different vaccination scenarios with respect to disease outcomes.\n\n\nInfections\n\n\nHospitalisations\n\n\nICU Admissions\n\n\nDeaths\n\n\nKey analyses included evaluating the impact of extending vaccination to adolescents and children, comparing different vaccine rollout strategies, and assessing the timing and targeting of booster campaigns.\n\n\nEuropean Scenario Modelling Hub\nI contributed to the European COVID-19 Scenario Modelling Hub, a collaborative initiative that brought together modelling teams across Europe to provide ensemble projections for policy planning.\nThis work demonstrated the value of multi-model approaches for capturing uncertainty in epidemic projections and informed public health planning across multiple countries."
+  },
+  {
+    "objectID": "research/policy-modelling.html#intervention-analysis",
+    "href": "research/policy-modelling.html#intervention-analysis",
+    "title": "Modelling for Public Health Policy",
+    "section": "Intervention Analysis",
+    "text": "Intervention Analysis\nBeyond vaccination, my policy modelling work extends to evaluating non-pharmaceutical interventions and their timing. This includes:\n\nOptimal timing of intervention implementation\nTrade-offs between intervention stringency and duration\nRegional coordination of public health measures"
+  },
+  {
+    "objectID": "research/policy-modelling.html#key-publications",
+    "href": "research/policy-modelling.html#key-publications",
+    "title": "Modelling for Public Health Policy",
+    "section": "Key Publications",
+    "text": "Key Publications\n\nAinslie, K. E. C., et al. A scenario modelling analysis to anticipate the impact of COVID-19 vaccination in adolescents and children on disease outcomes in the Netherlands, summer 2021. Euro Surveill. 2022. Read paper →\n\n\nSherratt, K., et al. Characterising information gains and losses when collecting multiple epidemic model outputs. Epidemics 2024. Read paper →\n\n\nAinslie, K. E. C. et al. The expected outcome of COVID-19 vaccination strategies. RIVM 2021. Read report →"
+  },
+  {
+    "objectID": "research/policy-modelling.html#related-software",
+    "href": "research/policy-modelling.html#related-software",
+    "title": "Modelling for Public Health Policy",
+    "section": "Related Software",
+    "text": "Related Software\n\nvacamole European Scenario Hub\n\n← Back to Research"
+  },
+  {
+    "objectID": "research/vaccine-effectiveness.html",
+    "href": "research/vaccine-effectiveness.html",
+    "title": "Vaccine Effectiveness Methods",
+    "section": "",
+    "text": "Focus: Developing and evaluating statistical methods that provide reliable vaccine effectiveness estimates while accounting for biases in observational study designs."
+  },
+  {
+    "objectID": "research/vaccine-effectiveness.html#overview",
+    "href": "research/vaccine-effectiveness.html#overview",
+    "title": "Vaccine Effectiveness Methods",
+    "section": "",
+    "text": "Estimating vaccine effectiveness (VE) from observational studies presents unique methodological challenges. My research focuses on developing and evaluating statistical methods that can provide reliable VE estimates while accounting for the biases inherent in different study designs."
+  },
+  {
+    "objectID": "research/vaccine-effectiveness.html#evaluation-of-waning-vaccine-effectiveness-wave",
+    "href": "research/vaccine-effectiveness.html#evaluation-of-waning-vaccine-effectiveness-wave",
+    "title": "Vaccine Effectiveness Methods",
+    "section": "Evaluation of Waning Vaccine Effectiveness (WAVE)",
+    "text": "Evaluation of Waning Vaccine Effectiveness (WAVE)\nThe COVID-19 pandemic highlighted the critical need for robust methods to assess how vaccine protection changes over time. The WAVE project addresses this gap by:\n\nDeveloping methods to rigorously compare approaches for assessing waning vaccine-induced protection\nDisentangling true from perceived waning - distinguishing actual decline in immunity from changes in the circulating pathogen or population\nIdentifying determinants of waning protection, including how individual characteristics influence the rate of decline\nApplications across multiple vaccines including pertussis, influenza, and COVID-19"
+  },
+  {
+    "objectID": "research/vaccine-effectiveness.html#influenza-vaccine-effectiveness",
+    "href": "research/vaccine-effectiveness.html#influenza-vaccine-effectiveness",
+    "title": "Vaccine Effectiveness Methods",
+    "section": "Influenza Vaccine Effectiveness",
+    "text": "Influenza Vaccine Effectiveness\n\nBias in Observational Studies\nI developed dynamic transmission models to evaluate sources of bias in observational VE studies, particularly the test-negative design. This work identified conditions under which test-negative studies may over- or underestimate true VE, providing guidance for study design and interpretation.\n\n\nTransmission Blocking\nUsing maximum likelihood estimation, I developed methods to estimate VE against both:\n\nSusceptibility to infection\nTransmission to others\n\nThese methods use household surveillance data to separately estimate these two components of vaccine protection.\n\n\nRepeat Vaccination Effects\nAnnual influenza vaccination raises questions about how prior vaccination affects current season protection. Using individual-based stochastic models (morevac), I investigated optimal vaccination strategies in children, accounting for complex exposure histories and antigenic dynamics."
+  },
+  {
+    "objectID": "research/vaccine-effectiveness.html#key-publications",
+    "href": "research/vaccine-effectiveness.html#key-publications",
+    "title": "Vaccine Effectiveness Methods",
+    "section": "Key Publications",
+    "text": "Key Publications\n\nAinslie, K. E. C., et al. A Dynamic Model for Evaluation of the Bias of Influenza Vaccine Effectiveness Estimates. Am J Epidemiol. 2018. Read paper →\n\n\nAinslie, K. E. C., et al. Challenges in estimating influenza vaccine effectiveness. Expert Rev Vaccines. 2019. Read paper →\n\n\nAinslie, K. E. C., et al. Maximum likelihood estimation of influenza vaccine effectiveness against transmission. Stat Med. 2017. Read paper →\n\n\nAinslie, K. E. C. and Riley, S. Is annual vaccination best? A modelling study of influenza vaccination strategies in children. Vaccine 2022. Read paper →\n\n\nHaber, M., et al. Comparing statistical methods for detecting and estimating waning efficacy of rotavirus vaccines in developing countries. Hum Vaccin Immunother. 2021. Read paper →\n\n\nTsang, T. K., et al. Prior infections and effectiveness of SARS-CoV-2 vaccine in test-negative studies. Am J Epidemiol. 2024. Read paper →"
+  },
+  {
+    "objectID": "research/vaccine-effectiveness.html#related-software",
+    "href": "research/vaccine-effectiveness.html#related-software",
+    "title": "Vaccine Effectiveness Methods",
+    "section": "Related Software",
+    "text": "Related Software\n\nmorevac\n\n← Back to Research"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Real-time modelling during outbreaks, evaluation of interventions, and building systems for rapid response to emerging infectious disease threats.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUsing mathematical models to inform public health decision-making, including vaccination strategies, intervention timing, and resource allocation.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDeveloping and evaluating statistical methods for estimating vaccine effectiveness from observational data, including methods to assess waning protection.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstimating fundamental epidemiological parameters and developing accessible software tools for outbreak analysis and disease surveillance."
+  },
+  {
+    "objectID": "research.html#collaboration",
+    "href": "research.html#collaboration",
+    "title": "Research",
+    "section": "Collaboration",
+    "text": "Collaboration\nInterested in collaborating on any of these research areas? I’m always open to new projects and partnerships. Feel free to reach out via email or connect on GitHub."
   },
   {
     "objectID": "publications.html",
     "href": "publications.html",
     "title": "Publications",
     "section": "",
-    "text": "Last updated: January 08, 2026\n\n\n\n\n\n\nNoteAbout\n\n\n\nAll publications are automatically updated from my ORCID profile.\nUse the search box to filter publications. Click column headers to sort."
+    "text": "Last updated: January 09, 2026\n\n\n\n\n\n\nNoteAbout\n\n\n\nAll publications are automatically updated from my ORCID profile.\nUse the search box to filter publications. Click column headers to sort."
   },
   {
     "objectID": "presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html#sarcoptes-scabiei",
@@ -817,5 +978,278 @@
     "title": "Automating Data Pipelines with Maeestro",
     "section": "Conclusion",
     "text": "Conclusion\nThat’s it! After setting up the YAML file, wrapping the pipeline in a function, creating the .sh file, and scheduling the job with cron, your pipeline should run automatically at the intervals you’ve defined. Remember, maestro handles the pipeline’s internal orchestration, but cron or another scheduling system is what ensures the pipeline is triggered at the right frequency."
+  },
+  {
+    "objectID": "research/policy-modelling.html#beyond-vaccination",
+    "href": "research/policy-modelling.html#beyond-vaccination",
+    "title": "Modelling for Public Health Policy",
+    "section": "Beyond Vaccination",
+    "text": "Beyond Vaccination\n\nIntervention Analysis\nMy policy modelling work extends beyond vaccination to evaluating non-pharmaceutical interventions and their timing:\n\nOptimal timing of intervention implementation\nTrade-offs between intervention stringency and duration\nRegional coordination of public health measures\nResource allocation during outbreak response"
+  },
+  {
+    "objectID": "research/vaccine-effectiveness.html#wave-project",
+    "href": "research/vaccine-effectiveness.html#wave-project",
+    "title": "Vaccine Effectiveness Methods",
+    "section": "WAVE Project",
+    "text": "WAVE Project\n\nEvaluation of Waning Vaccine Effectiveness\nThe COVID-19 pandemic highlighted the critical need for robust methods to assess how vaccine protection changes over time. The WAVE project addresses this gap through rigorous methodological development.\n\n\nMethod Development\nRigorously compare approaches for assessing waning vaccine-induced protection\n\n\nTrue vs Perceived Waning\nDistinguish actual immunity decline from changes in pathogen or population\n\n\nIndividual Determinants\nIdentify how characteristics influence rate of protection decline\n\n\nMulti-Disease Application\nMethods applicable across multiple vaccine types\n\n\n\nPertussis Influenza COVID-19 Rotavirus"
+  },
+  {
+    "objectID": "research/transmission-dynamics.html#the-mitey-package",
+    "href": "research/transmission-dynamics.html#the-mitey-package",
+    "title": "Transmission Dynamics & Tools",
+    "section": "The mitey Package",
+    "text": "The mitey Package\n\nSerial Interval & Reproduction Number Estimation\nmitey is a lightweight R package for estimating key epidemiological parameters from outbreak data.\n\n\nVink Method Serial interval estimation from outbreak data with mixture models\n\n\nTime-Varying R Reproduction number estimation tracking transmission over time\n\n\nRobust Fitting Multiple restarts & convergence diagnostics for reliable estimates\n\n\nWell Documented Vignettes with real-world examples and validation\n\n\n\nDocumentation CRAN GitHub"
+  },
+  {
+    "objectID": "presentations/2026/Antwerp_ITG/ITG_presentation.html#sarcoptes-scabiei",
+    "href": "presentations/2026/Antwerp_ITG/ITG_presentation.html#sarcoptes-scabiei",
+    "title": "Scabies, who cares?",
+    "section": "Sarcoptes scabiei",
+    "text": "Sarcoptes scabiei\n\n\n\n\nScabies is a disease caused by infestation of the skin with a microscopic mite.\n\n\na.k.a. the Itch or seven-year itch.\n\n\n\n\nFrom the Latin scabere, meaning ‘to scratch’.\n\n\n\n\n\n\nSymptoms are characterized by itchiness and rash at the site of infestation.\n\n\n\n\n\n\n\nScabies mite. Image Credit: Aliaksei Marozau / Shutterstock.com"
+  },
+  {
+    "objectID": "presentations/2026/Antwerp_ITG/ITG_presentation.html#how-does-scabies-spread",
+    "href": "presentations/2026/Antwerp_ITG/ITG_presentation.html#how-does-scabies-spread",
+    "title": "Scabies, who cares?",
+    "section": "How does scabies spread?",
+    "text": "How does scabies spread?\n\nDirect, extended, skin-to-skin contact\nSharing clothing, towels, or bedding used by an infected person\n\nLess common"
+  },
+  {
+    "objectID": "presentations/2026/Antwerp_ITG/ITG_presentation.html#scabies-worldwide",
+    "href": "presentations/2026/Antwerp_ITG/ITG_presentation.html#scabies-worldwide",
+    "title": "Scabies, who cares?",
+    "section": "Scabies Worldwide",
+    "text": "Scabies Worldwide\n\n\n\n\n\nScabies affects around 400 million people per year.\n\n\n\n\nAccounts for a large proportion of skin disease in many low- and middle-income countries\n\n\n\n\n\n\n\n\nKarimkhani et al. 2017. Lancet Infect. Dis. 17(12):1247 - 1254"
+  },
+  {
+    "objectID": "presentations/2026/Antwerp_ITG/ITG_presentation.html#scabies-in-europe-then",
+    "href": "presentations/2026/Antwerp_ITG/ITG_presentation.html#scabies-in-europe-then",
+    "title": "Scabies, who cares?",
+    "section": "Scabies in Europe (then)",
+    "text": "Scabies in Europe (then)\n\nScabies infections were a common affliction in Europe in the late 1800s and early 1900s\n\nHighest incidence seen in 1918 and 1945.\n\n\n\n\n\n\nSavin 2005. J R Soc Med; 98(3):124–129.4"
+  },
+  {
+    "objectID": "presentations/2026/Antwerp_ITG/ITG_presentation.html#scabies-in-europe-now",
+    "href": "presentations/2026/Antwerp_ITG/ITG_presentation.html#scabies-in-europe-now",
+    "title": "Scabies, who cares?",
+    "section": "Scabies in Europe (now)",
+    "text": "Scabies in Europe (now)\nA rise in scabies cases has been observed through out Europe in recent years.\n\n\n\n\n\nGermany: Reichert et al. 2021. Emerg Infect Dis.;27(6):1693–1696.\n\n\n\n\n\n\n\nCroatia: Lugović-Mihić et al. 2020. Zdravstveno Varstvo; 59(4):264-272.\n\n\n\n\n\n\n\nNorway: Amato et al. 2019. Eurosurveillance; 24(23):pii=190020.\n\n\n\n\n\n\n\nNetherlands: van Deursen et al. 2022. PLoS One; 17:e0268865\n\n\n\n\n\n\n\nBelgium: Laisnez et al. 2025. Arch Public Health 83:197"
+  },
+  {
+    "objectID": "presentations/2026/Antwerp_ITG/ITG_presentation.html#ok-so-whats-the-big-deal",
+    "href": "presentations/2026/Antwerp_ITG/ITG_presentation.html#ok-so-whats-the-big-deal",
+    "title": "Scabies, who cares?",
+    "section": "Ok, so what’s the big deal?",
+    "text": "Ok, so what’s the big deal?\n\nThe global disease burden of scabies is low compared to other infectious diseases\nDisease severity is also low"
+  },
+  {
+    "objectID": "presentations/2026/Antwerp_ITG/ITG_presentation.html#but",
+    "href": "presentations/2026/Antwerp_ITG/ITG_presentation.html#but",
+    "title": "Scabies, who cares?",
+    "section": "But…",
+    "text": "But…\nDuring periods of high scabies prevalence:\n\nHigher burden due to secondary infections\nIncreased pressure on healthcare systems\nNegative economic impacts\nStigma-related delays in care-seeking"
+  },
+  {
+    "objectID": "presentations/2026/Antwerp_ITG/ITG_presentation.html#what-we-need-to-know",
+    "href": "presentations/2026/Antwerp_ITG/ITG_presentation.html#what-we-need-to-know",
+    "title": "Scabies, who cares?",
+    "section": "What we need to know",
+    "text": "What we need to know\n\n\n\n\n\n\n\nAdapted from: Lehtinen et al. 2021. J. R. Soc. Interface.1820200756"
+  },
+  {
+    "objectID": "presentations/2026/Antwerp_ITG/ITG_presentation.html#what-we-need-to-know-1",
+    "href": "presentations/2026/Antwerp_ITG/ITG_presentation.html#what-we-need-to-know-1",
+    "title": "Scabies, who cares?",
+    "section": "What we need to know",
+    "text": "What we need to know\n\n\n\nthe incubation period: time from infection to symptom onset\n\n\n\n\n\nAdapted from: Lehtinen et al. 2021. J. R. Soc. Interface.1820200756"
+  },
+  {
+    "objectID": "presentations/2026/Antwerp_ITG/ITG_presentation.html#what-we-need-to-know-2",
+    "href": "presentations/2026/Antwerp_ITG/ITG_presentation.html#what-we-need-to-know-2",
+    "title": "Scabies, who cares?",
+    "section": "What we need to know",
+    "text": "What we need to know\n\n\n\nincubation period: time from infection to symptom onset\ngeneration time: time between infection of an index case and a secondary case\n\n\n\n\n\nAdapted from: Lehtinen et al. 2021. J. R. Soc. Interface.1820200756"
+  },
+  {
+    "objectID": "presentations/2026/Antwerp_ITG/ITG_presentation.html#what-we-need-to-know-3",
+    "href": "presentations/2026/Antwerp_ITG/ITG_presentation.html#what-we-need-to-know-3",
+    "title": "Scabies, who cares?",
+    "section": "What we need to know",
+    "text": "What we need to know\n\n\n\nincubation period: time from infection to symptom onset\ngeneration time: time between infection of an index case and a secondary case\nserial interval: the time from onset of symptoms in an index case to the time of symptom onset in a secondary case\n\n\n\n\n\nAdapted from: Lehtinen et al. 2021. J. R. Soc. Interface.1820200756"
+  },
+  {
+    "objectID": "presentations/2026/Antwerp_ITG/ITG_presentation.html#what-we-need-to-know-4",
+    "href": "presentations/2026/Antwerp_ITG/ITG_presentation.html#what-we-need-to-know-4",
+    "title": "Scabies, who cares?",
+    "section": "What we need to know",
+    "text": "What we need to know\n\n\n\nincubation period: time from infection to symptom onset\ngeneration time: time between infection of an index case and a secondary case\nserial interval: the time from onset of symptoms in an index case to the time of symptom onset in a secondary case\ngrowth rate: how quickly the numbers of infections are changing over time\n\n\n\n\n\nPicheira-Brown and Bentancor. 2021. Epidemics; 37:100486"
+  },
+  {
+    "objectID": "presentations/2026/Antwerp_ITG/ITG_presentation.html#what-we-need-to-know-5",
+    "href": "presentations/2026/Antwerp_ITG/ITG_presentation.html#what-we-need-to-know-5",
+    "title": "Scabies, who cares?",
+    "section": "What we need to know",
+    "text": "What we need to know\n\n\n\nincubation period: time from infection to symptom onset\ngeneration time: time between infection of an index case and a secondary case\nserial interval: the time from onset of symptoms in an index case to the time of symptom onset in a secondary case\ngrowth rate: how quickly the numbers of infections are changing over time\nreproduction number: the average number of secondary cases resulting from one index case\n\n\n\n\n\nAdam Cole/NPR"
+  },
+  {
+    "objectID": "presentations/2026/Antwerp_ITG/ITG_presentation.html#what-we-know",
+    "href": "presentations/2026/Antwerp_ITG/ITG_presentation.html#what-we-know",
+    "title": "Scabies, who cares?",
+    "section": "What we know",
+    "text": "What we know\n\nincubation period: time from infection to symptom onset\ngeneration time: time between infection of an index case and a secondary case\nserial interval: the time from onset of symptoms in an index case to the time of symptom onset in a secondary case\ngrowth rate: how quickly the numbers of infections are changing over time\nreproduction number: the average number of secondary cases resulting from one index case"
+  },
+  {
+    "objectID": "presentations/2026/Antwerp_ITG/ITG_presentation.html#what-we-know-1",
+    "href": "presentations/2026/Antwerp_ITG/ITG_presentation.html#what-we-know-1",
+    "title": "Scabies, who cares?",
+    "section": "What we know",
+    "text": "What we know"
+  },
+  {
+    "objectID": "presentations/2026/Antwerp_ITG/ITG_presentation.html#what-we-know-2",
+    "href": "presentations/2026/Antwerp_ITG/ITG_presentation.html#what-we-know-2",
+    "title": "Scabies, who cares?",
+    "section": "What we know",
+    "text": "What we know\n\n\n\n\nA series of studies in the 1940s form much of the basis of our current understanding of scabies transmission.\n\n\n\n\nIncubation period\n\n4-6 weeks after primary infection\n24 hours after post-primary infection"
+  },
+  {
+    "objectID": "presentations/2026/Antwerp_ITG/ITG_presentation.html#our-roadmap",
+    "href": "presentations/2026/Antwerp_ITG/ITG_presentation.html#our-roadmap",
+    "title": "Scabies, who cares?",
+    "section": "Our Roadmap",
+    "text": "Our Roadmap\n\nWhat is the timescale of a typical scabies transmission event?\nHow are the number of scabies cases changing over time?\nHow many people will a scabies case go on to infect?\nHow does scabies transmission change over time?"
+  },
+  {
+    "objectID": "presentations/2026/Antwerp_ITG/ITG_presentation.html#our-roadmap-1",
+    "href": "presentations/2026/Antwerp_ITG/ITG_presentation.html#our-roadmap-1",
+    "title": "Scabies, who cares?",
+    "section": "Our Roadmap",
+    "text": "Our Roadmap\n\nWhat is the timescale of a typical scabies transmission event?"
+  },
+  {
+    "objectID": "presentations/2026/Antwerp_ITG/ITG_presentation.html#serial-interval",
+    "href": "presentations/2026/Antwerp_ITG/ITG_presentation.html#serial-interval",
+    "title": "Scabies, who cares?",
+    "section": "Serial Interval",
+    "text": "Serial Interval\n\n\n\n\n\n\nAdapted from: Lehtinen et al. 2021. J. R. Soc. Interface.1820200756\n\n\n\n\n\n\n\n\nDate of symptom onset data from four scabies outbreaks."
+  },
+  {
+    "objectID": "presentations/2026/Antwerp_ITG/ITG_presentation.html#serial-interval-1",
+    "href": "presentations/2026/Antwerp_ITG/ITG_presentation.html#serial-interval-1",
+    "title": "Scabies, who cares?",
+    "section": "Serial Interval",
+    "text": "Serial Interval\n\nWe calculate the index case-to-case (ICC) interval for each person,\n\nindex case: the person with the greatest value for number of days since symptom onset.\n“secondary” cases: have an ICC interval calculated as the number of days between their symptom onset day and the index case."
+  },
+  {
+    "objectID": "presentations/2026/Antwerp_ITG/ITG_presentation.html#serial-interval-2",
+    "href": "presentations/2026/Antwerp_ITG/ITG_presentation.html#serial-interval-2",
+    "title": "Scabies, who cares?",
+    "section": "Serial Interval",
+    "text": "Serial Interval\n\nWe use a maximum likelihood framework to determine how likely each ICC interval can be attributed to each transmission route - We then estimate serial interval using ICC intervals consistent with Primary-Secondary transmission\n\n\nVink et al. 2014. Am J Epidemiol; 180(9):865–875"
+  },
+  {
+    "objectID": "presentations/2026/Antwerp_ITG/ITG_presentation.html#serial-interval-3",
+    "href": "presentations/2026/Antwerp_ITG/ITG_presentation.html#serial-interval-3",
+    "title": "Scabies, who cares?",
+    "section": "Serial Interval",
+    "text": "Serial Interval\n\nWe use a maximum likelihood framework to determine how likely each ICC interval can be attributed to each transmission route\n\nWe then estimate serial interval using ICC intervals consistent with Primary-Secondary transmission\n\n\n\nVink et al. 2014. Am J Epidemiol; 180(9):865–875"
+  },
+  {
+    "objectID": "presentations/2026/Antwerp_ITG/ITG_presentation.html#serial-interval-4",
+    "href": "presentations/2026/Antwerp_ITG/ITG_presentation.html#serial-interval-4",
+    "title": "Scabies, who cares?",
+    "section": "Serial Interval",
+    "text": "Serial Interval\n\n\nIndex-case-to-case (ICC) intervals (A-D) and comparison of serial interval estimates across studies (E). Red curves show fitted distributions."
+  },
+  {
+    "objectID": "presentations/2026/Antwerp_ITG/ITG_presentation.html#our-roadmap-2",
+    "href": "presentations/2026/Antwerp_ITG/ITG_presentation.html#our-roadmap-2",
+    "title": "Scabies, who cares?",
+    "section": "Our Roadmap",
+    "text": "Our Roadmap\n\nWhat is the timescale of a typical scabies transmission event?\nHow are the number of scabies cases changing over time?"
+  },
+  {
+    "objectID": "presentations/2026/Antwerp_ITG/ITG_presentation.html#growth-rate",
+    "href": "presentations/2026/Antwerp_ITG/ITG_presentation.html#growth-rate",
+    "title": "Scabies, who cares?",
+    "section": "Growth Rate",
+    "text": "Growth Rate\n\nTo determine how the number of scabies cases is changing each year in the Netherlands, we estimated the annual growth rate\nEstimated annual growth rate: 0.25 (95% CI: 0.2, 0.3)"
+  },
+  {
+    "objectID": "presentations/2026/Antwerp_ITG/ITG_presentation.html#our-roadmap-3",
+    "href": "presentations/2026/Antwerp_ITG/ITG_presentation.html#our-roadmap-3",
+    "title": "Scabies, who cares?",
+    "section": "Our Roadmap",
+    "text": "Our Roadmap\n\nWhat is the timescale of a typical scabies transmission event?\nHow are the number of scabies cases changing over time?\nHow many people will a scabies case go on to infect?"
+  },
+  {
+    "objectID": "presentations/2026/Antwerp_ITG/ITG_presentation.html#basic-reproduction-number-r_0",
+    "href": "presentations/2026/Antwerp_ITG/ITG_presentation.html#basic-reproduction-number-r_0",
+    "title": "Scabies, who cares?",
+    "section": "Basic Reproduction Number \\(R_0\\)",
+    "text": "Basic Reproduction Number \\(R_0\\)\n\nWe can relate the growth rate to the basic reproduction number as \\[R_0 = \\exp(r*T – (1/2) r^2 s^2)\\]\n\n\\(r\\) is the annual growth rate,\n\\(T\\) is the mean generation time (in years), and\n\\(s^2\\) is the variance of the generation time distribution.\n\n\n\n\nAssumption: nearly everyone exposed has not been previously infected."
+  },
+  {
+    "objectID": "presentations/2026/Antwerp_ITG/ITG_presentation.html#basic-reproduction-number-r_0-1",
+    "href": "presentations/2026/Antwerp_ITG/ITG_presentation.html#basic-reproduction-number-r_0-1",
+    "title": "Scabies, who cares?",
+    "section": "Basic Reproduction Number \\(R_0\\)",
+    "text": "Basic Reproduction Number \\(R_0\\)\n\nWe can relate the growth rate to the basic reproduction number as \\[R_0 = \\exp(r*T – (1/2) r^2 s^2)\\]\n\n\\(r\\) is the annual growth rate,\n\\(T\\) is the mean generation time serial interval (in years), and\n\\(s^2\\) is the variance of the generation time serial interval distribution.\n\n\n\nThis gives us an \\(R_0 = 1.09\\) \\((95\\% CI: 1.07, 1.11)\\)\n\n\n\nAssumption: nearly everyone exposed has not been previously infected."
+  },
+  {
+    "objectID": "presentations/2026/Antwerp_ITG/ITG_presentation.html#our-roadmap-4",
+    "href": "presentations/2026/Antwerp_ITG/ITG_presentation.html#our-roadmap-4",
+    "title": "Scabies, who cares?",
+    "section": "Our Roadmap",
+    "text": "Our Roadmap\n\nWhat is the timescale of a typical scabies transmission event?\nHow are the number of scabies cases changing over time?\nHow many people will a scabies case go on to infect?\nHow does scabies transmission change over time?"
+  },
+  {
+    "objectID": "presentations/2026/Antwerp_ITG/ITG_presentation.html#time-varying-reproduction-number-r_t",
+    "href": "presentations/2026/Antwerp_ITG/ITG_presentation.html#time-varying-reproduction-number-r_t",
+    "title": "Scabies, who cares?",
+    "section": "Time-varying Reproduction Number \\(R_t\\)",
+    "text": "Time-varying Reproduction Number \\(R_t\\)\n\n\n\nIncidence of scabies infections per 1000 people in the Netherlands by date of diagnosis."
+  },
+  {
+    "objectID": "presentations/2026/Antwerp_ITG/ITG_presentation.html#policy-implications",
+    "href": "presentations/2026/Antwerp_ITG/ITG_presentation.html#policy-implications",
+    "title": "Scabies, who cares?",
+    "section": "Policy Implications",
+    "text": "Policy Implications\n\nControlling 8% of secondary infections prevents epidemic growth\n\n\n\n\n Educational campaign targeting high-risk groups\n\n\n\n\n Enhanced GP training for rapid diagnosis\n\n\n\n\n Voluntary screening\n\n\n\n\n Systematic contact tracing\n\n\n\n\n Targeted (voluntary) mass drug administration campaigns"
+  },
+  {
+    "objectID": "presentations/2026/Antwerp_ITG/ITG_presentation.html#this-is-only-the-beginning",
+    "href": "presentations/2026/Antwerp_ITG/ITG_presentation.html#this-is-only-the-beginning",
+    "title": "Scabies, who cares?",
+    "section": "This is only the beginning",
+    "text": "This is only the beginning\n\nThere is still a lot that we don’t know\n\n\n\nFuture research should prioritize three key areas:\n\n\n\n\n\ncollecting transmission pair data\n\n\n\n\ncharacterizing the delays between symptom onset and healthcare seeking\n\n\n\n\nreproducing Mellanby’s 1944 incubation period estimates"
+  },
+  {
+    "objectID": "presentations/2026/Antwerp_ITG/ITG_presentation.html#software",
+    "href": "presentations/2026/Antwerp_ITG/ITG_presentation.html#software",
+    "title": "Scabies, who cares?",
+    "section": "Software",
+    "text": "Software\nWe developed an R package called mitey.\n \n\nSoftware developed to support reproducible analyses and wider application of the methods used in this work."
+  },
+  {
+    "objectID": "presentations/2026/Antwerp_ITG/ITG_presentation.html#wrapping-up",
+    "href": "presentations/2026/Antwerp_ITG/ITG_presentation.html#wrapping-up",
+    "title": "Scabies, who cares?",
+    "section": "Wrapping up",
+    "text": "Wrapping up\nThank you\n\nJacco Wallinga\nMariette Hooiveld\n\nFunding\nThis work was financed by the Netherlands Ministry of Health, Welfare and Sport."
+  },
+  {
+    "objectID": "presentations/2026/Antwerp_ITG/ITG_presentation.html#get-in-touch",
+    "href": "presentations/2026/Antwerp_ITG/ITG_presentation.html#get-in-touch",
+    "title": "Scabies, who cares?",
+    "section": "Get in touch!",
+    "text": "Get in touch!\n\n\n kylie.ainslie@unimelb.edu.au\n linkedin.com/in/kylieainslie\n @kylieainslie.bsky.social\n github.com/kylieainslie\n kylieainslie.github.io"
+  },
+  {
+    "objectID": "presentations/2026/Antwerp_ITG/ITG_presentation.html#manuscript",
+    "href": "presentations/2026/Antwerp_ITG/ITG_presentation.html#manuscript",
+    "title": "Scabies, who cares?",
+    "section": "Manuscript",
+    "text": "Manuscript"
   }
 ]
