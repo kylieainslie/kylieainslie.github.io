@@ -104,70 +104,54 @@ title-block-banner-color: white
 
 ![](../images/placeholder_policy.jpg){.featured-image fig-align="center" width="100%"}
 
-## COVID-19 Vaccination Strategies {.section-header}
+## Scenario Modelling {.section-header}
 
 ::: {.project-card}
-### Scenario Modelling in the Netherlands
+### COVID-19 Vaccination Strategies in the Netherlands
 
-During the COVID-19 pandemic, I led scenario modelling efforts at RIVM (the Dutch National Institute for Public Health and the Environment) to anticipate the impact of vaccination strategies. We developed a deterministic age-structured compartmental model (**vacamole**) to compare different vaccination scenarios with respect to disease outcomes.
-
-::: {.key-points}
-::: {.key-point}
-Infections
-:::
-::: {.key-point}
-Hospitalisations
-:::
-::: {.key-point}
-ICU Admissions
-:::
-::: {.key-point}
-Deaths
-:::
-:::
-
-Key analyses included evaluating the impact of extending vaccination to adolescents and children, comparing different vaccine rollout strategies, and assessing the timing and targeting of booster campaigns.
-:::
-
-::: {.project-card}
-### European Scenario Modelling Hub
-
-I contributed to the [**European COVID-19 Scenario Modelling Hub**](https://covid19scenariohub.eu/), a collaborative initiative that brought together modelling teams across Europe to provide ensemble projections for policy planning.
-
-This work demonstrated the value of multi-model approaches for capturing uncertainty in epidemic projections and informed public health planning across multiple countries.
-:::
-
-## Beyond Vaccination {.section-header}
-
-::: {.project-card}
-### Intervention Analysis
-
-My policy modelling work extends beyond vaccination to evaluating non-pharmaceutical interventions and their timing:
-
-- **Optimal timing** of intervention implementation
-- **Trade-offs** between intervention stringency and duration
-- **Regional coordination** of public health measures
-- **Resource allocation** during outbreak response
-:::
-
-## Key Publications {.section-header}
+Scenario modelling at RIVM (the Dutch National Institute for Public Health and the Environment) to anticipate the impact of COVID-19 vaccination strategies on disease outcomes in the Netherlands. A deterministic age-structured compartmental model (**vacamole**) was used to compare scenarios with respect to infections, hospitalisations, ICU admissions, and deaths — including analyses of vaccination in adolescents and children, rollout strategies, and booster campaign timing.
 
 ::: {.pub-item}
 **Ainslie, K. E. C.**, *et al*. A scenario modelling analysis to anticipate the impact of COVID-19 vaccination in adolescents and children on disease outcomes in the Netherlands, summer 2021. *Euro Surveill.* 2022. [Read paper →](https://doi.org/10.2807/1560-7917.ES.2022.27.44.2101090)
 :::
 
 ::: {.pub-item}
-Sherratt, K., *et al*. Characterising information gains and losses when collecting multiple epidemic model outputs. *Epidemics* 2024. [Read paper →](https://doi.org/10.1016/j.epidem.2024.100765)
-:::
-
-::: {.pub-item}
 **Ainslie, K. E. C.** *et al.* The expected outcome of COVID-19 vaccination strategies. RIVM 2021. [Read report →](https://www.rivm.nl/documenten/expected-outcome-of-covid-19-vaccination-strategies)
 :::
 
-## Related Software {.section-header}
+::: {.pub-item}
+Miura, F., Leung, K. Y., Klinkenberg, D., **Ainslie, K. E. C.**, Wallinga, J. Optimal vaccine allocation for COVID-19 in the Netherlands: A data-driven prioritisation analysis. *PLOS Computational Biology* 2021. [Read paper →](https://doi.org/10.1371/journal.pcbi.1009697)
+:::
 
-::: {.btn-group}
-[vacamole](https://github.com/kylieainslie/vacamole){.btn .btn-success .btn-sm} [European Scenario Hub](https://github.com/european-modelling-hubs/covid19-scenario-hub-europe){.btn .btn-outline-secondary .btn-sm}
+**Related software:** [vacamole](https://github.com/kylieainslie/vacamole){.btn .btn-success .btn-sm}
+:::
+
+::: {.project-card}
+### European Scenario Modelling Hub
+
+The [**European COVID-19 Scenario Modelling Hub**](https://covid19scenariohub.eu/) brought together modelling teams across Europe to produce ensemble projections for policy planning. Multi-model approaches were used to capture uncertainty in epidemic projections and inform public health planning across multiple countries.
+
+::: {.pub-item}
+Sherratt, K., *et al*. Characterising information gains and losses when collecting multiple epidemic model outputs. *Epidemics* 2024. [Read paper →](https://doi.org/10.1016/j.epidem.2024.100765)
+:::
+
+**Related software:** [European Scenario Hub](https://github.com/european-modelling-hubs/covid19-scenario-hub-europe){.btn .btn-outline-secondary .btn-sm}
+:::
+
+## Non-Pharmaceutical Interventions {.section-header}
+
+::: {.project-card}
+### NPI Evaluation During COVID-19
+
+Quantifying the impact of non-pharmaceutical interventions — lockdowns, school closures, and bans on public gatherings — was critical for informing government decisions on intervention timing and stringency. This work estimated NPI effectiveness across European countries during the first wave and examined exit strategies from strict social distancing measures.
+
+::: {.pub-item}
+Flaxman, S., Mishra, S., Gandy, A., *et al*. Estimating the effects of non-pharmaceutical interventions on COVID-19 in Europe. *Nature* 2020. [Read paper →](https://doi.org/10.1038/s41586-020-2405-7)
+:::
+
+::: {.pub-item}
+Dighe, A., Cattarino, L., Cuomo-Dannenburg, G., *et al*. Response to COVID-19 in South Korea and implications for lifting stringent interventions. *BMC Medicine* 2020. [Read paper →](https://doi.org/10.1186/s12916-020-01791-8)
+:::
 :::
 
 <a href="../research.html" class="back-link">← Back to Research</a>
