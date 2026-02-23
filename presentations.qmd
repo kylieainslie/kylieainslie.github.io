@@ -9,24 +9,48 @@ title-block-banner: true
 :::::::::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
 ::::::::: {.card .h-100}
 ::: card-header
-![](images/presentation-thumbnails/scabies-2024.png){.card-img-top style="height: 200px; object-fit: contain; background-color: var(--bs-body-bg);"}
+![](images/presentation-thumbnails/yt-w1YmNcW19oI.jpg){.card-img-top style="height: 200px; object-fit: contain; background-color: var(--bs-body-bg);"}
 :::
 
 ::::::: {.card-body .d-flex .flex-column}
 ::: card-title
-## [Scabies, who cares?](presentations/2024/scabies_liverpool/liverpool_presentation.html)
+## [R projects as R packages](https://youtu.be/w1YmNcW19oI)
 :::
 
 ::: card-text
-**North West Seminar Series of Mathematical Biology and Data Science, University of Liverpool, November 2024**\
+**[Data Science Lab](https://pos.it/dslab), Posit, January 2026**\
+Structuring R projects as R packages to improve reproducibility, documentation, and shareability.
+:::
+
+:::: mt-auto
+::: btn-group
+[Watch on YouTube](https://youtu.be/w1YmNcW19oI){.btn .btn-primary .btn-sm}
+:::
+::::
+:::::::
+:::::::::
+::::::::::
+
+:::::::::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+::::::::: {.card .h-100}
+::: card-header
+![](images/presentation-thumbnails/Doherty_CSI_CPH_Seminar_Flyer_Ainslie.jpg){.card-img-top style="height: 200px; object-fit: contain; background-color: var(--bs-body-bg);"}
+:::
+
+::::::: {.card-body .d-flex .flex-column}
+::: card-title
+## [Scabies, who cares?](presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html)
+:::
+
+::: card-text
+**Computational Sciences Initiative: Clinical and Public Health Seminar, Peter Doherty Insitute for Infection and Immunity, November 2025**\
 Estimating the epidemiological characteristics of scabies.
 :::
 
 :::: mt-auto
 ::: btn-group
-[Slides](presentations/2024/scabies_liverpool/liverpool_presentation.html){.btn .btn-primary .btn-sm} 
-[PDF](presentations/2024/scabies_liverpool/liverpool_presentation.pdf){.btn .btn-secondary .btn-sm} 
-[Source](presentations/2024/scabies_liverpool/liverpool_presentation.qmd){.btn .btn-outline-secondary .btn-sm}
+[Slides](presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html){.btn .btn-primary .btn-sm}
+[Source](presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.qmd){.btn .btn-outline-secondary .btn-sm}
 :::
 ::::
 :::::::
@@ -50,8 +74,8 @@ Estimating the epidemiological characteristics of scabies.
 
 :::: mt-auto
 ::: btn-group
-[Slides](presentations/2025/posit_conf_2025/presentation_pc2025.html){.btn .btn-primary .btn-sm} 
-[Video](https://www.youtube.com/watch?v=YzIiWg4rySA){.btn .btn-secondary .btn-sm} 
+[Slides](presentations/2025/posit_conf_2025/presentation_pc2025.html){.btn .btn-primary .btn-sm}
+[Video](https://www.youtube.com/watch?v=YzIiWg4rySA){.btn .btn-secondary .btn-sm}
 [Source](presentations/2025/posit_conf_2025/presentation_pc2025.qmd){.btn .btn-outline-secondary .btn-sm}
 :::
 ::::
@@ -62,23 +86,24 @@ Estimating the epidemiological characteristics of scabies.
 :::::::::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
 ::::::::: {.card .h-100}
 ::: card-header
-![](images/presentation-thumbnails/Doherty_CSI_CPH_Seminar_Flyer_Ainslie.jpg){.card-img-top style="height: 200px; object-fit: contain; background-color: var(--bs-body-bg);"}
+![](images/presentation-thumbnails/scabies-2024.png){.card-img-top style="height: 200px; object-fit: contain; background-color: var(--bs-body-bg);"}
 :::
 
 ::::::: {.card-body .d-flex .flex-column}
 ::: card-title
-## [Scabies, who cares?](presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html)
+## [Scabies, who cares?](presentations/2024/scabies_liverpool/liverpool_presentation.html)
 :::
 
 ::: card-text
-**Computational Sciences Initiative: Clinical and Public Health Seminar, Peter Doherty Insitute for Infection and Immunity, November 2024**\
+**North West Seminar Series of Mathematical Biology and Data Science, University of Liverpool, November 2024**\
 Estimating the epidemiological characteristics of scabies.
 :::
 
 :::: mt-auto
 ::: btn-group
-[Slides](presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.html){.btn .btn-primary .btn-sm} 
-[Source](presentations/2025/CSI_CPH_Seminar/csi_cph_presentation.qmd){.btn .btn-outline-secondary .btn-sm}
+[Slides](presentations/2024/scabies_liverpool/liverpool_presentation.html){.btn .btn-primary .btn-sm}
+[PDF](presentations/2024/scabies_liverpool/liverpool_presentation.pdf){.btn .btn-secondary .btn-sm}
+[Source](presentations/2024/scabies_liverpool/liverpool_presentation.qmd){.btn .btn-outline-secondary .btn-sm}
 :::
 ::::
 :::::::
