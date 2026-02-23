@@ -128,7 +128,7 @@ title-block-banner-color: white
 **Focus:** Developing and evaluating statistical methods that provide reliable vaccine effectiveness estimates while accounting for biases in observational study designs.
 :::
 
-![](../images/placeholder_ve.png){.featured-image fig-align="center" width="100%"}
+![](../images/placeholder_ve.jpg){.featured-image fig-align="center" width="100%"}
 
 ## WAVE Project {.section-header}
 

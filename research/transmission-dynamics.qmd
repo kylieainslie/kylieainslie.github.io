@@ -149,7 +149,7 @@ title-block-banner-color: white
 **Focus:** Understanding fundamental characteristics of infectious disease transmission and developing accessible software tools for outbreak analysis.
 :::
 
-![](../images/placeholder_transmission.png){.featured-image fig-align="center" width="100%"}
+![](../images/placeholder_transmission.jpg){.featured-image fig-align="center" width="100%"}
 
 ## The mitey Package {.section-header}
 

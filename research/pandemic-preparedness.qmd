@@ -86,7 +86,7 @@ title-block-banner-color: white
 **Focus:** Developing and applying real-time analytical frameworks for outbreak response, from community surveillance to intervention evaluation.
 :::
 
-![](../images/placeholder_pandemic.png){.featured-image fig-align="center" width="100%"}
+![](../images/placeholder_pandemic.jpg){.featured-image fig-align="center" width="100%"}
 
 ## COVID-19 Pandemic Response {.section-header}
 

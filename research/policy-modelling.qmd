@@ -102,7 +102,7 @@ title-block-banner-color: white
 **Focus:** Developing and applying mathematical models to evaluate intervention strategies and support evidence-based public health decision-making.
 :::
 
-![](../images/placeholder_policy.png){.featured-image fig-align="center" width="100%"}
+![](../images/placeholder_policy.jpg){.featured-image fig-align="center" width="100%"}
 
 ## COVID-19 Vaccination Strategies {.section-header}
 
