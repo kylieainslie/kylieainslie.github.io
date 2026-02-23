@@ -96,18 +96,44 @@ During the COVID-19 pandemic, I contributed to several major initiatives providi
 ### REACT Study (England)
 
 The REal-time Assessment of Community Transmission (REACT) study was one of the largest community surveillance programmes for SARS-CoV-2. Using repeated cross-sectional surveys of random samples of the population in England, we tracked infection prevalence and detected resurgences before they appeared in routine surveillance data.
+
+::: {.pub-item}
+Chadeau-Hyam, M., Wang, H., Eales, O., *et al*. SARS-CoV-2 infection and vaccine effectiveness in England (REACT-1): a series of cross-sectional random community surveys. *The Lancet Respiratory Medicine* 2022. [Read paper →](https://doi.org/10.1016/s2213-2600(21)00542-7)
+:::
+
+::: {.pub-item}
+Eales, O., Wang, H., Haw, D., *et al*. Trends in SARS-CoV-2 infection prevalence during England's roadmap out of lockdown, January to July 2021. *PLOS Computational Biology* 2022. [Read paper →](https://doi.org/10.1371/journal.pcbi.1010724)
+:::
+
+::: {.pub-item}
+Eales, O., Walters, C. E., Wang, H., *et al*. Characterising the persistence of RT-PCR positivity and incidence in a community survey of SARS-CoV-2. *Wellcome Open Research* 2022. [Read paper →](https://doi.org/10.12688/wellcomeopenres.17723.1)
+:::
+
+::: {.pub-item}
+Elliott, P., Haw, D., Wang, H., *et al*. Exponential growth, high prevalence of SARS-CoV-2, and vaccine effectiveness associated with the Delta variant. *Science* 2021. [Read paper →](https://doi.org/10.1126/science.abl9551)
+:::
+
+::: {.pub-item}
+Riley, S., **Ainslie, K. E. C.**, *et al*. Resurgence of SARS-CoV-2: Detection by community viral surveillance. *Science* 2021. [Read paper →](https://doi.org/10.1126/science.abf0874)
+:::
+
+::: {.pub-item}
+Ward, H., Atchison, C., Whitaker, M., *et al*. SARS-CoV-2 antibody prevalence in England following the first peak of the pandemic. *Nature Communications* 2021. [Read paper →](https://doi.org/10.1038/s41467-021-21237-w)
+:::
 :::
 
 ::: {.project-card}
-### European Interventions Analysis
+### Mobility Data and COVID-19 Transmission
 
-As part of the Imperial College COVID-19 Response Team, we estimated the effects of non-pharmaceutical interventions on COVID-19 transmission across 11 European countries. This work, published in *Nature*, demonstrated that lockdowns substantially reduced transmission and prevented millions of deaths.
+Mobile phone mobility data provided a near-real-time proxy for population-level social distancing behaviour during the COVID-19 pandemic. We used anonymised, aggregated crowd-level data to show that initial compliance with social distancing interventions in the UK was high and geographically consistent across regions. We also examined how mobility data could be used to monitor the success of countries exiting strict social distancing measures.
+
+::: {.pub-item}
+Jeffrey, B., Walters, C. E., **Ainslie, K. E. C.**, *et al*. Anonymised and aggregated crowd level mobility data from mobile phones suggests that initial compliance with COVID-19 social distancing interventions was high and geographically consistent across the UK. *Wellcome Open Research* 2020. [Read paper →](https://doi.org/10.12688/wellcomeopenres.15997.1)
 :::
 
-::: {.project-card}
-### China's Exit from Lockdown
-
-We developed methods to track the success of China's exit from strict social distancing measures by analyzing the relationship between mobility data and transmission dynamics.
+::: {.pub-item}
+**Ainslie, K. E. C.**, *et al*. Evidence of initial success for China exiting COVID-19 social distancing policy. *Wellcome Open Research* 2020. [Read paper →](https://doi.org/10.12688/wellcomeopenres.15843.2)
+:::
 :::
 
 ## ESCAPE Project {.section-header}
@@ -121,20 +147,6 @@ The [**ESCAPE**](https://www.escapepandemics.com/) (European Surveillance and Co
 - Building modelling capacity across European institutions
 - Creating frameworks for rapid data sharing during outbreaks
 - Training the next generation of outbreak responders
-:::
-
-## Key Publications {.section-header}
-
-::: {.pub-item}
-Riley, S., **Ainslie, K. E. C.**, *et al*. Resurgence of SARS-CoV-2: Detection by community viral surveillance. *Science* 2021. [Read paper →](https://doi.org/10.1126/science.abf0874)
-:::
-
-::: {.pub-item}
-Flaxman, S., *et al*. Estimating the effects of non-pharmaceutical interventions on COVID-19 in Europe. *Nature* 2020. [Read paper →](https://doi.org/10.1038/s41586-020-2405-7)
-:::
-
-::: {.pub-item}
-**Ainslie, K. E. C.**, *et al*. Evidence of initial success for China exiting COVID-19 social distancing policy. *Wellcome Open Research* 2020. [Read paper →](https://doi.org/10.12688/wellcomeopenres.15843.2)
 :::
 
 ## Related Software {.section-header}
