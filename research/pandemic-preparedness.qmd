@@ -134,6 +134,16 @@ Jeffrey, B., Walters, C. E., **Ainslie, K. E. C.**, *et al*. Anonymised and aggr
 ::: {.pub-item}
 **Ainslie, K. E. C.**, *et al*. Evidence of initial success for China exiting COVID-19 social distancing policy. *Wellcome Open Research* 2020. [Read paper →](https://doi.org/10.12688/wellcomeopenres.15843.2)
 :::
+
+**Related software:** [pika](https://mrc-ide.github.io/pika/){.btn .btn-primary .btn-sm}
+:::
+
+::: {.project-card}
+### COVID-19 Scenario Modelling at RIVM
+
+At RIVM (the Dutch National Institute for Public Health and the Environment), I led scenario modelling efforts to anticipate the impact of COVID-19 vaccination strategies on disease outcomes in the Netherlands, including evaluating vaccination rollout timing and booster campaigns.
+
+*See [Modelling for Public Health Policy](policy-modelling.html) for details on this work.*
 :::
 
 ## ESCAPE Project {.section-header}
@@ -147,12 +157,16 @@ The [**ESCAPE**](https://www.escapepandemics.com/) (European Surveillance and Co
 - Building modelling capacity across European institutions
 - Creating frameworks for rapid data sharing during outbreaks
 - Training the next generation of outbreak responders
+
+My contribution to ESCAPE includes developing the [**mitey**](https://kylieainslie.github.io/mitey/) R package for estimating key epidemiological parameters (serial interval, reproduction number), applied to scabies and other neglected diseases.
+
+::: {.pub-item}
+**Ainslie, K. E. C.**, Hooiveld, M., Wallinga, J. Estimation of the epidemiological characteristics of scabies. *Nature Communications* 2025. [Read paper →](https://doi.org/10.1038/s41467-025-65544-y)
 :::
 
-## Related Software {.section-header}
+**Related software:** [mitey](https://kylieainslie.github.io/mitey/){.btn .btn-primary .btn-sm}
 
-::: {.btn-group}
-[pika](https://mrc-ide.github.io/pika/){.btn .btn-primary .btn-sm}
+**ESCAPE resources:** [Project website](https://www.escapepandemics.com/){.btn .btn-outline-secondary .btn-sm} [Digital Toolkit](https://www.escapepandemics.com/digitaltoolkit){.btn .btn-outline-secondary .btn-sm}
 :::
 
 <a href="../research.html" class="back-link">← Back to Research</a>
