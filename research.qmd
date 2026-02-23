@@ -5,6 +5,10 @@ page-layout: full
 title-block-banner: true
 ---
 
+## Research Themes
+
+Click on each research theme to explore specific projects.
+
 ::::::::::::::::::::::::::: grid
 :::::::::: {.g-col-12 .g-col-md-6}
 ::::::::: {.card .h-100 .research-card}
