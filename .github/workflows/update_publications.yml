@@ -45,9 +45,9 @@ jobs:
 
       - name: Update live stats (Strava, Goodreads)
         env:
+          STRAVA: ${{ secrets.STRAVA }}
           STRAVA_CLIENT_ID: ${{ secrets.STRAVA_CLIENT_ID }}
           STRAVA_CLIENT_SECRET: ${{ secrets.STRAVA_CLIENT_SECRET }}
-          STRAVA_REFRESH_TOKEN: ${{ secrets.STRAVA_REFRESH_TOKEN }}
         run: |
           python3 scripts/update_stats.py
 

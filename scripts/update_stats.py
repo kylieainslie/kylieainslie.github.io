@@ -12,10 +12,15 @@ def get_strava_km():
     """Fetch total km run (all time) from Strava API."""
     client_id = os.environ.get("STRAVA_CLIENT_ID")
     client_secret = os.environ.get("STRAVA_CLIENT_SECRET")
-    refresh_token = os.environ.get("STRAVA_REFRESH_TOKEN")
+    refresh_token = os.environ.get("STRAVA")  # stored as the STRAVA secret
 
     if not all([client_id, client_secret, refresh_token]):
-        print("  ⚠ Strava credentials not set — skipping")
+        missing = [k for k, v in {
+            "STRAVA_CLIENT_ID": client_id,
+            "STRAVA_CLIENT_SECRET": client_secret,
+            "STRAVA (refresh token)": refresh_token,
+        }.items() if not v]
+        print(f"  ⚠ Missing secrets: {', '.join(missing)} — skipping")
         return None
 
     # Exchange refresh token for a short-lived access token
