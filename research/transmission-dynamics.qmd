@@ -2,15 +2,15 @@
 title: "Transmission Dynamics & Tools"
 subtitle: "Estimating epidemiological parameters and developing accessible analysis tools"
 page-layout: article
-title-block-banner: "#e67e22"
+title-block-banner: "#2c3e50"
 title-block-banner-color: white
 ---
 
 ```{=html}
 <style>
 .highlight-card {
-  border-left: 4px solid #e67e22;
-  background: linear-gradient(135deg, #f8f9fa 0%, #fff3e0 100%);
+  border-left: 4px solid #78c2ad;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e8f5f2 100%);
   padding: 1.5rem;
   margin: 1.5rem 0;
   border-radius: 0 8px 8px 0;
@@ -42,7 +42,7 @@ title-block-banner-color: white
   padding: 1rem 1.25rem;
   margin: 0.75rem 0;
   border-radius: 8px;
-  border-left: 3px solid #e67e22;
+  border-left: 3px solid #78c2ad;
 }
 
 .pub-item:hover {
@@ -50,7 +50,7 @@ title-block-banner-color: white
 }
 
 .section-header {
-  border-bottom: 2px solid #e67e22;
+  border-bottom: 2px solid #78c2ad;
   padding-bottom: 0.5rem;
   margin-top: 2.5rem;
   margin-bottom: 1.5rem;
@@ -81,8 +81,8 @@ title-block-banner-color: white
 }
 
 .software-highlight {
-  background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%);
-  border: 2px solid #e67e22;
+  background: linear-gradient(135deg, #e8f5f2 0%, #c9e8e1 100%);
+  border: 2px solid #78c2ad;
   border-radius: 12px;
   padding: 2rem;
   margin: 1.5rem 0;
@@ -90,7 +90,7 @@ title-block-banner-color: white
 }
 
 .software-highlight h3 {
-  color: #e67e22;
+  color: #78c2ad;
   margin-bottom: 1rem;
 }
 
@@ -116,11 +116,11 @@ title-block-banner-color: white
   padding: 1.5rem;
   margin: 1rem 0;
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-  border-top: 4px solid #e67e22;
+  border-top: 4px solid #78c2ad;
 }
 
 .disease-card h3 {
-  color: #e67e22;
+  color: #78c2ad;
   margin-bottom: 0.75rem;
 }
 
@@ -139,7 +139,7 @@ title-block-banner-color: white
   content: "→";
   position: absolute;
   left: 0;
-  color: #e67e22;
+  color: #78c2ad;
   font-weight: bold;
 }
 </style>

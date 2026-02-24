@@ -2,15 +2,15 @@
 title: "Vaccine Effectiveness Methods"
 subtitle: "Statistical methods for estimating vaccine protection from observational data"
 page-layout: article
-title-block-banner: "#8e44ad"
+title-block-banner: "#2c3e50"
 title-block-banner-color: white
 ---
 
 ```{=html}
 <style>
 .highlight-card {
-  border-left: 4px solid #8e44ad;
-  background: linear-gradient(135deg, #f8f9fa 0%, #f3e5f5 100%);
+  border-left: 4px solid #f3969a;
+  background: linear-gradient(135deg, #f8f9fa 0%, #fde8e9 100%);
   padding: 1.5rem;
   margin: 1.5rem 0;
   border-radius: 0 8px 8px 0;
@@ -42,7 +42,7 @@ title-block-banner-color: white
   padding: 1rem 1.25rem;
   margin: 0.75rem 0;
   border-radius: 8px;
-  border-left: 3px solid #8e44ad;
+  border-left: 3px solid #f3969a;
 }
 
 .pub-item:hover {
@@ -50,7 +50,7 @@ title-block-banner-color: white
 }
 
 .section-header {
-  border-bottom: 2px solid #8e44ad;
+  border-bottom: 2px solid #f3969a;
   padding-bottom: 0.5rem;
   margin-top: 2.5rem;
   margin-bottom: 1.5rem;
@@ -88,14 +88,14 @@ title-block-banner-color: white
 }
 
 .method-item {
-  background: #f3e5f5;
+  background: #fde8e9;
   padding: 1.25rem;
   border-radius: 10px;
-  border: 1px solid #e1bee7;
+  border: 1px solid #f5c2c4;
 }
 
 .method-item h4 {
-  color: #8e44ad;
+  color: #f3969a;
   margin: 0 0 0.5rem 0;
   font-size: 1rem;
 }
@@ -114,7 +114,7 @@ title-block-banner-color: white
 }
 
 .vaccine-tag {
-  background: #8e44ad;
+  background: #f3969a;
   color: white;
   padding: 0.35rem 0.75rem;
   border-radius: 20px;
@@ -195,7 +195,7 @@ Individual-based stochastic modelling to investigate optimal influenza vaccinati
 **Ainslie, K. E. C.** and Riley, S. Is annual vaccination best? A modelling study of influenza vaccination strategies in children. *Vaccine* 2022. [Read paper →](https://doi.org/10.1016/j.vaccine.2022.03.065)
 :::
 
-**Related software:** [morevac](https://github.com/kylieainslie/morevac){.btn .btn-primary .btn-sm style="background-color: #8e44ad; border-color: #8e44ad;"}
+**Related software:** [morevac](https://github.com/kylieainslie/morevac){.btn .btn-primary .btn-sm style="background-color: #f3969a; border-color: #f3969a;"}
 :::
 
 <a href="../research.html" class="back-link">← Back to Research</a>

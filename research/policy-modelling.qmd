@@ -2,15 +2,15 @@
 title: "Modelling for Public Health Policy"
 subtitle: "Using mathematical models to inform health policy decisions"
 page-layout: article
-title-block-banner: "#27ae60"
+title-block-banner: "#2c3e50"
 title-block-banner-color: white
 ---
 
 ```{=html}
 <style>
 .highlight-card {
-  border-left: 4px solid #27ae60;
-  background: linear-gradient(135deg, #f8f9fa 0%, #e8f5e9 100%);
+  border-left: 4px solid #56cc9d;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e5f9f0 100%);
   padding: 1.5rem;
   margin: 1.5rem 0;
   border-radius: 0 8px 8px 0;
@@ -42,7 +42,7 @@ title-block-banner-color: white
   padding: 1rem 1.25rem;
   margin: 0.75rem 0;
   border-radius: 8px;
-  border-left: 3px solid #27ae60;
+  border-left: 3px solid #56cc9d;
 }
 
 .pub-item:hover {
@@ -50,7 +50,7 @@ title-block-banner-color: white
 }
 
 .section-header {
-  border-bottom: 2px solid #27ae60;
+  border-bottom: 2px solid #56cc9d;
   padding-bottom: 0.5rem;
   margin-top: 2.5rem;
   margin-bottom: 1.5rem;
@@ -88,7 +88,7 @@ title-block-banner-color: white
 }
 
 .key-point {
-  background: #e8f5e9;
+  background: #e5f9f0;
   padding: 1rem;
   border-radius: 8px;
   text-align: center;

@@ -9,8 +9,8 @@ title-block-banner-color: white
 ```{=html}
 <style>
 .highlight-card {
-  border-left: 4px solid #3498db;
-  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border-left: 4px solid #6cc3d5;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e3f4f8 100%);
   padding: 1.5rem;
   margin: 1.5rem 0;
   border-radius: 0 8px 8px 0;
@@ -42,15 +42,15 @@ title-block-banner-color: white
   padding: 1rem 1.25rem;
   margin: 0.75rem 0;
   border-radius: 8px;
-  border-left: 3px solid #3498db;
+  border-left: 3px solid #6cc3d5;
 }
 
 .pub-item:hover {
-  background: #e9ecef;
+  background: #e3f4f8;
 }
 
 .section-header {
-  border-bottom: 2px solid #3498db;
+  border-bottom: 2px solid #6cc3d5;
   padding-bottom: 0.5rem;
   margin-top: 2.5rem;
   margin-bottom: 1.5rem;
