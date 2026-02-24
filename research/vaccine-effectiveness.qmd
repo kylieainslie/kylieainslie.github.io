@@ -130,69 +130,28 @@ title-block-banner-color: white
 
 ![](../images/placeholder_ve.jpg){.featured-image fig-align="center" width="100%"}
 
-## WAVE Project {.section-header}
+## Waning Protection {.section-header}
 
 ::: {.project-card}
-### Evaluation of Waning Vaccine Effectiveness
+### Waning Vaccine Effectiveness
 
-The COVID-19 pandemic highlighted the critical need for robust methods to assess how vaccine protection changes over time. The **WAVE** project addresses this gap through rigorous methodological development.
+The WAVE project develops and evaluates statistical methods for assessing how vaccine-induced protection changes over time. Key objectives include distinguishing true immunity decline from apparent waning due to changes in pathogen or population, identifying individual determinants of protection decline, and applying methods across multiple vaccines — including pertussis, influenza, COVID-19, and rotavirus.
 
-::: {.method-grid}
-::: {.method-item}
-#### Method Development
-Rigorously compare approaches for assessing waning vaccine-induced protection
+::: {.pub-item}
+Haber, M., *et al*. Comparing statistical methods for detecting and estimating waning efficacy of rotavirus vaccines in developing countries. *Hum Vaccin Immunother.* 2021. [Read paper →](https://doi.org/10.1080/21645515.2021.1968738)
 :::
 
-::: {.method-item}
-#### True vs Perceived Waning
-Distinguish actual immunity decline from changes in pathogen or population
-:::
-
-::: {.method-item}
-#### Individual Determinants
-Identify how characteristics influence rate of protection decline
-:::
-
-::: {.method-item}
-#### Multi-Disease Application
-Methods applicable across multiple vaccine types
+::: {.pub-item}
+Chen, D., Cowling, B. J., **Ainslie, K. E. C.**, *et al*. Association of COVID-19 vaccination with duration of hospitalisation in older adults in Hong Kong. *Vaccine* 2024. [Read paper →](https://doi.org/10.1016/j.vaccine.2024.02.074)
 :::
 :::
 
-::: {.vaccine-tags}
-[Pertussis]{.vaccine-tag}
-[Influenza]{.vaccine-tag}
-[COVID-19]{.vaccine-tag}
-[Rotavirus]{.vaccine-tag}
-:::
-:::
-
-## Influenza Vaccine Effectiveness {.section-header}
+## Influenza {.section-header}
 
 ::: {.project-card}
 ### Bias in Observational Studies
 
-I developed dynamic transmission models to evaluate sources of bias in observational VE studies, particularly the **test-negative design**. This work identified conditions under which test-negative studies may over- or underestimate true VE, providing guidance for study design and interpretation.
-:::
-
-::: {.project-card}
-### Transmission Blocking
-
-Using **maximum likelihood estimation**, I developed methods to estimate VE against both:
-
-- **Susceptibility** to infection
-- **Transmission** to others
-
-These methods use household surveillance data to separately estimate these two components of vaccine protection.
-:::
-
-::: {.project-card}
-### Repeat Vaccination Effects
-
-Annual influenza vaccination raises questions about how prior vaccination affects current season protection. Using individual-based stochastic models (**morevac**), I investigated optimal vaccination strategies in children, accounting for complex exposure histories and antigenic dynamics.
-:::
-
-## Key Publications {.section-header}
+Statistical and modelling approaches to identify and account for bias in observational VE studies. This includes evaluating sources of bias in common study designs, developing methods to estimate VE against both susceptibility and onward transmission, and extending this work from influenza to COVID-19 contexts.
 
 ::: {.pub-item}
 **Ainslie, K. E. C.**, *et al*. A Dynamic Model for Evaluation of the Bias of Influenza Vaccine Effectiveness Estimates. *Am J Epidemiol.* 2018. [Read paper →](https://doi.org/10.1093/aje/kwy240)
@@ -207,21 +166,36 @@ Annual influenza vaccination raises questions about how prior vaccination affect
 :::
 
 ::: {.pub-item}
-**Ainslie, K. E. C.** and Riley, S. Is annual vaccination best? A modelling study of influenza vaccination strategies in children. *Vaccine* 2022. [Read paper →](https://doi.org/10.1016/j.vaccine.2022.03.065)
+**Ainslie, K. E. C.**, Haber, M., Orenstein, W. A. Bias of influenza vaccine effectiveness estimates from test-negative studies conducted during multiple seasons. *Vaccine* 2019. [Read paper →](https://doi.org/10.1016/j.vaccine.2019.02.036)
 :::
 
 ::: {.pub-item}
-Haber, M., *et al*. Comparing statistical methods for detecting and estimating waning efficacy of rotavirus vaccines in developing countries. *Hum Vaccin Immunother.* 2021. [Read paper →](https://pubmed.ncbi.nlm.nih.gov/34613877/)
+**Ainslie, K. E. C.**, Shi, M., Haber, M., Orenstein, W. A. On the bias of estimates of influenza vaccine effectiveness from test-negative studies. *Vaccine* 2017. [Read paper →](https://doi.org/10.1016/j.vaccine.2017.10.107)
+:::
+
+::: {.pub-item}
+Shi, M., An, Q., **Ainslie, K. E. C.**, *et al*. A comparison of the test-negative and the traditional case-control study designs for estimation of influenza vaccine effectiveness. *BMC Infect Dis.* 2017. [Read paper →](https://doi.org/10.1186/s12879-017-2838-2)
+:::
+
+::: {.pub-item}
+Sullivan, S. G., Khvorov, A., Huang, X., **Ainslie, K. E. C.**, *et al*. The need for a clinical case definition in test-negative design studies estimating vaccine effectiveness. *npj Vaccines* 2023. [Read paper →](https://doi.org/10.1038/s41541-023-00716-9)
 :::
 
 ::: {.pub-item}
 Tsang, T. K., *et al*. Prior infections and effectiveness of SARS-CoV-2 vaccine in test-negative studies. *Am J Epidemiol.* 2024. [Read paper →](https://doi.org/10.1093/aje/kwae142)
 :::
+:::
 
-## Related Software {.section-header}
+::: {.project-card}
+### Repeat Vaccination Effects
 
-::: {.btn-group}
-[morevac](https://github.com/kylieainslie/morevac){.btn .btn-primary .btn-sm style="background-color: #8e44ad; border-color: #8e44ad;"}
+Individual-based stochastic modelling to investigate optimal influenza vaccination strategies in children, accounting for prior vaccination history, antigenic dynamics, and long-term immune imprinting.
+
+::: {.pub-item}
+**Ainslie, K. E. C.** and Riley, S. Is annual vaccination best? A modelling study of influenza vaccination strategies in children. *Vaccine* 2022. [Read paper →](https://doi.org/10.1016/j.vaccine.2022.03.065)
+:::
+
+**Related software:** [morevac](https://github.com/kylieainslie/morevac){.btn .btn-primary .btn-sm style="background-color: #8e44ad; border-color: #8e44ad;"}
 :::
 
 <a href="../research.html" class="back-link">← Back to Research</a>
