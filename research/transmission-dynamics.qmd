@@ -151,82 +151,46 @@ title-block-banner-color: white
 
 ![](../images/placeholder_transmission.jpg){.featured-image fig-align="center" width="100%"}
 
-## The mitey Package {.section-header}
-
-::: {.software-highlight}
-### Serial Interval & Reproduction Number Estimation
-
-[**mitey**](https://kylieainslie.github.io/mitey/) is a lightweight R package for estimating key epidemiological parameters from outbreak data.
-
-::: {.software-features}
-::: {.software-feature}
-**Vink Method**<br>
-Serial interval estimation from outbreak data with mixture models
-:::
-
-::: {.software-feature}
-**Time-Varying R**<br>
-Reproduction number estimation tracking transmission over time
-:::
-
-::: {.software-feature}
-**Robust Fitting**<br>
-Multiple restarts & convergence diagnostics for reliable estimates
-:::
-
-::: {.software-feature}
-**Well Documented**<br>
-Vignettes with real-world examples and validation
-:::
-:::
-
-::: {.btn-group}
-[Documentation](https://kylieainslie.github.io/mitey/){.btn .btn-warning .btn-sm} [CRAN](https://cran.r-project.org/package=mitey){.btn .btn-outline-secondary .btn-sm} [GitHub](https://github.com/kylieainslie/mitey){.btn .btn-outline-secondary .btn-sm}
-:::
-:::
-
 ## Disease Investigations {.section-header}
 
-::: {.disease-card}
+::: {.project-card}
 ### Epidemiology of Scabies
 
-Scabies is a contagious skin disease caused by the *Sarcoptes scabiei* mite, affecting over **400 million people annually** worldwide. Despite its prevalence, fundamental epidemiological characteristics have remained poorly described.
+Scabies is a contagious skin disease caused by the *Sarcoptes scabiei* mite, affecting over 400 million people annually worldwide. Despite its global burden, fundamental epidemiological characteristics had remained poorly described. Using data from Dutch sentinel surveillance (2011–2023), this work produced the first published estimates of the mean serial interval of scabies infection and time-varying reproduction numbers, revealing increasing transmission in recent years.
 
-Using data from Dutch sentinel surveillance (2011-2023), we provided:
-
-<ul class="finding-list">
-<li>**First published estimates** of the mean serial interval of scabies infection</li>
-<li>**Time-varying reproduction numbers** showing increasing transmission in recent years</li>
-<li>**Methods applicable** to other neglected tropical diseases</li>
-</ul>
+**Related software:** [mitey](https://kylieainslie.github.io/mitey/){.btn .btn-primary .btn-sm} [Scabies Vignette](https://kylieainslie.github.io/mitey/articles/epidemiology_of_scabies.html){.btn .btn-outline-secondary .btn-sm}
 :::
 
-::: {.disease-card}
+::: {.project-card}
 ### Mpox Transmission
 
-Following the 2022 mpox outbreak in non-endemic regions, we investigated transmission characteristics using detailed exposure histories from cases in the Netherlands.
-
-<ul class="finding-list">
-<li>**Serial interval estimates** from identified transmission pairs</li>
-<li>**Evidence of presymptomatic transmission** informing isolation guidance</li>
-<li>**Public health recommendations** for contact tracing protocols</li>
-</ul>
-:::
-
-## Key Publications {.section-header}
-
-::: {.pub-item}
-**Ainslie, K. E. C.**, Hooiveld, M., Wallinga, J. Estimation of the epidemiological characteristics of scabies. *Nature Communications* 2025. [Read paper →](https://doi.org/10.1038/s41467-025-65544-y)
-:::
+Following the 2022 mpox outbreak in non-endemic regions, transmission characteristics were investigated using detailed exposure histories from cases in the Netherlands. The work produced serial interval estimates from identified transmission pairs and found evidence of presymptomatic transmission, informing isolation guidance and contact tracing protocols.
 
 ::: {.pub-item}
 Miura, F., Backer, J. A., van Rijckevorsel, G., *et al*. Time Scales of Human Mpox Transmission in The Netherlands. *J Infect Dis.* 2023. [Read paper →](https://doi.org/10.1093/infdis/jiad091)
 :::
+:::
 
-## Related Software {.section-header}
+::: {.project-card}
+### COVID-19
 
-::: {.btn-group}
-[mitey](https://kylieainslie.github.io/mitey/){.btn .btn-warning .btn-sm} [CRAN](https://cran.r-project.org/package=mitey){.btn .btn-outline-secondary .btn-sm} [GitHub](https://github.com/kylieainslie/mitey){.btn .btn-outline-secondary .btn-sm} [Scabies Vignette](https://kylieainslie.github.io/mitey/articles/epidemiology_of_scabies.html){.btn .btn-outline-info .btn-sm}
+Real-time estimation of SARS-CoV-2 transmission dynamics during the pandemic, including methods for appropriately smoothing prevalence data to produce reliable estimates of growth rate and reproduction number.
+
+::: {.pub-item}
+Eales, O., **Ainslie, K. E. C.**, Walters, C. E., *et al*. Appropriately smoothing prevalence data to inform estimates of growth rate and reproduction number. *Epidemics* 2022. [Read paper →](https://doi.org/10.1016/j.epidem.2022.100604)
+:::
+:::
+
+::: {.project-card}
+### Influenza
+
+Serological data provide a powerful lens for reconstructing past infection histories and estimating immunity. serosolver uses a Bayesian framework to infer individual-level infection histories and antibody kinetics from haemagglutination inhibition (HI) titres.
+
+::: {.pub-item}
+Hay, J. A., Minter, A., **Ainslie, K. E. C.**, *et al*. An open source tool to infer epidemiological and immunological dynamics from serological data: serosolver. *PLOS Computational Biology* 2020. [Read paper →](https://doi.org/10.1371/journal.pcbi.1007840)
+:::
+
+**Related software:** [serosolver](https://github.com/seroanalytics/serosolver){.btn .btn-primary .btn-sm}
 :::
 
 <a href="../research.html" class="back-link">← Back to Research</a>

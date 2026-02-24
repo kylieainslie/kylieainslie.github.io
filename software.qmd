@@ -25,7 +25,7 @@ A lightweight R package with methods to estimate serial intervals and time-varyi
 
 :::: mt-auto
 ::: btn-group
-[GitHub](https://github.com/kylieainslie/mitey){.btn .btn-primary .btn-sm} [CRAN](https://cran.r-project.org/package=mitey){.btn .btn-outline-secondary .btn-sm} [Publication](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5184990){.btn .btn-outline-info .btn-sm}
+[GitHub](https://github.com/kylieainslie/mitey){.btn .btn-primary .btn-sm} [CRAN](https://cran.r-project.org/package=mitey){.btn .btn-outline-secondary .btn-sm} [Publication](https://doi.org/10.1038/s41467-025-65544-y){.btn .btn-outline-info .btn-sm}
 :::
 ::::
 :::::::
@@ -98,6 +98,30 @@ A lightweight R package for estimating the optimal lag and rolling correlation b
 :::: mt-auto
 ::: btn-group
 [GitHub](https://github.com/mrc-ide/pika){.btn .btn-primary .btn-sm} <!-- [Documentation](https://kylieainslie.github.io/morevac/){.btn .btn-outline-info .btn-sm} --> [Publication](https://doi.org/10.12688/wellcomeopenres.15843.2){.btn .btn-outline-info .btn-sm}
+:::
+::::
+:::::::
+:::::::::
+::::::::::
+
+:::::::::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+::::::::: {.card .h-100}
+::: card-header
+![](images/serosolver_placeholder.svg){.card-img-top style="height: 200px; object-fit: contain; background-color: var(--bs-body-bg);"}
+:::
+
+::::::: {.card-body .d-flex .flex-column}
+::: card-title
+## [serosolver](https://github.com/seroanalytics/serosolver)
+:::
+
+::: card-text
+An open source R package for inferring epidemiological and immunological dynamics from serological data using a Bayesian framework to reconstruct individual-level infection histories and estimate antibody kinetics.
+:::
+
+:::: mt-auto
+::: btn-group
+[GitHub](https://github.com/seroanalytics/serosolver){.btn .btn-primary .btn-sm} [Publication](https://doi.org/10.1371/journal.pcbi.1007840){.btn .btn-outline-info .btn-sm}
 :::
 ::::
 :::::::
