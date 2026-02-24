@@ -299,6 +299,15 @@ function(el, x) {
 
 <!-- Google scholar ID: gfJENK8AAAAJ -->
 
+```{r load_live_stats, echo=FALSE, include=FALSE}
+live_stats <- tryCatch(
+  jsonlite::fromJSON("stats.json"),
+  error = function(e) list(km_run = 15096.7, books_read_this_year = 25)
+)
+km_run       <- live_stats$km_run
+books_this_year <- live_stats$books_read_this_year
+```
+
 ```{r get_google_scholar_stats, echo=FALSE, include=FALSE}
 
 # Number of publications from Google Scholar
@@ -332,7 +341,7 @@ total_citations <- tryCatch({
 ::::::::::::::::::::: stats-grid
 ::::: stat-card
 ::: {#km-stat .stat-number}
-15,096.7
+`r format(km_run, big.mark = ",", nsmall = 1)`
 :::
 
 ::: stat-label
@@ -372,7 +381,7 @@ Total Citations
 
 ::::: stat-card
 ::: {#books-stat .stat-number}
-25
+`r books_this_year`
 :::
 
 ::: stat-label
