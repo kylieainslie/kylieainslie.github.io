@@ -37,9 +37,18 @@ def get_strava_km():
     token_resp.raise_for_status()
     access_token = token_resp.json()["access_token"]
 
+    # Get authenticated athlete ID
+    athlete_resp = requests.get(
+        "https://www.strava.com/api/v3/athlete",
+        headers={"Authorization": f"Bearer {access_token}"},
+        timeout=15,
+    )
+    athlete_resp.raise_for_status()
+    athlete_id = athlete_resp.json()["id"]
+
     # Fetch athlete stats
     stats_resp = requests.get(
-        "https://www.strava.com/api/v3/athlete/stats",
+        f"https://www.strava.com/api/v3/athletes/{athlete_id}/stats",
         headers={"Authorization": f"Bearer {access_token}"},
         timeout=15,
     )
