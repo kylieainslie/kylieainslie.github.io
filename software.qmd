@@ -143,7 +143,7 @@ An open source R package for inferring epidemiological and immunological dynamic
 
 ::::::: {.card-body .d-flex .flex-column}
 ::: card-title
-## [The Warehouse](https://thewarehouse-pkg.netlify.app/)
+## [The Warehouse](https://rwarehouse.netlify.app/)
 :::
 
 ::: card-text
@@ -152,7 +152,7 @@ A function-first R package directory that helps data scientists find packages by
 
 :::: mt-auto
 ::: btn-group
-[Website](https://thewarehouse-pkg.netlify.app/){.btn .btn-primary .btn-sm} [GitHub](https://github.com/kylieainslie/warehouse){.btn .btn-outline-secondary .btn-sm}
+[Website](https://rwarehouse.netlify.app/){.btn .btn-primary .btn-sm} [GitHub](https://github.com/kylieainslie/warehouse){.btn .btn-outline-secondary .btn-sm}
 :::
 ::::
 :::::::
