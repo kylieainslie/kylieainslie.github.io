@@ -1,55 +1,26 @@
-name: Update Publications and Deploy
+name: Render and Deploy
 
 on:
-  # Run monthly on the 1st at midnight UTC
-  schedule:
-    - cron: '0 0 1 * *'
-  
-  # Run when you push to main/master
   push:
-    branches: [main, master]
-  
-  # Allow manual trigger from Actions tab
+    branches: [main]
   workflow_dispatch:
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 
-# Permissions needed for GitHub Pages
 permissions:
-  contents: write
+  contents: read
   pages: write
   id-token: write
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.11'
-
-      - name: Install Python dependencies
-        run: |
-          pip install requests
-
-      - name: Fetch publications from ORCID
-        run: |
-          python3 scripts/update_publications.py
-
-      - name: Update live stats (Strava, Goodreads)
-        env:
-          STRAVA: ${{ secrets.STRAVA }}
-          STRAVA_CLIENT_ID: ${{ secrets.STRAVA_CLIENT_ID }}
-          STRAVA_CLIENT_SECRET: ${{ secrets.STRAVA_CLIENT_SECRET }}
-        run: |
-          python3 scripts/update_stats.py
 
       - name: Set up R
         uses: r-lib/actions/setup-r@v2
