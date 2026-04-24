@@ -1,0 +1,6 @@
+Package: kylieainslie.github.io
+Version: 0.0.1
+Imports:
+    DT,
+    dplyr,
+    htmltools
