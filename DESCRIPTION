@@ -3,4 +3,5 @@ Version: 0.0.1
 Imports:
     DT,
     dplyr,
-    htmltools
+    htmltools,
+    leaflet
