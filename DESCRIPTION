@@ -4,4 +4,5 @@ Imports:
     DT,
     dplyr,
     htmltools,
-    leaflet
+    leaflet,
+    scholar
