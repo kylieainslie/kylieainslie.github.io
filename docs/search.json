@@ -25,7 +25,7 @@
     "href": "software.html",
     "title": "Software",
     "section": "",
-    "text": "A lightweight R package with methods to estimate serial intervals and time-varying reproduction numbers from infectious disease outbreak data.\n\n\n\nGitHub CRAN Publication\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAn R package that features a deterministic age-structured compartmental susceptible-exposed-infectious-recovered (SEIR) model and supporting functions.\n\n\n\nGitHub  Publication\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAn R package that features a multi-annual, individual-based, stochastic, force of infection model that accounts for individual exposure histories and disease/vaccine dynamics influencing susceptibility.\n\n\n\nGitHub  Publication\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA lightweight R package for estimating the optimal lag and rolling correlation by grouping variable between two time series.\n\n\n\nGitHub  Publication"
+    "text": "mitey v0.3.0 ▶\n\n\n\n\nA lightweight R package with methods to estimate serial intervals and time-varying reproduction numbers from infectious disease outbreak data.\n\n\nGitHub CRAN Publication\n\n\n\n\n\n\n\nvacamole ▶\n\n\n\n\nAn R package that features a deterministic age-structured compartmental susceptible-exposed-infectious-recovered (SEIR) model and supporting functions.\n\n\nGitHub Publication\n\n\n\n\n\n\n\nmorevac ▶\n\n\n\n\nAn R package that features a multi-annual, individual-based, stochastic, force of infection model that accounts for individual exposure histories and disease/vaccine dynamics influencing susceptibility.\n\n\nGitHub Publication\n\n\n\n\n\n\n\npika ▶\n\n\n\n\nA lightweight R package for estimating the optimal lag and rolling correlation by grouping variable between two time series.\n\n\nGitHub Publication\n\n\n\n\n\n\n\nserosolver ▶\n\n\n\n\nAn open source R package for inferring epidemiological and immunological dynamics from serological data using a Bayesian framework to reconstruct individual-level infection histories and estimate antibody kinetics.\n\n\nGitHub Publication"
   },
   {
     "objectID": "software.html#the-warehouse",
@@ -1251,5 +1251,383 @@
     "title": "Scabies, who cares?",
     "section": "Manuscript",
     "text": "Manuscript"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#visual-single-question-on-a-dark-slide-centred-nothing-else",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#visual-single-question-on-a-dark-slide-centred-nothing-else",
+    "title": "I Didn’t Set Out to Be a Software Developer",
+    "section": "[VISUAL: Single question on a dark slide, centred, nothing else]",
+    "text": "[VISUAL: Single question on a dark slide, centred, nothing else]\n\nHow many of you consider yourself a software developer?\n\n\nLet it sit. Then: “Good. Neither do I.”"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#visual-personal-photo-you-at-work-or-in-the-netherlands",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#visual-personal-photo-you-at-work-or-in-the-netherlands",
+    "title": "I Didn’t Set Out to Be a Software Developer",
+    "section": "[VISUAL: Personal photo — you at work, or in the Netherlands]",
+    "text": "[VISUAL: Personal photo — you at work, or in the Netherlands]\n\n“In June 2021, I was sitting in my office in the Netherlands and my boss walked in and asked me a question I was not prepared for.”\nPause.\n“He said: should we vaccinate children against COVID-19?”\nPause.\n“I had two weeks to answer it.”\nLet that land.\n“I’m not a software developer. I’m an infectious disease modeler. But the reason I was able to deliver that answer on time — and the reason it survived public scrutiny and became part of European-wide disease modelling infrastructure — had almost nothing to do with my epidemiology.”\nPause.\n“It had to do with how I set up my project folder.”\nPause.\n“What I got back from that choice was not what I expected.”"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#organising-a-covid-analysis",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#organising-a-covid-analysis",
+    "title": "I Didn’t Set Out to Be a Software Developer",
+    "section": "Organising a COVID analysis",
+    "text": "Organising a COVID analysis\n\nNetherlands COVID vaccination decision — set up the context briefly."
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#visual-the-file-hellscape-screenshot-from-original-talk",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#visual-the-file-hellscape-screenshot-from-original-talk",
+    "title": "I Didn’t Set Out to Be a Software Developer",
+    "section": "[VISUAL: The “file hellscape” screenshot from original talk]",
+    "text": "[VISUAL: The “file hellscape” screenshot from original talk]\n\n“This is what my projects used to look like. Sound familiar?”"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#visual-beforeafter-messy-folder-vs.-package-structure",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#visual-beforeafter-messy-folder-vs.-package-structure",
+    "title": "I Didn’t Set Out to Be a Software Developer",
+    "section": "[VISUAL: Before/after — messy folder vs. package structure]",
+    "text": "[VISUAL: Before/after — messy folder vs. package structure]\n\n“I restructured it as an R package. Functions in one place. Data in one place. Documentation living with the code.”"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#the-unexpected-benefit",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#the-unexpected-benefit",
+    "title": "I Didn’t Set Out to Be a Software Developer",
+    "section": "The unexpected benefit",
+    "text": "The unexpected benefit\n\nSpeed\n\n\n🔄 Models updated rapidly as new data came in\n⏰ Analysis delivered on time\n🛡️ Survived a public audit\n💉 Directly informed national health policy\n\n\n“I wasn’t trying to be organised for its own sake. I was trying to hit a deadline. The structure is what made that possible.”"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#visual-map-of-europe-epidemics-package-hex-collaboration-image",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#visual-map-of-europe-epidemics-package-hex-collaboration-image",
+    "title": "I Didn’t Set Out to Be a Software Developer",
+    "section": "[VISUAL: Map of Europe / epidemics package hex / collaboration image]",
+    "text": "[VISUAL: Map of Europe / epidemics package hex / collaboration image]\n\nIncorporated into epidemics — a European transmission model library\n🌍 One national analysis became international infrastructure\n\n\n“I didn’t plan for that. It happened because the work was structured in a way others could actually use.”"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#making-a-method-useable",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#making-a-method-useable",
+    "title": "I Didn’t Set Out to Be a Software Developer",
+    "section": "Making a method useable",
+    "text": "Making a method useable\n\nTransition: “The second unexpected benefit was about reach.”"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#visual-academic-paper-screenshot-vink-et-al.-2014-or-similar",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#visual-academic-paper-screenshot-vink-et-al.-2014-or-similar",
+    "title": "I Didn’t Set Out to Be a Software Developer",
+    "section": "[VISUAL: Academic paper screenshot — Vink et al. 2014 or similar]",
+    "text": "[VISUAL: Academic paper screenshot — Vink et al. 2014 or similar]\n\n“There’s a method for estimating serial intervals — how quickly a disease spreads from person to person. It was published in 2014. Solid method. But using it meant digging through a paper, reimplementing the algorithm yourself, hoping you got it right.”\n“Nobody was using it. Not because it wasn’t good. Because it wasn’t accessible.”"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#visual-mitey-hex-logo-one-line-install-command",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#visual-mitey-hex-logo-one-line-install-command",
+    "title": "I Didn’t Set Out to Be a Software Developer",
+    "section": "[VISUAL: mitey hex logo + one-line install command]",
+    "text": "[VISUAL: mitey hex logo + one-line install command]\ninstall.packages(\"mitey\")\n\n“I packaged it. Documented it. Put it on CRAN. Now anyone can use it in one line.”"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#the-unexpected-benefit-1",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#the-unexpected-benefit-1",
+    "title": "I Didn’t Set Out to Be a Software Developer",
+    "section": "The unexpected benefit",
+    "text": "The unexpected benefit\n\nReach\n\n\n📄 Method existed only inside a paper\n📦 Now accessible to any epidemiologist in the world\n🔬 Research became a tool, not just a publication\n\n\n“I didn’t set out to democratise a method. I was just trying to make my own analysis reproducible. Packaging it was the obvious next step — and it meant the method finally had a life beyond the paper it was published in.”"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#building-something-i-never-planned-to-build",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#building-something-i-never-planned-to-build",
+    "title": "I Didn’t Set Out to Be a Software Developer",
+    "section": "Building something I never planned to build",
+    "text": "Building something I never planned to build\n\nTransition: “This is where it gets unexpected.”"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#visual-screenshot-of-rwarehouse.netlify.app",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#visual-screenshot-of-rwarehouse.netlify.app",
+    "title": "Elevating your research through software development",
+    "section": "[VISUAL: Screenshot of rwarehouse.netlify.app]",
+    "text": "[VISUAL: Screenshot of rwarehouse.netlify.app]\n\n“This is where it gets unexpected, even for me.”\n“I kept running into the same frustration. I knew R could do what I needed. I just couldn’t find the right package. There are over 23,000 packages on CRAN — how do you find the one you need if you don’t already know it exists?”\n“And I realised — this wasn’t just my problem. This was everyone’s problem.”\nPause.\n“And I had the confidence to do something about it.”"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#visual-search-bar-ai-semantic-search-demo-screenshot",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#visual-search-bar-ai-semantic-search-demo-screenshot",
+    "title": "I Didn’t Set Out to Be a Software Developer",
+    "section": "[VISUAL: Search bar / AI semantic search demo screenshot]",
+    "text": "[VISUAL: Search bar / AI semantic search demo screenshot]\n\n“With AI-powered semantic search. You describe what you want to do — in plain language — and it finds the tools.”\n“I felt confident enough to build this because I had been gradually improving my software development skills. Each project built on the last.”"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#the-unexpected-benefit-2",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#the-unexpected-benefit-2",
+    "title": "I Didn’t Set Out to Be a Software Developer",
+    "section": "The unexpected benefit",
+    "text": "The unexpected benefit\n\nPossibility\n\n\n💡 Hit a problem\n🛠️ Realised I had the skills to solve it\n🤖 Built an AI-powered tool for the R community\n🧑‍🤝‍🧑 For researchers, by a researcher\n\n\n“I didn’t set out to build an AI-powered tool. I set out to organise a folder. But somewhere along the way, without really noticing, I became someone who could.”"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#visual-simple-three-step-arc-organise-share-build",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#visual-simple-three-step-arc-organise-share-build",
+    "title": "I Didn’t Set Out to Be a Software Developer",
+    "section": "[VISUAL: Simple three-step arc — organise → share → build]",
+    "text": "[VISUAL: Simple three-step arc — organise → share → build]\n\nOrganise → your work becomes faster and more robust\nShare → your work gets a life beyond the paper\nBuild → you become someone who can solve problems you didn’t know you could solve\n\n\n“None of this required becoming a software developer. It required borrowing a few ideas from software developers.”"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#the-unexpected-benefit-of-all-of-it",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#the-unexpected-benefit-of-all-of-it",
+    "title": "I Didn’t Set Out to Be a Software Developer",
+    "section": "The unexpected benefit of all of it",
+    "text": "The unexpected benefit of all of it\n\nConfidence\n\n\n“Not confidence in software. Confidence in what you’re capable of. That’s the thing I didn’t see coming.”"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#you-dont-need-to-be-a-software-developer",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#you-dont-need-to-be-a-software-developer",
+    "title": "I Didn’t Set Out to Be a Software Developer",
+    "section": "You don’t need to be a software developer",
+    "text": "You don’t need to be a software developer\n\nStart with your next project\nStructure it like a package — even loosely\nThe tools and resources are there\n\n\n[PLACEHOLDER: Add usethis logo, R packages book cover, or other learning resources relevant to your audience’s language/tooling]"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#visual-mitey-hex-warehouse-screenshot-your-photo-the-three-outputs-side-by-side",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#visual-mitey-hex-warehouse-screenshot-your-photo-the-three-outputs-side-by-side",
+    "title": "I Didn’t Set Out to Be a Software Developer",
+    "section": "[VISUAL: mitey hex + Warehouse screenshot + your photo — the three outputs side by side]",
+    "text": "[VISUAL: mitey hex + Warehouse screenshot + your photo — the three outputs side by side]\n\nI started by trying to organise a folder.\nI ended up building something I never imagined.\nYou will too.\n\n\nFinal beat. Let it land. No “thank you” slide. Leave this up during questions."
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#what-you-now-know-that-you-didnt-before",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#what-you-now-know-that-you-didnt-before",
+    "title": "I Didn’t Set Out to Be a Software Developer",
+    "section": "What you now know that you didn’t before",
+    "text": "What you now know that you didn’t before\n\nA messy project is a scientific liability, not just an inconvenience\nStructure is a research output\nSoftware development skills compound — each project makes the next one possible\nYou don’t need to plan where this takes you\n\n\nContributions slide — mirrors the opening promise. Leave this up during Q&A."
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#look-familiar",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#look-familiar",
+    "title": "Elevating your research through software development",
+    "section": "Look familiar?",
+    "text": "Look familiar?\n\n\n\n\n“My PhD dissertation.”\n“Where is that script? Which version is current? What was I thinking six months ago?”\n“When I moved to my postdoc I thought — there has to be a better way.”"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#how",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#how",
+    "title": "Elevating your research through software development",
+    "section": "How?",
+    "text": "How?\n\nStructure your project like a software package\n\n\n“I started doing this purely for organisation, and came to find that it had many unexpected benefits for my research.”"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#lets-travel-back-in-time",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#lets-travel-back-in-time",
+    "title": "Elevating your research through software development",
+    "section": "Let’s travel back in time",
+    "text": "Let’s travel back in time"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#june-2021-in-the-netherlands",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#june-2021-in-the-netherlands",
+    "title": "Elevating your research through software development",
+    "section": "June 2021 in the Netherlands",
+    "text": "June 2021 in the Netherlands\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n“June 2021. The Netherlands. COVID cases were falling, vaccines were rolling out, and things were starting to feel almost normal again.”"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#june-2021-in-the-netherlands-1",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#june-2021-in-the-netherlands-1",
+    "title": "Elevating your research through software development",
+    "section": "June 2021 in the Netherlands",
+    "text": "June 2021 in the Netherlands"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#june-2021-in-the-netherlands-2",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#june-2021-in-the-netherlands-2",
+    "title": "Elevating your research through software development",
+    "section": "June 2021 in the Netherlands",
+    "text": "June 2021 in the Netherlands\n\nShould the Netherlands extend COVID-19 vaccination to adolescents and children?\n\n\n\n“My boss walked in and asked me this question. I had two weeks to answer it.”\nPause.\n“I had already been structuring my projects like software packages for a couple of years. I didn’t know then how much that was going to matter.”"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#what-if-there-was-a-better-way",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#what-if-there-was-a-better-way",
+    "title": "Elevating your research through software development",
+    "section": "What if there was a better way?",
+    "text": "What if there was a better way?\n\n\n\n\n\n\n\n\n➡️\n\n\n\n\n\n\n\n\nHow?"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#what-i-got-back",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#what-i-got-back",
+    "title": "Elevating your research through software development",
+    "section": "What I got back",
+    "text": "What I got back\n\n🔄 Models rapidly updated as new data came in\n⏰ Analysis delivered on time\n🛡️ Survived a public audit\n💉 Directly informed national health policy\n\n\n“I wasn’t trying to be organised for its own sake. I was trying to hit a deadline. The structure is what made that possible.”\n“And then something happened that I really didn’t expect.”"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#visual-scabies-something-warm-and-human",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#visual-scabies-something-warm-and-human",
+    "title": "Elevating your research through software development",
+    "section": "[VISUAL: Scabies — something warm and human]",
+    "text": "[VISUAL: Scabies — something warm and human]\n\n“A few years later I was working on something completely different — scabies transmission. Very different disease, same approach.”\n“There was a solid method for estimating how quickly scabies spreads between people. Published in 2014. Well-validated. But using it meant digging through a paper, reimplementing the maths yourself, hoping you hadn’t made a mistake somewhere.”\n“Nobody was really using it — not because it wasn’t good. Because it wasn’t accessible.”"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#visual-vink-et-al.-2014-paper-screenshot",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#visual-vink-et-al.-2014-paper-screenshot",
+    "title": "Elevating your research through software development",
+    "section": "[VISUAL: Vink et al. 2014 paper screenshot]",
+    "text": "[VISUAL: Vink et al. 2014 paper screenshot]\n\n“Because I was already structuring my projects like packages and writing documentation as I went, turning it into a proper package was surprisingly straightforward. The hard work was already done.”"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#one-piece-of-research.-two-outputs.",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#one-piece-of-research.-two-outputs.",
+    "title": "Elevating your research through software development",
+    "section": "One piece of research. Two outputs.",
+    "text": "One piece of research. Two outputs.\n\n📄 Academic publication\n📦 CRAN package\n\n\n“The package wasn’t a separate project. It was just the natural next step from working this way.”\n“One piece of research. Two academic outputs. Almost no extra effort.”"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#announcement",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#announcement",
+    "title": "Elevating your research through software development",
+    "section": "Announcement",
+    "text": "Announcement\nI’ve just had my first R package accepted to CRAN!"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#visual-the-warehouse-ai-search-demo",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#visual-the-warehouse-ai-search-demo",
+    "title": "Elevating your research through software development",
+    "section": "[VISUAL: The Warehouse — AI search demo]",
+    "text": "[VISUAL: The Warehouse — AI search demo]\n\n“I built a searchable directory. With AI-powered semantic search — you describe what you want to do in plain language, and it finds the tools. Curated categories. Community reviews.”\n“This has nothing to do with infectious disease modelling. But I built it — because I had been gradually building skills and confidence, one project at a time.”\n“Each project made the next one possible.”"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#where-this-started",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#where-this-started",
+    "title": "Elevating your research through software development",
+    "section": "Where this started",
+    "text": "Where this started\n\nA PhD dissertation that was a mess\n\n\n“I started by trying to organise a folder.”\nPause.\n“I ended up building an AI-powered tool for a community of researchers.”\n“I still don’t consider myself a software developer. But I can’t imagine doing my research any other way.”"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#what-you-now-know",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#what-you-now-know",
+    "title": "Elevating your research through software development",
+    "section": "What you now know",
+    "text": "What you now know\n\n📁 A messy project is a scientific liability, not just an inconvenience\n🔄 Structure makes your work faster and more robust\n🌍 It gives your research a life beyond the paper\n🧑‍🤝‍🧑 It makes collaboration frictionless\n💡 It quietly expands what you think you’re capable of building\n\n\nLeave this up during Q&A."
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#your-turn",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#your-turn",
+    "title": "Elevating your research through software development",
+    "section": "Your turn!",
+    "text": "Your turn!\n\n\n\n\nTry a package structure for your next project\n\n\n\n\nTons of tools and learning materials available\n\n\n\n\nYou’ll never go back to messy folders\n\n\n\n\n\n\n  \n    \n      \n    \n    The Turing Way\n  \n\n  \n    \n      \n    \n    Software Carpentry\n  \n\n  \n    \n      \n    \n    Research Software EngineeringBannert\n  \n\n  \n    \n      \n    \n    R Packages(R users)\n  \n\n\n\n\n\n“You don’t need to start with a package. You don’t need to publish to CRAN. You just need to start.”\n“There are great resources whatever language you work in — a few here to get you started.”"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#get-in-touch",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#get-in-touch",
+    "title": "Elevating your research through software development",
+    "section": "Get in touch!",
+    "text": "Get in touch!\n\n\n linkedin.com/in/kylieainslie\n @kylieainslie.bsky.social\n github.com/kylieainslie\n kylieainslie.github.io\n rwarehouse.netlify.app\n\n\n\n\nLeave the contributions slide up during Q&A, not this one."
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#organize",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#organize",
+    "title": "Elevating your research through software development",
+    "section": "Organize",
+    "text": "Organize\n\n\n\n\n❌ Typical Project\nmyproject/\n├── analysis.R\n├── analysis_FINAL.R\n├── analysis_FINAL_v2.R\n├── code_guide.pdf\n├── data_raw.csv\n├── final_report.pdf\n├── final_report_FINAL.pdf\n├── functions.R\n├── methodology.docx\n└── more_functions.R\n\n\n\n\n✅ Package Structure\n📦 mypackage/\n├── R/            # Code\n├── inst/extdata/ # Data + Scripts \n├── man/          # Help files\n└── vignettes/    # Analysis"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#organize-1",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#organize-1",
+    "title": "Elevating your research through software development",
+    "section": "Organize",
+    "text": "Organize\n\n\n\n❌ Typical Project\nmyproject/\n├── analysis.R\n├── analysis_FINAL.R\n├── analysis_FINAL_v2.R\n├── code_guide.pdf\n├── data_raw.csv\n├── final_report.pdf\n├── final_report_FINAL.pdf\n├── functions.R\n├── methodology.docx\n└── more_functions.R\n\n\n✅ Package Structure\n📦 mypackage/\n├── R/            # Code\n    ├── functions.R\n    └── more_functions.R\n├── inst/extdata/ # Data + Scripts \n├── man/          # Help files\n└── vignettes/    # Analysis"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#organize-2",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#organize-2",
+    "title": "Elevating your research through software development",
+    "section": "Organize",
+    "text": "Organize\n\n\n\n❌ Typical Project\nmyproject/\n├── analysis.R\n├── analysis_FINAL.R\n├── analysis_FINAL_v2.R\n├── code_guide.pdf\n├── data_raw.csv\n├── final_report.pdf\n├── final_report_FINAL.pdf\n├── functions.R\n├── methodology.docx\n└── more_functions.R\n\n\n✅ Package Structure\n📦 mypackage/\n├── R/            # Code\n├── inst/extdata/ # Data + Scripts\n    ├── analysis.R\n    ├── analysis_FINAL.R\n    ├── analysis_FINAL_v2.R\n    └── data_raw.csv\n├── man/          # Help files\n└── vignettes/    # Analysis"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#organize-3",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#organize-3",
+    "title": "Elevating your research through software development",
+    "section": "Organize",
+    "text": "Organize\n\n\n\n❌ Typical Project\nmyproject/\n├── analysis.R\n├── analysis_FINAL.R\n├── analysis_FINAL_v2.R\n├── code_guide.pdf\n├── data_raw.csv\n├── final_report.pdf\n├── final_report_FINAL.pdf\n├── functions.R\n├── methodology.docx\n└── more_functions.R\n\n\n✅ Package Structure\n📦 mypackage/\n├── R/            # Code\n├── inst/extdata/ # Data + Scripts\n├── man/          # Help files\n└── vignettes/    # Analysis\n    ├── code_guide.Rmd\n    ├── methodology.Rmd\n    └── report.Rmd"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#impact-structure---efficiency",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#impact-structure---efficiency",
+    "title": "Elevating your research through software development",
+    "section": "Impact: Structure -> Efficiency",
+    "text": "Impact: Structure -&gt; Efficiency\n\n🔄 Models rapidly updated as new data came in\n⏰ Analysis delivered on time\n💉 Directly informed national health policy\n🛡️ Survived a public audit\n\n\n“I wasn’t trying to be organised for its own sake. I was trying to hit a deadline. The structure is what made that possible.”\n“And then something happened that I really didn’t expect.”"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#visual-something-warm-and-human-scabies-context",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#visual-something-warm-and-human-scabies-context",
+    "title": "Elevating your research through software development",
+    "section": "[VISUAL: Something warm and human — scabies context]",
+    "text": "[VISUAL: Something warm and human — scabies context]\n\n“A few years later I was working on something completely different — scabies transmission. Very different disease, same approach.”\n“There was a solid method for estimating how quickly scabies spreads between people. Published in 2014. Well-validated. But using it meant digging through a paper, reimplementing the maths yourself, hoping you hadn’t made a mistake somewhere.”\n“Nobody was really using it — not because it wasn’t good. Because it wasn’t accessible.”"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#visual-mitey-hex-primarycensored-hex-side-by-side",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#visual-mitey-hex-primarycensored-hex-side-by-side",
+    "title": "Elevating your research through software development",
+    "section": "[VISUAL: mitey hex + primarycensored hex side by side]",
+    "text": "[VISUAL: mitey hex + primarycensored hex side by side]\n\n  \n  \n\n\n“I didn’t set out to make a method accessible to the world. I was just trying to make my own analysis reproducible.”\n“But because the work was packaged and documented properly, it became easy for others to engage with it seriously.”\n“We’re now exploring synergies between mitey and the primarycensored package — work being led by Sam Abbott. That collaboration wouldn’t have happened if the method had stayed locked in a paper.”\n“When your work is structured to be shareable, people share it. And then things grow in directions you didn’t plan.”"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#visual-software-page-screenshot-again",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#visual-software-page-screenshot-again",
+    "title": "Elevating your research through software development",
+    "section": "[VISUAL: Software page screenshot again]",
+    "text": "[VISUAL: Software page screenshot again]\n\nIt started with a folder.\n\n\n“I still don’t consider myself a software developer.”\nPause.\n“But look what became possible.”\nPause.\n“If I can do this — so can you.”"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#your-turn-1",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#your-turn-1",
+    "title": "Elevating your research through software development",
+    "section": "Your turn!",
+    "text": "Your turn!\n\n\n\n\nTry a package structure for your next project\n\n\n\n\nTons of tools and learning materials available\n\n\n\n\nYou’ll never go back to messy folders\n\n\n\n\n\n\n  \n    \n      \n    \n    The Turing Way\n  \n\n  \n    \n      \n    \n    Software Carpentry\n  \n\n  \n    \n      \n    \n    Research Software EngineeringBannert\n  \n\n  \n    \n      \n    \n    R Packages(R users)\n  \n\n\n\n\n\n“You don’t need to start with a CRAN package. You don’t need to build a web app. You just need to start.”\n“There are great resources whatever language you work in.”"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#section",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#section",
+    "title": "Elevating your research through software development",
+    "section": "",
+    "text": "How many of you have ever thought: software development isn’t for me?\n\n\nLet hands go up. Look around the room. “I thought that too.”\nPause.\n“Me either. I’m an infectious disease modeller.”"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#software-portfolio",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#software-portfolio",
+    "title": "Elevating your research through software development",
+    "section": "Software portfolio",
+    "text": "Software portfolio\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLet it sit. “This is my software portfolio.”\nPause.\n“It started with a folder.”"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#section-1",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#section-1",
+    "title": "Elevating your research through software development",
+    "section": "",
+    "text": "Structure your project like a software package\n\nOrganise\n\nConfidence & Community\n\n\n\n“I started doing this purely for organisation, and came to find that it had many unexpected benefits for my research.”"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#section-2",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#section-2",
+    "title": "Elevating your research through software development",
+    "section": "",
+    "text": "Organise"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#organise",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#organise",
+    "title": "Elevating your research through software development",
+    "section": "Organise",
+    "text": "Organise\n\n\n\n\n❌ Typical Project\nmyproject/\n├── analysis.R\n├── analysis_FINAL.R\n├── analysis_FINAL_v2.R\n├── code_guide.pdf\n├── data_raw.csv\n├── final_report.pdf\n├── final_report_FINAL.pdf\n├── functions.R\n├── methodology.docx\n└── more_functions.R\n\n\n\n\n✅ Package Structure\n📦 mypackage/\n├── R/            # Code\n├── inst/extdata/ # Data + Scripts \n├── man/          # Help files\n└── vignettes/    # Analysis"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#organise-1",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#organise-1",
+    "title": "Elevating your research through software development",
+    "section": "Organise",
+    "text": "Organise\n\n\n\n❌ Typical Project\nmyproject/\n├── analysis.R\n├── analysis_FINAL.R\n├── analysis_FINAL_v2.R\n├── code_guide.pdf\n├── data_raw.csv\n├── final_report.pdf\n├── final_report_FINAL.pdf\n├── functions.R\n├── methodology.docx\n└── more_functions.R\n\n\n✅ Package Structure\n📦 mypackage/\n├── R/            # Code\n    ├── functions.R\n    └── more_functions.R\n├── inst/extdata/ # Data + Scripts \n├── man/          # Help files\n└── vignettes/    # Analysis"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#organise-2",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#organise-2",
+    "title": "Elevating your research through software development",
+    "section": "Organise",
+    "text": "Organise\n\n\n\n❌ Typical Project\nmyproject/\n├── analysis.R\n├── analysis_FINAL.R\n├── analysis_FINAL_v2.R\n├── code_guide.pdf\n├── data_raw.csv\n├── final_report.pdf\n├── final_report_FINAL.pdf\n├── functions.R\n├── methodology.docx\n└── more_functions.R\n\n\n✅ Package Structure\n📦 mypackage/\n├── R/            # Code\n├── inst/extdata/ # Data + Scripts\n    ├── analysis.R\n    ├── analysis_FINAL.R\n    ├── analysis_FINAL_v2.R\n    └── data_raw.csv\n├── man/          # Help files\n└── vignettes/    # Analysis"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#organise-3",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#organise-3",
+    "title": "Elevating your research through software development",
+    "section": "Organise",
+    "text": "Organise\n\n\n\n❌ Typical Project\nmyproject/\n├── analysis.R\n├── analysis_FINAL.R\n├── analysis_FINAL_v2.R\n├── code_guide.pdf\n├── data_raw.csv\n├── final_report.pdf\n├── final_report_FINAL.pdf\n├── functions.R\n├── methodology.docx\n└── more_functions.R\n\n\n✅ Package Structure\n📦 mypackage/\n├── R/            # Code\n├── inst/extdata/ # Data + Scripts\n├── man/          # Help files\n└── vignettes/    # Analysis\n    ├── code_guide.Rmd\n    ├── methodology.Rmd\n    └── report.Rmd"
   }
 ]

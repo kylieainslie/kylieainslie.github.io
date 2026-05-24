@@ -5,161 +5,187 @@ page-layout: full
 title-block-banner: true
 ---
 
-# R packages
+```{=html}
+<style>
+.pkg-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
 
-::::::::::::::::::::::::::: grid
-:::::::::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
-::::::::: {.card .h-100}
-::: card-header
-![](images/mitey_hex_superman.png){.card-img-top style="height: 200px; object-fit: contain; background-color: var(--bs-body-bg);"}
-:::
+details.pkg-item {
+  border: 1px solid var(--bs-border-color);
+  border-radius: 0.5rem;
+  background: var(--bs-body-bg);
+  overflow: hidden;
+  transition: box-shadow 0.15s;
+}
 
-::::::: {.card-body .d-flex .flex-column}
-::: card-title
-## [mitey](https://kylieainslie.github.io/mitey/) <span class="badge bg-success">v0.3.0</span>
-:::
+details.pkg-item:hover {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
 
-::: card-text
-A lightweight R package with methods to estimate serial intervals and time-varying reproduction numbers from infectious disease outbreak data.
-:::
+details.pkg-item[open] {
+  border-color: var(--bs-primary);
+}
 
-:::: mt-auto
-::: btn-group
-[GitHub](https://github.com/kylieainslie/mitey){.btn .btn-primary .btn-sm} [CRAN](https://cran.r-project.org/package=mitey){.btn .btn-outline-secondary .btn-sm} [Publication](https://doi.org/10.1038/s41467-025-65544-y){.btn .btn-outline-info .btn-sm}
-:::
-::::
-:::::::
-:::::::::
-::::::::::
+summary.pkg-summary {
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.75rem 0.75rem 0.5rem;
+  gap: 0.4rem;
+  user-select: none;
+}
 
-:::::::::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
-::::::::: {.card .h-100}
-::: card-header
-![](images/vacamole_hex.png){.card-img-top style="height: 200px; object-fit: contain; background-color: var(--bs-body-bg);"}
-:::
+summary.pkg-summary::-webkit-details-marker { display: none; }
 
-::::::: {.card-body .d-flex .flex-column}
-::: card-title
-## [vacamole](https://kylieainslie.github.io/vacamole/)
-:::
+summary.pkg-summary img {
+  height: 90px;
+  width: auto;
+  object-fit: contain;
+}
 
-::: card-text
-An R package that features a deterministic age-structured compartmental susceptible-exposed-infectious-recovered (SEIR) model and supporting functions.
-:::
+.pkg-title-row {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
 
-:::: mt-auto
-::: btn-group
-[GitHub](https://github.com/kylieainslie/vacamole){.btn .btn-primary .btn-sm} <!-- [Documentation](https://kylieainslie.github.io/vacamole/){.btn .btn-outline-info .btn-sm} --> [Publication](https://pmc.ncbi.nlm.nih.gov/articles/PMC9635025/){.btn .btn-outline-info .btn-sm}
-:::
-::::
-:::::::
-:::::::::
-::::::::::
+.pkg-expand-hint {
+  font-size: 0.65em;
+  color: var(--bs-secondary-color);
+  transition: transform 0.2s;
+}
 
-:::::::::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
-::::::::: {.card .h-100}
-::: card-header
-![](images/morevac_hex.png){.card-img-top style="height: 200px; object-fit: contain; background-color: var(--bs-body-bg);"}
-:::
+details[open] .pkg-expand-hint {
+  transform: rotate(90deg);
+}
 
-::::::: {.card-body .d-flex .flex-column}
-::: card-title
-## [morevac](https://github.com/kylieainslie/morevac?tab=readme-ov-file#modelling-repeat-vaccination-morevac)
-:::
+.pkg-body {
+  padding: 0 0.75rem 0.75rem;
+  border-top: 1px solid var(--bs-border-color);
+}
 
-::: card-text
-An R package that features a multi-annual, individual-based, stochastic, force of infection model that accounts for individual exposure histories and disease/vaccine dynamics influencing susceptibility.
-:::
+.pkg-desc {
+  margin-top: 0.5rem;
+  font-size: 0.82rem;
+  color: var(--bs-secondary-color);
+  line-height: 1.4;
+}
 
-:::: mt-auto
-::: btn-group
-[GitHub](https://github.com/kylieainslie/morevac){.btn .btn-primary .btn-sm} <!-- [Documentation](https://kylieainslie.github.io/morevac/){.btn .btn-outline-info .btn-sm} --> [Publication](https://doi.org/10.1016/j.vaccine.2022.03.065){.btn .btn-outline-info .btn-sm}
-:::
-::::
-:::::::
-:::::::::
-::::::::::
+.pkg-links {
+  margin-top: 0.5rem;
+  display: flex;
+  gap: 0.3rem;
+  flex-wrap: wrap;
+}
+</style>
+```
 
-:::::::::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
-::::::::: {.card .h-100}
-::: card-header
-![](images/pika_hex.png){.card-img-top style="height: 200px; object-fit: contain; background-color: var(--bs-body-bg);"}
-:::
+# R Packages
 
-::::::: {.card-body .d-flex .flex-column}
-::: card-title
-## [pika](https://mrc-ide.github.io/pika/)
-:::
+<div class="pkg-grid">
 
-::: card-text
-A lightweight R package for estimating the optimal lag and rolling correlation by grouping variable between two time series.
-:::
+<details class="pkg-item">
+<summary class="pkg-summary">
+<img src="images/mitey_hex_superman.png" alt="mitey">
+<div class="pkg-title-row">mitey <span class="badge bg-success" style="font-size:0.7em">v0.3.0</span> <span class="pkg-expand-hint">▶</span></div>
+</summary>
+<div class="pkg-body">
+<div class="pkg-desc">A lightweight R package with methods to estimate serial intervals and time-varying reproduction numbers from infectious disease outbreak data.</div>
+<div class="pkg-links">
+<a href="https://github.com/kylieainslie/mitey" class="btn btn-primary btn-sm">GitHub</a>
+<a href="https://cran.r-project.org/package=mitey" class="btn btn-outline-secondary btn-sm">CRAN</a>
+<a href="https://doi.org/10.1038/s41467-025-65544-y" class="btn btn-outline-info btn-sm">Publication</a>
+</div>
+</div>
+</details>
 
-:::: mt-auto
-::: btn-group
-[GitHub](https://github.com/mrc-ide/pika){.btn .btn-primary .btn-sm} <!-- [Documentation](https://kylieainslie.github.io/morevac/){.btn .btn-outline-info .btn-sm} --> [Publication](https://doi.org/10.12688/wellcomeopenres.15843.2){.btn .btn-outline-info .btn-sm}
-:::
-::::
-:::::::
-:::::::::
-::::::::::
+<details class="pkg-item">
+<summary class="pkg-summary">
+<img src="images/vacamole_hex.png" alt="vacamole">
+<div class="pkg-title-row">vacamole <span class="pkg-expand-hint">▶</span></div>
+</summary>
+<div class="pkg-body">
+<div class="pkg-desc">An R package that features a deterministic age-structured compartmental susceptible-exposed-infectious-recovered (SEIR) model and supporting functions.</div>
+<div class="pkg-links">
+<a href="https://github.com/kylieainslie/vacamole" class="btn btn-primary btn-sm">GitHub</a>
+<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9635025/" class="btn btn-outline-info btn-sm">Publication</a>
+</div>
+</div>
+</details>
 
-:::::::::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
-::::::::: {.card .h-100}
-::: card-header
-![](images/serosolver_placeholder.svg){.card-img-top style="height: 200px; object-fit: contain; background-color: var(--bs-body-bg);"}
-:::
+<details class="pkg-item">
+<summary class="pkg-summary">
+<img src="images/morevac_hex.png" alt="morevac">
+<div class="pkg-title-row">morevac <span class="pkg-expand-hint">▶</span></div>
+</summary>
+<div class="pkg-body">
+<div class="pkg-desc">An R package that features a multi-annual, individual-based, stochastic, force of infection model that accounts for individual exposure histories and disease/vaccine dynamics influencing susceptibility.</div>
+<div class="pkg-links">
+<a href="https://github.com/kylieainslie/morevac" class="btn btn-primary btn-sm">GitHub</a>
+<a href="https://doi.org/10.1016/j.vaccine.2022.03.065" class="btn btn-outline-info btn-sm">Publication</a>
+</div>
+</div>
+</details>
 
-::::::: {.card-body .d-flex .flex-column}
-::: card-title
-## [serosolver](https://github.com/seroanalytics/serosolver)
-:::
+<details class="pkg-item">
+<summary class="pkg-summary">
+<img src="images/pika_hex.png" alt="pika">
+<div class="pkg-title-row">pika <span class="pkg-expand-hint">▶</span></div>
+</summary>
+<div class="pkg-body">
+<div class="pkg-desc">A lightweight R package for estimating the optimal lag and rolling correlation by grouping variable between two time series.</div>
+<div class="pkg-links">
+<a href="https://github.com/mrc-ide/pika" class="btn btn-primary btn-sm">GitHub</a>
+<a href="https://doi.org/10.12688/wellcomeopenres.15843.2" class="btn btn-outline-info btn-sm">Publication</a>
+</div>
+</div>
+</details>
 
-::: card-text
-An open source R package for inferring epidemiological and immunological dynamics from serological data using a Bayesian framework to reconstruct individual-level infection histories and estimate antibody kinetics.
-:::
+<details class="pkg-item">
+<summary class="pkg-summary">
+<img src="images/serosolver_placeholder.svg" alt="serosolver">
+<div class="pkg-title-row">serosolver <span class="pkg-expand-hint">▶</span></div>
+</summary>
+<div class="pkg-body">
+<div class="pkg-desc">An open source R package for inferring epidemiological and immunological dynamics from serological data using a Bayesian framework to reconstruct individual-level infection histories and estimate antibody kinetics.</div>
+<div class="pkg-links">
+<a href="https://github.com/seroanalytics/serosolver" class="btn btn-primary btn-sm">GitHub</a>
+<a href="https://doi.org/10.1371/journal.pcbi.1007840" class="btn btn-outline-info btn-sm">Publication</a>
+</div>
+</div>
+</details>
 
-:::: mt-auto
-::: btn-group
-[GitHub](https://github.com/seroanalytics/serosolver){.btn .btn-primary .btn-sm} [Publication](https://doi.org/10.1371/journal.pcbi.1007840){.btn .btn-outline-info .btn-sm}
-:::
-::::
-:::::::
-:::::::::
-::::::::::
-
-:::::::::::::::::::::::::::
+</div>
 
 ------------------------------------------------------------------------
 
 # Web Applications
 
-::::::::::::::::::::::::::: grid
-:::::::::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
-::::::::: {.card .h-100}
-::: card-header
-![](images/the_warehouse_logo.png){.card-img-top style="height: 200px; object-fit: contain; background-color: var(--bs-body-bg);"}
-:::
+<div class="pkg-grid">
 
-::::::: {.card-body .d-flex .flex-column}
-::: card-title
-## [The Warehouse](https://rwarehouse.netlify.app/)
-:::
+<details class="pkg-item">
+<summary class="pkg-summary">
+<img src="images/the_warehouse_logo.png" alt="The Warehouse">
+<div class="pkg-title-row">The Warehouse <span class="pkg-expand-hint">▶</span></div>
+</summary>
+<div class="pkg-body">
+<div class="pkg-desc">A function-first R package directory that helps data scientists find packages by what they do, not just by their names. Features AI-powered semantic search, curated categories, and community reviews.</div>
+<div class="pkg-links">
+<a href="https://rwarehouse.netlify.app/" class="btn btn-primary btn-sm">Website</a>
+<a href="https://github.com/kylieainslie/warehouse" class="btn btn-outline-secondary btn-sm">GitHub</a>
+</div>
+</div>
+</details>
 
-::: card-text
-A function-first R package directory that helps data scientists find packages by what they do, not just by their names. Features AI-powered semantic search, curated categories, and community reviews.
-:::
-
-:::: mt-auto
-::: btn-group
-[Website](https://rwarehouse.netlify.app/){.btn .btn-primary .btn-sm} [GitHub](https://github.com/kylieainslie/warehouse){.btn .btn-outline-secondary .btn-sm}
-:::
-::::
-:::::::
-:::::::::
-::::::::::
-
-:::::::::::::::::::::::::::
+</div>
 
 ------------------------------------------------------------------------
 
