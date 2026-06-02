@@ -1397,7 +1397,7 @@
     "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#look-familiar",
     "title": "Elevating your research through software development",
     "section": "Look familiar?",
-    "text": "Look familiar?\n\n\n\n\n“My PhD dissertation.”\n“Where is that script? Which version is current? What was I thinking six months ago?”\n“When I moved to my postdoc I thought — there has to be a better way.”"
+    "text": "Look familiar?\n\n\n\n\nPhD dissertation folder = messy!\n“Where is that script? Which version is current? What was I thinking six months ago?”"
   },
   {
     "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#how",
@@ -1432,14 +1432,14 @@
     "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#june-2021-in-the-netherlands-2",
     "title": "Elevating your research through software development",
     "section": "June 2021 in the Netherlands",
-    "text": "June 2021 in the Netherlands\n\nShould the Netherlands extend COVID-19 vaccination to adolescents and children?\n\n\n\n“My boss walked in and asked me this question. I had two weeks to answer it.”\nPause.\n“I had already been structuring my projects like software packages for a couple of years. I didn’t know then how much that was going to matter.”"
+    "text": "June 2021 in the Netherlands\n\nShould the Netherlands extend COVID-19 vaccination to adolescents and children?"
   },
   {
     "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#what-if-there-was-a-better-way",
     "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#what-if-there-was-a-better-way",
     "title": "Elevating your research through software development",
     "section": "What if there was a better way?",
-    "text": "What if there was a better way?\n\n\n\n\n\n\n\n\n➡️\n\n\n\n\n\n\n\n\nHow?"
+    "text": "What if there was a better way?\n\n\n\n\n\n\n\n\n\n\n\n\nHow?"
   },
   {
     "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#what-i-got-back",
@@ -1474,7 +1474,7 @@
     "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#announcement",
     "title": "Elevating your research through software development",
     "section": "Announcement",
-    "text": "Announcement\nI’ve just had my first R package accepted to CRAN!"
+    "text": "Announcement\nI’ve just had my first R package accepted to CRAN!\n\n\n“And then I realised — this is good enough to share with the world. Not just my colleagues. Anyone.”\nPause.\n“Getting it on CRAN was surprisingly straightforward. The hard work — the documentation, the structure, the vignettes — was already done.”"
   },
   {
     "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#visual-the-warehouse-ai-search-demo",
@@ -1495,21 +1495,21 @@
     "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#what-you-now-know",
     "title": "Elevating your research through software development",
     "section": "What you now know",
-    "text": "What you now know\n\n📁 A messy project is a scientific liability, not just an inconvenience\n🔄 Structure makes your work faster and more robust\n🌍 It gives your research a life beyond the paper\n🧑‍🤝‍🧑 It makes collaboration frictionless\n💡 It quietly expands what you think you’re capable of building\n\n\nLeave this up during Q&A."
+    "text": "What you now know\n\n📁 A messy project is a scientific liability, not just an inconvenience\n🔄 Structure makes your work faster and more robust\n🌍 It creates additional research outputs\n🧑‍🤝‍🧑 It makes collaboration frictionless\n💡 It quietly expands what you think you’re capable of building\n\n\nLeave this up during Q&A."
   },
   {
     "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#your-turn",
     "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#your-turn",
     "title": "Elevating your research through software development",
     "section": "Your turn!",
-    "text": "Your turn!\n\n\n\n\nTry a package structure for your next project\n\n\n\n\nTons of tools and learning materials available\n\n\n\n\nYou’ll never go back to messy folders\n\n\n\n\n\n\n  \n    \n      \n    \n    The Turing Way\n  \n\n  \n    \n      \n    \n    Software Carpentry\n  \n\n  \n    \n      \n    \n    Research Software EngineeringBannert\n  \n\n  \n    \n      \n    \n    R Packages(R users)\n  \n\n\n\n\n\n“You don’t need to start with a package. You don’t need to publish to CRAN. You just need to start.”\n“There are great resources whatever language you work in — a few here to get you started.”"
+    "text": "Your turn!\n\n\n\n\nTry a package structure for your next project\n\n\n\n\nTons of tools and learning materials available\n\n\n\n\nYou’ll never go back to messy folders\n\n\n\n\n\n\n  \n    \n      \n    \n    The Turing Way\n  \n\n  \n    \n      \n    \n    Software Carpentry\n  \n\n  \n    \n      \n    \n    Research Software EngineeringBannert\n  \n\n  \n    \n      \n    \n    R Packages(R users)"
   },
   {
     "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#get-in-touch",
     "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#get-in-touch",
     "title": "Elevating your research through software development",
     "section": "Get in touch!",
-    "text": "Get in touch!\n\n\n linkedin.com/in/kylieainslie\n @kylieainslie.bsky.social\n github.com/kylieainslie\n kylieainslie.github.io\n rwarehouse.netlify.app\n\n\n\n\nLeave the contributions slide up during Q&A, not this one."
+    "text": "Get in touch!\n\n\n linkedin.com/in/kylieainslie\n @kylieainslie.bsky.social\n github.com/kylieainslie\n kylieainslie.github.io\n rwarehouse.netlify.app"
   },
   {
     "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#organize",
@@ -1558,7 +1558,7 @@
     "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#visual-mitey-hex-primarycensored-hex-side-by-side",
     "title": "Elevating your research through software development",
     "section": "[VISUAL: mitey hex + primarycensored hex side by side]",
-    "text": "[VISUAL: mitey hex + primarycensored hex side by side]\n\n  \n  \n\n\n“I didn’t set out to make a method accessible to the world. I was just trying to make my own analysis reproducible.”\n“But because the work was packaged and documented properly, it became easy for others to engage with it seriously.”\n“We’re now exploring synergies between mitey and the primarycensored package — work being led by Sam Abbott. That collaboration wouldn’t have happened if the method had stayed locked in a paper.”\n“When your work is structured to be shareable, people share it. And then things grow in directions you didn’t plan.”"
+    "text": "[VISUAL: mitey hex + primarycensored hex side by side]\n\n  \n  \n\n\n“And it opened the door to collaboration. Because the package was documented and structured properly, Sam Abbott could see exactly what mitey did and where it might connect with his primarycensored package.”\n“We’re now exploring those synergies. That conversation wouldn’t have happened if the method had stayed locked in a paper.”\n“When your work is structured to be shareable, people find it. And then things grow in directions you didn’t plan.”"
   },
   {
     "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#visual-software-page-screenshot-again",
@@ -1579,7 +1579,7 @@
     "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#section",
     "title": "Elevating your research through software development",
     "section": "",
-    "text": "How many of you have ever thought: software development isn’t for me?\n\n\nLet hands go up. Look around the room. “I thought that too.”\nPause.\n“Me either. I’m an infectious disease modeller.”"
+    "text": "How many consider yourself software developers?\n\nMe either."
   },
   {
     "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#software-portfolio",
@@ -1593,7 +1593,7 @@
     "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#section-1",
     "title": "Elevating your research through software development",
     "section": "",
-    "text": "Structure your project like a software package\n\nOrganise\n\nConfidence & Community\n\n\n\n“I started doing this purely for organisation, and came to find that it had many unexpected benefits for my research.”"
+    "text": "Structure your project like a software package\n\nOrganise\nShare\nExtend\n\n\n\n“I started doing this purely for organisation, and came to find that it had many unexpected benefits for my research.”"
   },
   {
     "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#section-2",
@@ -1629,5 +1629,257 @@
     "title": "Elevating your research through software development",
     "section": "Organise",
     "text": "Organise\n\n\n\n❌ Typical Project\nmyproject/\n├── analysis.R\n├── analysis_FINAL.R\n├── analysis_FINAL_v2.R\n├── code_guide.pdf\n├── data_raw.csv\n├── final_report.pdf\n├── final_report_FINAL.pdf\n├── functions.R\n├── methodology.docx\n└── more_functions.R\n\n\n✅ Package Structure\n📦 mypackage/\n├── R/            # Code\n├── inst/extdata/ # Data + Scripts\n├── man/          # Help files\n└── vignettes/    # Analysis\n    ├── code_guide.Rmd\n    ├── methodology.Rmd\n    └── report.Rmd"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#and-yet",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#and-yet",
+    "title": "Elevating your research through software development",
+    "section": "And yet…",
+    "text": "And yet…\n\n\nLet it sit. I’ve developed numerous software packages.\nPause.\n“It started with a folder.”"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#structure---efficiency",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#structure---efficiency",
+    "title": "Elevating your research through software development",
+    "section": "Structure -> Efficiency",
+    "text": "Structure -&gt; Efficiency\n\n\n\n🔄 Models rapidly updated as new data came in\n⏰ Analysis delivered on time\n💉 Directly informed national health policy\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n“I wasn’t trying to be organised for its own sake. I was trying to hit a deadline. The structure is what made that possible.”\n“And then something happened that I really didn’t expect.”"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#impact",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#impact",
+    "title": "Elevating your research through software development",
+    "section": "Impact",
+    "text": "Impact"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#section-3",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#section-3",
+    "title": "Elevating your research through software development",
+    "section": "",
+    "text": "Organise → Efficiency"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#scabies-in-the-netherlands",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#scabies-in-the-netherlands",
+    "title": "Elevating your research through software development",
+    "section": "Scabies in the Netherlands",
+    "text": "Scabies in the Netherlands\n\n\n“I was asked to look into scabies transmission in the Netherlands. Cases were increasing and we needed to understand how fast it was spreading.”"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#the-method-existed.-the-implementation-didnt.",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#the-method-existed.-the-implementation-didnt.",
+    "title": "Elevating your research through software development",
+    "section": "The method existed. The implementation didn’t.",
+    "text": "The method existed. The implementation didn’t.\n\n\n\n\n\n🔍 Method published in 2014\n⛔ No implementation available\n💻 Had to code it myself\n\n\n\n\nWanted to use Vink et al. published in 2014.\nSolid, well-validated, but no implementation.\nI had to code it from scratch myself."
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#if-i-have-to-write-it-anyway",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#if-i-have-to-write-it-anyway",
+    "title": "Elevating your research through software development",
+    "section": "If I have to write it anyway…",
+    "text": "If I have to write it anyway…\n\n…I might as well do it properly.\n\n\n“If I’m writing this code anyway, I might as well structure it so my colleagues can use it too. That’s all I was thinking at this point.”"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#visual-mitey-vignette-screenshot",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#visual-mitey-vignette-screenshot",
+    "title": "Elevating your research through software development",
+    "section": "[VISUAL: mitey vignette screenshot]",
+    "text": "[VISUAL: mitey vignette screenshot]\n\n🚀 Quick start guide\n📊 Worked examples\n✅ Validation\n📄 Reproduce paper results\n\n\n“Because I was already working this way — documenting as I go, structuring as a package — the vignettes came naturally. Quick start, worked examples, validation, and crucially — you can reproduce the results from the original paper directly from the package.”\n“The software and the science are the same thing.”"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#section-4",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#section-4",
+    "title": "Elevating your research through software development",
+    "section": "",
+    "text": "Share"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#vink-et-al.",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#vink-et-al.",
+    "title": "Elevating your research through software development",
+    "section": "Vink et al.",
+    "text": "Vink et al.\n\n\n\n\n\n\n\n💻\n\n\n❌\n\n\n\n\n\n\nWanted to use Vink et al. published in 2014.\nSolid, well-validated, but no implementation.\nI had to code it from scratch myself."
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#vink-et-al.-1",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#vink-et-al.-1",
+    "title": "Elevating your research through software development",
+    "section": "Vink et al.",
+    "text": "Vink et al.\n\n\n\n\n\n\n\n📦\n\n\n✅\n\n\n\n\n\n\n\n\n“If I’m writing this code anyway, I might as well structure it so my colleagues can use it too. That’s all I was thinking at this point.”"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#document",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#document",
+    "title": "Elevating your research through software development",
+    "section": "Document",
+    "text": "Document"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#share---collaboration",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#share---collaboration",
+    "title": "Elevating your research through software development",
+    "section": "Share -> Collaboration",
+    "text": "Share -&gt; Collaboration\n\n  \n  \n\n\n\nOpened the door to collaboration.\nBecause the package was documented and structured properly, others could see exactly what mitey did and where it might connect with their work.\nWe’re now exploring those synergies.\nWhen your work is structured to be shareable, people find it -&gt; directions you didn’t expect."
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#document-1",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#document-1",
+    "title": "Elevating your research through software development",
+    "section": "Document",
+    "text": "Document\n\n\n\n🚀 Quick start guide"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#document-2",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#document-2",
+    "title": "Elevating your research through software development",
+    "section": "Document",
+    "text": "Document\n\n\n\n🚀 Quick start guide\n📊 Worked examples"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#document-3",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#document-3",
+    "title": "Elevating your research through software development",
+    "section": "Document",
+    "text": "Document\n\n\n\n🚀 Quick start guide\n📊 Worked examples\n✅ Validation"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#document-4",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#document-4",
+    "title": "Elevating your research through software development",
+    "section": "Document",
+    "text": "Document\n\n\n\n🚀 Quick start guide\n📊 Worked examples\n✅ Validation\n📄 Reproduce paper results"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#structure-efficiency",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#structure-efficiency",
+    "title": "Elevating your research through software development",
+    "section": "Structure → Efficiency",
+    "text": "Structure → Efficiency\n\n\n\n🔄 Model rapidly updated as new data came in\n⏰ Analysis delivered on time\n💉 Directly informed national health policy"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#share-collaboration",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#share-collaboration",
+    "title": "Elevating your research through software development",
+    "section": "Share → Collaboration",
+    "text": "Share → Collaboration\n\n  \n  \n\n\n\nWe’re now exploring those synergies.\nWhen your work is structured to be shareable, people find it -&gt; directions you didn’t expect."
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#share-collaboration-1",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#share-collaboration-1",
+    "title": "Elevating your research through software development",
+    "section": "Share → Collaboration",
+    "text": "Share → Collaboration\n\n  \n  \n\n\n\nWe’re now exploring those synergies.\nWhen your work is structured to be shareable, people find it -&gt; directions you didn’t expect."
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#share-reproducibility",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#share-reproducibility",
+    "title": "Elevating your research through software development",
+    "section": "Share → Reproducibility",
+    "text": "Share → Reproducibility"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#share-reproducibility-1",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#share-reproducibility-1",
+    "title": "Elevating your research through software development",
+    "section": "Share → Reproducibility",
+    "text": "Share → Reproducibility\ninstall.packages(\"mitey\")\n\n🌍 Any researcher, anywhere, can now apply this method\n🏥 Particularly important where research infrastructure is limited\n🧑‍🤝‍🧑 Scabies has a high burden in resource-poor countries\n\n\n“This matters. Scabies disproportionately affects resource-poor countries — places where researchers may not have the time or resources to implement a method from a ten-year-old paper themselves. Now they don’t have to.”"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#one-piece-of-research.-two-outputs",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#one-piece-of-research.-two-outputs",
+    "title": "Elevating your research through software development",
+    "section": "One piece of research. Two outputs",
+    "text": "One piece of research. Two outputs"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#the-warehouse",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#the-warehouse",
+    "title": "Elevating your research through software development",
+    "section": "The Warehouse",
+    "text": "The Warehouse"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#section-5",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#section-5",
+    "title": "Elevating your research through software development",
+    "section": "",
+    "text": "Share → Collaboration"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#section-6",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#section-6",
+    "title": "Elevating your research through software development",
+    "section": "",
+    "text": "Extend\n\n\n\nWhat started as a file structure helped me develop the confidence to think beyond my own research practices to develop something that would benefit the wider research community. Let me show you!"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#me-claude",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#me-claude",
+    "title": "Elevating your research through software development",
+    "section": "Me + Claude",
+    "text": "Me + Claude\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThis was also around the time I was introduced to Claude Code and was interested in exploring how I could use AI to expand and innovate."
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#structure",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#structure",
+    "title": "Elevating your research through software development",
+    "section": "Structure",
+    "text": "Structure\n\n\n✅ Package Structure\n📦 mypackage/\n├── R/            # Code\n├── inst/extdata/ # Data + Scripts\n├── man/          # Help files\n└── vignettes/    # Analysis"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#organise-efficiency",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#organise-efficiency",
+    "title": "Elevating your research through software development",
+    "section": "Organise → Efficiency",
+    "text": "Organise → Efficiency\n\n\n\n🔄 Model rapidly updated as new data came in\n⏰ Analysis delivered on time\n💉 Directly informed national health policy"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#section-7",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#section-7",
+    "title": "Elevating your research through software development",
+    "section": "",
+    "text": "Credit: Shutterstock/Kevin Key\n\n\nAs, by now, I’ve probably convinced you, I’m a fairly confident programmer. But I’m by no means the best. I started to wrestle with the question - how do I find a package that does a function that I want to do, if I don’t already know it exists?"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#section-8",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#section-8",
+    "title": "Elevating your research through software development",
+    "section": "",
+    "text": "Extend → Innovate"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#innovate-possiblity",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#innovate-possiblity",
+    "title": "Elevating your research through software development",
+    "section": "Innovate → Possiblity",
+    "text": "Innovate → Possiblity\n\n💡 Leverage new technology\n🛠️ Develop tools beyond your research area"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#extend-innovate",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#extend-innovate",
+    "title": "Elevating your research through software development",
+    "section": "Extend → Innovate",
+    "text": "Extend → Innovate\n\n💡 Leverage new technology\n🛠️ Develop tools beyond your research area"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#using-ai",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#using-ai",
+    "title": "Elevating your research through software development",
+    "section": "Using AI",
+    "text": "Using AI\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThis was also around the time I was introduced to Claude Code and was interested in exploring how I could use AI to expand and innovate."
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#document-5",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#document-5",
+    "title": "Elevating your research through software development",
+    "section": "Document",
+    "text": "Document"
+  },
+  {
+    "objectID": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#collaboration",
+    "href": "presentations/2026/CSI_Symposium/presentation_csi_symposium.html#collaboration",
+    "title": "Elevating your research through software development",
+    "section": "Collaboration",
+    "text": "Collaboration\n\n\n\nDocumentation enabled collaboration\nOpened the door to collaboration.\nBecause the package was documented and structured properly, others could see exactly what mitey did and where it might connect with their work."
   }
 ]
