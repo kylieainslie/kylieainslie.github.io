@@ -10,15 +10,15 @@ title-block-banner: true
 Click on each research theme to explore specific projects.
 
 ::::::::::::::::::::::::::: grid
-:::::::::: {.g-col-12 .g-col-md-6}
-::::::::: {.card .h-100 .research-card}
+:::::::: {.g-col-12 .g-col-md-6}
+::::::: {.card .h-100 .research-card}
 <a href="research/pandemic-preparedness.html" class="stretched-link"></a>
 
 ::: card-header
 ![](images/placeholder_pandemic.jpg){.card-img-top style="height: 250px; object-fit: cover;"}
 :::
 
-::::::: {.card-body}
+::::: card-body
 ::: card-title
 ## Pandemic Preparedness & Response
 :::
@@ -26,19 +26,19 @@ Click on each research theme to explore specific projects.
 ::: card-text
 Real-time modelling during outbreaks, evaluation of interventions, and building systems for rapid response to emerging infectious disease threats.
 :::
+:::::
 :::::::
-:::::::::
-::::::::::
+::::::::
 
-:::::::::: {.g-col-12 .g-col-md-6}
-::::::::: {.card .h-100 .research-card}
+:::::::: {.g-col-12 .g-col-md-6}
+::::::: {.card .h-100 .research-card}
 <a href="research/policy-modelling.html" class="stretched-link"></a>
 
 ::: card-header
 ![](images/placeholder_policy.jpg){.card-img-top style="height: 250px; object-fit: cover;"}
 :::
 
-::::::: {.card-body}
+::::: card-body
 ::: card-title
 ## Modelling for Public Health Policy
 :::
@@ -46,19 +46,19 @@ Real-time modelling during outbreaks, evaluation of interventions, and building 
 ::: card-text
 Using mathematical models to inform public health decision-making, including vaccination strategies, intervention timing, and resource allocation.
 :::
+:::::
 :::::::
-:::::::::
-::::::::::
+::::::::
 
-:::::::::: {.g-col-12 .g-col-md-6}
-::::::::: {.card .h-100 .research-card}
+:::::::: {.g-col-12 .g-col-md-6}
+::::::: {.card .h-100 .research-card}
 <a href="research/vaccine-effectiveness.html" class="stretched-link"></a>
 
 ::: card-header
 ![](images/placeholder_ve.jpg){.card-img-top style="height: 250px; object-fit: cover;"}
 :::
 
-::::::: {.card-body}
+::::: card-body
 ::: card-title
 ## Vaccine Effectiveness Methods
 :::
@@ -66,19 +66,19 @@ Using mathematical models to inform public health decision-making, including vac
 ::: card-text
 Developing and evaluating statistical methods for estimating vaccine effectiveness from observational data, including methods to assess waning protection.
 :::
+:::::
 :::::::
-:::::::::
-::::::::::
+::::::::
 
-:::::::::: {.g-col-12 .g-col-md-6}
-::::::::: {.card .h-100 .research-card}
+:::::::: {.g-col-12 .g-col-md-6}
+::::::: {.card .h-100 .research-card}
 <a href="research/transmission-dynamics.html" class="stretched-link"></a>
 
 ::: card-header
 ![](images/placeholder_transmission.jpg){.card-img-top style="height: 250px; object-fit: cover;"}
 :::
 
-::::::: {.card-body}
+::::: card-body
 ::: card-title
 ## Transmission Dynamics & Tools
 :::
@@ -86,9 +86,9 @@ Developing and evaluating statistical methods for estimating vaccine effectivene
 ::: card-text
 Estimating fundamental epidemiological parameters and developing accessible software tools for outbreak analysis and disease surveillance.
 :::
+:::::
 :::::::
-:::::::::
-::::::::::
+::::::::
 :::::::::::::::::::::::::::
 
 ```{=html}
@@ -125,7 +125,7 @@ Estimating fundamental epidemiological parameters and developing accessible soft
 </style>
 ```
 
----
+------------------------------------------------------------------------
 
 ## Collaboration
 
