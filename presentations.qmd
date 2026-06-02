@@ -9,6 +9,33 @@ title-block-banner: true
 :::::::::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
 ::::::::: {.card .h-100}
 ::: card-header
+![](images/presentation-thumbnails/CSI_Symposium-2026.png){.card-img-top style="height: 200px; object-fit: contain; background-color: var(--bs-body-bg);"}
+:::
+
+::::::: {.card-body .d-flex .flex-column}
+::: card-title
+## [Elevating your research through software development](presentations/2026/CSI_Symposium/presentation_csi_symposium.html)
+:::
+
+::: card-text
+**Computational Sciences in Infection & Immunity Symposium, Melbourne, June 2026**\
+How structuring research projects as software packages improves reproducibility, collaboration, and impact.
+:::
+
+:::: mt-auto
+::: btn-group
+[Slides](presentations/2026/CSI_Symposium/presentation_csi_symposium.html){.btn .btn-primary .btn-sm}
+[PDF](presentations/2026/CSI_Symposium/Kylie_Ainslie_CSI_symposium_presentation.pdf){.btn .btn-secondary .btn-sm}
+[Source](presentations/2026/CSI_Symposium/presentation_csi_symposium.qmd){.btn .btn-outline-secondary .btn-sm}
+:::
+::::
+:::::::
+:::::::::
+::::::::::
+
+:::::::::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+::::::::: {.card .h-100}
+::: card-header
 ![](images/presentation-thumbnails/yt-w1YmNcW19oI.jpg){.card-img-top style="height: 200px; object-fit: contain; background-color: var(--bs-body-bg);"}
 :::
 
