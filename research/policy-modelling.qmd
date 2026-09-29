@@ -123,7 +123,7 @@ Scenario modelling at RIVM (the Dutch National Institute for Public Health and t
 Miura, F., Leung, K. Y., Klinkenberg, D., **Ainslie, K. E. C.**, Wallinga, J. Optimal vaccine allocation for COVID-19 in the Netherlands: A data-driven prioritisation analysis. *PLOS Computational Biology* 2021. [Read paper →](https://doi.org/10.1371/journal.pcbi.1009697)
 :::
 
-**Related software:** [vacamole](https://github.com/kylieainslie/vacamole){.btn .btn-success .btn-sm}
+**Related software:** [vacamole](https://github.com/kylieainslie/vacamole){.btn .btn-success .btn-sm} [Software page →](../software.html#pkg-vacamole){.btn .btn-outline-secondary .btn-sm}
 :::
 
 ::: {.project-card}

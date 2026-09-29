@@ -158,7 +158,7 @@ title-block-banner-color: white
 
 Scabies is a contagious skin disease caused by the *Sarcoptes scabiei* mite, affecting over 400 million people annually worldwide. Despite its global burden, fundamental epidemiological characteristics had remained poorly described. Using data from Dutch sentinel surveillance (2011–2023), this work produced the first published estimates of the mean serial interval of scabies infection and time-varying reproduction numbers, revealing increasing transmission in recent years.
 
-**Related software:** [mitey](https://kylieainslie.github.io/mitey/){.btn .btn-primary .btn-sm} [Scabies Vignette](https://kylieainslie.github.io/mitey/articles/epidemiology_of_scabies.html){.btn .btn-outline-secondary .btn-sm}
+**Related software:** [mitey](https://kylieainslie.github.io/mitey/){.btn .btn-primary .btn-sm} [Scabies Vignette](https://kylieainslie.github.io/mitey/articles/epidemiology_of_scabies.html){.btn .btn-outline-secondary .btn-sm} [Software page →](../software.html#pkg-mitey){.btn .btn-outline-secondary .btn-sm}
 :::
 
 ::: {.project-card}
@@ -182,6 +182,14 @@ Eales, O., **Ainslie, K. E. C.**, Walters, C. E., *et al*. Appropriately smoothi
 :::
 
 ::: {.project-card}
+### Quarantine and Testing Strategies
+
+Quarantine and testing are core tools for interrupting onward transmission from exposed contacts, but their effectiveness depends heavily on household structure, vaccination status, and how testing is scheduled relative to exposure. isolatr simulates COVID-19 transmission dynamics during quarantine — incorporating household transmission, vaccination status, and realistic test sensitivity curves — to compare Test-Trace-Isolate-Quarantine (TTIQ) strategies using an Infection Potential in Quarantine (IPq) metric.
+
+**Related software:** [isolatr](https://github.com/kylieainslie/isolatr){.btn .btn-primary .btn-sm} [Software page →](../software.html#pkg-isolatr){.btn .btn-outline-secondary .btn-sm}
+:::
+
+::: {.project-card}
 ### Influenza
 
 Serological data provide a powerful lens for reconstructing past infection histories and estimating immunity. serosolver uses a Bayesian framework to infer individual-level infection histories and antibody kinetics from haemagglutination inhibition (HI) titres.
@@ -190,7 +198,7 @@ Serological data provide a powerful lens for reconstructing past infection histo
 Hay, J. A., Minter, A., **Ainslie, K. E. C.**, *et al*. An open source tool to infer epidemiological and immunological dynamics from serological data: serosolver. *PLOS Computational Biology* 2020. [Read paper →](https://doi.org/10.1371/journal.pcbi.1007840)
 :::
 
-**Related software:** [serosolver](https://github.com/seroanalytics/serosolver){.btn .btn-primary .btn-sm}
+**Related software:** [serosolver](https://github.com/seroanalytics/serosolver){.btn .btn-primary .btn-sm} [Software page →](../software.html#pkg-serosolver){.btn .btn-outline-secondary .btn-sm}
 :::
 
 ## Delay Distributions & Event-Time Methods {.section-header}
