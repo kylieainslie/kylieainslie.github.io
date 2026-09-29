@@ -56,6 +56,15 @@ title-block-banner-color: white
   margin-bottom: 1.5rem;
 }
 
+.subsection-label {
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #78c2ad;
+  margin: 2rem 0 1rem;
+}
+
 .featured-image {
   border-radius: 12px;
   box-shadow: 0 4px 20px rgba(0,0,0,0.15);
@@ -151,14 +160,18 @@ title-block-banner-color: white
 
 ![](../images/placeholder_transmission.jpg){.featured-image fig-align="center" width="100%"}
 
-## Disease Investigations {.section-header}
+## Transmission Dynamics {.section-header}
+
+::: {.subsection-label}
+Disease Investigations
+:::
 
 ::: {.project-card}
 ### Epidemiology of Scabies
 
 Scabies is a contagious skin disease caused by the *Sarcoptes scabiei* mite, affecting over 400 million people annually worldwide. Despite its global burden, fundamental epidemiological characteristics had remained poorly described. Using data from Dutch sentinel surveillance (2011–2023), this work produced the first published estimates of the mean serial interval of scabies infection and time-varying reproduction numbers, revealing increasing transmission in recent years.
 
-**Related software:** [mitey](https://kylieainslie.github.io/mitey/){.btn .btn-primary .btn-sm} [Scabies Vignette](https://kylieainslie.github.io/mitey/articles/epidemiology_of_scabies.html){.btn .btn-outline-secondary .btn-sm} [Software page →](../software.html#pkg-mitey){.btn .btn-outline-secondary .btn-sm}
+**Related software:** [mitey](#mitey){.btn .btn-primary .btn-sm}
 :::
 
 ::: {.project-card}
@@ -179,14 +192,8 @@ Real-time estimation of SARS-CoV-2 transmission dynamics during the pandemic, in
 ::: {.pub-item}
 Eales, O., **Ainslie, K. E. C.**, Walters, C. E., *et al*. Appropriately smoothing prevalence data to inform estimates of growth rate and reproduction number. *Epidemics* 2022. [Read paper →](https://doi.org/10.1016/j.epidem.2022.100604)
 :::
-:::
 
-::: {.project-card}
-### Quarantine and Testing Strategies
-
-Quarantine and testing are core tools for interrupting onward transmission from exposed contacts, but their effectiveness depends heavily on household structure, vaccination status, and how testing is scheduled relative to exposure. isolatr simulates COVID-19 transmission dynamics during quarantine — incorporating household transmission, vaccination status, and realistic test sensitivity curves — to compare Test-Trace-Isolate-Quarantine (TTIQ) strategies using an Infection Potential in Quarantine (IPq) metric.
-
-**Related software:** [isolatr](https://github.com/kylieainslie/isolatr){.btn .btn-primary .btn-sm} [Software page →](../software.html#pkg-isolatr){.btn .btn-outline-secondary .btn-sm}
+**Related software:** [pika](#pika){.btn .btn-primary .btn-sm}
 :::
 
 ::: {.project-card}
@@ -198,10 +205,12 @@ Serological data provide a powerful lens for reconstructing past infection histo
 Hay, J. A., Minter, A., **Ainslie, K. E. C.**, *et al*. An open source tool to infer epidemiological and immunological dynamics from serological data: serosolver. *PLOS Computational Biology* 2020. [Read paper →](https://doi.org/10.1371/journal.pcbi.1007840)
 :::
 
-**Related software:** [serosolver](https://github.com/seroanalytics/serosolver){.btn .btn-primary .btn-sm} [Software page →](../software.html#pkg-serosolver){.btn .btn-outline-secondary .btn-sm}
+**Related software:** [serosolver](#serosolver){.btn .btn-primary .btn-sm}
 :::
 
-## Delay Distributions & Event-Time Methods {.section-header}
+::: {.subsection-label}
+Delay Distributions & Event-Time Methods
+:::
 
 ::: {.project-card}
 ### Linking Epidemiological Delays
@@ -211,6 +220,40 @@ Epidemiological delays — latent periods, incubation periods, generation interv
 ::: {.pub-item}
 Jamieson, N., Park, S. W., **Ainslie, K. E. C.**, *et al*. A within-host-informed event-time framework linking epidemiological delay distributions. *medRxiv* 2026 (preprint). [Read preprint →](https://doi.org/10.64898/2026.09.21.26363521)
 :::
+:::
+
+## Tools {.section-header}
+
+::: {.project-card}
+### mitey
+
+A lightweight R package with methods to estimate serial intervals and time-varying reproduction numbers from infectious disease outbreak data, developed alongside the scabies epidemiology work below.
+
+**Links:** [GitHub](https://github.com/kylieainslie/mitey){.btn .btn-primary .btn-sm} [Scabies Vignette](https://kylieainslie.github.io/mitey/articles/epidemiology_of_scabies.html){.btn .btn-outline-secondary .btn-sm} [Software page →](../software.html#pkg-mitey){.btn .btn-outline-secondary .btn-sm} [Related research →](#epidemiology-of-scabies){.btn .btn-outline-secondary .btn-sm}
+:::
+
+::: {.project-card}
+### serosolver
+
+An open source R package using a Bayesian framework to infer individual-level infection histories and antibody kinetics from serological (HI titre) data.
+
+**Links:** [GitHub](https://github.com/seroanalytics/serosolver){.btn .btn-primary .btn-sm} [Software page →](../software.html#pkg-serosolver){.btn .btn-outline-secondary .btn-sm} [Related research →](#influenza){.btn .btn-outline-secondary .btn-sm}
+:::
+
+::: {.project-card}
+### pika
+
+A lightweight R package for estimating the optimal lag and rolling correlation between two time series, used to compare epidemic signals such as case counts and mobility or policy indicators.
+
+**Links:** [GitHub](https://github.com/mrc-ide/pika){.btn .btn-primary .btn-sm} [Software page →](../software.html#pkg-pika){.btn .btn-outline-secondary .btn-sm} [Related research →](#covid-19){.btn .btn-outline-secondary .btn-sm}
+:::
+
+::: {.project-card}
+### isolatr
+
+An R package for simulating COVID-19 transmission dynamics during quarantine and evaluating the effectiveness of different testing strategies. isolatr models household transmission structures, vaccination status, and realistic test sensitivity curves across Test-Trace-Isolate-Quarantine (TTIQ) scenarios, using an Infection Potential in Quarantine (IPq) metric to compare testing frequencies and quarantine durations.
+
+**Links:** [GitHub](https://github.com/kylieainslie/isolatr){.btn .btn-primary .btn-sm} [Software page →](../software.html#pkg-isolatr){.btn .btn-outline-secondary .btn-sm}
 :::
 
 <a href="../research.html" class="back-link">← Back to Research</a>

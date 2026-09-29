@@ -148,6 +148,7 @@ details[open] .pkg-expand-hint {
 <div class="pkg-links">
 <a href="https://github.com/mrc-ide/pika" class="btn btn-primary btn-sm">GitHub</a>
 <a href="https://doi.org/10.12688/wellcomeopenres.15843.2" class="btn btn-outline-info btn-sm">Publication</a>
+<a href="research/transmission-dynamics.html#covid-19" class="btn btn-outline-secondary btn-sm">Related research</a>
 </div>
 </div>
 </details>
@@ -161,7 +162,7 @@ details[open] .pkg-expand-hint {
 <div class="pkg-desc">An R package for simulating COVID-19 transmission dynamics during quarantine and evaluating the effectiveness of different testing strategies, including household transmission, vaccination status, and Test-Trace-Isolate-Quarantine (TTIQ) scenarios.</div>
 <div class="pkg-links">
 <a href="https://github.com/kylieainslie/isolatr" class="btn btn-primary btn-sm">GitHub</a>
-<a href="research/transmission-dynamics.html#quarantine-and-testing-strategies" class="btn btn-outline-secondary btn-sm">Related research</a>
+<a href="research/transmission-dynamics.html#isolatr" class="btn btn-outline-secondary btn-sm">Related research</a>
 </div>
 </div>
 </details>
