@@ -171,7 +171,7 @@ Disease Investigations
 
 Scabies is a contagious skin disease caused by the *Sarcoptes scabiei* mite, affecting over 400 million people annually worldwide. Despite its global burden, fundamental epidemiological characteristics had remained poorly described. Using data from Dutch sentinel surveillance (2011–2023), this work produced the first published estimates of the mean serial interval of scabies infection and time-varying reproduction numbers, revealing increasing transmission in recent years.
 
-**Related software:** [mitey](#mitey){.btn .btn-primary .btn-sm}
+**Related software:** [mitey](https://github.com/kylieainslie/mitey){.btn .btn-primary .btn-sm} [Tools page →](#mitey){.btn .btn-outline-secondary .btn-sm}
 :::
 
 ::: {.project-card}
@@ -193,7 +193,7 @@ Real-time estimation of SARS-CoV-2 transmission dynamics during the pandemic, in
 Eales, O., **Ainslie, K. E. C.**, Walters, C. E., *et al*. Appropriately smoothing prevalence data to inform estimates of growth rate and reproduction number. *Epidemics* 2022. [Read paper →](https://doi.org/10.1016/j.epidem.2022.100604)
 :::
 
-**Related software:** [pika](#pika){.btn .btn-primary .btn-sm}
+**Related software:** [pika](https://github.com/mrc-ide/pika){.btn .btn-primary .btn-sm} [Tools page →](#pika){.btn .btn-outline-secondary .btn-sm}
 :::
 
 ::: {.project-card}
@@ -205,7 +205,7 @@ Serological data provide a powerful lens for reconstructing past infection histo
 Hay, J. A., Minter, A., **Ainslie, K. E. C.**, *et al*. An open source tool to infer epidemiological and immunological dynamics from serological data: serosolver. *PLOS Computational Biology* 2020. [Read paper →](https://doi.org/10.1371/journal.pcbi.1007840)
 :::
 
-**Related software:** [serosolver](#serosolver){.btn .btn-primary .btn-sm}
+**Related software:** [serosolver](https://github.com/seroanalytics/serosolver){.btn .btn-primary .btn-sm} [Tools page →](#serosolver){.btn .btn-outline-secondary .btn-sm}
 :::
 
 ::: {.subsection-label}
