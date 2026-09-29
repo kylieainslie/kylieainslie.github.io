@@ -193,4 +193,16 @@ Hay, J. A., Minter, A., **Ainslie, K. E. C.**, *et al*. An open source tool to i
 **Related software:** [serosolver](https://github.com/seroanalytics/serosolver){.btn .btn-primary .btn-sm}
 :::
 
+## Delay Distributions & Event-Time Methods {.section-header}
+
+::: {.project-card}
+### Linking Epidemiological Delays
+
+Epidemiological delays — latent periods, incubation periods, generation intervals, and serial intervals — are typically estimated independently, even though they arise from the same underlying within-host infection process. This work develops a stochastic, within-host-informed event-time framework that treats these delays as coupled outcomes of a shared biological process, yielding internally consistent, mechanistically interpretable estimates. Applied to SARS-CoV-2 and mpox data, the framework outperformed conventional lognormal models in several settings and identified shorter generation intervals for Omicron than Delta.
+
+::: {.pub-item}
+Jamieson, N., Park, S. W., **Ainslie, K. E. C.**, *et al*. A within-host-informed event-time framework linking epidemiological delay distributions. *medRxiv* 2026 (preprint). [Read preprint →](https://doi.org/10.64898/2026.09.21.26363521)
+:::
+:::
+
 <a href="../research.html" class="back-link">← Back to Research</a>
