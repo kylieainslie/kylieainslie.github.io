@@ -14,17 +14,17 @@ title-block-banner: true
 
 ::::::: {.card-body .d-flex .flex-column}
 ::: card-title
-## [A new R package search tool](https://youtu.be/IUl6ZfA3H7o)
+## [A new R package search tool](https://youtu.be/IUl6ZfA3H7o?t=1742)
 :::
 
 ::: card-text
 **[Data Science Lab](https://pos.it/dslab), Posit, September 2026**\
-A community showcase with Daniel Chen, demoing [Warehouse](https://rwarehouse.netlify.app/), a website for finding R packages by what they do rather than what they're named.
+Demoing [Warehouse](https://rwarehouse.netlify.app/), a website for finding R packages by what they do rather than what they're named. My segment starts at 29:02.
 :::
 
 :::: mt-auto
 ::: btn-group
-[Watch on YouTube](https://youtu.be/IUl6ZfA3H7o){.btn .btn-primary .btn-sm}
+[Watch on YouTube](https://youtu.be/IUl6ZfA3H7o?t=1742){.btn .btn-primary .btn-sm}
 :::
 ::::
 :::::::
