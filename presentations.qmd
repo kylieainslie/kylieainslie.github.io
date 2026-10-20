@@ -9,6 +9,31 @@ title-block-banner: true
 :::::::::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
 ::::::::: {.card .h-100}
 ::: card-header
+![](images/presentation-thumbnails/yt-IUl6ZfA3H7o.jpg){.card-img-top style="height: 200px; object-fit: contain; background-color: var(--bs-body-bg);"}
+:::
+
+::::::: {.card-body .d-flex .flex-column}
+::: card-title
+## [Awesome mapping in R & a new R package search tool](https://youtu.be/IUl6ZfA3H7o)
+:::
+
+::: card-text
+**[Data Science Lab](https://pos.it/dslab), Posit, September 2026**\
+A community showcase with Daniel Chen, demoing [Warehouse](https://rwarehouse.netlify.app/), a website for finding R packages by what they do rather than what they're named.
+:::
+
+:::: mt-auto
+::: btn-group
+[Watch on YouTube](https://youtu.be/IUl6ZfA3H7o){.btn .btn-primary .btn-sm}
+:::
+::::
+:::::::
+:::::::::
+::::::::::
+
+:::::::::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+::::::::: {.card .h-100}
+::: card-header
 ![](images/presentation-thumbnails/CSI_Symposium-2026.png){.card-img-top style="height: 200px; object-fit: contain; background-color: var(--bs-body-bg);"}
 :::
 
