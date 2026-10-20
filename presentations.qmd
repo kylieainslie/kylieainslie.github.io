@@ -14,7 +14,7 @@ title-block-banner: true
 
 ::::::: {.card-body .d-flex .flex-column}
 ::: card-title
-## [Awesome mapping in R & a new R package search tool](https://youtu.be/IUl6ZfA3H7o)
+## [A new R package search tool](https://youtu.be/IUl6ZfA3H7o)
 :::
 
 ::: card-text
